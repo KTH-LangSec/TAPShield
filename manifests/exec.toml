@@ -1,0 +1,62 @@
+# Loader config
+loader.preload = "file:{{ gramine.libos }}"  # for compatibility with v1.0
+loader.entrypoint = "file:{{ gramine.libos }}"
+loader.log_level = "debug"
+loader.log_file = "gramine.log"
+loader.insecure__use_cmdline_argv = true
+loader.insecure__use_host_env = true
+# Node.js requires eventfd2() emulation otherwise fails on `(uv_loop_init(&tracing_loop_)) == (0)'
+sys.insecure__allow_eventfd = true
+
+libos.entrypoint = "{{ nodejs_dir }}/nodejs"
+
+# Remote Attestation configuration -----------------------------------------------------------------
+sgx.remote_attestation = true
+sgx.debug = true
+
+loader.env.LD_LIBRARY_PATH = "/lib:{{ arch_libdir }}:/usr{{ arch_libdir }}"
+loader.env.LD_PRELOAD = "libsecret_prov_attest.so"
+loader.env.SECRET_PROVISION_CONSTRUCTOR = "1"
+loader.env.SECRET_PROVISION_SET_KEY = "default"
+loader.env.SECRET_PROVISION_CA_CHAIN_PATH = "ssl/ca.crt"
+loader.env.SECRET_PROVISION_SERVERS = "remotehost:4433"
+
+# -------------------------------------------------------------------------------------------------
+
+fs.mounts  = [
+  { type = "chroot", path = "{{ nodejs_dir }}/nodejs", uri = "file:{{ nodejs_dir }}/nodejs"},
+  { type = "chroot", path = "/lib", uri = "file:{{ gramine.runtimedir() }}"},
+  { type = "chroot", path = "{{ arch_libdir }}", uri = "file:{{ arch_libdir }}"},
+  { type = "chroot", path = "/usr/{{ arch_libdir }}", uri = "file:/usr/{{ arch_libdir }}"},
+  { type = "chroot", path = "/etc", uri = "file:/etc" },
+  { type = "chroot", path = "/proc", uri = "file:/proc" }, 
+  { type = "encrypted", path = "/user-dir", uri = "file:user-dir", key_name = "default"},
+  # ------- Exec workflow requirements -------
+  { type = "chroot", path =  "{{ bin_dir }}/sh", uri = "file:/bin/sh"},
+  { type = "chroot", path =  "{{ bin_dir }}/free", uri = "file:/bin/free"}
+] 
+
+sgx.nonpie_binary = true
+# Node.js expects around 1.7GB of heap on startup, see https://github.com/nodejs/node/issues/13018
+sgx.enclave_size = "2G"
+sgx.thread_num = 32
+
+sgx.trusted_files = [
+  "file:{{ gramine.libos }}",
+  "file:{{ nodejs_dir }}/nodejs",
+  "file:{{ gramine.runtimedir() }}/",
+  "file:{{ arch_libdir }}/",
+  "file:/usr/{{ arch_libdir }}/",
+  "file:libsecret_prov_attest.so", 
+  "file:ssl/ca.crt",
+  "file:main.js",
+  "file:{{ bin_dir }}/sh",
+  "file:{{ bin_dir }}/free",
+]
+
+# Add allowed files that can be written to:
+sgx.allowed_files = [
+  "file:/etc/",
+  "file:/proc/",
+  "file:monitor-output.txt" # allow write to this file
+]

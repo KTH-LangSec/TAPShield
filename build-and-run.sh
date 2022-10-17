@@ -1,0 +1,1 @@
+rm -fr build && babel-node src/build.js && (cd build ; node index.js)

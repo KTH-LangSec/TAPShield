@@ -1,0 +1,127 @@
+[
+    {
+        "id": "cdf763ca7eca434c",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9457cf66.6ba83",
+        "type": "udp out",
+        "z": "cdf763ca7eca434c",
+        "name": "UDP out",
+        "addr": "127.0.0.1",
+        "iface": "",
+        "port": "1881",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 500,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "9b8de31f.64722",
+        "type": "function",
+        "z": "cdf763ca7eca434c",
+        "name": "Function",
+        "func": "msg.payload = Buffer.from(msg.topic + \" \" + msg.payload + \"\\n\");\nmsg.type = 'sender';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 280,
+        "wires": [
+            [
+                "9457cf66.6ba83"
+            ]
+        ]
+    },
+    {
+        "id": "34c90cb5.cb36f4",
+        "type": "inject",
+        "z": "cdf763ca7eca434c",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "",
+        "topic": "Hello",
+        "payload": "World",
+        "payloadType": "str",
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "9b8de31f.64722"
+            ]
+        ]
+    },
+    {
+        "id": "ea88865c.157778",
+        "type": "debug",
+        "z": "cdf763ca7eca434c",
+        "name": "Debug",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "a43fe2e7.5bc02",
+        "type": "udp in",
+        "z": "cdf763ca7eca434c",
+        "name": "UDP in",
+        "iface": "",
+        "port": "1881",
+        "multicast": "false",
+        "group": "",
+        "datatype": "utf8",
+        "x": 130,
+        "y": 360,
+        "wires": [
+            [
+                "f6434c89.09bcb"
+            ]
+        ]
+    },
+    {
+        "id": "f6434c89.09bcb",
+        "type": "function",
+        "z": "cdf763ca7eca434c",
+        "name": "Function",
+        "func": "msg.type = 'receiver';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 360,
+        "wires": [
+            [
+                "ea88865c.157778"
+            ]
+        ]
+    }
+]

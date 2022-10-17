@@ -1,0 +1,7 @@
+all:
+  hosts:
+    thesisvm:
+      ansible_host: 52.164.122.54
+      ansible_ssh_port: 22
+      ansible_ssh_private_key_file: /Users/adnanjamil/.ssh/adnan-thesis_key.cer
+      ansible_user: azureuser

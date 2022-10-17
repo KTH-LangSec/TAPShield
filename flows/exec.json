@@ -1,0 +1,167 @@
+[
+    {
+        "id": "f2c3c6698d8c4a5d",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c0706578d54a8782",
+        "type": "exec",
+        "z": "f2c3c6698d8c4a5d",
+        "command": "",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": true,
+        "oldrc": false,
+        "name": "Exec",
+        "x": 470,
+        "y": 260,
+        "wires": [
+            [
+                "34d491363e434072"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "34d491363e434072",
+        "type": "function",
+        "z": "f2c3c6698d8c4a5d",
+        "name": "Function",
+        "func": "// node.status(msg.payload);\n\nconst arr = msg.payload.trim().split('\\n');\n\n\nconst mem = arr[1].split(\" \").filter(x => x != \"\");\n\n\nmsg.payload = `[${new Date().toLocaleString()}] Total: ${mem[1]}   Used: ${mem[2]}    Free: ${mem[3]}`\n// msg.topic = \"node_red_cpu\";\n// msg.cpu = arr[1];\n// msg.payload = arr[1];\n// msg.timestamp = new Date();\n\n// node.send(msg);\n\n// msg.topic = \"node_red_mem\";\n// msg.mem = arr[2];\n// msg.payload = arr[2];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 220,
+        "wires": [
+            [
+                "5dc5be0ecad2e0ce"
+            ]
+        ]
+    },
+    {
+        "id": "5fd0039701e8d5d2",
+        "type": "inject",
+        "z": "f2c3c6698d8c4a5d",
+        "name": "Inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 90,
+        "y": 260,
+        "wires": [
+            [
+                "f03bc3511f6ac9ee"
+            ]
+        ]
+    },
+    {
+        "id": "3abeafeb67c0ddac",
+        "type": "comment",
+        "z": "f2c3c6698d8c4a5d",
+        "name": "Node Red - CPU and Memory usage",
+        "info": "",
+        "x": 510,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "5dc5be0ecad2e0ce",
+        "type": "file",
+        "z": "f2c3c6698d8c4a5d",
+        "name": "Write file",
+        "filename": "monitor-output.txt",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 800,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0694b92178bc05ed",
+        "type": "debug",
+        "z": "f2c3c6698d8c4a5d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "4805032008c7edac",
+        "type": "catch",
+        "z": "f2c3c6698d8c4a5d",
+        "name": "",
+        "scope": [
+            "c0706578d54a8782"
+        ],
+        "uncaught": false,
+        "x": 550,
+        "y": 400,
+        "wires": [
+            [
+                "0694b92178bc05ed"
+            ]
+        ]
+    },
+    {
+        "id": "f03bc3511f6ac9ee",
+        "type": "change",
+        "z": "f2c3c6698d8c4a5d",
+        "name": "Change",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ls",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 220,
+        "wires": [
+            [
+                "c0706578d54a8782"
+            ]
+        ]
+    }
+]

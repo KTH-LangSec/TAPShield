@@ -1,0 +1,43 @@
+\begin{tabular}{|p{.3\textwidth}|c|c|c|c|c|c|}
+\hline
+\textbf{Node} & $\pmb{\mu}$ & $\pmb{\sigma}$ & $\pmb{C_I}$ &\textbf{(min, max)} & \textbf{median}\\ \hline \hline 
+exec & 4.13 & 0.42 & 0.02 &(3,8) & 4 \\ \hline 
+exec - sgx & 5867.14 & 95.62 & 5.93 &(5776,8352) & 5876 \\ \hline 
+\hline
+file & 1.32 & 13.31 & 0.52 &(0,669) & 0 \\ \hline 
+file - sgx & 1475.7 & 2542.71 & 111.47 &(0,6427) & 11 \\ \hline 
+\hline
+function & 0.25 & 0.51 & 0.01 &(0,10) & 0 \\ \hline 
+function - sgx & 0.45 & 1.01 & 0.02 &(0,21) & 0 \\ \hline 
+\hline
+function (large) & 0.74 & 0.48 & 0.03 &(0,3) & 1 \\ \hline 
+function (large) - sgx & 1.48 & 0.82 & 0.05 &(1,20) & 1 \\ \hline 
+\hline
+http request & 41.98 & 151.99 & 5.44 &(13,7113) & 35 \\ \hline 
+http request - sgx & 45.92 & 221.48 & 7.46 &(14,9637) & 38 \\ \hline 
+\hline
+http response & 0.38 & 0.49 & 0.03 &(0,2) & 0 \\ \hline 
+http response - sgx & 0.54 & 0.55 & 0.03 &(0,5) & 1 \\ \hline 
+\hline
+join & 0.09 & 0.29 & 0.01 &(0,2) & 0 \\ \hline 
+join - sgx & 0.17 & 0.37 & 0.02 &(0,1) & 0 \\ \hline 
+\hline
+join (large) & 1.23 & 0.49 & 0.03 &(1,6) & 1 \\ \hline 
+join (large) - sgx & 3.72 & 0.88 & 0.05 &(3,15) & 3 \\ \hline 
+\hline
+mqtt out & 0.11 & 0.31 & 0.02 &(0,1) & 1 \\ \hline 
+mqtt out - sgx & 0.16 & 0.37 & 0.02 &(0,2) & 0 \\ \hline 
+\hline
+tcp out & 0.26 & 0.63 & 0.04 &(0,7) & 0 \\ \hline 
+tcp out - sgx & 0.54 & 1 & 0.06 &(0,24) & 0 \\ \hline 
+\hline
+udp out & 0.12 & 0.32 & 0.03 &(0,1) & 1 \\ \hline 
+udp out - sgx & 0.17 & 0.38 & 0.03 &(0,2) & 0 \\ \hline 
+\hline
+websocket out & 0.15 & 0.36 & 0.02 &(0,2) & 0 \\ \hline 
+websocket out - sgx & 0.23 & 0.43 & 0.03 &(0,2) & 0 \\ \hline 
+\hline
+websocket out (large) & 17.98 & 1.84 & 0.11 &(0,25) & 18 \\ \hline 
+websocket out (large) - sgx & 17.96 & 3.17 & 0.2 &(15,49) & 16 \\ \hline 
+\hline
+\end{tabular}

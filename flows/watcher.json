@@ -1,0 +1,126 @@
+[
+    {
+        "id": "0ab054e5aac846c9",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5fd6f5ff13979f94",
+        "type": "websocket-listener",
+        "path": "/monitor",
+        "wholemsg": "false"
+    },
+    {
+        "id": "c1aa1fb764312b82",
+        "type": "debug",
+        "z": "0ab054e5aac846c9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "94161ba33ec34676",
+        "type": "join",
+        "z": "0ab054e5aac846c9",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 430,
+        "y": 236,
+        "wires": [
+            [
+                "7b02226dc882aabe"
+            ]
+        ]
+    },
+    {
+        "id": "7b02226dc882aabe",
+        "type": "function",
+        "z": "0ab054e5aac846c9",
+        "name": "",
+        "func": "const filename = msg.filename;\nconst content = msg.payload[1];\nconst payload = filename + \": \" + content;\n\nreturn {\n    payload\n};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 236,
+        "wires": [
+            [
+                "bce217521d0875a5",
+                "c1aa1fb764312b82"
+            ]
+        ]
+    },
+    {
+        "id": "bce217521d0875a5",
+        "type": "websocket out",
+        "z": "0ab054e5aac846c9",
+        "name": "Websocket out",
+        "server": "5fd6f5ff13979f94",
+        "client": "",
+        "x": 807,
+        "y": 234,
+        "wires": []
+    },
+    {
+        "id": "0ee877870c1a7200",
+        "type": "watch",
+        "z": "0ab054e5aac846c9",
+        "name": "",
+        "files": "Watch",
+        "recursive": "",
+        "x": 130,
+        "y": 220,
+        "wires": [
+            [
+                "944754e3e0f552a7"
+            ]
+        ]
+    },
+    {
+        "id": "944754e3e0f552a7",
+        "type": "file in",
+        "z": "0ab054e5aac846c9",
+        "name": "",
+        "filename": "",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 280,
+        "y": 236,
+        "wires": [
+            [
+                "94161ba33ec34676"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "minify": true,
+    "sourcemap": false,
+    "bundleOnlyRequiredNodes": true,
+    "outputDir": "build",
+    "configNodesFilePath": "/Users/adnanjamil/.node-red/.config.nodes.json",
+    "caPath": "/Users/adnanjamil/ssl/certs/ca.pem",
+    "certPath": "/Users/adnanjamil/ssl/certs/server.cert",
+    "keyPath": "/Users/adnanjamil/ssl/certs/server.key",
+    "flowFilePath": "/Users/adnanjamil/projects/node-red/flows/watcher.json",
+    "manifestFilePath": "/Users/adnanjamil/projects/node-red-bundler/manifests/files.toml",
+    "remoteDir": "/home/azureuser/gramine-test",
+    "uploadBundle": true,
+    "startEnclave": false,
+    "encryptUserDir": true
+}

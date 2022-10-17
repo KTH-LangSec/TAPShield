@@ -1,0 +1,186 @@
+[
+    {
+        "id": "0ab054e5aac846c9",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5fd6f5ff13979f94",
+        "type": "websocket-listener",
+        "path": "/monitor",
+        "wholemsg": "false"
+    },
+    {
+        "id": "b0c40804f3644833",
+        "type": "file in",
+        "z": "0ab054e5aac846c9",
+        "name": "read",
+        "filename": "watch-this.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 230,
+        "y": 220,
+        "wires": [
+            [
+                "94161ba33ec34676"
+            ]
+        ]
+    },
+    {
+        "id": "c1aa1fb764312b82",
+        "type": "debug",
+        "z": "0ab054e5aac846c9",
+        "name": "debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "94161ba33ec34676",
+        "type": "join",
+        "z": "0ab054e5aac846c9",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 370,
+        "y": 220,
+        "wires": [
+            [
+                "7b02226dc882aabe"
+            ]
+        ]
+    },
+    {
+        "id": "7b02226dc882aabe",
+        "type": "function",
+        "z": "0ab054e5aac846c9",
+        "name": "",
+        "func": "const filename = msg.filename;\nconst content = msg.payload[1];\nconst payload = filename + \": \" + content;\n\nreturn {\n    payload\n};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 220,
+        "wires": [
+            [
+                "bce217521d0875a5",
+                "c1aa1fb764312b82"
+            ]
+        ]
+    },
+    {
+        "id": "bce217521d0875a5",
+        "type": "websocket out",
+        "z": "0ab054e5aac846c9",
+        "name": "webscoket out",
+        "server": "5fd6f5ff13979f94",
+        "client": "",
+        "x": 740,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "8b1bcd33d7a54a49",
+        "type": "catch",
+        "z": "0ab054e5aac846c9",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 200,
+        "y": 440,
+        "wires": [
+            [
+                "7f7c0e8fff26d392"
+            ]
+        ]
+    },
+    {
+        "id": "7f7c0e8fff26d392",
+        "type": "debug",
+        "z": "0ab054e5aac846c9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 410,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "299c49cce3fb44bb",
+        "type": "inject",
+        "z": "0ab054e5aac846c9",
+        "name": "inject",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 90,
+        "y": 220,
+        "wires": [
+            [
+                "b0c40804f3644833"
+            ]
+        ]
+    },
+    {
+        "id": "61e5e2e9623613ad",
+        "type": "status",
+        "z": "0ab054e5aac846c9",
+        "name": "",
+        "scope": null,
+        "x": 200,
+        "y": 360,
+        "wires": [
+            [
+                "7f7c0e8fff26d392"
+            ]
+        ]
+    }
+]

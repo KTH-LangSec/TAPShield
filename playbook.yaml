@@ -1,0 +1,99 @@
+# Ansible configuration for executing workflow on VM
+# 1. Builds the bundle
+# 2. Deploys the bundle to the host
+# 3. Copies the manifest to the host
+# 4. Builds the enclave with the bundle
+# 5. Starts the enclave on the host
+
+# Commands for local execution
+- hosts: localhost
+  tasks: 
+    - include_vars: build.config.json
+    - name: Remove build directory
+      file:
+        state: absent
+        path: build
+    - name: Build the bundle
+      shell: babel-node src/build.js
+    - block: # This block is only run if encryptUserDir is set to true in the config
+      - name: Start the secret prov server
+        shell: docker start dcap_server
+      - name: Encrypt files in bundles/user-dir
+        shell: docker exec dcap_server bash -c "cd node-red-sgx && sh ./encrypt-user-dir.sh"
+        register: encrypted_user_dir
+      when: encryptUserDir
+    # - debug: var=encrypted_user_dir
+
+
+- hosts: thesisvm
+  environment:
+    SGX: "1"
+    SGX_SIGNER_KEY: SGX_SIGNER_KEY=/home/azureuser/.config/gramine/enclave-key.pem
+  tasks:
+    - include_vars: build.config.json
+    # Uploading required files to the VM
+    - name: Create destination directory
+      file:
+        state: directory
+        path: '{{remoteDir}}'
+    - block:
+      - name: Copy Main file
+        copy:
+          src: build/index.js
+          dest: '{{remoteDir}}/main.js'
+      - name: Copy user-dir from build
+        copy  :
+          src: build/user-dir/
+          dest: '{{remoteDir}}/user-dir/'
+      when: 'uploadBundle|bool'
+    - name: Copy Makefile
+      copy:
+        src: Makefile
+        dest: '{{remoteDir}}'
+    - name: Copy manifest
+      copy:
+        src: '{{manifestFilePath}}'
+        dest: '{{remoteDir}}/nodejs.manifest.template'
+    - name: Copy libsecret_prov_attest.so library
+      copy:
+        src: libsecret_prov_attest.so
+        dest: '{{remoteDir}}/libsecret_prov_attest.so'
+    - name: Create SSL directory
+      file:
+        state: directory
+        path: '{{remoteDir}}/ssl'
+    - name: Copy ca.crt for RA-TLS
+      copy:
+        src: secret-prov-server/ssl/ca.crt
+        dest: '{{remoteDir}}/ssl/ca.crt'
+
+    # Building the enclave ---------------------------------------------------
+
+    - name: Clean build directory
+      make:
+        chdir: '{{remoteDir}}'
+        target: clean
+    - name: Build the enclave using shell
+      shell:
+        chdir: '{{remoteDir}}'
+        cmd: make SGX=1 SGX_SIGNER_KEY=/home/azureuser/.config/gramine/enclave-key.pem DEBUG=1
+      register: out1 # save the output of the command
+
+    # Running the enclave -----------------------------------------------------
+
+    - block: 
+      - name: Clear execution output file
+        file:
+          path: execution.log
+          state: absent
+      - name: Start the enclave
+        shell: 
+          chdir: '{{remoteDir}}'
+          cmd: gramine-sgx nodejs main.js --flowFile user-dir/flow.json  > execution.log
+        register: out2 # save the output of the command
+        # failed_when: out.rc != 0 
+      - debug: var=out2.stdout_lines  
+      when: startEnclave|bool
+    - debug: var=out1.stdout_lines
+
+

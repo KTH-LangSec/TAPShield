@@ -1,0 +1,45 @@
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Node} & \textbf{	extit{n}} & \textbf{$\mu$} & \textbf{min} & \textbf{max} & \textbf{$Q_1$} & \textbf{$Q_2$} & \textbf{$Q_3$} &\textbf{$\sigma$} & \textbf{$C_i$}\\ 
+\hline\hlineinject & sgx & undefined & 0.3320910160847391 & 0 & 5 & 0 & 0 & 0 & 0.498481395245756 & 0.013683749323616198
+inject & direct & undefined & 0.2372199885123492 & 0 & 6 & 1 & 0 & 0 & 0.4670011453266372 & 0.012665256921706843
+\hline\hlinechange & sgx & undefined & 0.1296111665004985 & 0 & 6 & 0 & 0 & 0 & 0.42732041857900277 & 0.026445954717839403
+change & direct & undefined & 0.05912596401028278 & 0 & 1 & 0 & 0 & 0 & 0.23586030694065185 & 0.011719420422280361
+\hline\hlineexec & sgx & undefined & 5867.143 & 5776 & 8352 & 5869 & 5876 & 5819 & 95.61546188248002 & 5.926307725921896
+exec & direct & undefined & 4.126606683804627 & 3 & 8 & 4 & 4 & 5 & 0.41660465259285245 & 0.020700240481083623
+\hline\hlinefunction & sgx & undefined & 0.44700582935877053 & 0 & 21 & 0 & 0 & 1 & 1.009349663107083 & 0.02277098242038289
+function & direct & undefined & 0.24686607918580117 & 0 & 10 & 0 & 0 & 1 & 0.509312966860915 & 0.011121263295531767
+\hline\hlinefile & sgx & undefined & 1475.7003501750876 & 0 & 6427 & 0 & 11 & 7 & 2542.7115411988816 & 111.46711698802707
+file & direct & undefined & 1.318075117370892 & 0 & 669 & 1 & 0 & 1 & 13.310726211915314 & 0.5160329070343473
+\hline\hlineinject (large) & sgx & undefined & 1.363 & 0 & 8 & 1 & 1 & 1 & 0.7544739889485877 & 0.033066280480271555
+inject (large) & direct & undefined & 0.6804281345565749 & 0 & 5 & 1 & 1 & 1 & 0.5514453441341786 & 0.02440107973963318
+\hline\hlinejoin (large) & sgx & undefined & 3.721 & 3 & 15 & 3 & 3 & 3 & 0.8815662198610009 & 0.05464004039530037
+join (large) & direct & undefined & 1.2303771661569827 & 1 & 6 & 2 & 1 & 2 & 0.4883294041742389 & 0.030558669625412007
+\hline\hlinestatus (large) & sgx & undefined & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 0
+status (large) & direct & undefined & 0.6666666666666666 & 0 & 1 & 0 & 1 & 1 & 0.4714045207910317 & 0.533444432872781
+\hline\hlinedebug (large) & sgx & undefined & 1.4425574425574426 & 1 & 11 & 1 & 2 & 2 & 0.7591908075476071 & 0.04703162382215885
+debug (large) & direct & undefined & 0.8871951219512195 & 0 & 11 & 0 & 1 & 1 & 1.0342108743670806 & 0.06462009944954579
+\hline\hlinefunction (large) & sgx & undefined & 1.48 & 1 & 20 & 2 & 1 & 1 & 0.8219489035213835 & 0.050944920845949086
+function (large) & direct & undefined & 0.7431192660550459 & 0 & 3 & 1 & 1 & 1 & 0.48343197880400174 & 0.030252198619109896
+\hline\hlinewebsocket out (large) & sgx & undefined & 17.962 & 15 & 49 & 16 & 16 & 17 & 3.1652102615782347 & 0.19618176451852146
+websocket out (large) & direct & undefined & 17.979612640163097 & 0 & 25 & 19 & 18 & 16 & 1.8367613912988319 & 0.11494082489733906
+\hline\hlinejoin & sgx & undefined & 0.1689453125 & 0 & 1 & 1 & 0 & 0 & 0.3747036080481176 & 0.01622852205888577
+join & direct & undefined & 0.08995502248875563 & 0 & 2 & 0 & 0 & 0 & 0.28785867481748306 & 0.01261280986176238
+\hline\hlinewebsocket out & sgx & undefined & 0.23473282442748092 & 0 & 2 & 0 & 0 & 1 & 0.42607713211382947 & 0.025796670468257083
+websocket out & direct & undefined & 0.15184815184815184 & 0 & 2 & 0 & 0 & 0 & 0.3616466405574013 & 0.022403891862424336
+\hline\hlinedebug & sgx & undefined & 0.12335092348284961 & 0 & 3 & 0 & 0 & 0 & 0.33216598538730635 & 0.009653860100409684
+debug & direct & undefined & 0.06239500839932805 & 0 & 1 & 0 & 1 & 0 & 0.24187160090879056 & 0.007343941356984376
+\hline\hlinestatus & sgx & undefined & 0.5 & 0 & 1 & 0 & 1 & 1 & 0.5 & 0.6929646455628166
+status & direct & undefined & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0
+\hline\hlinehttp request & sgx & undefined & 45.918735224586285 & 14 & 9637 & 39 & 38 & 27 & 221.4829310059926 & 7.462445223626208
+http request & direct & undefined & 41.98434377081946 & 13 & 7113 & 37 & 35 & 43 & 151.98858203388977 & 5.437029516512522
+\hline\hlinemqtt out & sgx & undefined & 0.16101083032490976 & 0 & 2 & 0 & 0 & 0 & 0.3714490940702251 & 0.01956277626993711
+mqtt out & direct & undefined & 0.10978043912175649 & 0 & 1 & 1 & 1 & 0 & 0.3126158894042158 & 0.019356786450498174
+\hline\hlinecocossd & sgx & undefined & NaN & Infinity & -Infinity & undefined & undefined & undefined & NaN & NaN
+cocossd & direct & undefined & NaN & Infinity & -Infinity & undefined & undefined & undefined & NaN & NaN
+\hline\hlinetcp out & sgx & undefined & 0.54 & 0 & 24 & 0 & 0 & 1 & 0.9981983770774221 & 0.061868976393665974
+tcp out & direct & undefined & 0.262 & 0 & 7 & 0 & 0 & 0 & 0.6303618008731218 & 0.03907022919820179
+\hline\hlineudp out & sgx & undefined & 0.17 & 0 & 2 & 0 & 0 & 0 & 0.3809199390948165 & 0.0333891048098027
+udp out & direct & undefined & 0.12 & 0 & 1 & 0 & 1 & 1 & 0.3249615361854391 & 0.02848413453134926
+\hline\hlinehttp response & sgx & undefined & 0.538 & 0 & 5 & 1 & 1 & 1 & 0.5536749949203069 & 0.03431713172163442
+http response & direct & undefined & 0.383 & 0 & 2 & 0 & 0 & 1 & 0.49021525884044104 & 0.030383856529413812
