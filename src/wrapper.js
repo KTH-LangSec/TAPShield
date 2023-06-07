@@ -18,7 +18,7 @@ let settings = {
   https: {
     ca: `./user-dir/${caFile}`,
     cert: `./user-dir/${certFileName}`,
-    key: `./user-dir/${keyFileName}`,
+    key: `./user-dir/${keyFileName}`
   },
   requireHttps: true,
   userDir: "./user-dir/",
@@ -39,8 +39,8 @@ let settings = {
       // Whether or not to include metric events in the log output
       metrics: true,
       // Whether or not to include audit events in the log output
-      audit: true,
-    },
+      audit: true
+    }
   },
   externalModules: {
     autoInstall: false,
@@ -49,17 +49,17 @@ let settings = {
       allowInstall: false,
       allowUpload: false,
       allowList: [],
-      denyList: [],
+      denyList: []
     },
     modules: {
       allowInstall: false,
       allowList: [],
-      denyList: [],
-    },
+      denyList: []
+    }
   },
   projects: {
-    enabled: false,
-  },
+    enabled: false
+  }
 };
 
 let init = async () => {
@@ -73,7 +73,7 @@ let init = async () => {
     {
       ca: fs.readFileSync(`user-dir/${caFile}`),
       key: fs.readFileSync(`user-dir/${keyFileName}`),
-      cert: fs.readFileSync(`user-dir/${certFileName}`),
+      cert: fs.readFileSync(`user-dir/${certFileName}`)
     },
     app
   );
@@ -86,10 +86,10 @@ let init = async () => {
   // // Serve the editor UI from /red
   return new Promise((resolve, reject) => {
     // Start our own custom server instead on using the default one by node-red
-    server.listen(8443, function () {
+    server.listen(8443, function() {
       console.log("Server listening on ", 8443);
 
-      RED.start().then(function () {
+      RED.start().then(function() {
         console.log("Node-Red started");
       });
     });
@@ -101,7 +101,7 @@ let init = async () => {
 export async function main() {
   await init(); // Init and start RED
 
-  process.on("uncaughtException", function (err) {
+  process.on("uncaughtException", function(err) {
     console.log("[red] Uncaught Exception:");
     if (err.stack) {
       try {
@@ -119,11 +119,11 @@ export async function main() {
     process.exit(1);
   });
 
-  process.on("message", function (msg) {
+  process.on("message", function(msg) {
     console.log(msg);
   });
 }
 
-(async function () {
+(async function() {
   await main();
 })();

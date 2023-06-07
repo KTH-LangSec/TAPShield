@@ -45,6 +45,10 @@
         copy  :
           src: build/user-dir/
           dest: '{{remoteDir}}/user-dir/'
+      - name: Copy package.json from build to user-dir
+        copy  :
+          src: build/package.json
+          dest: '{{remoteDir}}/user-dir/package.json'
       when: 'uploadBundle|bool'
     - name: Copy Makefile
       copy:

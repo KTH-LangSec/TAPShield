@@ -7,10 +7,10 @@
     "caPath": "/Users/adnanjamil/ssl/certs/ca.pem",
     "certPath": "/Users/adnanjamil/ssl/certs/server.cert",
     "keyPath": "/Users/adnanjamil/ssl/certs/server.key",
-    "flowFilePath": "/Users/adnanjamil/projects/node-red/flows/watcher.json",
-    "manifestFilePath": "/Users/adnanjamil/projects/node-red-bundler/manifests/files.toml",
+    "flowFilePath": "/Users/adnanjamil/projects/node-red/flows/weather.json",
+    "manifestFilePath": "/Users/adnanjamil/projects/node-red-bundler/manifests/weather.toml",
     "remoteDir": "/home/azureuser/gramine-test",
     "uploadBundle": true,
     "startEnclave": false,
-    "encryptUserDir": true
+    "encryptUserDir": false
 }

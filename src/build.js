@@ -31,8 +31,11 @@ export async function main() {
 
   await addSSLKeys(USERDIR, config);
 
-  const { requiredNodes, configNodesRaw, origNodeLoader } =
-    await getRequiredNodes(USERDIR, config);
+  const {
+    requiredNodes,
+    configNodesRaw,
+    origNodeLoader
+  } = await getRequiredNodes(USERDIR, config);
 
   await esbuild.build({
     entryPoints: [WRAPPER],
@@ -48,7 +51,7 @@ export async function main() {
         "@node-red/editor-api",
         "@node-red/editor-client",
         // "node-red-admin",
-        "oauth2orize",
+        "oauth2orize"
       ]),
       replacePlugin({
         include: /@node-red\/registry\/lib\/loader\.js$/,
@@ -57,19 +60,17 @@ export async function main() {
           // node_modules/@node-red/registry/lib/loader.js:42
           [
             /var modules = localfilesystem\.getNodeFiles\(disableNodePathScan\);\s*return loadModuleFiles\(modules\)/g,
-            `return loadModuleFiles(${
-              BUNDLE_ONLY_REQUIRED_NODES
-                ? JSON.stringify(requiredNodes)
-                : configNodesRaw
-            })`,
+            `return loadModuleFiles(${BUNDLE_ONLY_REQUIRED_NODES
+              ? JSON.stringify(requiredNodes)
+              : configNodesRaw})`
           ],
           // replace dynamic load with static table which allows esbuild to inline the code
           // node_modules/@node-red/registry/lib/loader.js:361
           ["var r = require(node.file);", origNodeLoader],
           // remove check which will check if node exists in filesystem when node module name != "node-red"
           // node_modules/@node-red/registry/lib/loader.js:54
-          ['module.name != "node-red" && first', "false"],
-        ],
+          ['module.name != "node-red" && first', "false"]
+        ]
       }),
       replacePlugin({
         include: /@node-red\/runtime\/lib\/index\.js$/,
@@ -78,11 +79,11 @@ export async function main() {
           // node_modules/@node-red/runtime/lib/index.js:103
           [
             'version = require(path.join(__dirname,"..","package.json")).version;',
-            'try { version = require(path.join(__dirname,"..","package.json")).version; } catch(err){version="1.0.0"}',
+            'try { version = require(path.join(__dirname,"..","package.json")).version; } catch(err){version="1.0.0"}'
           ],
           // temp fixes - has been merged upstream in node-red repository
-          ["const installRetry", "let installRetry"],
-        ],
+          ["const installRetry", "let installRetry"]
+        ]
       }),
       replacePlugin({
         include: /node-red\/lib\/red\.js$/,
@@ -91,11 +92,11 @@ export async function main() {
           // node_modules/@node-red/registry/lib/loader.js:42
           [
             'userSettings.coreNodesDir = path.dirname(require.resolve("@node-red/nodes"))',
-            `userSettings.coreNodesDir = '${USERDIR}'`,
-          ],
-        ],
-      }),
-    ],
+            `userSettings.coreNodesDir = '${USERDIR}'`
+          ]
+        ]
+      })
+    ]
   });
 }
 
