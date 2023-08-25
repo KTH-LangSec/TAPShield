@@ -103,7 +103,7 @@
         "y": 203.33333778381348,
         "wires": [
             [
-                "0f2b343f4b8dda93"
+                "bac5864796c7d408"
             ]
         ]
     },
@@ -138,12 +138,13 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 429.99999237060547,
-        "y": 323.3333377838135,
+        "x": 610,
+        "y": 280,
         "wires": [
             [
                 "4b6fdd93663a1f67",
-                "4b6fdd93663a1f67"
+                "4b6fdd93663a1f67",
+                "ef5a2c7a2e589060"
             ]
         ]
     },
@@ -190,8 +191,8 @@
         "reduceInit": "",
         "reduceInitType": "num",
         "reduceFixup": "",
-        "x": 689.9999923706055,
-        "y": 323.3333377838135,
+        "x": 650,
+        "y": 380,
         "wires": [
             [
                 "2dd4f7e75b813efc",
@@ -247,33 +248,25 @@
         "headers": {
             "content-type": "text/plain"
         },
-        "x": 859.9999923706055,
-        "y": 323.3333377838135,
+        "x": 860,
+        "y": 380,
         "wires": []
     },
     {
-        "id": "3872af8bc3633f08",
-        "type": "link in",
+        "id": "ef5a2c7a2e589060",
+        "type": "debug",
         "z": "1e758f114b976c7e",
         "name": "",
-        "links": [],
-        "x": 284.99999237060547,
-        "y": 323.3333377838135,
-        "wires": [
-            [
-                "bac5864796c7d408"
-            ]
-        ]
-    },
-    {
-        "id": "0f2b343f4b8dda93",
-        "type": "link out",
-        "z": "1e758f114b976c7e",
-        "name": "",
-        "mode": "link",
-        "links": [],
-        "x": 1034.9999923706055,
-        "y": 203.33333778381348,
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 280,
         "wires": []
     }
 ]
