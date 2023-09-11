@@ -34,7 +34,7 @@
         "type": "function",
         "z": "f2c3c6698d8c4a5d",
         "name": "Function",
-        "func": "// node.status(msg.payload);\n\nconst arr = msg.payload.trim().split('\\n');\n\n\nconst mem = arr[1].split(\" \").filter(x => x != \"\");\n\n\nmsg.payload = `[${new Date().toLocaleString()}] Total: ${mem[1]}   Used: ${mem[2]}    Free: ${mem[3]}`\n// msg.topic = \"node_red_cpu\";\n// msg.cpu = arr[1];\n// msg.payload = arr[1];\n// msg.timestamp = new Date();\n\n// node.send(msg);\n\n// msg.topic = \"node_red_mem\";\n// msg.mem = arr[2];\n// msg.payload = arr[2];\n\nreturn msg;",
+        "func": "// node.status(msg.payload);\n\n// const arr = msg.payload.trim().split('\\n');\n\n\n// const mem = arr[1].split(\" \").filter(x => x != \"\");\n\n\n// msg.payload = `[${new Date().toLocaleString()}] Total: ${mem[1]}   Used: ${mem[2]}    Free: ${mem[3]}`\n// msg.topic = \"node_red_cpu\";\n// msg.cpu = arr[1];\n// msg.payload = arr[1];\n// msg.timestamp = new Date();\n\n// node.send(msg);\n\n// msg.topic = \"node_red_mem\";\n// msg.mem = arr[2];\n// msg.payload = arr[2];\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -147,7 +147,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "ls",
+                "to": "free -h",
                 "tot": "str"
             }
         ],

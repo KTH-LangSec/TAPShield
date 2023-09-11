@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Use this : curl -k "https://127.0.0.1:8443/api/get-weather?city=stockholm" to request to the server 
 dir='metrics'
 
 # Kill gramine first so no port errors:

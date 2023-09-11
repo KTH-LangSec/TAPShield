@@ -3,7 +3,6 @@ loader.preload = "file:{{ gramine.libos }}"  # for compatibility with v1.0
 loader.entrypoint = "file:{{ gramine.libos }}"
 loader.log_level = "all"
 loader.log_file = "gramine.log"
-
 loader.insecure__use_cmdline_argv = true
 loader.insecure__use_host_env = true
 # Node.js requires eventfd2() emulation otherwise fails on `(uv_loop_init(&tracing_loop_)) == (0)'
@@ -12,7 +11,7 @@ sys.insecure__allow_eventfd = true
 libos.entrypoint = "{{ nodejs_dir }}/nodejs"
 
 # Remote Attestation configuration -----------------------------------------------------------------
-# sgx.remote_attestation = "none"
+sgx.remote_attestation = "none"
 sgx.debug = true
 
 loader.env.LD_LIBRARY_PATH = "/lib:{{ arch_libdir }}:/usr{{ arch_libdir }}"
