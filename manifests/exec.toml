@@ -59,5 +59,7 @@ sgx.trusted_files = [
 sgx.allowed_files = [
   "file:/etc/",
   "file:/proc/",
+  "file:{{ bin_dir }}/sh",
+  "file:{{ bin_dir }}/free",
   "file:monitor-output.txt" # allow write to this file
 ]
