@@ -11,15 +11,15 @@ sys.insecure__allow_eventfd = true
 libos.entrypoint = "{{ nodejs_dir }}/nodejs"
 
 # Remote Attestation configuration -----------------------------------------------------------------
-sgx.remote_attestation = true
+sgx.remote_attestation = "none"
 sgx.debug = true
 
 loader.env.LD_LIBRARY_PATH = "/lib:{{ arch_libdir }}:/usr{{ arch_libdir }}"
-loader.env.LD_PRELOAD = "libsecret_prov_attest.so"
-loader.env.SECRET_PROVISION_CONSTRUCTOR = "1"
-loader.env.SECRET_PROVISION_SET_KEY = "default"
-loader.env.SECRET_PROVISION_CA_CHAIN_PATH = "ssl/ca.crt"
-loader.env.SECRET_PROVISION_SERVERS = "remotehost:4433"
+#loader.env.LD_PRELOAD = "libsecret_prov_attest.so"
+#loader.env.SECRET_PROVISION_CONSTRUCTOR = "1"
+#loader.env.SECRET_PROVISION_SET_KEY = "default"
+#loader.env.SECRET_PROVISION_CA_CHAIN_PATH = "ssl/ca.crt"
+#loader.env.SECRET_PROVISION_SERVERS = "remotehost:4433"
 
 # -------------------------------------------------------------------------------------------------
 
@@ -30,7 +30,7 @@ fs.mounts  = [
   { type = "chroot", path = "/usr/{{ arch_libdir }}", uri = "file:/usr/{{ arch_libdir }}"},
   { type = "chroot", path = "/etc", uri = "file:/etc" },
   { type = "chroot", path = "/proc", uri = "file:/proc" }, 
-  { type = "encrypted", path = "/user-dir", uri = "file:user-dir", key_name = "default"},
+  #{ type = "encrypted", path = "/user-dir", uri = "file:user-dir", key_name = "default"},
 ] 
 
 sgx.nonpie_binary = true
@@ -47,6 +47,7 @@ sgx.trusted_files = [
   "file:libsecret_prov_attest.so", 
   "file:ssl/ca.crt",
   "file:main.js",
+  "file:user-dir/",
 ]
 
 # Add allowed files that can be written to:

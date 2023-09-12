@@ -7,5 +7,5 @@ ws = create_connection("wss://localhost:8443/api/monitor")
 
 print "Receiving..."
 result =  ws.recv()
-print "Received '%s'" % result
+print("Received '%s'" % result
 ws.close()

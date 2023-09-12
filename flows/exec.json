@@ -23,35 +23,10 @@
         "y": 260,
         "wires": [
             [
-                "34d491363e434072",
-                "6d88ed77e82c4fcb"
-            ],
-            [
-                "5dc5be0ecad2e0ce",
-                "982b620a02476fac"
-            ],
-            [
                 "5dc5be0ecad2e0ce"
-            ]
-        ]
-    },
-    {
-        "id": "34d491363e434072",
-        "type": "function",
-        "z": "f2c3c6698d8c4a5d",
-        "name": "Function",
-        "func": "// node.status(msg.payload);\n\n// const arr = msg.payload.trim().split('\\n');\n\n\n// const mem = arr[1].split(\" \").filter(x => x != \"\");\n\n\n// msg.payload = `[${new Date().toLocaleString()}] Total: ${mem[1]}   Used: ${mem[2]}    Free: ${mem[3]}`\n// msg.topic = \"node_red_cpu\";\n// msg.cpu = arr[1];\n// msg.payload = arr[1];\n// msg.timestamp = new Date();\n\n// node.send(msg);\n\n// msg.topic = \"node_red_mem\";\n// msg.mem = arr[2];\n// msg.payload = arr[2];\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 220,
-        "wires": [
-            [
-                "5dc5be0ecad2e0ce"
-            ]
+            ],
+            [],
+            []
         ]
     },
     {
@@ -98,7 +73,7 @@
         "type": "file",
         "z": "f2c3c6698d8c4a5d",
         "name": "Write file",
-        "filename": "/home/azureuser/gramine-test/monitor-output.txt",
+        "filename": "monitor-output.txt",
         "filenameType": "str",
         "appendNewline": true,
         "createDir": true,
@@ -170,40 +145,5 @@
                 "c0706578d54a8782"
             ]
         ]
-    },
-    {
-        "id": "6d88ed77e82c4fcb",
-        "type": "debug",
-        "z": "f2c3c6698d8c4a5d",
-        "name": "Out Exec",
-        "active": true,
-        "tosidebar": true,
-        "console": true,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 810,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "982b620a02476fac",
-        "type": "debug",
-        "z": "f2c3c6698d8c4a5d",
-        "name": "Err Exec ",
-        "active": true,
-        "tosidebar": true,
-        "console": true,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 830,
-        "y": 120,
-        "wires": []
     }
 ]
-

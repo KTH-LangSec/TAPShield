@@ -8,39 +8,12 @@
         "env": []
     },
     {
-        "id": "eb71451ce5b37597",
-        "type": "tls-config",
-        "name": "",
-        "cert": "user-dir/server.cert",
-        "key": "user-dir/server.key",
-        "ca": "user-dir/ca.pem",
-        "certname": "server.cert",
-        "keyname": "server.key",
-        "caname": "",
-        "servername": "",
-        "verifyservercert": true,
-        "alpnprotocol": ""
-    },
-    {
-        "id": "45593cbed59c830f",
-        "type": "cocossd",
-        "z": "a8b676e802467987",
-        "name": "node-red-contrib-tensorflow",
-        "x": 300,
-        "y": 220,
-        "wires": [
-            [
-                "0a8edd03eb17b607",
-                "39b73b17dbf2b9a4"
-            ]
-        ]
-    },
-    {
         "id": "aea1c09aadff83d0",
         "type": "file",
         "z": "a8b676e802467987",
         "name": "Write file",
         "filename": "object_detection_output.jpeg",
+        "filenameType": "str",
         "appendNewline": false,
         "createDir": false,
         "overwriteFile": "true",
@@ -71,40 +44,6 @@
         ]
     },
     {
-        "id": "39b73b17dbf2b9a4",
-        "type": "function",
-        "z": "a8b676e802467987",
-        "name": "",
-        "func": "\nreturn {payload: JSON.stringify(msg.details) + \"\\n\"};",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 520,
-        "y": 240,
-        "wires": [
-            [
-                "6569e44f9e852c9b"
-            ]
-        ]
-    },
-    {
-        "id": "6569e44f9e852c9b",
-        "type": "tcp out",
-        "z": "a8b676e802467987",
-        "name": "TCP out",
-        "host": "localhost",
-        "port": "9999",
-        "beserver": "client",
-        "base64": false,
-        "end": false,
-        "tls": "",
-        "x": 680,
-        "y": 240,
-        "wires": []
-    },
-    {
         "id": "acb4b61ad9e45af6",
         "type": "tcp in",
         "z": "a8b676e802467987",
@@ -116,6 +55,7 @@
         "datatype": "buffer",
         "newline": "",
         "topic": "",
+        "trim": false,
         "base64": false,
         "tls": "",
         "x": 90,
@@ -123,6 +63,19 @@
         "wires": [
             [
                 "45593cbed59c830f"
+            ]
+        ]
+    },
+    {
+        "id": "45593cbed59c830f",
+        "type": "cocossd",
+        "z": "a8b676e802467987",
+        "name": "node-red-contrib-tensorflow",
+        "x": 300,
+        "y": 220,
+        "wires": [
+            [
+                "0a8edd03eb17b607"
             ]
         ]
     }
