@@ -28,6 +28,7 @@
     "start": "(cd build ; node index.js)"
   },
   "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.2",
     "aws-sdk": "^2.1455.0",
     "esbuild": "^0.11.23",
     "esbuild-plugin-alias": "^0.1.2",
@@ -36,6 +37,7 @@
     "kleur": "^4.1.5",
     "mock-aws-s3": "^4.0.2",
     "nock": "^13.3.3",
+    "node-red-contrib-tf-model": "^0.1.12",
     "package.json": "^2.0.1",
     "yargs": "^17.7.2"
   },

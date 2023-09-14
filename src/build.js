@@ -50,6 +50,9 @@ export async function main() {
         // remove not needed modules by returning empty modules
         "@node-red/editor-api",
         "@node-red/editor-client",
+        "node-red-contrib-tensorflow",
+        // TODO 
+        "@tensorflow-models/coco-ssd",
         // "node-red-admin",
         "oauth2orize"
       ]),
