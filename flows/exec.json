@@ -11,7 +11,7 @@
         "id": "1b7dcb1049810c2c",
         "type": "exec",
         "z": "ee95a8e54947b791",
-        "command": "ls",
+        "command": "free -h",
         "addpay": "",
         "append": "",
         "useSpawn": "true",

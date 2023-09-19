@@ -33,7 +33,7 @@ fs.mounts  = [
   #{ type = "chroot", path = "/user-dir", uri = "file:user-dir"},
   # ------- Exec workflow requirements -------
   { type = "chroot", path =  "{{ bin_dir }}/sh", uri = "file:/bin/sh"},
-  { type = "chroot", path =  "{{ bin_dir }}/ls", uri = "file:/bin/ls"}
+  { type = "chroot", path =  "{{ bin_dir }}/free", uri = "file:/bin/free"}
 ] 
 
 sgx.nonpie_binary = true
@@ -51,7 +51,7 @@ sgx.trusted_files = [
   "file:ssl/ca.crt",
   "file:main.js",
   "file:{{ bin_dir }}/sh",
-  "file:{{ bin_dir }}/ls",
+  "file:{{ bin_dir }}/free",
   "file:user-dir/"
 ]
 
@@ -60,6 +60,6 @@ sgx.allowed_files = [
   "file:/etc/",
   "file:/proc/",
   "file:{{ bin_dir }}/sh",
-  "file:{{ bin_dir }}/ls",
+  "file:{{ bin_dir }}/free",
   "file:monitor-output.txt" # allow write to this file
 ]
