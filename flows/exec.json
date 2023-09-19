@@ -1,6 +1,6 @@
 [
     {
-        "id": "f2c3c6698d8c4a5d",
+        "id": "ee95a8e54947b791",
         "type": "tab",
         "label": "Flow 1",
         "disabled": false,
@@ -8,13 +8,13 @@
         "env": []
     },
     {
-        "id": "c0706578d54a8782",
+        "id": "1b7dcb1049810c2c",
         "type": "exec",
-        "z": "f2c3c6698d8c4a5d",
-        "command": "",
-        "addpay": "payload",
+        "z": "ee95a8e54947b791",
+        "command": "ls",
+        "addpay": "",
         "append": "",
-        "useSpawn": "false",
+        "useSpawn": "true",
         "timer": "",
         "winHide": true,
         "oldrc": false,
@@ -23,16 +23,16 @@
         "y": 260,
         "wires": [
             [
-                "5dc5be0ecad2e0ce"
+                "407552c8fae5dd67"
             ],
             [],
             []
         ]
     },
     {
-        "id": "5fd0039701e8d5d2",
+        "id": "a9d39723e1faf03d",
         "type": "inject",
-        "z": "f2c3c6698d8c4a5d",
+        "z": "ee95a8e54947b791",
         "name": "Inject",
         "props": [
             {
@@ -54,14 +54,14 @@
         "y": 260,
         "wires": [
             [
-                "f03bc3511f6ac9ee"
+                "27acd25080524ece"
             ]
         ]
     },
     {
-        "id": "3abeafeb67c0ddac",
+        "id": "033a3e8d73ee84aa",
         "type": "comment",
-        "z": "f2c3c6698d8c4a5d",
+        "z": "ee95a8e54947b791",
         "name": "Node Red - CPU and Memory usage",
         "info": "",
         "x": 510,
@@ -69,9 +69,9 @@
         "wires": []
     },
     {
-        "id": "5dc5be0ecad2e0ce",
+        "id": "407552c8fae5dd67",
         "type": "file",
-        "z": "f2c3c6698d8c4a5d",
+        "z": "ee95a8e54947b791",
         "name": "Write file",
         "filename": "monitor-output.txt",
         "filenameType": "str",
@@ -86,9 +86,9 @@
         ]
     },
     {
-        "id": "0694b92178bc05ed",
+        "id": "88fd917d4bb5aa92",
         "type": "debug",
-        "z": "f2c3c6698d8c4a5d",
+        "z": "ee95a8e54947b791",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -103,26 +103,26 @@
         "wires": []
     },
     {
-        "id": "4805032008c7edac",
+        "id": "8babdc95ae83e98d",
         "type": "catch",
-        "z": "f2c3c6698d8c4a5d",
+        "z": "ee95a8e54947b791",
         "name": "",
         "scope": [
-            "c0706578d54a8782"
+            "1b7dcb1049810c2c"
         ],
         "uncaught": false,
         "x": 550,
         "y": 400,
         "wires": [
             [
-                "0694b92178bc05ed"
+                "88fd917d4bb5aa92"
             ]
         ]
     },
     {
-        "id": "f03bc3511f6ac9ee",
+        "id": "27acd25080524ece",
         "type": "change",
-        "z": "f2c3c6698d8c4a5d",
+        "z": "ee95a8e54947b791",
         "name": "Change",
         "rules": [
             {
@@ -142,7 +142,7 @@
         "y": 220,
         "wires": [
             [
-                "c0706578d54a8782"
+                "1b7dcb1049810c2c"
             ]
         ]
     }

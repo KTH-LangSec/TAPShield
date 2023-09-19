@@ -1,82 +1,113 @@
-[
-    {
-        "id": "a8b676e802467987",
-        "type": "tab",
-        "label": "Flow 1",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "aea1c09aadff83d0",
-        "type": "file",
-        "z": "a8b676e802467987",
-        "name": "Write file",
-        "filename": "object_detection_output.jpeg",
-        "filenameType": "str",
-        "appendNewline": false,
-        "createDir": false,
-        "overwriteFile": "true",
-        "encoding": "binary",
-        "x": 680,
-        "y": 180,
-        "wires": [
-            []
+[{
+    "id": "b7b3bf7ace909519",
+    "type": "tab",
+    "label": "Flow 1",
+    "disabled": false,
+    "info": "",
+    "env": []
+},
+{
+    "id": "eb71451ce5b37597",
+    "type": "tls-config",
+    "name": "",
+    "cert": "user-dir/server.cert",
+    "key": "user-dir/server.key",
+    "ca": "user-dir/ca.pem",
+    "certname": "server.cert",
+    "keyname": "server.key",
+    "caname": "",
+    "servername": "",
+    "verifyservercert": true,
+    "alpnprotocol": ""
+},
+{
+    "id": "9e459b5a97d5ffe8",
+    "type": "cocossd",
+    "z": "b7b3bf7ace909519",
+    "name": "node-red-contrib-tensorflow",
+    "x": 300,
+    "y": 220,
+    "wires": [
+        [
+            "38e78e4491cd3058"
         ]
-    },
-    {
-        "id": "0a8edd03eb17b607",
-        "type": "function",
-        "z": "a8b676e802467987",
-        "name": "",
-        "func": "\nconst payload = msg.annotatedInput.toString(\"binary\");\n\nreturn {\n    payload: payload\n};",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 520,
-        "y": 180,
-        "wires": [
-            [
-                "aea1c09aadff83d0"
-            ]
+    ]
+},
+{
+    "id": "cff2347ef3a9ddae",
+    "type": "file",
+    "z": "b7b3bf7ace909519",
+    "name": "Write file",
+    "filename": "object_detection_output.jpeg",
+    "filenameType": "str",
+    "appendNewline": false,
+    "createDir": false,
+    "overwriteFile": "true",
+    "encoding": "binary",
+    "x": 680,
+    "y": 180,
+    "wires": [
+        []
+    ]
+},
+{
+    "id": "38e78e4491cd3058",
+    "type": "function",
+    "z": "b7b3bf7ace909519",
+    "name": "",
+    "func": "\nconst payload = msg.annotatedInput.toString(\"binary\");\n\nreturn {\n    payload: payload\n};",
+    "outputs": 1,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 520,
+    "y": 180,
+    "wires": [
+        [
+            "cff2347ef3a9ddae"
         ]
-    },
-    {
-        "id": "acb4b61ad9e45af6",
-        "type": "tcp in",
-        "z": "a8b676e802467987",
-        "name": "TCP in",
-        "server": "server",
-        "host": "",
-        "port": "9998",
-        "datamode": "single",
-        "datatype": "buffer",
-        "newline": "",
-        "topic": "",
-        "trim": false,
-        "base64": false,
-        "tls": "",
-        "x": 90,
-        "y": 220,
-        "wires": [
-            [
-                "45593cbed59c830f"
-            ]
+    ]
+},
+{
+    "id": "16aca45d88af1310",
+    "type": "tcp in",
+    "z": "b7b3bf7ace909519",
+    "name": "TCP in",
+    "server": "server",
+    "host": "",
+    "port": "9943",
+    "datamode": "single",
+    "datatype": "buffer",
+    "newline": "",
+    "topic": "",
+    "trim": false,
+    "base64": false,
+    "tls": "",
+    "x": 90,
+    "y": 220,
+    "wires": [
+        [
+            "9e459b5a97d5ffe8",
+            "b8c242bdf35d62ad"
         ]
-    },
-    {
-        "id": "45593cbed59c830f",
-        "type": "cocossd",
-        "z": "a8b676e802467987",
-        "name": "node-red-contrib-tensorflow",
-        "x": 300,
-        "y": 220,
-        "wires": [
-            [
-                "0a8edd03eb17b607"
-            ]
-        ]
-    }
+    ]
+},
+{
+    "id": "b8c242bdf35d62ad",
+    "type": "debug",
+    "z": "b7b3bf7ace909519",
+    "name": "debug 1",
+    "active": true,
+    "tosidebar": true,
+    "console": true,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 390,
+    "y": 100,
+    "wires": []
+}
 ]
