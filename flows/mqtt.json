@@ -132,7 +132,7 @@
         "method": "GET",
         "ret": "txt",
         "paytoqs": "ignore",
-        "url": "https://random.moj-astroboy.workers.dev/",
+        "url": "https://str.justyy.workers.dev/random-user-agent/",
         "tls": "",
         "persist": false,
         "proxy": "",

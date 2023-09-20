@@ -43,7 +43,7 @@ export async function main() {
     minify: config.minify,
     sourcemap: config.sourcemap,
     platform: "node",
-    target: "es6",
+    target: "node14",
     outfile: path.join(DISTDIR, "index.js"),
     plugins: [
       nullPackage([

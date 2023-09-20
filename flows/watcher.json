@@ -1,6 +1,6 @@
 [
     {
-        "id": "3cb82fb39bda2fad",
+        "id": "0fe1064e283b9d9a",
         "type": "tab",
         "label": "Flow 1",
         "disabled": false,
@@ -8,25 +8,10 @@
         "env": []
     },
     {
-        "id": "32c78e54fcbeb917",
-        "type": "watch",
-        "z": "3cb82fb39bda2fad",
-        "name": "watch",
-        "files": "watchthis.txt",
-        "recursive": "",
-        "x": 70,
-        "y": 140,
-        "wires": [
-            [
-                "755a67b16e6669a9"
-            ]
-        ]
-    },
-    {
-        "id": "755a67b16e6669a9",
+        "id": "f3eac54a01bf1aa1",
         "type": "debug",
-        "z": "3cb82fb39bda2fad",
-        "name": "debug 2",
+        "z": "0fe1064e283b9d9a",
+        "name": "",
         "active": true,
         "tosidebar": true,
         "console": true,
@@ -35,8 +20,109 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 330,
-        "y": 120,
+        "x": 790,
+        "y": 180,
         "wires": []
+    },
+    {
+        "id": "799e78562736cf36",
+        "type": "join",
+        "z": "0fe1064e283b9d9a",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 430,
+        "y": 236,
+        "wires": [
+            [
+                "9ab4f50fdc1cfdf0"
+            ]
+        ]
+    },
+    {
+        "id": "9ab4f50fdc1cfdf0",
+        "type": "function",
+        "z": "0fe1064e283b9d9a",
+        "name": "",
+        "func": "const filename = msg.filename;\nconst content = msg.payload[1];\nconst payload = filename + \": \" + content;\n\nreturn {\n    payload\n};",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 236,
+        "wires": [
+            [
+                "9ea66e59634bfc19",
+                "f3eac54a01bf1aa1"
+            ]
+        ]
+    },
+    {
+        "id": "9ea66e59634bfc19",
+        "type": "websocket out",
+        "z": "0fe1064e283b9d9a",
+        "name": "Websocket out",
+        "server": "5fd6f5ff13979f94",
+        "client": "",
+        "x": 807,
+        "y": 234,
+        "wires": []
+    },
+    {
+        "id": "3ecbe8a90774e962",
+        "type": "watch",
+        "z": "0fe1064e283b9d9a",
+        "name": "WatchNode",
+        "files": "watch.txt",
+        "recursive": "",
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "0af2c637b8ac6ab4"
+            ]
+        ]
+    },
+    {
+        "id": "0af2c637b8ac6ab4",
+        "type": "file in",
+        "z": "0fe1064e283b9d9a",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 280,
+        "y": 236,
+        "wires": [
+            [
+                "799e78562736cf36"
+            ]
+        ]
+    },
+    {
+        "id": "5fd6f5ff13979f94",
+        "type": "websocket-listener",
+        "path": "/monitor",
+        "wholemsg": "false"
     }
 ]
