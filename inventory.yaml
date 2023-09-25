@@ -3,5 +3,5 @@ all:
     thesisvm:
       ansible_host: 4.231.43.7
       ansible_ssh_port: 22
-      ansible_ssh_private_key_file: /home/mojtaba/.ssh/IoT-Mojtaba-keypair.pem
+      ansible_ssh_private_key_file: /home/rof13thfloor/.ssh/IoT-Mojtaba-keypair.pem
       ansible_user: azureuser
