@@ -14,13 +14,13 @@ GRAMINE_LOG_LEVEL = error
 endif
 
 .PHONY: all
-all: nodejs.manifest
+all: node.manifest
 ifeq ($(SGX),1)
-all: nodejs.manifest.sgx nodejs.sig nodejs.token # Load SGX manifest, signature and token
+all: node.manifest.sgx node.sig node.token # Load SGX manifest, signature and token
 endif
 
 # Create manifest from template
-nodejs.manifest: nodejs.manifest.template
+node.manifest: node.manifest.template
 	gramine-manifest \
 		-Dlog_level=$(GRAMINE_LOG_LEVEL) \
 		-Darch_libdir=$(ARCH_LIBDIR) \
@@ -29,7 +29,7 @@ nodejs.manifest: nodejs.manifest.template
 		$< >$@
 
 # Create SGX manifest from nodejs.manifest and js file and sign it
-nodejs.manifest.sgx: nodejs.manifest main.js
+node.manifest.sgx: node.manifest main.js
 	@test -s $(SGX_SIGNER_KEY) || \
 	    { echo "SGX signer private key was not found, please specify SGX_SIGNER_KEY!"; exit 1; }
 	gramine-sgx-sign \
@@ -37,9 +37,9 @@ nodejs.manifest.sgx: nodejs.manifest main.js
 		--manifest $< \
 		--output $@
 
-nodejs.sig: nodejs.manifest.sgx
+node.sig: node.manifest.sgx
 
-nodejs.token: nodejs.sig
+node.token: node.sig
 	gramine-sgx-get-token --output $@ --sig $<
 
 ifeq ($(SGX),)
@@ -50,7 +50,7 @@ endif
 
 .PHONY: check
 check: all
-	$(GRAMINE) ./nodejs main.js > OUTPUT
+	$(GRAMINE) ./node main.js > OUTPUT
 	@grep -q "Hello World" OUTPUT && echo "[ Success 1/1 ]"
 	@rm OUTPUT
 

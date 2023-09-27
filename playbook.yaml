@@ -57,7 +57,7 @@
     - name: Copy manifest
       copy:
         src: '{{manifestFilePath}}'
-        dest: '{{remoteDir}}/nodejs.manifest.template'
+        dest: '{{remoteDir}}/node.manifest.template'
     - name: Copy libsecret_prov_attest.so library
       copy:
         src: libsecret_prov_attest.so
@@ -93,7 +93,7 @@
       - name: Start the enclave
         shell: 
           chdir: '{{remoteDir}}'
-          cmd: gramine-sgx nodejs main.js --flowFile user-dir/flow.json  > execution.log
+          cmd: gramine-sgx node main.js --flowFile user-dir/flow.json  > execution.log
         register: out2 # save the output of the command
         # failed_when: out.rc != 0 
       - debug: var=out2.stdout_lines  
