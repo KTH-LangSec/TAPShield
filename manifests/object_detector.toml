@@ -1,7 +1,7 @@
 # Loader config
 loader.preload = "file:{{ gramine.libos }}"  # for compatibility with v1.0
 loader.entrypoint = "file:{{ gramine.libos }}"
-loader.log_level = "all"
+loader.log_level = " "
 loader.log_file = "gramine.log"
 loader.insecure__use_cmdline_argv = true
 loader.insecure__use_host_env = true
