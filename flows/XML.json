@@ -1,0 +1,72 @@
+[
+    {
+        "id": "9f9801d7cd86be51",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "46638890.8ae758",
+        "type": "inject",
+        "z": "9f9801d7cd86be51",
+        "name": "Object",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"note\":{\"$\":{\"priority\":\"high\"},\"to\":[\"Mojtaba\"],\"from\":[\"Javier\"],\"heading\":[\"Reminder\"],\"body\":[\"Update the website\"]}}",
+        "payloadType": "json",
+        "x": 460,
+        "y": 1300,
+        "wires": [
+            [
+                "dae1d291.de0d2"
+            ]
+        ]
+    },
+    {
+        "id": "6fefca67.3669e4",
+        "type": "debug",
+        "z": "9f9801d7cd86be51",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "dae1d291.de0d2",
+        "type": "xml",
+        "z": "9f9801d7cd86be51",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 610,
+        "y": 1300,
+        "wires": [
+            [
+                "6fefca67.3669e4"
+            ]
+        ]
+    }
+]

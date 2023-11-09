@@ -1,0 +1,103 @@
+[
+    {
+        "id": "9f9801d7cd86be51",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "457d9ad6.b737b4",
+        "type": "inject",
+        "z": "9f9801d7cd86be51",
+        "name": "single",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 300,
+        "y": 1220,
+        "wires": [
+            [
+                "1e05fafd.887b05"
+            ]
+        ]
+    },
+    {
+        "id": "1e05fafd.887b05",
+        "type": "change",
+        "z": "9f9801d7cd86be51",
+        "name": "Generate single payload",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{ \"a\":$floor(100*$random()),\"b\":$floor(100*$random()),\"c\":$floor(100*$random())}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 1140,
+        "wires": [
+            [
+                "e9546682.b39898"
+            ]
+        ]
+    },
+    {
+        "id": "e9546682.b39898",
+        "type": "csv",
+        "z": "9f9801d7cd86be51",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": false,
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "a,b,c",
+        "skip": "0",
+        "x": 790,
+        "y": 1320,
+        "wires": [
+            [
+                "f83ad3b0.78d32"
+            ]
+        ]
+    },
+    {
+        "id": "f83ad3b0.78d32",
+        "type": "debug",
+        "z": "9f9801d7cd86be51",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 1220,
+        "wires": []
+    }
+]

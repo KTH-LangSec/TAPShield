@@ -1,0 +1,134 @@
+[
+    {
+        "id": "9f9801d7cd86be51",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "634256b7.2d6818",
+        "type": "inject",
+        "z": "9f9801d7cd86be51",
+        "name": "JSON String",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"a\":1}",
+        "payloadType": "str",
+        "x": 540,
+        "y": 1120,
+        "wires": [
+            [
+                "a2fe0fc8.095e1"
+            ]
+        ]
+    },
+    {
+        "id": "a2fe0fc8.095e1",
+        "type": "json",
+        "z": "9f9801d7cd86be51",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 690,
+        "y": 1120,
+        "wires": [
+            [
+                "9a4ce2b8.47698"
+            ]
+        ]
+    },
+    {
+        "id": "9a4ce2b8.47698",
+        "type": "debug",
+        "z": "9f9801d7cd86be51",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "80032e2.7c92cd",
+        "type": "inject",
+        "z": "9f9801d7cd86be51",
+        "name": "Object",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"a\":1}",
+        "payloadType": "json",
+        "x": 520,
+        "y": 1160,
+        "wires": [
+            [
+                "cd40a0f4.4f5ac"
+            ]
+        ]
+    },
+    {
+        "id": "cd40a0f4.4f5ac",
+        "type": "json",
+        "z": "9f9801d7cd86be51",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 690,
+        "y": 1160,
+        "wires": [
+            [
+                "478b4106.4fd7c"
+            ]
+        ]
+    },
+    {
+        "id": "478b4106.4fd7c",
+        "type": "debug",
+        "z": "9f9801d7cd86be51",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 1160,
+        "wires": []
+    }
+]

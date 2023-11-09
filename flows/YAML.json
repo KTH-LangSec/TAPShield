@@ -1,0 +1,89 @@
+[
+    {
+        "id": "9f9801d7cd86be51",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8f8f31b7.1f916",
+        "type": "debug",
+        "z": "9f9801d7cd86be51",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "104b80e2.51068f",
+        "type": "yaml",
+        "z": "9f9801d7cd86be51",
+        "property": "payload",
+        "name": "",
+        "x": 830,
+        "y": 1180,
+        "wires": [
+            [
+                "8f8f31b7.1f916"
+            ]
+        ]
+    },
+    {
+        "id": "a0110756.ecfa48",
+        "type": "template",
+        "z": "9f9801d7cd86be51",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "yaml",
+        "syntax": "plain",
+        "template": "a: 1\nb:\n  - 1\n  - 2\n  - 3",
+        "output": "str",
+        "x": 680,
+        "y": 1180,
+        "wires": [
+            [
+                "104b80e2.51068f"
+            ]
+        ]
+    },
+    {
+        "id": "f231967.0251a68",
+        "type": "inject",
+        "z": "9f9801d7cd86be51",
+        "name": "YAML String",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"a\":1}",
+        "payloadType": "str",
+        "x": 520,
+        "y": 1180,
+        "wires": [
+            [
+                "a0110756.ecfa48"
+            ]
+        ]
+    }
+]

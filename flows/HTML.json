@@ -1,0 +1,98 @@
+[
+    {
+        "id": "9f9801d7cd86be51",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f8b34223abe67a00",
+        "type": "inject",
+        "z": "9f9801d7cd86be51",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 390,
+        "y": 360,
+        "wires": [
+            [
+                "26daa9e237b951fd"
+            ]
+        ]
+    },
+    {
+        "id": "fd182e421cd763be",
+        "type": "html",
+        "z": "9f9801d7cd86be51",
+        "name": "Parsing HTML file ",
+        "property": "payload",
+        "outproperty": "payload",
+        "tag": "p",
+        "ret": "html",
+        "as": "multi",
+        "x": 690,
+        "y": 540,
+        "wires": [
+            [
+                "8f9685725167755b"
+            ]
+        ]
+    },
+    {
+        "id": "8f9685725167755b",
+        "type": "debug",
+        "z": "9f9801d7cd86be51",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "26daa9e237b951fd",
+        "type": "http request",
+        "z": "9f9801d7cd86be51",
+        "name": "opening example.com",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://www.example.com/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 500,
+        "y": 420,
+        "wires": [
+            [
+                "fd182e421cd763be"
+            ]
+        ]
+    }
+]
