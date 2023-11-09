@@ -1,0 +1,76 @@
+[
+    {
+        "id": "9f9801d7cd86be51",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "183739aecda7dc43",
+        "type": "range",
+        "z": "9f9801d7cd86be51",
+        "minin": "1",
+        "maxin": "100",
+        "minout": "0",
+        "maxout": "160",
+        "action": "scale",
+        "round": true,
+        "property": "payload",
+        "name": "Miles >Km",
+        "x": 690,
+        "y": 1080,
+        "wires": [
+            [
+                "6c791737841117e1"
+            ]
+        ]
+    },
+    {
+        "id": "d114f8d5169759f1",
+        "type": "inject",
+        "z": "9f9801d7cd86be51",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "40",
+        "payloadType": "num",
+        "x": 430,
+        "y": 1080,
+        "wires": [
+            [
+                "183739aecda7dc43"
+            ]
+        ]
+    },
+    {
+        "id": "6c791737841117e1",
+        "type": "debug",
+        "z": "9f9801d7cd86be51",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 1080,
+        "wires": []
+    }
+]
