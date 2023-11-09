@@ -12,5 +12,5 @@
     "remoteDir": "/home/azureuser/gramine-test",
     "uploadBundle": true,
     "startEnclave": false,
-    "encryptUserDir": true
+    "encryptUserDir": false
 }   

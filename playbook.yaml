@@ -9,12 +9,12 @@
 - hosts: localhost
   tasks: 
     - include_vars: build.config.json
-    - name: Remove build directory
-      file:
-        state: absent
-        path: build
-    - name: Build the bundle
-      shell: babel-node src/build.js
+    # - name: Remove build directory
+    #   file:
+    #     state: absent
+    #     path: build
+    # - name: Build the bundle
+    #   shell: babel-node src/build.js
     - block: # This block is only run if encryptUserDir is set to true in the config
       - name: Start the secret prov server
         shell: docker start dcap_server

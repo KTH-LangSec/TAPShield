@@ -47,10 +47,11 @@ sgx.trusted_files = [
   "file:libsecret_prov_attest.so", 
   "file:ssl/ca.crt",
   "file:main.js",
+  
 ]
 
 sgx.allowed_files = [
   "file:/etc/",
   "file:/proc/",
-  "file:ssl/ca.crt"
+ 
 ]
