@@ -15,6 +15,18 @@ import nullPackage from "./esbuild-plugin-null-package.js";
  * - Execute with `node build.js`
  */
 
+// Define the custom resolver plugin
+const customResolverPlugin = {
+    name: 'custom-node-red-resolver',
+    setup(build) {
+        build.onResolve({ filter: /^node-red$/ }, args => {
+            // Replace 'custom-module' with the actual path or URL
+            return { path: '/Users/javierca/Documents/Develop/node-red/packages/node_modules/node-red/red.js' };
+        });
+    },
+};
+
+
 export async function main() {
   const configData = await fs.readFile("build.config.json", "utf8");
   const config = JSON.parse(configData);
@@ -46,11 +58,18 @@ export async function main() {
     target: "es6",
     outfile: path.join(DISTDIR, "index.js"),
     plugins: [
+      customResolverPlugin,
       nullPackage([
         // remove not needed modules by returning empty modules
         "@node-red/editor-api",
         "@node-red/editor-client",
-         // TODO 
+        "@mapbox/mock-aws-s3",
+        "mock-aws-s3",
+        "aws-sdk",
+        "nock",
+        "node:path",
+        "wasi",
+         // TODO
         // "node-red-admin",
         "oauth2orize"
       ]),
