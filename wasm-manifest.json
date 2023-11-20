@@ -1,0 +1,35 @@
+{
+    "15-change.js": {
+        "API": {
+            "CAN_OPERATE_COMMANDS": true,
+            "CAN_READ_MSG": true,
+            "CAN_READ_NODE": true,
+            "CAN_READ_CONTEXT": true,
+            "CAN_SEND": true,
+            "CAN_WARN": true,
+            "CAN_DONE": true,
+            "CAN_PUSH_RESULT": true,
+            "CAN_ERROR": true,
+            "CAN_EMIT": true
+        },
+        "PACKAGES": {
+            "ALLOW_FS": true,
+            "ALLOW_HTTP": true,
+            "ALLOW_OS": true,
+            "ALLOW_PROCESS": true,
+            "ALLOW_WASI": true,
+            "ALLOW_PATH": true
+        },
+        "FILE_PERMISSIONS": {
+            "ROOT": "./",
+            "READ": {
+                "WHITELIST" : ["./*", "/tmp/*"],
+                "BLACKLIST" : ["./password"]
+            },
+            "WRITE": {
+                "WHITELIST" : [],
+                "BLACKLIST" : []
+            }
+        }
+    }
+}
