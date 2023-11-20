@@ -3,7 +3,7 @@ import express from "express";
 import https from "https";
 import fs from "fs";
 import ws from "ws";
-import * as WASI from "wasi";
+import WASI from "wasi";
 
 const certFileName = "server.cert";
 const keyFileName = "server.key";

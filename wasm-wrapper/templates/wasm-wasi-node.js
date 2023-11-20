@@ -1,10 +1,9 @@
-
 const WASI = require("wasi");
 const fs = require("fs");
 const debug = "{{{ debug }}}" || false;
 
 function getWasi(){
-  const wasi = new WASI.WASI({
+  const wasi = new WASI({
     version: 'preview1',
     args: [ /* empty for now */ ],
     env: { /* empty for now */ },

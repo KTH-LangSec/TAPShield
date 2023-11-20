@@ -16,7 +16,7 @@ export default function nullPackage(options = []) {
       build.onLoad(
         { filter: /.*/, namespace: "null-package" },
         async (args) => ({
-          contents: `module.exports = {}`,
+          contents: `module.exports = function(){ return {};}`,
         })
       );
     },
