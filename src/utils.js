@@ -1,10 +1,16 @@
 import * as path from "path";
 import * as fs from "fs/promises";
+import * as fse from "fs-extra"
+import * as fssync from "fs";
 // eslint-disable-next-line no-console
 export const stdout = console.log.bind(console);
 export const stderr = console.error.bind(console);
+import wasmwrap_code from "node-red-wasm-wrapper";
 
-export const getRequiredNodes = async (USERDIR, config) => {
+
+export const getRequiredNodes = async (USERDIR, config, WASM_MANIFEST, cb={
+  unwrappedNode: (node) => node,
+}) => {
   const BUNDLE_ONLY_REQUIRED_NODES = config.bundleOnlyRequiredNodes;
 
   const flowData = JSON.parse(
@@ -53,11 +59,67 @@ export const getRequiredNodes = async (USERDIR, config) => {
     "let r = {" +
     (BUNDLE_ONLY_REQUIRED_NODES ? requiredNodeFiles : origNodeFiles)
       .map(
-        (file) =>
-          `\n'${file}': ()=>require('${file.replace(
-            /.*\/node_modules\/(.*)/,
-            "$1"
-          )}')`
+        (file) => {
+        
+        let sanitized = `${file.replace(
+          /.*\/node_modules\/(.*)/,
+          "$1"
+        )}`;
+        sanitized = `node_modules/${sanitized}`;
+        const basename = path.basename(sanitized);
+        
+
+        let keys = Object.keys(WASM_MANIFEST);
+        let key;
+
+        if(keys.includes(basename))
+            key = path.basename(sanitized);
+        else if (keys.includes(path.resolve(sanitized)))
+            key = path.resolve(sanitized);
+
+
+        if(WASM_MANIFEST[key]){
+           console.log("WASM wrapping", sanitized);
+           // Replace requireNodeFiles with the entry
+           let content = fssync.readFileSync(sanitized, "utf8");
+           // This returns the wrapped code, the wasm file, and the permission yml file
+            var [_, r, w, y] = wasmwrap_code(content, {
+                  cwd: path.dirname(sanitized),
+                  full_node: true,
+                  file: sanitized
+              }, 
+              WASM_MANIFEST[key].API,
+              WASM_MANIFEST[key].PACKAGES,
+              WASM_MANIFEST[key].FILE_PERMISSIONS,
+            );
+
+            // Copy the Wasm file to the userdir folder
+            fs.copyFile(w, `${USERDIR}/${path.basename(w)}`);
+            fs.copyFile(y, `${USERDIR}/${path.basename(y)}`);
+            
+            /*for(var start in requiredNodes){
+              for(var type in requiredNodes[start].nodes){
+                if(requiredNodes[start].nodes[type].file === file){
+                  // Replace
+                  requiredNodes[start].nodes[type].file = `/usr/local/lib/node_modules/node-red/${r}`
+                }
+              }
+              break;
+            }*/
+
+            return  `\n'${file}': ()=>require('${r.replace(
+              /node_modules\/(.*)/,
+              "$1"
+            )}')`
+        } else {
+          // Report that the flow cannot be completely wrapped to Wasm
+          cb.unwrappedNode(file);
+          return  `\n'${file}': ()=>require('${file.replace(
+              /.*\/node_modules\/(.*)/,
+              "$1"
+            )}')`
+          }
+        }
       )
       .join(",") +
     "}[node.file]()";
@@ -68,8 +130,24 @@ export const getRequiredNodes = async (USERDIR, config) => {
   );
   await fs.writeFile(`${USERDIR}/flow.json`, JSON.stringify(flowData));
 
+
   return { requiredNodes, configNodesRaw, origNodeLoader };
 };
+
+async function copyDir(src, dest) {
+  let entries = await fs.readdir(src, { recursive: true, withFileTypes: true })
+
+  for (let entry of entries) {
+      let srcPath = path.join(entry.path, entry.name);
+      let destPath = srcPath.replace(src, dest);
+      let destDir = path.dirname(destPath);
+      
+      if (entry.isFile()) {
+          await fs.mkdir(destDir, { recursive: true })
+          await fs.copyFile(srcPath, destPath);
+      }
+  }
+}
 
 export const initializeUserDir = async (USERDIR) => {
   await fs.mkdir(path.join(USERDIR, "node_modules"), { recursive: true });
@@ -97,6 +175,12 @@ export const initializeUserDir = async (USERDIR) => {
         },
       },
     })
+  );
+
+  // Copy the wasi built, node_modules
+  await copyDir(
+    path.resolve("node_modules/wasi/build/Release"),
+    path.join(USERDIR, "../Release")
   );
 };
 

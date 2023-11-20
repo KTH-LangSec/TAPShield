@@ -1,0 +1,18 @@
+READ:
+    WHITELIST:
+    {{#read_whites}}
+      - '{{{ name }}}'
+    {{/read_whites}}
+    BLACKLIST:
+    {{#read_blacks}}
+      - '{{{ name }}}'
+    {{/read_blacks}}
+WRITE:
+    WHITELIST:
+    {{#write_whites}}
+      - '{{{ name }}}'
+    {{/write_whites}}
+    BLACKLIST:
+    {{#write_blacks}}
+      - '{{{ name }}}'
+    {{/write_blacks}}

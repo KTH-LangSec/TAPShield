@@ -4,10 +4,12 @@ import * as crypto from "crypto";
 import * as path from "path";
 import aliasPlugin from "esbuild-plugin-alias";
 import replacePlugin from "esbuild-plugin-text-replace";
+import * as WASI from "wasi";
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 import { initializeUserDir, getRequiredNodes, addSSLKeys } from "./utils.js";
 import nullPackage from "./esbuild-plugin-null-package.js";
+import { polyfillNode } from "esbuild-plugin-polyfill-node";
 /**
  * Main script for building the node-red executable.
  * - Configuration is provided from build.config.json in root dir
@@ -39,26 +41,33 @@ export async function main() {
 
   const USERDIR = path.join(DISTDIR, "user-dir");
 
+  // Here we load the Wasm manifest
+  const WASM_MANIFEST_CONTENT = await fs.readFile(config.wasmManifestPath, "utf-8");
+  const WASM_MANIFEST = JSON.parse(WASM_MANIFEST_CONTENT);
+
   await initializeUserDir(USERDIR);
 
   await addSSLKeys(USERDIR, config);
 
-  const {
+
+  let {
     requiredNodes,
     configNodesRaw,
     origNodeLoader
-  } = await getRequiredNodes(USERDIR, config);
+    // The major change is here, we modify the loaders to use the Wasm files
+  } = await getRequiredNodes(USERDIR, config, WASM_MANIFEST);
 
+  console.log("requiredNodes", requiredNodes, origNodeLoader);
   await esbuild.build({
     entryPoints: [WRAPPER],
     bundle: true,
     minify: config.minify,
     sourcemap: config.sourcemap,
     platform: "node",
-    target: "es6",
+    target: "es2020",
     outfile: path.join(DISTDIR, "index.js"),
     plugins: [
-      customResolverPlugin,
+      //customResolverPlugin,
       nullPackage([
         // remove not needed modules by returning empty modules
         "@node-red/editor-api",
@@ -68,7 +77,20 @@ export async function main() {
         "aws-sdk",
         "nock",
         "node:path",
-        "wasi",
+        //"wasi",
+
+        /*"fs",
+        "path",
+        "net",
+        "util",
+        "events",
+        "os",
+        "stream",
+        "string_decoder",
+        "zlib",
+        "buffer",
+        "assert",
+        "crypto",*/
          // TODO
         // "node-red-admin",
         "oauth2orize"
