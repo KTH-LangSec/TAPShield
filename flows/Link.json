@@ -1,0 +1,223 @@
+[
+    {
+        "id": "f9cb07a7.161b3",
+        "type": "tab",
+        "label": "status-node",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "17dace14e9cc50b6",
+        "type": "inject",
+        "z": "f9cb07a7.161b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 370,
+        "y": 200,
+        "wires": [
+            [
+                "e0872aa07dab68c6"
+            ]
+        ]
+    },
+    {
+        "id": "e0872aa07dab68c6",
+        "type": "function",
+        "z": "f9cb07a7.161b3",
+        "name": "function 1",
+        "func": "var msg1 ={ payload: \"1\" };\nvar msg2 = { payload: \"2\" };\nvar msg3 = { payload: \"Hello from link out node\" };\nreturn [msg1, msg2 , msg3];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 200,
+        "wires": [
+            [
+                "6e0575f841d64149"
+            ],
+            [
+                "f1e499ae9db917bf"
+            ],
+            [
+                "545e817428345cb3"
+            ]
+        ]
+    },
+    {
+        "id": "6e0575f841d64149",
+        "type": "debug",
+        "z": "f9cb07a7.161b3",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "f1e499ae9db917bf",
+        "type": "debug",
+        "z": "f9cb07a7.161b3",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "545e817428345cb3",
+        "type": "link out",
+        "z": "f9cb07a7.161b3",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "76b3aba3e50607c4"
+        ],
+        "x": 705,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "76b3aba3e50607c4",
+        "type": "link in",
+        "z": "f9cb07a7.161b3",
+        "name": "link in 1",
+        "links": [
+            "545e817428345cb3",
+            "e34c3b561222fe2e"
+        ],
+        "x": 725,
+        "y": 640,
+        "wires": [
+            [
+                "43509bd5b42b64e1"
+            ]
+        ]
+    },
+    {
+        "id": "fa7e8d351e24063f",
+        "type": "link call",
+        "z": "f9cb07a7.161b3",
+        "name": "",
+        "links": [
+            "76b3aba3e50607c4"
+        ],
+        "linkType": "static",
+        "timeout": "1",
+        "x": 300,
+        "y": 320,
+        "wires": [
+            [
+                "7cd3057e5ead5a8e"
+            ]
+        ]
+    },
+    {
+        "id": "7cd3057e5ead5a8e",
+        "type": "debug",
+        "z": "f9cb07a7.161b3",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "43509bd5b42b64e1",
+        "type": "function",
+        "z": "f9cb07a7.161b3",
+        "name": "function 2",
+        "func": "msg.payload = \"hello\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 600,
+        "wires": [
+            [
+                "077b44bd60be8af2"
+            ]
+        ]
+    },
+    {
+        "id": "077b44bd60be8af2",
+        "type": "link out",
+        "z": "f9cb07a7.161b3",
+        "name": "link out 2",
+        "mode": "return",
+        "links": [],
+        "x": 1055,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "075e22a05b8a8a1f",
+        "type": "inject",
+        "z": "f9cb07a7.161b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 400,
+        "wires": [
+            [
+                "fa7e8d351e24063f"
+            ]
+        ]
+    }
+]

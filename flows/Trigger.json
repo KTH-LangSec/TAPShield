@@ -1,0 +1,81 @@
+[
+    {
+        "id": "9c57f0e2255f7d67",
+        "type": "tab",
+        "label": "Flow 8",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "dde2b2831a904977",
+        "type": "trigger",
+        "z": "9c57f0e2255f7d67",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "250",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "hello",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 620,
+        "y": 320,
+        "wires": [
+            [
+                "f62adf5d0c8d020e"
+            ]
+        ]
+    },
+    {
+        "id": "f62adf5d0c8d020e",
+        "type": "debug",
+        "z": "9c57f0e2255f7d67",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "c40367150e19c8fb",
+        "type": "inject",
+        "z": "9c57f0e2255f7d67",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 390,
+        "y": 220,
+        "wires": [
+            [
+                "dde2b2831a904977"
+            ]
+        ]
+    }
+]

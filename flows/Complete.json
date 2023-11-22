@@ -1,0 +1,129 @@
+[
+    {
+        "id": "f9cb07a7.161b3",
+        "type": "tab",
+        "label": "status-node",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "551223da98ef1021",
+        "type": "inject",
+        "z": "f9cb07a7.161b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 350,
+        "y": 200,
+        "wires": [
+            [
+                "7679798a4f51df99"
+            ]
+        ]
+    },
+    {
+        "id": "7679798a4f51df99",
+        "type": "function",
+        "z": "f9cb07a7.161b3",
+        "name": "function 1",
+        "func": "var msg1 = {payload:\"1\"};\nvar msg2 = {payload:\"2\"};\nreturn [msg1, msg2];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 200,
+        "wires": [
+            [
+                "d6b9745f2677554a"
+            ],
+            [
+                "c9a23bee65d8c94f"
+            ]
+        ]
+    },
+    {
+        "id": "d6b9745f2677554a",
+        "type": "debug",
+        "z": "f9cb07a7.161b3",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "c9a23bee65d8c94f",
+        "type": "debug",
+        "z": "f9cb07a7.161b3",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "96c38a23c9558f07",
+        "type": "complete",
+        "z": "f9cb07a7.161b3",
+        "name": "Will print whenever function node completed it's task ",
+        "scope": [
+            "7679798a4f51df99"
+        ],
+        "uncaught": false,
+        "x": 270,
+        "y": 380,
+        "wires": [
+            [
+                "57c1b3e07ea187b0"
+            ]
+        ]
+    },
+    {
+        "id": "57c1b3e07ea187b0",
+        "type": "debug",
+        "z": "f9cb07a7.161b3",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 380,
+        "wires": []
+    }
+]
