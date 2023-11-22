@@ -21,7 +21,7 @@ export default {
   plugins: [
     alias({
       entries: [
-        { find: 'node_modules', replacement: '/Users/javierca/Documents/Develop/Node-red-SGX-/node_modules' },
+        { find: 'node_modules', replacement: '/home/rof13thfloor/work/Node-red-SGX/node_modules' },
       ]
     }),
     // pathResolve(),

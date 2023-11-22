@@ -23,7 +23,7 @@ const customResolverPlugin = {
     setup(build) {
         build.onResolve({ filter: /^node-red$/ }, args => {
             // Replace 'custom-module' with the actual path or URL
-            return { path: '/Users/javierca/Documents/Develop/node-red/packages/node_modules/node-red/red.js' };
+            return { path: '/home/rof13thfloor/work/Node-red-SGX/node_modules/node-red/red.js' };
         });
     },
 };
