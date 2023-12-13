@@ -135,7 +135,7 @@ export const getRequiredNodes = async (USERDIR, config, WASM_MANIFEST, cb={
   );
   await fs.writeFile(`${USERDIR}/flow.json`, JSON.stringify(flowData));
 
-  console.log("WASM wrapping count", counters['WRAPPED'].length, counters['UNWRAPPED'].length);
+  console.log("WASM wrapping count", counters['WRAPPED'].length, counters['UNWRAPPED'].length, counters['WRAPPED'].length/(counters['UNWRAPPED'].length + counters['WRAPPED'].length));
   console.log("WASM wrapping report", counters);
   return { requiredNodes, configNodesRaw, origNodeLoader };
 };
