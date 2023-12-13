@@ -34,6 +34,10 @@ export const getRequiredNodes = async (USERDIR, config, WASM_MANIFEST, cb={
   let nodesFiles = [];
   let origNodeFiles = [];
   let requiredNodeFiles = [];
+  let counters = {
+    'WRAPPED': [],
+    'UNWRAPPED': [],
+  };
 
   Object.entries(configNodes).forEach(([prop, value]) => {
     const packageNodes = {};
@@ -106,13 +110,14 @@ export const getRequiredNodes = async (USERDIR, config, WASM_MANIFEST, cb={
               }
               break;
             }*/
-
+            counters['WRAPPED'].push(key);
             return  `\n'${file}': ()=>require('${r.replace(
               /node_modules\/(.*)/,
               "$1"
             )}')`
         } else {
-          // Report that the flow cannot be completely wrapped to Wasm
+          // Report that the flow cannot be comple
+          counters['UNWRAPPED'].push(file);
           cb.unwrappedNode(file);
           return  `\n'${file}': ()=>require('${file.replace(
               /.*\/node_modules\/(.*)/,
@@ -130,7 +135,8 @@ export const getRequiredNodes = async (USERDIR, config, WASM_MANIFEST, cb={
   );
   await fs.writeFile(`${USERDIR}/flow.json`, JSON.stringify(flowData));
 
-
+  console.log("WASM wrapping count", counters['WRAPPED'].length, counters['UNWRAPPED'].length);
+  console.log("WASM wrapping report", counters);
   return { requiredNodes, configNodesRaw, origNodeLoader };
 };
 

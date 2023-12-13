@@ -4,10 +4,10 @@ if [[ ! -f "$PATH_TO_JAVY/javy" ]]; then
     #VERSION_MAJOR="19"
     #VERSION_MINOR="0"
     if [[ "$(uname -s)" == "Darwin" ]]; then
-        wget -O javy https://github.com/Jacarte/javy/releases/download/node-red-0.9.12/javy-x86_64-macos-node-red-0.9.12
+        wget -O javy https://github.com/Jacarte/javy/releases/download/node-red-1.1/javy-x86_64-macos-node-red-1.1
          
     else
-        wget -O javy https://github.com/Jacarte/javy/releases/download/node-red-0.9.12/javy-x86_64-linux-node-red-0.9.12
+        wget -O javy https://github.com/Jacarte/javy/releases/download/node-red-1.1/javy-x86_64-linux-node-red-1.1
     fi
     mkdir -p $PATH_TO_JAVY
     if [[ -f "javy" ]]
