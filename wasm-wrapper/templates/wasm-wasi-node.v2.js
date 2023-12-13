@@ -301,7 +301,7 @@ function get_context(RED, COMMAND_QUEUE, node, instancecb, self, world = ""){
            const wasi = getWasi();
            // TODO do we need a fresh instance of Wasm
            const instance = new WebAssembly.Instance(wasm, {      
-            'wasi_snapshot_preview1': wasi.exports,
+            'wasi_snapshot_preview1': wasi.wasiImport,
               ...get_context(RED, COMMAND_QUEUE, augmentednode, () => instance /**/, this, "instance")
             });
             
@@ -311,9 +311,7 @@ function get_context(RED, COMMAND_QUEUE, node, instancecb, self, world = ""){
             })
 
             instance.warn = augmentednode.warn;
-            wasi.setMemory(instance.exports.memory);
-            instance.exports._start();
-            //wasi.start(instance);
+            wasi.start(instance);
             instance.exports.javyinit();
 
 
@@ -357,7 +355,7 @@ module.exports = function(RED){
     // The instantiation of the Wasm module can be avoided every time 
     // if for example, we have a pool of instances previously
     const instance = new WebAssembly.Instance(wasm, {
-      'wasi_snapshot_preview1': wasi.exports,
+      'wasi_snapshot_preview1': wasi.wasiImport,
       // This is a static stage, so, no node instace neither Wasm instance
       ...get_context(RED, COMMAND_QUEUE, null, () => instance, this, "register")
     });
@@ -368,8 +366,7 @@ module.exports = function(RED){
     COMMAND_QUEUE.push({
       "type": "register",
     })
-    wasi.setMemory(instance.exports.memory);
-    instance.exports._start();
+    wasi.start(instance);
     console.log("[Wrapper] calling register node inside the Wasm file");
     instance.exports.javyregisternode()
 }

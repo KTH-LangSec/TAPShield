@@ -178,10 +178,14 @@ export const initializeUserDir = async (USERDIR) => {
   );
 
   // Copy the wasi built, node_modules
-  await copyDir(
-    path.resolve("node_modules/wasi/build/Release"),
-    path.join(USERDIR, "../Release")
-  );
+  try{
+    await copyDir(
+      path.resolve("node_modules/wasi/build/Release"),
+      path.join(USERDIR, "../Release")
+    );
+  } catch (error) {
+    stderr(error);
+  }
 };
 
 export const addSSLKeys = async (USERDIR, config) => {

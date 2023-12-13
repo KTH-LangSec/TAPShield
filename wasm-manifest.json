@@ -1,5 +1,5 @@
 {
-    "15-change.js": {
+    "20-inject.js": {
         "API": {
             "CAN_OPERATE_COMMANDS": true,
             "CAN_READ_MSG": true,

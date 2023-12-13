@@ -267,19 +267,16 @@ export function javyregisternode() {
   }else {
     throw Exception("Invalid command for Register");
   }
-  nodemod(RED);
+  nodemod.default(RED);
   
   console.log("[WASM] register node")
 }
 
 
 export function javyinit() {
-  // console.log("[WEASM] Initializing");
   let command = Node.IO.pop();
 
-  // console.log("[WEASM] Received");
-
-  // console.log("[WASM] Command", JSON.stringify(command));
+  console.log("[WASM] Command", JSON.stringify(command));
   if(command.type === 'init'){
       MODE = 'init'; 
       CL = command.name;
@@ -287,8 +284,7 @@ export function javyinit() {
       throw Exception("Invalid command for init");
   }
 
-  console.log(nodemod);
-  nodemod(RED);
+  nodemod.default(RED);
   
   console.log("[WASM] init node")
 }
@@ -303,6 +299,12 @@ export function javyprocessmessage(){
        cb(command.msg, Node.IO.send, Node.IO.done);
      }
   }
+}
+
+
+
+export function test(){
+  console.log("Logging for testing")
 }
 
 
