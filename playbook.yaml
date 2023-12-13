@@ -45,6 +45,10 @@
         copy  :
           src: build/user-dir/
           dest: '{{remoteDir}}/user-dir/'
+      - name: Copy Release from build
+        copy  :
+          src: build/Release/
+          dest: '{{remoteDir}}/Release/'    
       - name: Copy package.json from build to user-dir
         copy  :
           src: build/package.json

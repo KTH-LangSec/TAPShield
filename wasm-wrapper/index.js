@@ -163,7 +163,6 @@ export default function wasmwrap_code(node, ops = {}, api_permissions = {}, pack
     let content = fs.readFileSync(`${tmp}.bundle.inner.js`, 'utf-8');
     let replace= content;
     
-
     fs.writeFileSync(`${tmp}.bundle.inner.js`, replace);
 
     // Create permissions YAML file
