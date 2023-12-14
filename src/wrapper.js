@@ -35,11 +35,11 @@ let settings = {
       // debug - record information which is more verbose than info + info + warn + error + fatal errors
       // trace - record very detailed logging + debug + info + warn + error + fatal errors
       // off - turn off all logging (doesn't affect metrics or audit)
-      level: "trace",
+      level: "off",
       // Whether or not to include metric events in the log output
-      metrics: true,
+      metrics: false,
       // Whether or not to include audit events in the log output
-      audit: true
+      audit: false
     }
   },
   externalModules: {

@@ -23,7 +23,7 @@
         "repeat": "1",
         "crontab": "",
         "once": false,
-        "onceDelay": 0.1,
+        "onceDelay": 0.01,
         "topic": "",
         "payload": "",
         "payloadType": "date",
