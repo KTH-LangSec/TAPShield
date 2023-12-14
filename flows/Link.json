@@ -7,7 +7,59 @@
         "info": ""
     },
     {
-        "id": "17dace14e9cc50b6",
+        "id": "62ea32aa.d73aac",
+        "type": "comment",
+        "z": "f9cb07a7.161b3",
+        "name": "Example: Link Call Node",
+        "info": "Link call node can call link in node then get result from link out node.",
+        "x": 510,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "c588bc36.87fec",
+        "type": "comment",
+        "z": "f9cb07a7.161b3",
+        "name": "↓ call link in node",
+        "info": "",
+        "x": 720,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "cd31efb4d2c6967e",
+        "type": "link call",
+        "z": "f9cb07a7.161b3",
+        "name": "",
+        "links": [
+            "dbc46892c8d14c37"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 700,
+        "y": 380,
+        "wires": [
+            [
+                "c3db64d1d2260340"
+            ]
+        ]
+    },
+    {
+        "id": "dbc46892c8d14c37",
+        "type": "link in",
+        "z": "f9cb07a7.161b3",
+        "name": "",
+        "links": [],
+        "x": 595,
+        "y": 460,
+        "wires": [
+            [
+                "e10575d73f2e5352"
+            ]
+        ]
+    },
+    {
+        "id": "6b61792143b3b0a3",
         "type": "inject",
         "z": "f9cb07a7.161b3",
         "name": "",
@@ -27,127 +79,57 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 370,
-        "y": 200,
+        "x": 530,
+        "y": 380,
         "wires": [
             [
-                "e0872aa07dab68c6"
+                "cd31efb4d2c6967e"
             ]
         ]
     },
     {
-        "id": "e0872aa07dab68c6",
-        "type": "function",
-        "z": "f9cb07a7.161b3",
-        "name": "function 1",
-        "func": "var msg1 ={ payload: \"1\" };\nvar msg2 = { payload: \"2\" };\nvar msg3 = { payload: \"Hello from link out node\" };\nreturn [msg1, msg2 , msg3];",
-        "outputs": 3,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 560,
-        "y": 200,
-        "wires": [
-            [
-                "6e0575f841d64149"
-            ],
-            [
-                "f1e499ae9db917bf"
-            ],
-            [
-                "545e817428345cb3"
-            ]
-        ]
-    },
-    {
-        "id": "6e0575f841d64149",
-        "type": "debug",
-        "z": "f9cb07a7.161b3",
-        "name": "debug 1",
-        "active": false,
-        "tosidebar": true,
-        "console": true,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 930,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "f1e499ae9db917bf",
-        "type": "debug",
-        "z": "f9cb07a7.161b3",
-        "name": "debug 2",
-        "active": false,
-        "tosidebar": true,
-        "console": true,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 950,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "545e817428345cb3",
-        "type": "link out",
-        "z": "f9cb07a7.161b3",
-        "name": "link out 1",
-        "mode": "link",
-        "links": [
-            "76b3aba3e50607c4"
-        ],
-        "x": 705,
-        "y": 440,
-        "wires": []
-    },
-    {
-        "id": "76b3aba3e50607c4",
-        "type": "link in",
-        "z": "f9cb07a7.161b3",
-        "name": "link in 1",
-        "links": [
-            "545e817428345cb3",
-            "e34c3b561222fe2e"
-        ],
-        "x": 725,
-        "y": 640,
-        "wires": [
-            [
-                "43509bd5b42b64e1"
-            ]
-        ]
-    },
-    {
-        "id": "fa7e8d351e24063f",
-        "type": "link call",
+        "id": "e10575d73f2e5352",
+        "type": "change",
         "z": "f9cb07a7.161b3",
         "name": "",
-        "links": [
-            "76b3aba3e50607c4"
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Hello, World!",
+                "tot": "str"
+            }
         ],
-        "linkType": "static",
-        "timeout": "1",
-        "x": 300,
-        "y": 320,
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 460,
         "wires": [
             [
-                "7cd3057e5ead5a8e"
+                "cf8438e7137bc0f0"
             ]
         ]
     },
     {
-        "id": "7cd3057e5ead5a8e",
+        "id": "cf8438e7137bc0f0",
+        "type": "link out",
+        "z": "f9cb07a7.161b3",
+        "name": "",
+        "mode": "return",
+        "links": [],
+        "x": 875,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "c3db64d1d2260340",
         "type": "debug",
         "z": "f9cb07a7.161b3",
-        "name": "debug 4",
+        "name": "",
         "active": true,
         "tosidebar": true,
         "console": true,
@@ -156,68 +138,28 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 450,
-        "y": 400,
+        "x": 890,
+        "y": 380,
         "wires": []
     },
     {
-        "id": "43509bd5b42b64e1",
-        "type": "function",
+        "id": "6d077dfa0987febb",
+        "type": "comment",
         "z": "f9cb07a7.161b3",
-        "name": "function 2",
-        "func": "msg.payload = \"hello\"\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 860,
-        "y": 600,
-        "wires": [
-            [
-                "077b44bd60be8af2"
-            ]
-        ]
-    },
-    {
-        "id": "077b44bd60be8af2",
-        "type": "link out",
-        "z": "f9cb07a7.161b3",
-        "name": "link out 2",
-        "mode": "return",
-        "links": [],
-        "x": 1055,
-        "y": 580,
+        "name": "↑called from link call node",
+        "info": "",
+        "x": 690,
+        "y": 500,
         "wires": []
     },
     {
-        "id": "075e22a05b8a8a1f",
-        "type": "inject",
+        "id": "53b9a0adfd8c4217",
+        "type": "comment",
         "z": "f9cb07a7.161b3",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 130,
-        "y": 400,
-        "wires": [
-            [
-                "fa7e8d351e24063f"
-            ]
-        ]
+        "name": "↑return to link call node",
+        "info": "",
+        "x": 960,
+        "y": 500,
+        "wires": []
     }
 ]
