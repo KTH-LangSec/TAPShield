@@ -8,6 +8,28 @@ import inject from "@rollup/plugin-inject";
 // import typescript from '@rollup/plugin-typescript';
 import alias from '@rollup/plugin-alias';
 // import JavyBuiltin from "../plugins/javy-fs.js";
+import * as path from "path";
+import * as fs from 'fs';
+
+// Iterate up until the folder contains the .config.nodes.json file
+function getroot(curr){
+  // check if the file exists in this folder
+  const f = path.resolve(curr, "PROBE");
+  // check if the file exists in this folder
+  const exist = fs.existsSync(f);
+  if(exist){
+    return curr;
+  } else {
+    return getroot(path.resolve(`${curr}/..`));
+  }
+
+}
+
+let PWD = getroot(path.resolve("./"));
+PWD = path.resolve(PWD, "node_modules");
+
+// open file and write 
+fs.writeFileSync(`testted.txt`, PWD);
 
 export default {
   //input: '70-WJSON.logic.js', // your main entry point
@@ -21,7 +43,7 @@ export default {
   plugins: [
     alias({
       entries: [
-        { find: 'node_modules', replacement: '/home/rof13thfloor/work/Node-red-SGX/node_modules' },
+        { find: 'node_modules', replacement: `${PWD}` },
       ]
     }),
     // pathResolve(),

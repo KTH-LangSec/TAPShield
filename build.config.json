@@ -3,7 +3,7 @@
     "sourcemap": false,
     "bundleOnlyRequiredNodes": true,
     "outputDir": "build",
-    "configNodesFilePath": "/home/rof13thfloor/.node-red/.config.nodes.json",
+    "configNodesFilePath": "./.config.nodes.json",
     "caPath": "./ssl/ca.pem",
     "certPath": "./ssl/server.cert",
     "keyPath": "./ssl/server.key",

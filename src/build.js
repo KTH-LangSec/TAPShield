@@ -10,6 +10,7 @@ import { fileURLToPath } from "url";
 import { initializeUserDir, getRequiredNodes, addSSLKeys } from "./utils.js";
 import nullPackage from "./esbuild-plugin-null-package.js";
 import { polyfillNode } from "esbuild-plugin-polyfill-node";
+
 /**
  * Main script for building the node-red executable.
  * - Configuration is provided from build.config.json in root dir
@@ -18,12 +19,15 @@ import { polyfillNode } from "esbuild-plugin-polyfill-node";
  */
 
 // Define the custom resolver plugin
+
+const PWD = path.resolve("../");
+
 const customResolverPlugin = {
     name: 'custom-node-red-resolver',
     setup(build) {
         build.onResolve({ filter: /^node-red$/ }, args => {
             // Replace 'custom-module' with the actual path or URL
-            return { path: '/home/rof13thfloor/work/Node-red-SGX/node_modules/node-red/red.js' };
+            return { path: `${PWD}/node_modules/node-red/red.js` };
         });
     },
 };
