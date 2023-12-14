@@ -1,4 +1,4 @@
-filename = "Nodes/inject-with-nodejs"
+filename = "Nodes/template-with-Gramine"
 f = open(filename, "r")
 lines = f.readlines()
 values = []
