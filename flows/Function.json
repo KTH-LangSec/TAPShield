@@ -1,0 +1,76 @@
+[
+    {
+        "id": "ee95a8e54947b791",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "eae26faae23e6b2e",
+        "type": "inject",
+        "z": "ee95a8e54947b791",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 510,
+        "y": 4420,
+        "wires": [
+            [
+                "e61a3af19ada91df"
+            ]
+        ]
+    },
+    {
+        "id": "d2c0a347169a5a01",
+        "type": "debug",
+        "z": "ee95a8e54947b791",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 4360,
+        "wires": []
+    },
+    {
+        "id": "e61a3af19ada91df",
+        "type": "function",
+        "z": "ee95a8e54947b791",
+        "name": "function 1",
+        "func": "var dateNow = new Date();\nvar timeAsString = dateNow.toLocaleTimeString();\n\nmsg.payload = \n    ' The time is ' +\n    timeAsString + '.';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 4380,
+        "wires": [
+            [
+                "d2c0a347169a5a01"
+            ]
+        ]
+    }
+]
