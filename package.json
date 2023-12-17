@@ -25,6 +25,7 @@
     "node-red-contrib-tensorflow": "^0.4.2",
     "node-red-wasm-wrapper": "file:wasm-wrapper",
     "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-polyfills": "^0.2.1",
     "rollup-plugin-polyfill-node": "^0.12.0",
     "ts-jest": "^26.5.6",
     "ts-node": "^9.1.1",
