@@ -38,6 +38,11 @@ let CONTEXT = {};
 // See Node.js:37
 function wrapnodehinerit(obj){
   obj._flow = obj.flow;
+  if(!obj._flow){
+    obj._flow = {
+      path: '/javy/flow'
+    };
+  }
   delete obj.flow;
 }
 
@@ -51,6 +56,9 @@ function wrapmetrics(obj){
 // TODO
 // Wraps the communication with the host context object
 function wrapcontext(obj){
+  obj.log = function(msg){
+     console.log("[WASM] log", msg);
+  }
   obj.context = function(){
       let r = Node.IO.context();
       // The new coming and the already saved here
@@ -124,6 +132,9 @@ function initialize(CL){
         warn: function(msg){
           Node.IO.warn(msg)
         },
+        log: function(msg){
+          console.log("[WASM] log", msg);
+        },
         status(payload){
           // Node.IO.status(payload)
           console.log(JSON.stringify(payload))
@@ -150,6 +161,7 @@ const RED = {
     // THis is usually i18n
     // We skip its implementation for now
     // Ideally should be a comm between the host and the wasm 
+    console.log("TODO i18n", msg);
     return msg;
   },
   log: new Proxy({}, recursivehandler),
@@ -213,7 +225,7 @@ const RED = {
   comms: {
     publish: function(topic,data,retain) {
       // Call the host
-      //console.log("TODO port comms publish", topic, data, retain); 
+      console.log("TODO port comms publish", topic, data, retain); 
       
       Node.IO.emit("comms",{
           topic: topic,
