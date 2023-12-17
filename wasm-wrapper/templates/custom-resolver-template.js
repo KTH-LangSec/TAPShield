@@ -94,6 +94,7 @@ const BLOCKLIST = [
 
     // Node-RED
     ['buffer', `${__dirname}/../javy_js/buffer.js`],
+    ['xml2js',`${__dirname}/../javy_js/xml2js.js`],
     //['red_util', `${__dirname}/../../util/lib/util.js`],
     //['red_log', `${__dirname}/../../util/lib/log.js`],
 ]

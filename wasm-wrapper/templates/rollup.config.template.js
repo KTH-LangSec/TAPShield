@@ -1,8 +1,9 @@
 import commonjs from '@rollup/plugin-commonjs';
+import nodePolyfills from 'rollup-plugin-node-polyfills';
 import json from "@rollup/plugin-json";
 import builtins from 'rollup-plugin-node-builtins';
 import customResolver, {pathResolve} from './{{{RESOLVER}}}';
-import { nodeResolve } from '@rollup/plugin-node-resolve';
+import resolve, { nodeResolve } from '@rollup/plugin-node-resolve';
 import polyfillNode from 'rollup-plugin-polyfill-node'
 import inject from "@rollup/plugin-inject";
 // import typescript from '@rollup/plugin-typescript';
@@ -42,7 +43,7 @@ export default {
   },
   plugins: [
     alias({
-      entries: [
+      entries: [  
         { find: 'node_modules', replacement: `${PWD}` },
       ]
     }),
@@ -52,19 +53,23 @@ export default {
       browser: true,
       mainFields: ['browser', 'module'],
     }),
-    polyfillNode(),
+     polyfillNode(),
     // so Rollup can convert `node_modules` to an ES module,
 		// ,
-    builtins(),
-    commonjs({  ignoreGlobal: true, requireReturnsDefault: 'auto' }), 
-    ,
+    builtins(),    
+    nodePolyfills(),
+
+    commonjs({  
+      ignoreGlobal: true, 
+      requireReturnsDefault: 'auto'
+    }),
     json(), // To load json
     inject({
 			modules: {
 				// BigInt: require.resolve("big-integer"),
 				// process: "process-es6",
 				Buffer: ['buffer', 'Buffer']
-			},
+      },
 		}),
   ],
 };
