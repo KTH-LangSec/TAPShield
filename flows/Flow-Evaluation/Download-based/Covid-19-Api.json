@@ -1,0 +1,124 @@
+[
+    {
+        "id": "8f803953.977508",
+        "type": "tab",
+        "label": "Covid 19",
+        "disabled": false,
+        "info": ""
+    },  ds
+    {
+        "id": "d59eb24a.5a34b",
+        "type": "http request",
+        "z": "8f803953.977508",
+        "name": "Covid-19 API Portugal",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://api.api-ninjas.com/v1/covid19?date=2022-01-01",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "basic",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "X-Api-Key",
+                "valueType": "other",
+                "valueValue": "rg4g9f34eEo4iLx1rqAAvQ==2TzFU23RKAmNMDfc"
+            }
+        ],
+        "x": 260,
+        "y": 580,
+        "wires": [
+            [
+                "f86c84ce.e423f8",
+                "5a9f84b12fbbd6fd"
+            ]
+        ]
+    },
+    {
+        "id": "4a9c3152.b76e1",
+        "type": "inject",
+        "z": "8f803953.977508",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 520,
+        "wires": [
+            [
+                "d59eb24a.5a34b"
+            ]
+        ]
+    },
+    {
+        "id": "f86c84ce.e423f8",
+        "type": "function",
+        "z": "8f803953.977508",
+        "name": "Função para deixar tudo direitinho",
+        "func": "var message = \"\"\nfor (var i = 0; i < msg.payload.length; i++) { \nmessage += \"Country Name: \"+ msg.payload[i].country + \"  \" + \"Region: \" + msg.payload[i].region + \"  \" + \"Total Case of Covid19\" +  msg.payload[i].cases.total + \"\\n\"; \n} \nmsg.payload = message + \"\\n ---------end of report---------\"\nreturn msg;\n\n\n\n\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 640,
+        "wires": [
+            [
+                "d7e97af1.723d58"
+            ]
+        ]
+    },
+    {
+        "id": "d7e97af1.723d58",
+        "type": "debug",
+        "z": "8f803953.977508",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "5a9f84b12fbbd6fd",
+        "type": "debug",
+        "z": "8f803953.977508",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 460,
+        "wires": []
+    }
+]

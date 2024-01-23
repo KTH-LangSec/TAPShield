@@ -1,0 +1,149 @@
+[
+    {
+        "id": "bfdcfa302fb7b04c",
+        "type": "tab",
+        "label": "Receive SMS Messages with Nexmo",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "5ae9a0a937715ce1",
+        "type": "inject",
+        "z": "bfdcfa302fb7b04c",
+        "name": "phone number",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0728512465",
+        "payloadType": "str",
+        "x": 150,
+        "y": 320,
+        "wires": [
+            [
+                "61266af82027bdec"
+            ]
+        ]
+    },
+    {
+        "id": "e7e7ace57a1d08bf",
+        "type": "exec",
+        "z": "bfdcfa302fb7b04c",
+        "command": "curl -X \"POST\" \"https://rest.nexmo.com/sms/json\" \\   -d \"from=Vonage APIs\" \\   -d \"text=Hello Mojtaba\" \\                                  -d \"to=46728512465\" \\   -d \"api_key=1768736b\" \\   -d \"api_secret=S097qQkOCBnbwa3D\"",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 620,
+        "y": 500,
+        "wires": [
+            [
+                "b357dd232e7f2883"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b357dd232e7f2883",
+        "type": "debug",
+        "z": "bfdcfa302fb7b04c",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "61266af82027bdec",
+        "type": "http request",
+        "z": "bfdcfa302fb7b04c",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://rest.nexmo.com/sms/json?from=\"Vonage APIs\"&text=\"hello from HTTP response\"&to=46728512465&api_key=1768736b&api_secret=S097qQkOCBnbwa3D",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "from",
+                "valueType": "other",
+                "valueValue": "Vonage APIs"
+            },
+            {
+                "keyType": "other",
+                "keyValue": "text",
+                "valueType": "other",
+                "valueValue": "hello from HTTP response "
+            },
+            {
+                "keyType": "other",
+                "keyValue": "to",
+                "valueType": "other",
+                "valueValue": "46728512465"
+            },
+            {
+                "keyType": "other",
+                "keyValue": "api_key",
+                "valueType": "other",
+                "valueValue": "1768736b"
+            },
+            {
+                "keyType": "other",
+                "keyValue": "api_secret",
+                "valueType": "other",
+                "valueValue": "S097qQkOCBnbwa3D"
+            }
+        ],
+        "x": 430,
+        "y": 840,
+        "wires": [
+            [
+                "1634082960b58935"
+            ]
+        ]
+    },
+    {
+        "id": "1634082960b58935",
+        "type": "debug",
+        "z": "bfdcfa302fb7b04c",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 1000,
+        "wires": []
+    }
+]

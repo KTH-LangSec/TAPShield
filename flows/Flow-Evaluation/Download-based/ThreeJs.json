@@ -1,0 +1,251 @@
+[
+    {
+        "id": "4a47d156a1b9e6b3",
+        "type": "tab",
+        "label": "Domoticz & Tasmota",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3c0e4408a74adc7a",
+        "type": "http in",
+        "z": "4a47d156a1b9e6b3",
+        "name": "",
+        "url": "/cube",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 80,
+        "y": 440,
+        "wires": [
+            [
+                "dc38612d542349c5"
+            ]
+        ]
+    },
+    {
+        "id": "0feba107ee10f3bf",
+        "type": "http response",
+        "z": "4a47d156a1b9e6b3",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 625,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "dc38612d542349c5",
+        "type": "template",
+        "z": "4a47d156a1b9e6b3",
+        "name": "three.js",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<html>\n<head>\n\n    <title>Test</title>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    \n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.module.js\"></script>\n    \n<script>\nvar server = window.location.href.split(\"http://\")[1].split(\"/\")[0]\nconsole.log(\"Page location is \" + server)\n\nvar socket1 = new  WebSocket(\"ws://\" + server + \"/ws/receive\");\nvar socket2 = new  WebSocket(\"ws://\" + server + \"/ws/publish\");\nvar cubeRotationSpeed = 0.02;\nlet cubeColor = \"blue\"\nvar socket1Opened = false\n\nsocket1.onopen = function() {\n    socket1Opened = true\n  var message = {\n    'payload': 'Client connected'\n  };\n  socket1.send(JSON.stringify(message));\n};\n\nsocket2.onopen = function() {\n  var message = {\n    'payload': 'Client connected'\n  };\n  socket1.send(JSON.stringify(message));\n};\n\nsocket2.onclose = function(){\n  console.log('Connection closed');\n};\n\nsocket2.onerror = function(error) {\n  console.log('Error detected: ' + JSON.stringify(error));\n};\n\nsocket2.onmessage = function(e) {\n  var server_message = e.data;\n  responseObject = JSON.parse(server_message);\n\n  //alert(JSON.stringify(responseObject));\n  //Do the required stuff\n  console.log(responseObject.payload)\n  if (responseObject.payload.cubeRotationSpeed){\n      cubeRotationSpeed = responseObject.payload.cubeRotationSpeed\n  }else if(responseObject.payload.cubeColor){\n      cubeColor = responseObject.payload.cubeColor\n  }\n}\n\nvar scene = new THREE.Scene();\n\n// Make highly-transparent plane\nvar fadeMaterial = new THREE.MeshBasicMaterial({\n    color: 0x000000,\n    transparent: true,\n    opacity: 0.02\n});\nvar fadePlane = new THREE.PlaneBufferGeometry(1, 1);\nvar fadeMesh = new THREE.Mesh(fadePlane, fadeMaterial);\n\n// Create Object3D to hold camera and transparent plane\nvar camGroup = new THREE.Object3D();\nvar camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);\ncamGroup.add(camera);\ncamGroup.add(fadeMesh);\n\n// Put plane in front of camera\nfadeMesh.position.z = -0.1;\n\n// Make plane render before particles\nfadeMesh.renderOrder = -1;\n\n// Add camGroup to scene\nscene.add(camGroup);\n\n\nrenderer = new THREE.WebGLRenderer( { preserveDrawingBuffer: true, antialias: true } );\nrenderer.autoClearColor = false;\nrenderer.setSize(window.innerWidth, window.innerHeight);\n\ndocument.addEventListener('DOMContentLoaded', function () {   \n    document.body.appendChild(renderer.domElement);\n});\n\nvar geometry = new THREE.BoxGeometry(1,1,1);\n//var color = new THREE.Color(0xff0000)\nvar material = new THREE.MeshBasicMaterial({color: \"blue\"});\nvar cube = new THREE.Mesh(geometry, material);\nscene.add(cube);\n\ncube.position.z = -5;\n\nvar step = .03;\nfunction animate(){\n\n    cube.rotation.x += cubeRotationSpeed;\n    cube.rotation.y += 0.02;\n    cube.position.x += step;\n    cube.material.color = new THREE.Color(cubeColor);\n    if(Math.abs(cube.position.x) > 5.0)\n    {\n        step = -step;\n        if (socket1Opened){\n            socket1.send(\"ping\");\n        }\n    }\n    renderer.render(scene, camera);\n\n    requestAnimationFrame(animate);\n}\n\nanimate();\n\n</script>\n\n\n",
+        "output": "str",
+        "x": 290,
+        "y": 440,
+        "wires": [
+            [
+                "dacd055006c5d2c5"
+            ]
+        ]
+    },
+    {
+        "id": "66802145b1d305bb",
+        "type": "websocket out",
+        "z": "4a47d156a1b9e6b3",
+        "name": "",
+        "server": "c6bb1eb5.edd3d",
+        "client": "",
+        "x": 620,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "6d48db69416fb00c",
+        "type": "inject",
+        "z": "4a47d156a1b9e6b3",
+        "name": "Spin slow",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"cubeRotationSpeed\":0.02}",
+        "payloadType": "json",
+        "x": 425,
+        "y": 560,
+        "wires": [
+            [
+                "66802145b1d305bb"
+            ]
+        ]
+    },
+    {
+        "id": "75c79de091b29e52",
+        "type": "inject",
+        "z": "4a47d156a1b9e6b3",
+        "name": "Spin fast",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"cubeRotationSpeed\":0.1}",
+        "payloadType": "json",
+        "x": 425,
+        "y": 605,
+        "wires": [
+            [
+                "66802145b1d305bb"
+            ]
+        ]
+    },
+    {
+        "id": "dacd055006c5d2c5",
+        "type": "change",
+        "z": "4a47d156a1b9e6b3",
+        "name": "Set Headers",
+        "rules": [
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "headers.content-type",
+                "pt": "msg",
+                "to": "text/html",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "headers.Access-Control-Allow-Origin",
+                "pt": "msg",
+                "to": "*",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 440,
+        "wires": [
+            [
+                "0feba107ee10f3bf"
+            ]
+        ]
+    },
+    {
+        "id": "e49047829935a041",
+        "type": "change",
+        "z": "4a47d156a1b9e6b3",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "_session",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 615,
+        "y": 500,
+        "wires": [
+            [
+                "66802145b1d305bb"
+            ]
+        ]
+    },
+    {
+        "id": "ec2df590fcdab6fa",
+        "type": "websocket in",
+        "z": "4a47d156a1b9e6b3",
+        "name": "",
+        "server": "a5db9e65.7dd36",
+        "client": "",
+        "x": 100,
+        "y": 500,
+        "wires": [
+            [
+                "f3a5a96966c6aece"
+            ]
+        ]
+    },
+    {
+        "id": "f3a5a96966c6aece",
+        "type": "switch",
+        "z": "4a47d156a1b9e6b3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ping",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 265,
+        "y": 500,
+        "wires": [
+            [
+                "014f4a383055e8c5"
+            ]
+        ]
+    },
+    {
+        "id": "014f4a383055e8c5",
+        "type": "function",
+        "z": "4a47d156a1b9e6b3",
+        "name": "change color",
+        "func": "let colors = [\"white\",\"red\",0x00ff00,0x0000ff] //both hex or string are fine\nmsg.payload =  {\"cubeColor\": colors[Math.floor(Math.random()*colors.length)]}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 420,
+        "y": 500,
+        "wires": [
+            [
+                "e49047829935a041"
+            ]
+        ]
+    },
+    {
+        "id": "74385618eccaa7e6",
+        "type": "comment",
+        "z": "4a47d156a1b9e6b3",
+        "name": "Three.js example with websockets",
+        "info": "",
+        "x": 160,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "c6bb1eb5.edd3d",
+        "type": "websocket-listener",
+        "path": "/ws/publish",
+        "wholemsg": "true"
+    },
+    {
+        "id": "a5db9e65.7dd36",
+        "type": "websocket-listener",
+        "path": "/ws/receive",
+        "wholemsg": "true"
+    }
+]
