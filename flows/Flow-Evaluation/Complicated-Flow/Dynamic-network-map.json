@@ -1,0 +1,658 @@
+[
+    {
+        "id": "6e77c1e0.dd9ba8",
+        "type": "tab",
+        "label": "Fake-News to Twitter",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "90831ff5.70c858",
+        "type": "http in",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "url": "/networkapi",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 865,
+        "y": 440,
+        "wires": [
+            [
+                "9d0f8230.226f88"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e82032cc.66ced8",
+        "type": "http response",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 961,
+        "y": 440,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "9d0f8230.226f88",
+        "type": "change",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "network",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 913,
+        "y": 440,
+        "wires": [
+            [
+                "e82032cc.66ced8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "62016808.314be8",
+        "type": "function",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "func": "var m = msg.payload\nglobal.set('network',m)\n\nreturn {payload:global.get('network')}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 697,
+        "y": 440,
+        "wires": [
+            [
+                "b5f63d1d.57a9b8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b5f63d1d.57a9b8",
+        "type": "debug",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 745,
+        "y": 440,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "6058a657.1e87d8",
+        "type": "change",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "network",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "**.ip",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 697,
+        "y": 560,
+        "wires": [
+            [
+                "2c92f82c.ae7c3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2c92f82c.ae7c3",
+        "type": "function",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "func": "var m = msg.payload\n\nfor(var x=0;x<m.length;x++){\nnode.send({payload:m[x],ip:m[x]})    \n    \n}\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 753,
+        "y": 560,
+        "wires": [
+            [
+                "36739bd4.08a97c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "36739bd4.08a97c",
+        "type": "exec",
+        "z": "6e77c1e0.dd9ba8",
+        "command": "ping -c1 ",
+        "addpay": "payload",
+        "append": "| grep -i 100%",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 817,
+        "y": 560,
+        "wires": [
+            [
+                "6eb947a3.51da88",
+                "2d8ab804b167ca84"
+            ],
+            [
+                "2d8ab804b167ca84"
+            ],
+            [
+                "2d8ab804b167ca84"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6eb947a3.51da88",
+        "type": "function",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "func": "var n = global.get('network')\nvar ip = msg.ip\nvar state = (msg.payload===\"\")?true:false\n\nreturn {network:n,ipaddress:ip,state:state}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 889,
+        "y": 560,
+        "wires": [
+            [
+                "55ea9ebe.c981b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "55ea9ebe.c981b",
+        "type": "change",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "network",
+                "pt": "global",
+                "to": "\t$globalContext('network') ~>| **.properties[$contains(ip,$$.ipaddress)] |{\"reachable\":$boolean($$.state)} |",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 961,
+        "y": 560,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "4351f652.050938",
+        "type": "comment",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "Update Network Status",
+        "info": "",
+        "x": 710,
+        "y": 512,
+        "wires": []
+    },
+    {
+        "id": "88de01e0.6d774",
+        "type": "comment",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "Network - JSON API",
+        "info": "",
+        "x": 940,
+        "y": 392,
+        "wires": []
+    },
+    {
+        "id": "c32250dd.48ba3",
+        "type": "comment",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "Set Topology",
+        "info": "",
+        "x": 680,
+        "y": 392,
+        "wires": []
+    },
+    {
+        "id": "51a55089.d0c8e8",
+        "type": "inject",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 649,
+        "y": 560,
+        "wires": [
+            [
+                "6058a657.1e87d8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "71c08d4e.d425fc",
+        "type": "ui_template",
+        "z": "6e77c1e0.dd9ba8",
+        "tab": "458d5bcd.691d94",
+        "name": "",
+        "group": "948b2f03.477ee",
+        "order": 1,
+        "format": "<style>\n.nr-dashboard-template .ng-scope ._md .visible,.nr-dashboard-theme .ui-card-panel{background:transparent!important}\n\n.device{font-weight:bold}\ncircle {\n\tfill: #090;\n\tstroke: #090;\n\tstroke-width: 1.5px;\n}\ncircle.unreachable {\n\tfill: #f00;\n\tstroke: #f00;\n\tstroke-width: 1.5px;\n}\ncircle.reachable {\n\tfill: #090;\n\tstroke: #090;\n\tstroke-width: 1.5px;\n}\n.node,\ntext {\n\tfont: 10px 'Helvetica Neue';\n}\n.link {\n\tfill: none;\n\tstroke: #888;\n\tstroke-width: 1px;\n\tstroke-opacity: 1;\n}\n.reachable {\n\tfill: none;\n\tstroke: #090;\n}\n.unreachable {\n\tfill: none;\n\tstroke: #f30;\n}\n\n#chart {\n\twidth: 800px;\n\tmargin: 20px auto;\n\n}\n#chart path{\n    fill:none;\n}\n#info{position:absolute;bottom:8px;}\n#info p{\n    padding:8px;\n    font-size:11px;\n}\n#info a{text-decoration:none;color:#f90}\n.weight{font-weight:bold}\n</style>\n<script type=\"text/javascript\">\nfunction renderNetwork() {\n    $(\"body.nr-dashboard-theme .md-content .md-card,.nr-dashboard-theme .md-content .md-card,.nr-dashboard-theme .ui-card-panel\").css(\"background-color\",\"transparent!important\")\n\tvar w = 600,\n\t\th = 600;\n\n\tvar cluster = d3.layout.cluster().size([h, w - 200]);\n\n\tvar diagonal = d3.svg.diagonal().projection(function (d) {\n\t\treturn [d.y, d.x];\n\t});\n\n\tvar vis = d3\n\t\t.select('#chart')\n\t\t.append('svg:svg')\n\t\t.attr('width', w)\n\t\t.attr('height', h)\n\t\t.append('svg:g')\n\t\t.attr('transform', 'translate(70, 0)');\n\n\td3.json('../networkapi', function (json) {\n\t\tvar nodes = cluster.nodes(json);\n\n\t\tvar link = vis\n\t\t\t.selectAll('path.link')\n\t\t\t.data(cluster.links(nodes))\n\t\t\t.enter()\n\t\t\t.append('svg:path')\n\n\t\t\t.attr('class', 'link')\n\t\t\t.attr('d', diagonal);\n\n\t\tvar node = vis\n\t\t\t.selectAll('g.node')\n\t\t\t.data(nodes)\n\t\t\t.enter()\n\t\t\t.append('svg:g')\n\n\t\t\t.attr('transform', function (d) {\n\t\t\t\treturn 'translate(' + d.y + ',' + d.x + ')';\n\t\t\t});\n\n\t\tnode.append('svg:circle').attr('r', 4.5);\n\t\n\t\tnode.append('svg:text')\n\t\t\t.attr('dx', function (d) {\n\t\t\t\treturn d.children ? -8 : 8;\n\t\t\t})\n\n\t\t\t.attr('dy', 3)\n\t\t\t.attr('text-anchor', function (d) {\n\t\t\t\treturn d.children ? 'end' : 'start';\n\t\t\t})\n\t\t\t.attr('stroke-opacity', 0)\n\t\t\t.attr('fill', '#fff')\n\t\t\t.text(function (d) {\n\t\t\t\treturn d.name;\n\t\t\t})\n\t\t\t.attr('cursor', 'pointer')\n\t\t\t.on('mouseover', mouseover)\n\t\t\t.on('mouseout', mouseout)\n\t\t\t.on('click', info);\n\n\t\tvis.selectAll('circle')\n\t\t\t.filter(function (d) {\n\t\t\t\t//console.log(d.properties.reachable);\n\t\t\t\treturn d;\n\t\t\t})\n\t\t\t.attr('class', function (d, i) {\n\t\t\t//\tconsole.log(d, i);\n\t\t\t\tif (d.properties.reachable) {\n\t\t\t\t\treturn ' reachable';\n\t\t\t\t} else {\n\t\t\t\t\treturn ' unreachable';\n\t\t\t\t}\n\t\t\t});\n\t});\n}\n\nfunction updateNetwork() {\n    console.log('update')\n\td3.select('#chart svg').remove();\n\n\trenderNetwork();\n}\nfunction mouseover(d, i) {\n\td3.select(this).attr({\n\t\tfill: 'orange',\n\t});\n}\nfunction mouseout(d, i) {\n\td3.select(this).attr({\n\t\tfill: '#fff',\n\t});\n}\nfunction info(d, i) {\n    if(d.properties.type===\"ping\"){\n        $('#info').html(\"<p>Pinging...</p>\") \n    }\n    else{\n        $('#info').html(\"<p>Loading...</p>\")\n    }\n\n\tsc.send({payload:{name:d.name,ip:d.properties.ip,type:d.properties.type}});\n}\nrenderNetwork()\n\nvar sc = scope;\n\nint = setInterval(function(){\n    updateNetwork()\n},30000)\n</script>\n<script>\n(function(scope) {\n  scope.$watch('msg', function(msg) {\n    if (msg.update) {\n      // Do something when msg arrives\n      updateNetwork()\n     // $(\"#my_\"+scope.$id).html(msg.payload);\n    }\n    if (msg.info){\n        $(\"#info\").hide().html(\"\").html(msg.info).fadeIn()\n    }\n  });\n})(scope);\n</script>\n<div id=\"chart\"></div>\n<div id=\"info\"></div>\n    \n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "x": 793,
+        "y": 728,
+        "wires": [
+            [
+                "3ad6a50b.144c0a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ebb36c06.8fb5a",
+        "type": "comment",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "Render Network Map",
+        "info": "",
+        "x": 710,
+        "y": 632,
+        "wires": []
+    },
+    {
+        "id": "41f7dc80.724e64",
+        "type": "inject",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 649,
+        "y": 704,
+        "wires": [
+            [
+                "afb1db1b.fa126"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "fc9ae982.d0555",
+        "type": "function",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "func": "return {update:true}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 745,
+        "y": 704,
+        "wires": [
+            [
+                "71c08d4e.d425fc"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3ad6a50b.144c0a",
+        "type": "switch",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "property": "payload.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "tasmota",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "ping",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 841,
+        "y": 728,
+        "wires": [
+            [
+                "cd498e21.cfd81"
+            ],
+            [
+                "43c44754.63804"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "cd498e21.cfd81",
+        "type": "function",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "func": "var u = \"http://\"\nvar m = msg.payload\n\nvar url = \"http://\"+m.ip+\"/cm?cmnd=status%200\"\n\n\nreturn {url:url,node:m.name,ip:m.ip}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 889,
+        "y": 704,
+        "wires": [
+            [
+                "a6b24bf8.904898"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a6b24bf8.904898",
+        "type": "http request",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 937,
+        "y": 704,
+        "wires": [
+            [
+                "db490bc9.521ca8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "db490bc9.521ca8",
+        "type": "template",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "Tasmota",
+        "field": "info",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<p>\n<span class='weight'>{{node}}</span><br/>\n<span class='weight'>IP</span> <a href=\"http://{{ip}}\" target=\"_blank\">{{ip}}</a>\n<span class='weight'>Uptime</span> {{payload.StatusSTS.Uptime}} \n<span class='weight'>Version</span> {{payload.StatusFWR.Version}} \n<span class='weight'>SSId</span> {{payload.StatusSTS.Wifi.SSId}} \n<span class='weight'>RSSI</span> {{payload.StatusSTS.Wifi.RSSI}} \n</p>",
+        "output": "str",
+        "x": 1030,
+        "y": 704,
+        "wires": [
+            [
+                "4d477f4c.f0314",
+                "5a8d48a70d25249a"
+            ]
+        ]
+    },
+    {
+        "id": "4d477f4c.f0314",
+        "type": "link out",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "tasmota template out",
+        "mode": "link",
+        "links": [
+            "46559f3.46bf56"
+        ],
+        "x": 1153,
+        "y": 728,
+        "wires": []
+    },
+    {
+        "id": "46559f3.46bf56",
+        "type": "link in",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "links": [
+            "4d477f4c.f0314"
+        ],
+        "x": 745,
+        "y": 752,
+        "wires": [
+            [
+                "71c08d4e.d425fc"
+            ]
+        ]
+    },
+    {
+        "id": "43c44754.63804",
+        "type": "function",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "func": "var m = msg.payload\nvar cmd = \"ping -c4 \"+msg.payload.ip +\" | tail -n2\"\n\nreturn {payload:cmd,node:m.name,ip:m.ip}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 889,
+        "y": 752,
+        "wires": [
+            [
+                "6ba88c05.e45f14"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6ba88c05.e45f14",
+        "type": "exec",
+        "z": "6e77c1e0.dd9ba8",
+        "command": "",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 937,
+        "y": 752,
+        "wires": [
+            [
+                "a9061c41.5ef538"
+            ],
+            [],
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "a9061c41.5ef538",
+        "type": "template",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "Ping",
+        "field": "info",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<p>\n<span class='weight'>{{node}} ({{ip}})</span><br/>\n{{payload}}\n</p>",
+        "output": "str",
+        "x": 1020,
+        "y": 752,
+        "wires": [
+            [
+                "4d477f4c.f0314",
+                "5a8d48a70d25249a"
+            ]
+        ]
+    },
+    {
+        "id": "84782896.673eb8",
+        "type": "comment",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "Help - see Info tab",
+        "info": "### Set Topology in inject node\n\nFormat the network topology as (can have as many depths/connections as you like):\n\n```\n{\n  \"name\": \"Internet\",\n  \"properties\": {\n    \"type\": \"ping\",\n    \"reachable\": false,\n    \"ip\": \"google.com\"\n  },\n  \"children\": [\n    {\n      \"name\": \"Internet Router\",\n      \"properties\": {\n        \"type\": \"ping\",\n        \"reachable\": false,\n        \"ip\": \"192.168.1.1\"\n      },\n      \"children\": [\n        {\n          \"name\": \"Switch 1\",\n          \"properties\": {\n            \"type\": \"ping\",\n            \"reachable\": false,\n            \"ip\": \"192.168.1.10\"\n          },\n          \"children\": [\n            {\n              \"name\": \"Switch 2\",\n              \"properties\": {\n                \"type\": \"ping\",\n                \"reachable\": false,\n                \"ip\": \"192.168.1.20\"\n              },\n              \"children\": [\n                {\n                  \"name\": \"Computer 1\",\n                  \"properties\": {\n                    \"type\": \"ping\",\n                    \"reachable\": false,\n                    \"ip\": \"192.168.1.100\"\n                  }\n                },\n                {\n                  \"name\": \"Computer 2\",\n                  \"properties\": {\n                    \"type\": \"ping\",\n                    \"reachable\": false,\n                    \"ip\": \"192.168.1.101\"\n                  }\n                }\n              ]\n            },\n            {\n              \"name\": \"Hue Bridge\",\n              \"properties\": {\n                \"type\": \"ping\",\n                \"ip\": \"192.168.1.30\",\n                \"reachable\": false\n              }\n            },\n            {\n              \"name\": \"TV\",\n              \"properties\": {\n                \"type\": \"ping\",\n                \"ip\": \"192.168.1.40\",\n                \"reachable\": false\n              }\n            },\n            {\n              \"name\": \"NAS\",\n              \"properties\": {\n                \"type\": \"ping\",\n                \"reachable\": false,\n                \"ip\": \"192.168.1.200\"\n              }\n            }\n          ]\n        },\n        {\n          \"name\": \"Access Point\",\n          \"properties\": {\n            \"type\": \"ping\",\n            \"reachable\": false,\n            \"ip\": \"192.168.1.50\"\n          },\n          \"children\": [\n            {\n              \"name\": \"Wireless device 1\",\n              \"properties\": {\n                \"type\": \"tasmota\",\n                \"ip\": \"192.168.1.61\",\n                \"reachable\": false\n              }\n            },\n            {\n              \"name\": \"Wireless device 2\",\n              \"properties\": {\n                \"type\": \"tasmota\",\n                \"ip\": \"192.168.1.63\",\n                \"reachable\": false\n              }\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}\n```\n\n### Types\n\nThe flow currently has 2 types of information that can be displayed when a node is clicked in the network map:\n\n- ping\n- tasmota\n\nWith \"ping\" it will try to ping and display the rtt/packet loss\n\nWith \"tasmota\" it will use a http request node to execute the `status 0` and return the ssid/version/rssi. You can click the ip address to open the tasmota ui in a new tab\n\nTemplate nodes are used to format the output per type.\n\nThe switch node can be used to add/remove others\n\n#### Detail\n\nIt creates a web location: /networkapi that shows the topology and is read by the network map in the ui-template node\n\nThe map is refreshed every 30 seconds, can be changed in the ui-template node",
+        "x": 700,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "29604fa0.ef3b98",
+        "type": "inject",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"name\":\"Internet\",\"properties\":{\"type\":\"ping\",\"reachable\":false,\"ip\":\"google.com\"},\"children\":[{\"name\":\"Internet Router\",\"properties\":{\"type\":\"ping\",\"reachable\":false,\"ip\":\"192.168.1.1\"},\"children\":[{\"name\":\"Switch 1\",\"properties\":{\"type\":\"ping\",\"reachable\":false,\"ip\":\"192.168.1.10\"},\"children\":[{\"name\":\"Switch 2\",\"properties\":{\"type\":\"ping\",\"reachable\":false,\"ip\":\"192.168.1.20\"},\"children\":[{\"name\":\"Computer 1\",\"properties\":{\"type\":\"ping\",\"reachable\":false,\"ip\":\"192.168.1.100\"}},{\"name\":\"Computer 2\",\"properties\":{\"type\":\"ping\",\"reachable\":false,\"ip\":\"192.168.1.101\"}}]},{\"name\":\"Hue Bridge\",\"properties\":{\"type\":\"ping\",\"ip\":\"192.168.1.30\",\"reachable\":false}},{\"name\":\"TV\",\"properties\":{\"type\":\"ping\",\"ip\":\"192.168.1.40\",\"reachable\":false}},{\"name\":\"NAS\",\"properties\":{\"type\":\"ping\",\"reachable\":false,\"ip\":\"192.168.1.200\"}}]},{\"name\":\"Access Point\",\"properties\":{\"type\":\"ping\",\"reachable\":false,\"ip\":\"192.168.1.50\"},\"children\":[{\"name\":\"Wireless device 1\",\"properties\":{\"type\":\"tasmota\",\"ip\":\"192.168.1.61\",\"reachable\":false}},{\"name\":\"Wireless device 2\",\"properties\":{\"type\":\"tasmota\",\"ip\":\"192.168.1.63\",\"reachable\":false}}]}]}]}",
+        "payloadType": "json",
+        "x": 649,
+        "y": 440,
+        "wires": [
+            [
+                "62016808.314be8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "afb1db1b.fa126",
+        "type": "delay",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 697,
+        "y": 704,
+        "wires": [
+            [
+                "fc9ae982.d0555"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2d8ab804b167ca84",
+        "type": "debug",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "5a8d48a70d25249a",
+        "type": "debug",
+        "z": "6e77c1e0.dd9ba8",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1480,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "458d5bcd.691d94",
+        "type": "ui_tab",
+        "name": "Network",
+        "icon": "dashboard",
+        "order": 4
+    }
+]

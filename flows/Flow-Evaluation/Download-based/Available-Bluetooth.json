@@ -1,0 +1,97 @@
+[
+    {
+        "id": "a2aa8fbd.4cf9c8",
+        "type": "tab",
+        "label": "Available bluetooth",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f01d11e6.a3026",
+        "type": "exec",
+        "z": "a2aa8fbd.4cf9c8",
+        "command": "/usr/bin/hcitool",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "10",
+        "winHide": false,
+        "oldrc": false,
+        "name": "bt presence",
+        "x": 350,
+        "y": 160,
+        "wires": [
+            [
+                "124fdc39.b4a09c"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "124fdc39.b4a09c",
+        "type": "function",
+        "z": "a2aa8fbd.4cf9c8",
+        "name": "nonempty",
+        "func": "msg.payload = msg.payload ? 1 : 0;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 160,
+        "wires": [
+            [
+                "df8114bf.397578"
+            ]
+        ]
+    },
+    {
+        "id": "df735f89.216f8",
+        "type": "inject",
+        "z": "a2aa8fbd.4cf9c8",
+        "name": "cellphone",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "name 44:EA:30:35:23:C6",
+        "payloadType": "str",
+        "x": 180,
+        "y": 160,
+        "wires": [
+            [
+                "f01d11e6.a3026"
+            ]
+        ]
+    },
+    {
+        "id": "df8114bf.397578",
+        "type": "debug",
+        "z": "a2aa8fbd.4cf9c8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 160,
+        "wires": []
+    }
+]

@@ -5,7 +5,7 @@
         "label": "Covid 19",
         "disabled": false,
         "info": ""
-    },  ds
+    },  
     {
         "id": "d59eb24a.5a34b",
         "type": "http request",

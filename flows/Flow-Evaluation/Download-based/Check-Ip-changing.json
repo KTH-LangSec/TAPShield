@@ -1,0 +1,492 @@
+[
+    {
+        "id": "ec63c84d.6e9a68",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "efe2d8e2.101d28",
+        "type": "json",
+        "z": "ec63c84d.6e9a68",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 770,
+        "y": 980,
+        "wires": [
+            [
+                "aa452094.55bae"
+            ]
+        ]
+    },
+    {
+        "id": "aa452094.55bae",
+        "type": "file",
+        "z": "ec63c84d.6e9a68",
+        "name": "writeFile",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": true,
+        "x": 898.0001220703125,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ea07170c.15f8e8",
+        "type": "file in",
+        "z": "ec63c84d.6e9a68",
+        "name": "readFile",
+        "filename": "",
+        "format": "utf8",
+        "x": 623.2505073547363,
+        "y": 433.0000762939453,
+        "wires": [
+            [
+                "879674f6.786988"
+            ]
+        ]
+    },
+    {
+        "id": "cd20464d.32dfb8",
+        "type": "inject",
+        "z": "ec63c84d.6e9a68",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "filename",
+        "payload": "",
+        "payloadType": "str",
+        "x": 150,
+        "y": 320,
+        "wires": [
+            [
+                "da603295.259fd"
+            ]
+        ]
+    },
+    {
+        "id": "da603295.259fd",
+        "type": "change",
+        "z": "ec63c84d.6e9a68",
+        "name": "filename",
+        "action": "replace",
+        "property": "filename",
+        "from": "",
+        "to": "msg.payload",
+        "reg": false,
+        "x": 199.00015258789062,
+        "y": 438.99964141845703,
+        "wires": [
+            [
+                "e1d4e355.1e2b2"
+            ]
+        ]
+    },
+    {
+        "id": "9791b6c5.686e48",
+        "type": "change",
+        "z": "ec63c84d.6e9a68",
+        "name": "myPublicIp.json",
+        "rules": [
+            {
+                "t": "set",
+                "p": "filename",
+                "pt": "msg",
+                "to": "myPublicIp.json",
+                "tot": "str"
+            }
+        ],
+        "x": 467.0001678466797,
+        "y": 472.9998245239258,
+        "wires": [
+            [
+                "ea07170c.15f8e8"
+            ]
+        ]
+    },
+    {
+        "id": "e1d4e355.1e2b2",
+        "type": "switch",
+        "z": "ec63c84d.6e9a68",
+        "name": "",
+        "property": "filename.length",
+        "rules": [
+            {
+                "t": "gt",
+                "v": 0,
+                "v2": 0
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "outputs": 2,
+        "x": 322.0001678466797,
+        "y": 439.9996109008789,
+        "wires": [
+            [
+                "ea07170c.15f8e8"
+            ],
+            [
+                "9791b6c5.686e48"
+            ]
+        ]
+    },
+    {
+        "id": "879674f6.786988",
+        "type": "switch",
+        "z": "ec63c84d.6e9a68",
+        "name": "",
+        "property": "payload.length",
+        "rules": [
+            {
+                "t": "gt",
+                "v": 0,
+                "v2": 0
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 2,
+        "x": 744.0001525878906,
+        "y": 432.99976348876953,
+        "wires": [
+            [
+                "28508baa.d7af74"
+            ],
+            [
+                "9e9c4988.6163b8"
+            ]
+        ]
+    },
+    {
+        "id": "38cdd923.c73226",
+        "type": "change",
+        "z": "ec63c84d.6e9a68",
+        "name": "last ip from file",
+        "action": "replace",
+        "property": "lastip",
+        "from": "",
+        "to": "msg.payload",
+        "reg": false,
+        "x": 252.99998474121094,
+        "y": 700,
+        "wires": [
+            [
+                "18dba7fa.e72458"
+            ]
+        ]
+    },
+    {
+        "id": "867b0155.7985",
+        "type": "debug",
+        "z": "ec63c84d.6e9a68",
+        "name": "Stable IP",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "2171d65a.de8e2a",
+        "type": "function",
+        "z": "ec63c84d.6e9a68",
+        "name": "Compare IP",
+        "func": "var lastip = msg.lastip.ip;\nvar currentip = msg.payload.ip;\nmsg.currentip = currentip;\nmsg.topic = \"stable\";\nif (lastip !== currentip) {\nmsg.payload.ip = currentip;\nmsg.topic = \"new\";\n}\n\nreturn msg;\n",
+        "outputs": "1",
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 150.55563354492188,
+        "y": 976.4368648529053,
+        "wires": [
+            [
+                "7fa361a4.805ca"
+            ]
+        ]
+    },
+    {
+        "id": "28508baa.d7af74",
+        "type": "json",
+        "z": "ec63c84d.6e9a68",
+        "name": "",
+        "x": 110,
+        "y": 700,
+        "wires": [
+            [
+                "38cdd923.c73226"
+            ]
+        ]
+    },
+    {
+        "id": "7fa361a4.805ca",
+        "type": "template",
+        "z": "ec63c84d.6e9a68",
+        "name": "Description",
+        "field": "payload",
+        "fieldType": "msg",
+        "syntax": "mustache",
+        "template": "Your {{topic}} Public IP: http://{{payload.ip}}",
+        "x": 295.3056640625,
+        "y": 975.4368419647217,
+        "wires": [
+            [
+                "9d009b0d.62ff68"
+            ]
+        ]
+    },
+    {
+        "id": "9d009b0d.62ff68",
+        "type": "switch",
+        "z": "ec63c84d.6e9a68",
+        "name": "",
+        "property": "topic",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "stable"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "outputs": 2,
+        "x": 421.3056640625,
+        "y": 974.527753829956,
+        "wires": [
+            [
+                "867b0155.7985"
+            ],
+            [
+                "a0961f69.5f69e",
+                "89e2ba80.761d48"
+            ]
+        ]
+    },
+    {
+        "id": "a0961f69.5f69e",
+        "type": "function",
+        "z": "ec63c84d.6e9a68",
+        "name": "prepare",
+        "func": "var newFile = {};\nnewFile.filename = msg.filename;\nnewFile.payload = {ip: msg.currentip};\n\nreturn newFile;",
+        "outputs": "1",
+        "x": 579.3058471679688,
+        "y": 978.527753829956,
+        "wires": [
+            [
+                "efe2d8e2.101d28"
+            ]
+        ]
+    },
+    {
+        "id": "9e9c4988.6163b8",
+        "type": "change",
+        "z": "ec63c84d.6e9a68",
+        "name": "null",
+        "action": "replace",
+        "property": "lastip",
+        "from": "",
+        "to": "null",
+        "reg": false,
+        "x": 112.00000762939453,
+        "y": 761.2500076293945,
+        "wires": [
+            [
+                "18dba7fa.e72458"
+            ]
+        ]
+    },
+    {
+        "id": "89e2ba80.761d48",
+        "type": "debug",
+        "z": "ec63c84d.6e9a68",
+        "name": "New IP",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 619.3057479858398,
+        "y": 1035.5277833938599,
+        "wires": []
+    },
+    {
+        "id": "18dba7fa.e72458",
+        "type": "http request",
+        "z": "ec63c84d.6e9a68",
+        "name": "Server",
+        "method": "GET",
+        "url": "http://ipecho.net/plain",
+        "x": 433.99998474121094,
+        "y": 760,
+        "wires": [
+            [
+                "4e6deebe.b1921"
+            ]
+        ]
+    },
+    {
+        "id": "4e6deebe.b1921",
+        "type": "function",
+        "z": "ec63c84d.6e9a68",
+        "name": "payload.ip",
+        "func": "var regObj = new RegExp(\"(?:(?:25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9][0-9]|[0-9]).){3}(?:25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9][0-9]|[0-9])\");\nvar str = msg.payload;\nvar myIp = {};\nmyIp = str.match(regObj);\nmsg.payload = {ip : myIp[0]};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590.0001068115234,
+        "y": 758.9999923706055,
+        "wires": [
+            [
+                "2171d65a.de8e2a"
+            ]
+        ]
+    },
+    {
+        "id": "f93b2aaf.06c4d8",
+        "type": "comment",
+        "z": "ec63c84d.6e9a68",
+        "name": "Filename",
+        "info": "use the \"payload\" property to define a custom file name to hold\nthe public Ip address.\nThis flow uses the json format and will create a file when\nit is not found or when the public ip address changes.",
+        "x": 78.27288055419922,
+        "y": 388.2723617553711,
+        "wires": []
+    },
+    {
+        "id": "e2387874.1dc788",
+        "type": "comment",
+        "z": "ec63c84d.6e9a68",
+        "name": "Is there a filename defined?",
+        "info": "If it is blank, inject the default file name into the flow.",
+        "x": 380.77296447753906,
+        "y": 398.2723922729492,
+        "wires": []
+    },
+    {
+        "id": "84b5bfa8.7b4a4",
+        "type": "comment",
+        "z": "ec63c84d.6e9a68",
+        "name": "Valid file?",
+        "info": "By checking the length of the payload we can determine if\nthe file exists or not.",
+        "x": 742.0229072570801,
+        "y": 388.27235317230225,
+        "wires": []
+    },
+    {
+        "id": "baa85fda.4557a",
+        "type": "comment",
+        "z": "ec63c84d.6e9a68",
+        "name": "New file check",
+        "info": "If the file does not exist, set the lastip property\nto something that will not match when we check a service for\nour public ip.",
+        "x": 126.02270889282227,
+        "y": 805.7727146148682,
+        "wires": []
+    },
+    {
+        "id": "76a85c87.8957a4",
+        "type": "comment",
+        "z": "ec63c84d.6e9a68",
+        "name": "good file",
+        "info": "convert the string to json and move it to the\nmsg.lastip property",
+        "x": 109.77271270751953,
+        "y": 654.5227117538452,
+        "wires": []
+    },
+    {
+        "id": "c1b31971.3e4ce8",
+        "type": "comment",
+        "z": "ec63c84d.6e9a68",
+        "name": "Check IP",
+        "info": "Use a web service to check your ip address.\nThen use a function to extract the ip from the result.\nTested with these Services:\nhttp://checkip.dyndns.org/\nhttp://echoip.com/\nhttp://ipecho.net/plain\nhttp://bot.whatismyipaddress.com/\n",
+        "x": 446.0226516723633,
+        "y": 709.0227203369141,
+        "wires": []
+    },
+    {
+        "id": "2ae8338b.d517cc",
+        "type": "comment",
+        "z": "ec63c84d.6e9a68",
+        "name": "Compare",
+        "info": "compare the results from the WEB with file",
+        "x": 144.8285140991211,
+        "y": 1024.5505123138428,
+        "wires": []
+    },
+    {
+        "id": "cfea625d.3015a",
+        "type": "comment",
+        "z": "ec63c84d.6e9a68",
+        "name": "Text Description",
+        "info": "Add some words around the result to tell you whats going on.",
+        "x": 291.0784683227539,
+        "y": 929.5505046844482,
+        "wires": []
+    },
+    {
+        "id": "b9a0c538.465f38",
+        "type": "comment",
+        "z": "ec63c84d.6e9a68",
+        "name": "Results",
+        "info": "The results will flow out the top if they are unchanged\nor flow out the bottom when they have changed.\nwe also write that to our file for next time.\nThis would be the ideal place to email or tweet on change.",
+        "x": 418.5784721374512,
+        "y": 1024.550513267517,
+        "wires": []
+    },
+    {
+        "id": "ef989b74.106768",
+        "type": "comment",
+        "z": "ec63c84d.6e9a68",
+        "name": "No?",
+        "info": "Then use the default defined here.",
+        "x": 453.2728805541992,
+        "y": 514.5223388671875,
+        "wires": []
+    },
+    {
+        "id": "245971d4.dba68e",
+        "type": "comment",
+        "z": "ec63c84d.6e9a68",
+        "name": "Save if different",
+        "info": "This ensures we remember the ip thru power cycles ;-)",
+        "x": 865.7728729248047,
+        "y": 1035.7723627090454,
+        "wires": []
+    }
+]
