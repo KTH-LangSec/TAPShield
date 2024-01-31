@@ -16,7 +16,7 @@
     "jest": "^26.6.3",
     "microbundle": "^0.13.0",
     "mock-fs": "^4.14.0",
-    "node-red": "3.0.2", 
+    "node-red": "3.0.2",
     "node-red-contrib-image-output": "^0.6.3",
     "node-red-contrib-tensorflow": "^0.4.2",
     "ts-jest": "^26.5.6",
@@ -28,11 +28,18 @@
     "start": "(cd build ; node index.js)"
   },
   "dependencies": {
+    "aws-sdk": "^2.1545.0",
     "esbuild": "^0.11.20",
     "esbuild-plugin-alias": "^0.1.2",
     "esbuild-plugin-text-replace": "^1.1.0",
     "express": "^4.17.3",
+    "install": "^0.13.0",
     "kleur": "^4.1.4",
+    "mock-aws-s3": "^4.0.2",
+    "nock": "^13.5.1",
+    "node-red-contrib-model-asset-exchange": "^0.2.8",
+    "node-red-contrib-tensorflow-js": "^0.0.8",
+    "node-red-contrib-time-range-switch": "^1.2.0",
     "yargs": "^17.0.1"
   },
   "optionalDependencies": {
