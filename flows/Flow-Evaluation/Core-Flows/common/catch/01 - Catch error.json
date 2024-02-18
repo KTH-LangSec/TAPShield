@@ -1,0 +1,119 @@
+[
+    {
+        "id": "1e758f114b976c7e",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d1073c30.cb321",
+        "type": "inject",
+        "z": "1e758f114b976c7e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Hello, World!",
+        "payloadType": "str",
+        "x": 420,
+        "y": 520,
+        "wires": [
+            [
+                "7bab9134.35ad"
+            ]
+        ]
+    },
+    {
+        "id": "f96f0ba7.cfe008",
+        "type": "debug",
+        "z": "1e758f114b976c7e",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "3ea03953.25a1a6",
+        "type": "comment",
+        "z": "1e758f114b976c7e",
+        "name": "Example: Catch Node",
+        "info": "Catch node can catch error caused by specified nodes or all nodes in a flow.  It receives input of target node.",
+        "x": 340,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "d6a15623.056d18",
+        "type": "comment",
+        "z": "1e758f114b976c7e",
+        "name": "Catch error of a node",
+        "info": "",
+        "x": 380,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "7e1c072c.bc1cc8",
+        "type": "comment",
+        "z": "1e758f114b976c7e",
+        "name": "Catch error caused by function node",
+        "info": "",
+        "x": 660,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "b45ca54e.eca208",
+        "type": "catch",
+        "z": "1e758f114b976c7e",
+        "name": "",
+        "scope": [
+            "7bab9134.35ad"
+        ],
+        "uncaught": false,
+        "x": 580,
+        "y": 560,
+        "wires": [
+            [
+                "f96f0ba7.cfe008"
+            ]
+        ]
+    },
+    {
+        "id": "7bab9134.35ad",
+        "type": "function",
+        "z": "1e758f114b976c7e",
+        "name": "Error",
+        "func": "throw new Error(\"Error Occured!\")",
+        "outputs": 0,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 520,
+        "wires": []
+    }
+]

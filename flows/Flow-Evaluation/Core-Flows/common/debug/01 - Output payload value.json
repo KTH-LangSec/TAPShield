@@ -1,0 +1,63 @@
+[
+    {
+        "id": "0281bb07bc9e1245",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "87bd706a.aec93",
+        "type": "comment",
+        "z": "0281bb07bc9e1245",
+        "name": "Output payload value to debug sidebar",
+        "info": "Debug node can be used to output payload value to debug sidebar.",
+        "x": 410,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "8035b07f.7547e",
+        "type": "inject",
+        "z": "0281bb07bc9e1245",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Hello, World!",
+        "payloadType": "str",
+        "x": 400,
+        "y": 600,
+        "wires": [
+            [
+                "20d1344f.931e3c"
+            ]
+        ]
+    },
+    {
+        "id": "20d1344f.931e3c",
+        "type": "debug",
+        "z": "0281bb07bc9e1245",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 630,
+        "y": 600,
+        "wires": []
+    }
+]

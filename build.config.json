@@ -7,7 +7,7 @@
     "caPath": "/home/rof13thfloor/work/ssl/ca.pem",
     "certPath": "/home/rof13thfloor/work/ssl/server.cert",
     "keyPath": "/home/rof13thfloor/work/ssl/server.key",
-    "flowFilePath": "/home/rof13thfloor/work/Node-red-SGX/flows/Flow-Evaluation/Download-based/5-tensorflow.json",
+    "flowFilePath": "./flows/Flow-Evaluation/Core-Flows/network/websocket/02 - Connect to websocket out server.json",
     "manifestFilePath": "/home/rof13thfloor/work/Node-red-SGX/manifests/Default.toml",
     "remoteDir": "/home/azureuser/gramine-test",
     "uploadBundle": true,
