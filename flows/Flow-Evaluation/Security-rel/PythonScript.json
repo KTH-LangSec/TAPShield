@@ -1,0 +1,134 @@
+[
+    {
+        "id": "d7276cd2.d6f55",
+        "type": "tab",
+        "label": "pythontest",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "a7d4e707.fd8a18",
+        "type": "inject",
+        "z": "d7276cd2.d6f55",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 240,
+        "wires": [
+            [
+                "97c92fce.dd6f6"
+            ]
+        ]
+    },
+    {
+        "id": "97c92fce.dd6f6",
+        "type": "template",
+        "z": "d7276cd2.d6f55",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "python",
+        "syntax": "plain",
+        "template": "import time\n\n\nprint(time.ctime())\n\n",
+        "output": "str",
+        "x": 320,
+        "y": 240,
+        "wires": [
+            [
+                "1273e63.74b5c1a"
+            ]
+        ]
+    },
+    {
+        "id": "1273e63.74b5c1a",
+        "type": "file",
+        "z": "d7276cd2.d6f55",
+        "name": "",
+        "filename": "user-dir/pythontest.py",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 480,
+        "y": 180,
+        "wires": [
+            [
+                "14057906.c24237"
+            ]
+        ]
+    },
+    {
+        "id": "14057906.c24237",
+        "type": "exec",
+        "z": "d7276cd2.d6f55",
+        "command": "python3 user-dir/pythontest.py",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 810,
+        "y": 120,
+        "wires": [
+            [
+                "a33c536c.9900e"
+            ],
+            [
+                "d318844fbfa087bb"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a33c536c.9900e",
+        "type": "debug",
+        "z": "d7276cd2.d6f55",
+        "name": "debug2",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "d318844fbfa087bb",
+        "type": "debug",
+        "z": "d7276cd2.d6f55",
+        "name": "debug1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 140,
+        "wires": []
+    }
+]

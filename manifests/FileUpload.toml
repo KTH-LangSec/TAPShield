@@ -30,11 +30,7 @@ fs.mounts  = [
   { type = "chroot", path = "/usr/{{ arch_libdir }}", uri = "file:/usr/{{ arch_libdir }}"},
   { type = "chroot", path = "/etc", uri = "file:/etc" },
   { type = "chroot", path = "/proc", uri = "file:/proc" }, 
-  #{ type = "chroot", path = "/user-dir", uri = "file:user-dir"},
-  # ------- Exec workflow requirements -------
-  { type = "chroot", path =  "{{ bin_dir }}/sh", uri = "file:/bin/sh"},
-  { type = "chroot", path =  "/usr/bin/python3", uri = "file:/bin/python3"},
-  { type = "chroot", path =  "{{ bin_dir }}/free", uri = "file:/bin/free"}
+  #{ type = "encrypted", path = "/user-dir", uri = "file:user-dir", key_name = "default"},
 ] 
 
 sgx.nonpie_binary = true
@@ -51,19 +47,11 @@ sgx.trusted_files = [
   "file:libsecret_prov_attest.so", 
   "file:ssl/ca.crt",
   "file:main.js",
-  "file:{{ bin_dir }}/sh",
-  "file:{{ bin_dir }}/free",
-  "file:/usr/bin/python3",
-  "file:user-dir/"
+  "file:user-dir/",
 ]
 
 # Add allowed files that can be written to:
 sgx.allowed_files = [
   "file:/etc/",
-  "file:/proc/",
-  "file:{{ bin_dir }}/sh",
-  "file:{{ bin_dir }}/free",
-  "file:monitor-output.txt",
-  "file:user-dir/",
-  "file:/usr/bin/python3"
+  "file:/proc/"
 ]
