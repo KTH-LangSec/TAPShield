@@ -1,0 +1,210 @@
+[
+    {
+        "id": "81945e5e.29fd7",
+        "type": "tab",
+        "label": "Adventskalender",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "acc9a497.885858",
+        "type": "telegram command",
+        "z": "81945e5e.29fd7",
+        "name": "",
+        "command": "/start",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "bot": "3c22b2ec0d03e81d",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 90,
+        "y": 140,
+        "wires": [
+            [
+                "5d3c92e1.65c0bc"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5d3c92e1.65c0bc",
+        "type": "function",
+        "z": "81945e5e.29fd7",
+        "name": "Keyboard erstellen",
+        "func": "var opts = {\n  reply_markup: JSON.stringify({\n    keyboard: [\n      ['10' , '4', '15', '22', '13', '5'],\n      ['20' , '17', '9', '6', '24', '16'],\n      ['3' , '14', '8', '1', '21', '23'],\n      ['7' , '2', '12', '18', '11', '19']],\n      'resize_keyboard' : true,\n      'one_time_keyboard' : true\n  })\n};\n\nmsg.payload.content = 'Start-Text...';\nmsg.payload.options = opts;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 140,
+        "wires": [
+            [
+                "7c815ed.72eeca"
+            ]
+        ]
+    },
+    {
+        "id": "7c815ed.72eeca",
+        "type": "telegram sender",
+        "z": "81945e5e.29fd7",
+        "name": "",
+        "bot": "3c22b2ec0d03e81d",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 850,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "30ac90d5.7fc8b",
+        "type": "telegram receiver",
+        "z": "81945e5e.29fd7",
+        "name": "",
+        "bot": "3c22b2ec0d03e81d",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 130,
+        "y": 240,
+        "wires": [
+            [
+                "516775e1.c50bdc"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "46494ce3.155b74",
+        "type": "function",
+        "z": "81945e5e.29fd7",
+        "name": "Adventskalender Türchen öffnen",
+        "func": "//Funktionen um Zeiten umzuwandeln\nfunction dateConvert(UNIX_timestamp) {\n  var dateObject = new Date((UNIX_timestamp) * 1000);\n  return dateObject.toLocaleString('de-DE', {  hour12: false, day: '2-digit', month: '2-digit', year: 'numeric', hour: 'numeric', minute: '2-digit'});\n}\nfunction dayConvert(UNIX_timestamp) {\n  var dateObject = new Date((UNIX_timestamp) * 1000);\n  return dateObject.toLocaleString('de-DE', { day: 'numeric'});\n}\nfunction unixConvert(DATUM){\n    return Math.floor(new Date(DATUM).getTime()/1000);\n}\n\n//Abspeichern welches Türchen geöffnet wird\ntuerchen = msg.payload.content;\n\n//Textbausteine die ausgegeben werden\ndatum_start       = \"2021-12-01 00:00:00\";\ndatum_ende        = \"2021-12-31 23:59:59\"; //Zeitraum, wie lange die Türchen noch geöffnet werden können. MAX: 2021-12-31\ntext_start        = \"Mensch, du bist aber neugierig. Das erste Türchen darst du erst am 01.12.2021 öffnen ;-). Hab noch etwas Geduld...\";\ntext_zukunft      = \"Du hast auf Türchen \" + tuerchen + \" geklickt, aber heute darfst du erst Türchen \" + dayConvert(msg.payload.date).toString() + \" öffnen...\\n\\nMöchtest du also schummeln und das Türchen früher öffnen? :-p\"\ntext_ende         = \"Die Türchen des Adventskalenders können leider nicht mehr geöffnet werden.\"\ntext_tuerchen     = [];\ntext_tuerchen[1]  = \"Text 1\";\ntext_tuerchen[2]  = \"Text 2\";\ntext_tuerchen[3]  = \"Text 3\";\ntext_tuerchen[4]  = \"Text 4\";\ntext_tuerchen[5]  = \"Text 5\";\ntext_tuerchen[6]  = \"Text 6\";\ntext_tuerchen[7]  = \"Text 7\";\ntext_tuerchen[8]  = \"Text 8\";\ntext_tuerchen[9]  = \"Text 9\";\ntext_tuerchen[10] = \"Text 10\";\ntext_tuerchen[11] = \"Text 11\";\ntext_tuerchen[12] = \"Text 12\";\ntext_tuerchen[13] = \"Text 13\";\ntext_tuerchen[14] = \"Text 14\";\ntext_tuerchen[15] = \"Text 15\";\ntext_tuerchen[16] = \"Text 16\";\ntext_tuerchen[17] = \"Text 17\";\ntext_tuerchen[18] = \"Text 18\";\ntext_tuerchen[19] = \"Text 19\";\ntext_tuerchen[20] = \"Text 20\";\ntext_tuerchen[21] = \"Text 21\";\ntext_tuerchen[22] = \"Text 22\";\ntext_tuerchen[23] = \"Text 23\";\ntext_tuerchen[24] = \"Text 24\";\n\n\nmsg.payload.type = 'message';\nmsg.payload.options = {parse_mode : \"Markdown\"};\n\n//Steuerung der Ausgabe\nif(msg.payload.date < unixConvert(datum_start)){\n    msg.payload.content = text_start;\n} else if (msg.payload.date > unixConvert(datum_ende)){\n    msg.payload.content = text_ende;\n} else {\n    aktuellerTag = dayConvert(msg.payload.date).toString();\n    if (Number(tuerchen) <= Number(aktuellerTag)){\n        msg.payload.content  = '*Türchen ' + tuerchen + ':*\\n';\n        msg.payload.content += text_tuerchen[tuerchen];\n        if (Number(tuerchen) < Number(aktuellerTag)){\n            msg.payload.content += '\\n\\n_(Das Türchen hättest du aber schon früher öffnen dürfen)_\\n';\n        }\n    } else {\n        msg.payload.content = text_zukunft;\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 23,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 240,
+        "wires": [
+            [
+                "7c815ed.72eeca"
+            ]
+        ]
+    },
+    {
+        "id": "516775e1.c50bdc",
+        "type": "switch",
+        "z": "81945e5e.29fd7",
+        "name": "Check",
+        "property": "$number(msg.payload.content)",
+        "propertyType": "jsonata",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "1",
+                "vt": "num",
+                "v2": "24",
+                "v2t": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 310,
+        "y": 240,
+        "wires": [
+            [
+                "46494ce3.155b74"
+            ]
+        ]
+    },
+    {
+        "id": "533acedddb856eb9",
+        "type": "change",
+        "z": "81945e5e.29fd7",
+        "name": "Client ID, User secret et Channel",
+        "rules": [
+            {
+                "t": "set",
+                "p": "token",
+                "pt": "global",
+                "to": "6380993491:AAFd70QDYLtK4xe5HesdagVR33hO_GzSzdQ",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 886.8958129882812,
+        "y": 418.8888854980469,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9d54e27d686d4597",
+        "type": "inject",
+        "z": "81945e5e.29fd7",
+        "name": "Settings",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "4",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 546.8958129882812,
+        "y": 418.8888854980469,
+        "wires": [
+            [
+                "533acedddb856eb9"
+            ]
+        ]
+    },
+    {
+        "id": "3c22b2ec0d03e81d",
+        "type": "telegram bot",
+        "botname": "Node-Red-Example",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "4",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    }
+]

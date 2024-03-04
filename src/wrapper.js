@@ -15,6 +15,7 @@ let settings = {
   httpNodeRoot: "/api", // All http nodes will be served from this root
   functionGlobalContext: {},
   credentialSecret: process.env.NODE_RED_SECRET || "SKEY",
+  
   https: {
     ca: `./user-dir/${caFile}`,
     cert: `./user-dir/${certFileName}`,
