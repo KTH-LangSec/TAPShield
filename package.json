@@ -28,6 +28,7 @@
     "start": "(cd build ; node index.js)"
   },
   "dependencies": {
+    "@terranlabs/email-nodes": "^2.0.1",
     "aws-sdk": "^2.1545.0",
     "esbuild": "^0.11.20",
     "esbuild-plugin-alias": "^0.1.2",
@@ -44,6 +45,7 @@
     "node-red-contrib-time-range-switch": "^1.2.0",
     "node-red-contrib-viseo-google-authentication": "^0.1.1",
     "node-red-contrib-viseo-google-spreadsheet": "^0.5.1",
+    "node-red-node-email": "^2.2.0",
     "yargs": "^17.0.1"
   },
   "optionalDependencies": {
