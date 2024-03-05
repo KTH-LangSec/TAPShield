@@ -1,0 +1,260 @@
+[
+    {
+        "id": "0b27254c9443c0a2",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8145e77bde5dc885",
+        "type": "inject",
+        "z": "0b27254c9443c0a2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 410,
+        "y": 260,
+        "wires": [
+            [
+                "dcbe52fbd76e9f5f"
+            ]
+        ]
+    },
+    {
+        "id": "dcbe52fbd76e9f5f",
+        "type": "function",
+        "z": "0b27254c9443c0a2",
+        "name": "Create Table",
+        "func": "msg.topic= \"CREATE TABLE iot_factory (id SERIAL PRIMARY KEY, device_id VARCHAR(50) NOT NULL, timestamp TIMESTAMP NOT NULL, temperature FLOAT, humidity FLOAT, pressure FLOAT, status VARCHAR(20));\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 260,
+        "wires": [
+            [
+                "28096233281177f6"
+            ]
+        ]
+    },
+    {
+        "id": "4b3f6e61046e4855",
+        "type": "debug",
+        "z": "0b27254c9443c0a2",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "79c6b7e2bc7f8615",
+        "type": "inject",
+        "z": "0b27254c9443c0a2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 410,
+        "y": 340,
+        "wires": [
+            [
+                "c66308eb7e9ce199"
+            ]
+        ]
+    },
+    {
+        "id": "c66308eb7e9ce199",
+        "type": "function",
+        "z": "0b27254c9443c0a2",
+        "name": "Insert",
+        "func": "msg.topic= \"INSERT INTO iot_factory (device_id, timestamp, temperature, humidity, pressure, status) VALUES ('ABC123', NOW(), RAND() * 100, RAND() * 100, RAND() * 2000, 'OK');\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 340,
+        "wires": [
+            [
+                "af57c0ebf9ed4c95"
+            ]
+        ]
+    },
+    {
+        "id": "c56fdf4a051d0e6b",
+        "type": "debug",
+        "z": "0b27254c9443c0a2",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "355a79275d6a9b1a",
+        "type": "inject",
+        "z": "0b27254c9443c0a2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 410,
+        "y": 440,
+        "wires": [
+            [
+                "1e3b6127a1a36218"
+            ]
+        ]
+    },
+    {
+        "id": "1e3b6127a1a36218",
+        "type": "function",
+        "z": "0b27254c9443c0a2",
+        "name": "SelectAll",
+        "func": "msg.topic= \"SELECT *From iot_factory;\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 440,
+        "wires": [
+            [
+                "f7ce0803f92621a7"
+            ]
+        ]
+    },
+    {
+        "id": "f90c532ce825d2d5",
+        "type": "debug",
+        "z": "0b27254c9443c0a2",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "28096233281177f6",
+        "type": "mysql",
+        "z": "0b27254c9443c0a2",
+        "mydb": "2236dfd1.c909e",
+        "name": "",
+        "x": 830,
+        "y": 260,
+        "wires": [
+            [
+                "4b3f6e61046e4855"
+            ]
+        ]
+    },
+    {
+        "id": "af57c0ebf9ed4c95",
+        "type": "mysql",
+        "z": "0b27254c9443c0a2",
+        "mydb": "2236dfd1.c909e",
+        "name": "",
+        "x": 830,
+        "y": 340,
+        "wires": [
+            [
+                "c56fdf4a051d0e6b"
+            ]
+        ]
+    },
+    {
+        "id": "f7ce0803f92621a7",
+        "type": "mysql",
+        "z": "0b27254c9443c0a2",
+        "mydb": "2236dfd1.c909e",
+        "name": "",
+        "x": 830,
+        "y": 440,
+        "wires": [
+            [
+                "f90c532ce825d2d5"
+            ]
+        ]
+    },
+    {
+        "id": "2236dfd1.c909e",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "localhost",
+        "port": "3306",
+        "db": "test",
+        "tz": "GMT",
+        "charset": ""
+    }
+]

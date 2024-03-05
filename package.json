@@ -46,6 +46,8 @@
     "node-red-contrib-viseo-google-authentication": "^0.1.1",
     "node-red-contrib-viseo-google-spreadsheet": "^0.5.1",
     "node-red-node-email": "^2.2.0",
+    "node-red-node-mysql": "^2.0.0",
+    "node-red-node-sqlite": "^1.1.0",
     "yargs": "^17.0.1"
   },
   "optionalDependencies": {
