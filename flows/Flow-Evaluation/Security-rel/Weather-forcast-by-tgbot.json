@@ -1,0 +1,198 @@
+[
+    {
+        "id": "0b6528ee836c3750",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b7db3bda2f7672a3",
+        "type": "telegram command",
+        "z": "0b6528ee836c3750",
+        "name": "Getweather",
+        "command": "/getforcast",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "3c22b2ec0d03e81d",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 170,
+        "y": 160,
+        "wires": [
+            [
+                "8429ae15e7c778d5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "946764fa9826cb92",
+        "type": "debug",
+        "z": "0b6528ee836c3750",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "f9b1793f3b5e03a6",
+        "type": "function",
+        "z": "0b6528ee836c3750",
+        "name": "Format result",
+        "func": "\n\nconst main = msg.payload.main;\n\nconst response = \n`The temperature in ${msg.payload.name} is currently ${main.temp} but it feels like ${main.feels_like}.\nWindspeed: ${msg.payload.wind.speed} \nHumidity: ${main.humidity}%`;\nmsg.payload.content = response;\nmsg.payload.type = 'message';\nmsg.payload.chatId = 106404807\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 260,
+        "wires": [
+            [
+                "946764fa9826cb92",
+                "8d230976f38b5fe3"
+            ]
+        ]
+    },
+    {
+        "id": "f9d96732e46484b9",
+        "type": "http request",
+        "z": "0b6528ee836c3750",
+        "name": "HTTP request",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "http://188.166.16.132/data/2.5/weather?appid=507697fdd55b0698d816d8c82ee7a655&units=metric",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 919.9999923706055,
+        "y": 183.33333778381348,
+        "wires": [
+            [
+                "f9b1793f3b5e03a6"
+            ]
+        ]
+    },
+    {
+        "id": "6ff7a38011cc0585",
+        "type": "function",
+        "z": "0b6528ee836c3750",
+        "name": "Reformat",
+        "func": "const city = msg.payload[0]\nconsole.log(city)\nreturn {\n    payload: {\n        lat: city.lat,\n        lon: city.lon\n    }\n};",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 739.9999923706055,
+        "y": 123.33333778381348,
+        "wires": [
+            [
+                "f9d96732e46484b9"
+            ]
+        ]
+    },
+    {
+        "id": "119f0e5e422c97ac",
+        "type": "http request",
+        "z": "0b6528ee836c3750",
+        "name": "HTTP request",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "http://188.166.16.132/geo/1.0/direct?appid=507697fdd55b0698d816d8c82ee7a655&limit=5&q={{payload.value}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 559.9999923706055,
+        "y": 183.33333778381348,
+        "wires": [
+            [
+                "6ff7a38011cc0585"
+            ]
+        ]
+    },
+    {
+        "id": "8429ae15e7c778d5",
+        "type": "function",
+        "z": "0b6528ee836c3750",
+        "name": "Create input",
+        "func": "\nreturn {\n    payload: {\n        value: \"stockholm\",\n        format: \"json\"\n    }\n};",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 389.99999237060547,
+        "y": 143.33333778381348,
+        "wires": [
+            [
+                "119f0e5e422c97ac"
+            ]
+        ]
+    },
+    {
+        "id": "8d230976f38b5fe3",
+        "type": "telegram sender",
+        "z": "0b6528ee836c3750",
+        "name": "",
+        "bot": "3c22b2ec0d03e81d",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 860,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3c22b2ec0d03e81d",
+        "type": "telegram bot",
+        "botname": "Node-Red-Example",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "4",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    }
+]
