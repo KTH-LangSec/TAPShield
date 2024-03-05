@@ -34,6 +34,7 @@
     "esbuild-plugin-alias": "^0.1.2",
     "esbuild-plugin-text-replace": "^1.1.0",
     "express": "^4.17.3",
+    "husky": "^9.0.11",
     "install": "^0.13.0",
     "kleur": "^4.1.4",
     "mock-aws-s3": "^4.0.2",

@@ -1,0 +1,74 @@
+[
+    {
+        "id": "5889cf97108290c9",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "cd167cf2edaf6512",
+        "type": "inject",
+        "z": "5889cf97108290c9",
+        "name": "'Create' Task Data",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"content\":\"Test Task\",\"project_id\":2329758121,\"priority\":1}",
+        "payloadType": "json",
+        "x": 430,
+        "y": 280,
+        "wires": [
+            [
+                "57872b84db271bd5"
+            ]
+        ]
+    },
+    {
+        "id": "57872b84db271bd5",
+        "type": "todoist-task-create",
+        "z": "5889cf97108290c9",
+        "name": "",
+        "token": "bd892534fb72723f",
+        "x": 690,
+        "y": 280,
+        "wires": [
+            [
+                "a33919ea4e211f6f"
+            ]
+        ]
+    },
+    {
+        "id": "a33919ea4e211f6f",
+        "type": "debug",
+        "z": "5889cf97108290c9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "bd892534fb72723f",
+        "type": "add-todoist-api-token",
+        "name": "mojtaba"
+    }
+]

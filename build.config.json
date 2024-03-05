@@ -7,7 +7,7 @@
     "caPath": "/home/rof13thfloor/work/ssl/ca.pem",
     "certPath": "/home/rof13thfloor/work/ssl/server.cert",
     "keyPath": "/home/rof13thfloor/work/ssl/server.key",
-    "flowFilePath": "./flows/Flow-Evaluation/Security-rel/Sqlite.json",
+    "flowFilePath": "./flows/Flow-Evaluation/Security-rel/Todoist.json",
     "manifestFilePath": "/home/rof13thfloor/work/Node-red-SGX/manifests/FileUpload.toml",
     "remoteDir": "/home/azureuser/gramine-test",
     "uploadBundle": true,
