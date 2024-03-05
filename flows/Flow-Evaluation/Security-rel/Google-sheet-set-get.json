@@ -1,0 +1,258 @@
+[
+    {
+        "id": "a76a1e38bf105b90",
+        "type": "tab",
+        "label": "form input to google spread sheet",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c232aabb5d09e347",
+        "type": "google-spreadsheet",
+        "z": "a76a1e38bf105b90",
+        "name": "sheet",
+        "auth": "9e5d2bd4b070f388",
+        "sheet": "17LriyiIOV496YV7WDHVIRK7hsoK2Anat1tHyAgzvqPs",
+        "range": "sheet1",
+        "method": "new",
+        "direction": "line",
+        "action": "set",
+        "clear": false,
+        "line": true,
+        "column": false,
+        "fields": "all",
+        "save": "payload",
+        "selfields": [
+            "C5"
+        ],
+        "cell_l": "",
+        "cell_c": "",
+        "input": "payload",
+        "output": "payload",
+        "saveType": "global",
+        "inputType": "msg",
+        "outputType": "msg",
+        "sheetType": "str",
+        "rangeType": "str",
+        "cell_lType": "str",
+        "cell_cType": "str",
+        "x": 610,
+        "y": 220,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "ab29988893f297e3",
+        "type": "debug",
+        "z": "a76a1e38bf105b90",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "cda9a09f88cb5b83",
+        "type": "change",
+        "z": "a76a1e38bf105b90",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[{\"Email\":\"mojtaba.moazen.a@gmail.com\",\"phone\":\"0728512465\"},{\"Email\":\"mojtaba.moazen.a@gmail.com\",\"phone\":\"0728512465\"},{\"Email\":\"moazen@gmail.com\",\"phone\":\"0945362323\"}]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 260,
+        "wires": [
+            [
+                "ab29988893f297e3",
+                "c232aabb5d09e347"
+            ]
+        ]
+    },
+    {
+        "id": "0af77c3490b3b2cd",
+        "type": "comment",
+        "z": "a76a1e38bf105b90",
+        "name": "How to configure Google sheets ",
+        "info": "# Install extra nodes\n\nFrom the manage palette, install node-red-contrib-viseo-google-authentication and\nnode-red-contrib-viseo-google-spreadsheet.\n\n# Set up a Google service account and enable Google sheets API\nGo to [https://console.developers.google.com/project](https://console.developers.google.com/project) and sign in to your Google/Gmail account.\n\nOnce signed in, you'll see a list of existing projects (if there are any) or you can click Create Project to create a new one.\n\nOn the New Project page, enter a name for your project, select an organization and then click Create.\n\n# Enable the Drive API\n\nMake sure you are logged into the Developers Console and your project is selected as the current project.\n\nFrom the navigation menu, hover over APIs and Services and select Library.\n\nSearch for and click the Google Drive API tile.\n\nClick enable.\n\n# Enable the Sheets API\n\nMake sure your project is still selected as the current project.\n\nFrom the navigation menu, hover over APIs and Services and select Library.\nSearch for and click the Google Sheets API tile.\n\nClick Enable.\n\n# Download Service Account Credentials\n\nTo create credentials, from the navigation menu, hover over APIs and Services and select click Credentials. On the Credentials page, click Create credentials and select the Service account key option.\n\nSet the Service account dropdown to New service account. Then enter the Name and select a Role for your service account.\n\nCopy the Service account ID which is an email address starting with your service account name.\n\nClick Create to generate a certificate file and download it as json.\n\nClick on the pen to the right of the Credentials in the node, copy and paste the information in the json file in the field for JSON.\n\n# Create a new Google spread sheet from Google Drive. \n\nTake the ID part from the https link to the spread sheet.\n\nThe link looks similar to this: https://docs.google.com/spreadsheets/d/1C_F7--lWjn1Q3dzkNIcU66NoalhSXL3HPvsIxEUFXo0/edit#gid=0\n\nHere the ID is 1C_F7--lWjn1Q3dzkNIcU66NoalhSXL3HPvsIxEUFXo0 which should be copied to the ID field in the node configuration.\n\nWhen you have the Google sheet open click on the share button in the upper right corner. In the people field put in the email address that you copied from Service account ID and click ready.\n\nNow you should be able to read and write to the Google sheet.\n\nThere is an ERROR message \"Missing VISEO Bot Maker key - Read the documentation.\". \nThis will not stop the flow from working.",
+        "x": 150,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "a416727cad8372aa",
+        "type": "comment",
+        "z": "a76a1e38bf105b90",
+        "name": "(double click to read the instruction or look at the info panel to the right)",
+        "info": "",
+        "x": 270,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "cfe40c6bc0754f5c",
+        "type": "comment",
+        "z": "a76a1e38bf105b90",
+        "name": "put the message from the form into a json array",
+        "info": "",
+        "x": 340,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "77c86934349d648b",
+        "type": "debug",
+        "z": "a76a1e38bf105b90",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "62aac04185a1aa97",
+        "type": "inject",
+        "z": "a76a1e38bf105b90",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 420,
+        "wires": [
+            [
+                "b4538beefc04dd91"
+            ]
+        ]
+    },
+    {
+        "id": "b4538beefc04dd91",
+        "type": "google-spreadsheet",
+        "z": "a76a1e38bf105b90",
+        "name": "sheet",
+        "auth": "9e5d2bd4b070f388",
+        "sheet": "17LriyiIOV496YV7WDHVIRK7hsoK2Anat1tHyAgzvqPs",
+        "range": "Sheet1",
+        "method": "append",
+        "direction": "column",
+        "action": "get",
+        "clear": false,
+        "line": false,
+        "column": true,
+        "fields": "all",
+        "save": "payload",
+        "selfields": [
+            ""
+        ],
+        "cell_l": "",
+        "cell_c": "",
+        "input": "payload",
+        "output": "payload",
+        "saveType": "msg",
+        "inputType": "msg",
+        "outputType": "msg",
+        "sheetType": "str",
+        "rangeType": "str",
+        "cell_lType": "str",
+        "cell_cType": "str",
+        "x": 310,
+        "y": 420,
+        "wires": [
+            [
+                "77c86934349d648b"
+            ],
+            [
+                "77c86934349d648b"
+            ]
+        ]
+    },
+    {
+        "id": "c903a4fee82092a7",
+        "type": "comment",
+        "z": "a76a1e38bf105b90",
+        "name": "Read a Google sheet and display the text in the debug window",
+        "info": "",
+        "x": 380,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "cff4624db7fbe18e",
+        "type": "inject",
+        "z": "a76a1e38bf105b90",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 260,
+        "wires": [
+            [
+                "cda9a09f88cb5b83"
+            ]
+        ]
+    },
+    {
+        "id": "9e5d2bd4b070f388",
+        "type": "google-service-account",
+        "name": "Node-Red-Project",
+        "scope": [
+            "https://www.googleapis.com/auth/spreadsheets"
+        ],
+        "way": "json",
+        "check_dialogflow": "",
+        "check_speech": ""
+    }
+]
