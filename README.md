@@ -104,3 +104,13 @@ This performs the following steps:
 8. Upload the secret provisioning servers [ca.crt](secret-prov-server/ssl/ca.crt) to the remote server, this is required by the enclave for establishing a TLS connection with the secret provisioning server.
 9. Build the enclave on the remote server
 10. Start the enclave on the remote server (if `startEnclave` is set to `true`)
+
+## Todo list 
+
+- [x] Check out use IFTTT use cases and add examples 
+- [ ] Solve the problem with secret provisioning 
+- [ ] Evaluation on dependent upon flows 
+- [ ] Finish up core flows evaluation (1 set still remain)
+- [ ] Code refactoring
+- [ ] WASM Function node input with http-in node 
+- [ ] 
