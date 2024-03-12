@@ -12,7 +12,7 @@ const caFile = "ca.pem";
 let settings = {
   disableEditor: true, // Disable the editor
   httpAdminRoot: false, // Disable the http admin server
-  httpNodeRoot: "/api", // All http nodes will be served from this root
+  httpNodeRoot: "/", // All http nodes will be served from this root
   ui: { path: "node-red-ui" },
   functionGlobalContext: {},
   
