@@ -1,0 +1,1835 @@
+[
+    {
+        "id": "a0568e71.72952",
+        "type": "subflow",
+        "name": "opcxml",
+        "info": "OPC XML Client  \n\n### Inputs\n---\n## _`url`_  \n If not configured in the node, this optional property sets the url of the request.  \n\n## _`action`_   <string>  \n If not configured in the node, ths optional property sets the OPC XML Action of the request. Must be one of \n `GetStatus`, `Read`, `Write`, ``Subscribe, `SubscriptionPolledrefresh`, `SubscriptionCancel`, `Browse` or `GetProperties`\n\n## _`payload`_  \n The payload defines the details of the action. Each action has different payload structure which is transformed to a Soap Envelope as required by the OPC XML server.  \n - Read\n ```\n payload = {\n   \"ItemPath\": <string>, optional, server dependent\n   \"ItemList\": [\n        {\n            \"ItemName\": <string>, required\n            \"ItemPath\": <string>, optional, server dependent\n            \"ClientItemHandle\": <string> optional\n        },\n        ...\n ]}\n ```\n - Write\n ```\n payload = {\n   \"ItemPath\": <string>, optional, server dependent\n   \"ItemList\": [\n        {\n            \"ItemName\": <string>, required\n            \"ItemPath\": <string>, optional, server dependent\n            \"ClientItemHandle\": <string>, optional\n            \"value\": <>, required\n            \"dataType\": <string> required as retrieved from GetProperties action  \n        },\n        ...\n ]}\n ```\n - Subscribe\n ```\n payload = {\n   \"SubscriptionPingRate\": <number>, optional defaults to 60000 ms  \n   \"requestedSamplingRate\": <number>, optional defaults to 1000 ms  \n   \"ClientRequestHandle\": <string>, optional\n   \"ItemPath\": <string>,\n   \"ItemList\": [\n        {\n            \"ItemName\": <string>, required\n            \"ItemPath\": <string>, optional, server dependent\n            \"ClientItemHandle\": <string> optional\n        },\n        ...\n ]}\n ```\n - SubscriptionPolledRefresh\n ```\n payload = {'ServerSubHandle': <string>}\n ```\n - SubscriptionCancel\n ```\n payload = {'ServerSubHandle': <string>}\n ```\n - Browse\n ```\n payload = {'ItemName': <string>}\n ```  \n - GetProperties\n ```\n payload = {'ItemName': <string>}\n ```  \n\n ---\n\n### Example  \nBrowse Advosol public server  \n```  \nmsg.url = 'http://info.advosol.com/XMLDADemo/XML_Sim/OpcXmlDaServer.asmx'  \nmsg.action = 'Browse'\nmsg.payload = {\"ItemName\": \"\"}\n```\n\n# Details\nUse this at your own risk. This client is not certified, nor based on any documentation. Its just loosely a result of testing communication with a couple of OPC XML servers that happen to be within reach.\n\n\n",
+        "category": "",
+        "in": [
+            {
+                "x": 40,
+                "y": 180,
+                "wires": [
+                    {
+                        "id": "63e32c20.b76e94"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 1260,
+                "y": 920,
+                "wires": [
+                    {
+                        "id": "12f2c851.6e7428",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [
+            {
+                "name": "action",
+                "type": "str",
+                "value": "GetStatus",
+                "ui": {
+                    "type": "select",
+                    "opts": {
+                        "opts": [
+                            {
+                                "l": {
+                                    "en-US": "GetStatus"
+                                },
+                                "v": "GetStatus"
+                            },
+                            {
+                                "l": {
+                                    "en-US": "Read"
+                                },
+                                "v": "Read"
+                            },
+                            {
+                                "l": {
+                                    "en-US": "Write"
+                                },
+                                "v": "Write"
+                            },
+                            {
+                                "l": {
+                                    "en-US": "Subscribe"
+                                },
+                                "v": "Subscribe"
+                            },
+                            {
+                                "l": {
+                                    "en-US": "SubscriptionPolledRefresh"
+                                },
+                                "v": "SubscriptionPolledRefresh"
+                            },
+                            {
+                                "l": {
+                                    "en-US": "SubscriptionCancel"
+                                },
+                                "v": "SubscriptionCancel"
+                            },
+                            {
+                                "l": {
+                                    "en-US": "Browse"
+                                },
+                                "v": "Browse"
+                            },
+                            {
+                                "l": {
+                                    "en-US": "GetProperties"
+                                },
+                                "v": "GetProperties"
+                            },
+                            {
+                                "l": {
+                                    "en-US": "<msg.action>"
+                                },
+                                "v": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "name": "url",
+                "type": "str",
+                "value": "",
+                "ui": {
+                    "type": "input",
+                    "opts": {
+                        "types": [
+                            "str",
+                            "env"
+                        ]
+                    }
+                }
+            }
+        ],
+        "meta": {
+            "keywords": "OPC, opcxml, client"
+        },
+        "color": "#da9",
+        "outputLabels": [
+            "payload"
+        ]
+    },
+    {
+        "id": "d06bded4.355dc",
+        "type": "template",
+        "z": "a0568e71.72952",
+        "name": "GetStatus",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope \nxmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" \nxmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" \nxmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n<soap:Body>\n<GetStatus xmlns=\"http://opcfoundation.org/webservices/XMLDA/1.0/\"/>\n</soap:Body>\n</soap:Envelope>\n",
+        "output": "str",
+        "x": 620,
+        "y": 60,
+        "wires": [
+            [
+                "8daff6d4.368e78"
+            ]
+        ]
+    },
+    {
+        "id": "88ea2c40.56b0a",
+        "type": "http request",
+        "z": "a0568e71.72952",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": false,
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 1010,
+        "y": 160,
+        "wires": [
+            [
+                "705fabcb.519744"
+            ]
+        ]
+    },
+    {
+        "id": "236450f8.a7b8a",
+        "type": "xml",
+        "z": "a0568e71.72952",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 310,
+        "y": 540,
+        "wires": [
+            [
+                "ed80557e.beba28"
+            ]
+        ]
+    },
+    {
+        "id": "57f9a1f9.97185",
+        "type": "template",
+        "z": "a0568e71.72952",
+        "name": "Read",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope \nxmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" \nxmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" \nxmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n<soap:Body>\n <Read xmlns=\"http://opcfoundation.org/webservices/XMLDA/1.0/\">\n  <Options\n    ReturnErrorText=\"true\"\n    ReturnItemTime=\"true\"\n    ReturnItemName=\"true\"\n    LocaleID=\"en\"/>\n  <ItemList{{#payload.ItemPathExists}} ItemPath=\"{{{payload.ItemPath}}}\"{{/payload.ItemPathExists}}>\n    {{#payload.ItemList}}\n       <Items{{#ItemPathExists}} ItemPath=\"{{{ItemPath}}}\"{{/ItemPathExists}} ItemName=\"{{{ItemName}}}\"{{#ClientItemHandle}} ClientItemHandle=\"{{{ClientItemHandle}}}\"{{/ClientItemHandle}}/>\n    {{/payload.ItemList}}\n  </ItemList>\n </Read>\t  \n</soap:Body></soap:Envelope>\n",
+        "output": "str",
+        "x": 730,
+        "y": 100,
+        "wires": [
+            [
+                "8daff6d4.368e78"
+            ]
+        ]
+    },
+    {
+        "id": "60c6ce6.1d42f3",
+        "type": "switch",
+        "z": "a0568e71.72952",
+        "name": "action",
+        "property": "action",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "GetStatus",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Read",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Write",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Subscribe",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "SubscriptionPolledRefresh",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "SubscriptionCancel",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Browse",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "GetProperties",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 9,
+        "x": 390,
+        "y": 180,
+        "wires": [
+            [
+                "d06bded4.355dc"
+            ],
+            [
+                "3692f15954804177"
+            ],
+            [
+                "14b7deacbb35defc"
+            ],
+            [
+                "6335ea21.ad4a54"
+            ],
+            [
+                "957a24a0.800c58"
+            ],
+            [
+                "9ffb90ef.88ccd"
+            ],
+            [
+                "1c5abe9c.425c31"
+            ],
+            [
+                "67d14704.f3e058"
+            ],
+            [
+                "7c0160cd.337dd"
+            ]
+        ]
+    },
+    {
+        "id": "1c5abe9c.425c31",
+        "type": "template",
+        "z": "a0568e71.72952",
+        "name": "Browse",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope \nxmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" \nxmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" \nxmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n<soap:Body>\n<Browse xmlns=\"http://opcfoundation.org/webservices/XMLDA/1.0/\"\n\tItemName=\"{{{payload.ItemName}}}\"  \n\tBrowseFilter=\"all\" \n\tReturnPropertyValues=\"true\"\n>\n            <PropertyNames>dataType</PropertyNames>\n            <PropertyNames>accessRights</PropertyNames>\n</Browse>\t  \n</soap:Body>\n</soap:Envelope>\n",
+        "output": "str",
+        "x": 600,
+        "y": 300,
+        "wires": [
+            [
+                "8daff6d4.368e78"
+            ]
+        ]
+    },
+    {
+        "id": "7c0160cd.337dd",
+        "type": "function",
+        "z": "a0568e71.72952",
+        "name": "Error",
+        "func": "node.error('Unknown SOAP action', msg)\n",
+        "outputs": 0,
+        "noerr": 0,
+        "x": 570,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "8f627fde.e3c0f",
+        "type": "switch",
+        "z": "a0568e71.72952",
+        "name": "action",
+        "property": "action",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "GetStatus",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Read",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Write",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Subscribe",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "SubscriptionPolledRefresh",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "SubscriptionCancel",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Browse",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "GetProperties",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 8,
+        "x": 230,
+        "y": 820,
+        "wires": [
+            [
+                "35897351.3c2adc"
+            ],
+            [
+                "7e8d6d76.e0a0c4"
+            ],
+            [
+                "2e7040d.343cbc"
+            ],
+            [
+                "b865212e.e1d0b"
+            ],
+            [
+                "8e60984d.cfcf18"
+            ],
+            [
+                "6f1e64f4.bcbcac"
+            ],
+            [
+                "e2e40866.9ce498"
+            ],
+            [
+                "c93f193f.e756b8"
+            ]
+        ]
+    },
+    {
+        "id": "4ac0e773.fc42f8",
+        "type": "link out",
+        "z": "a0568e71.72952",
+        "name": "Response",
+        "links": [
+            "2a3004a5.86317c"
+        ],
+        "x": 1295,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "7e8d6d76.e0a0c4",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "ReadResponse",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "**.ReadResponse.RItemList.Items.{\t\"ItemName\":$.\"$\".ItemName,\t\"ClientItemHandle\":$.\"$\".ClientItemHandle,\t\"Timestamp\":$.\"$\".Timestamp,\t\"value\": Value.\"_\",\t\"type\": Value.\"$\".\"xsi:type\",\t\"Quality\": Quality[0].\"$\".QualityField\t}[]",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 760,
+        "wires": [
+            [
+                "6d7a466.2d910b8"
+            ]
+        ]
+    },
+    {
+        "id": "6d7a466.2d910b8",
+        "type": "split",
+        "z": "a0568e71.72952",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 710,
+        "y": 760,
+        "wires": [
+            [
+                "4dc9e078.2774"
+            ]
+        ]
+    },
+    {
+        "id": "4dc9e078.2774",
+        "type": "switch",
+        "z": "a0568e71.72952",
+        "name": "",
+        "property": "payload.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "xsd:float",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "xsd:double",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "xsd:int",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "xsd:unsignedInt",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "xsd:string",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 6,
+        "x": 830,
+        "y": 760,
+        "wires": [
+            [
+                "d232b24f.36022"
+            ],
+            [
+                "d232b24f.36022"
+            ],
+            [
+                "d232b24f.36022"
+            ],
+            [
+                "d232b24f.36022"
+            ],
+            [
+                "f79accb.58b8b3"
+            ],
+            [
+                "b87f32a3.f1562",
+                "bf0f1ea6.1ef93"
+            ]
+        ]
+    },
+    {
+        "id": "b87f32a3.f1562",
+        "type": "join",
+        "z": "a0568e71.72952",
+        "name": "",
+        "mode": "auto",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 1150,
+        "y": 780,
+        "wires": [
+            [
+                "bfb860b4.f3ac9"
+            ]
+        ]
+    },
+    {
+        "id": "d232b24f.36022",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "number",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.value",
+                "pt": "msg",
+                "to": "$number(payload.value)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "payload.type",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 720,
+        "wires": [
+            [
+                "b87f32a3.f1562"
+            ]
+        ]
+    },
+    {
+        "id": "f79accb.58b8b3",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "string",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "payload.type",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 760,
+        "wires": [
+            [
+                "b87f32a3.f1562"
+            ]
+        ]
+    },
+    {
+        "id": "cda10e22.075af",
+        "type": "function",
+        "z": "a0568e71.72952",
+        "name": "Warn",
+        "func": "node.warn(msg.payload)\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1150,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f713686b.a04448",
+        "type": "link out",
+        "z": "a0568e71.72952",
+        "name": "",
+        "links": [
+            "12f2c851.6e7428"
+        ],
+        "x": 655,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "12f2c851.6e7428",
+        "type": "link in",
+        "z": "a0568e71.72952",
+        "name": "Done",
+        "links": [
+            "f713686b.a04448",
+            "bfb860b4.f3ac9",
+            "c7d068d5.6d5d08",
+            "d9af02c5.7f4f6",
+            "1ebc5fbf.98ebf",
+            "5e695cd6.f557f4",
+            "667f0f18.9d189",
+            "f3cc9a14.e34458",
+            "a93b46ec.4c71e8",
+            "7d15a46f.55944c",
+            "2854f3b9.1b98fc",
+            "2ff36629.b3c0aa"
+        ],
+        "x": 1145,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bfb860b4.f3ac9",
+        "type": "link out",
+        "z": "a0568e71.72952",
+        "name": "",
+        "links": [
+            "12f2c851.6e7428"
+        ],
+        "x": 1235,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "c7d068d5.6d5d08",
+        "type": "link out",
+        "z": "a0568e71.72952",
+        "name": "",
+        "links": [
+            "12f2c851.6e7428"
+        ],
+        "x": 695,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "2a3004a5.86317c",
+        "type": "link in",
+        "z": "a0568e71.72952",
+        "name": "Transform",
+        "links": [
+            "4ac0e773.fc42f8"
+        ],
+        "x": 55,
+        "y": 540,
+        "wires": [
+            [
+                "eb250a13.029f88"
+            ]
+        ]
+    },
+    {
+        "id": "bf0f1ea6.1ef93",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "type",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "'Read. Unhandled type: ' & payload.type",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 820,
+        "wires": [
+            [
+                "cda10e22.075af"
+            ]
+        ]
+    },
+    {
+        "id": "705fabcb.519744",
+        "type": "switch",
+        "z": "a0568e71.72952",
+        "name": "statusCode",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "200",
+                "vt": "num"
+            },
+            {
+                "t": "jsonata_exp",
+                "v": "statusCode in ['ECONNREFUSED', 'ETIMEDOUT', \"EAI_AGAIN\"]",
+                "vt": "jsonata"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 1170,
+        "y": 160,
+        "wires": [
+            [
+                "4ac0e773.fc42f8"
+            ],
+            [],
+            [
+                "d8ec6e2f.a08d7"
+            ]
+        ]
+    },
+    {
+        "id": "d8ec6e2f.a08d7",
+        "type": "function",
+        "z": "a0568e71.72952",
+        "name": "Error",
+        "func": "node.error(\"Http Error. statusCode=\"+msg.statusCode, msg);\n",
+        "outputs": 0,
+        "noerr": 0,
+        "x": 1330,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "1e5b953.aa6bf6b",
+        "type": "comment",
+        "z": "a0568e71.72952",
+        "name": "Status codes",
+        "info": "msg.statusCode =   \n= 200, ok  \n= 500, Internal error, no error thrown from http request node. Throw error with function node.  \n= ECONNREFUSED, Error already thrown from http request node. Dont produce additional errors  ",
+        "x": 1170,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "b050323f.b395f",
+        "type": "comment",
+        "z": "a0568e71.72952",
+        "name": "Dropping namespace",
+        "info": "https://stackoverflow.com/questions/4505103/how-to-remove-xml-namespaces-using-javascript\n",
+        "x": 200,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "eb250a13.029f88",
+        "type": "function",
+        "z": "a0568e71.72952",
+        "name": "namespace",
+        "func": "// Options to drop namespace for xml node\n// from xml2js lib/processors.js\nprefixMatch = new RegExp(/(?!xmlns)^.*:/);\nfunction stripPrefix(str){\n    return str.replace(prefixMatch, '');\n}\nmsg.options = {\"tagNameProcessors\": [stripPrefix]}\nreturn msg;\n\n/*msg.options = {\"xmlns\":true,}*/\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 170,
+        "y": 540,
+        "wires": [
+            [
+                "236450f8.a7b8a"
+            ]
+        ],
+        "info": "Dropping namespace\n\nSetting options to xml2js\n\nhttps://github.com/Leonidas-from-XIV/node-xml2js/blob/master/README.md#options\n"
+    },
+    {
+        "id": "e2e40866.9ce498",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "BrowseResponse",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "/* Return Item attributes and requested properties */\t(\t   **.Body.BrowseResponse.Elements.\t   $merge(\t       $append(\t           $.\"$\",\t           [\t               Properties.{\"$\".Name: \"Value\".\"_\"}\t            ]\t       )\t   )\t)\t\t\t\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 960,
+        "wires": [
+            [
+                "c7d068d5.6d5d08"
+            ]
+        ]
+    },
+    {
+        "id": "67d14704.f3e058",
+        "type": "template",
+        "z": "a0568e71.72952",
+        "name": "GetProperties",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope \nxmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" \nxmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" \nxmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n<soap:Body>\n\t<GetProperties xmlns=\"http://opcfoundation.org/webservices/XMLDA/1.0/\"\n\tReturnAllProperties=\"true\" ReturnPropertyValues=\"true\" ItemPath=\"\">\n\t\t<ItemIDs ItemPath=\"\" ItemName=\"{{{payload.ItemName}}}\" />\n\t\t<PropertyNames>accessRights</PropertyNames>\n\t\t<PropertyNames>dataType</PropertyNames>\n\t</GetProperties>\n</soap:Body>\n</soap:Envelope>\n",
+        "output": "str",
+        "x": 620,
+        "y": 340,
+        "wires": [
+            [
+                "8daff6d4.368e78"
+            ]
+        ]
+    },
+    {
+        "id": "8daff6d4.368e78",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "",
+        "rules": [],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 895,
+        "y": 160,
+        "wires": [
+            [
+                "88ea2c40.56b0a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "667f0f18.9d189",
+        "type": "link out",
+        "z": "a0568e71.72952",
+        "name": "",
+        "links": [
+            "12f2c851.6e7428"
+        ],
+        "x": 815,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "c93f193f.e756b8",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "GetPropertiesResponse",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "/*\t(\t   $Lists := **.Envelope.Body.GetPropertiesResponse.PropertyLists;\t   $0 := $Lists{\t       \"ItemPath\": \"$\".ItemPath,\t       \"ItemName\": \"$\".ItemName\t    };\t   $1 := $Lists.Properties.{\"$\".Name: \"Value\".\"_\"};\t   $merge($append($0, $1))\t)\t*/\t\t/* Return Item attributes and requested properties */\t(\t   **.GetPropertiesResponse.PropertyLists.\t   $merge(\t       $append(\t           $.\"$\",\t           [\t               Properties.{\"$\".Name: \"Value\".\"_\"}\t            ]\t       )\t   )\t)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 1000,
+        "wires": [
+            [
+                "667f0f18.9d189"
+            ]
+        ]
+    },
+    {
+        "id": "ed80557e.beba28",
+        "type": "switch",
+        "z": "a0568e71.72952",
+        "name": "Errors?",
+        "property": "$exists(**.Errors)",
+        "propertyType": "jsonata",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 440,
+        "y": 540,
+        "wires": [
+            [
+                "4771771.0d32c88"
+            ],
+            [
+                "d3a2a2e0.14737"
+            ]
+        ]
+    },
+    {
+        "id": "4771771.0d32c88",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "errorsID",
+                "pt": "msg",
+                "to": "**.Errors.*.ID",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 520,
+        "wires": [
+            [
+                "b821e0a3.f58ac"
+            ]
+        ]
+    },
+    {
+        "id": "b821e0a3.f58ac",
+        "type": "function",
+        "z": "a0568e71.72952",
+        "name": "Error",
+        "func": "node.error(\"OPC XML Error: \" + msg.errorsID, msg);\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "d3a2a2e0.14737",
+        "type": "link out",
+        "z": "a0568e71.72952",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "f635cca.b0f323"
+        ],
+        "x": 575,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "f635cca.b0f323",
+        "type": "link in",
+        "z": "a0568e71.72952",
+        "name": "",
+        "links": [
+            "d3a2a2e0.14737"
+        ],
+        "x": 60,
+        "y": 820,
+        "wires": [
+            [
+                "8f627fde.e3c0f"
+            ]
+        ]
+    },
+    {
+        "id": "3e321531.96860a",
+        "type": "catch",
+        "z": "a0568e71.72952",
+        "name": "",
+        "scope": [
+            "c93f193f.e756b8"
+        ],
+        "uncaught": false,
+        "x": 370,
+        "y": 1040,
+        "wires": [
+            [
+                "6a21b5f2.bcb84c"
+            ]
+        ]
+    },
+    {
+        "id": "ad008474.6637b8",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "**.GetPropertiesResponse.PropertyLists",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 1040,
+        "wires": [
+            [
+                "667f0f18.9d189"
+            ]
+        ]
+    },
+    {
+        "id": "6a21b5f2.bcb84c",
+        "type": "function",
+        "z": "a0568e71.72952",
+        "name": "Warning",
+        "func": "node.warn(\"Unexpected GetPropertiesResponse\")\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 500,
+        "y": 1040,
+        "wires": [
+            [
+                "ad008474.6637b8"
+            ]
+        ]
+    },
+    {
+        "id": "4e95808c.a3252",
+        "type": "template",
+        "z": "a0568e71.72952",
+        "name": "Subscribe",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope \nxmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" \nxmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" \nxmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n<soap:Body>\n<Subscribe xmlns=\"http://opcfoundation.org/webservices/XMLDA/1.0/\"\n    ReturnValuesOnReply=\"true\" \n    SubscriptionPingRate=\"{{payload.SubscriptionPingRate}}\"\n    >\n    <Options\n        ReturnErrorText=\"true\"\n        ReturnItemTime=\"true\"\n        ReturnItemName=\"true\"\n        />\n    <ItemList\n        {{#payload.ItemPath}} ItemPath=\"{{{payload.ItemPath}}}\"{{/payload.ItemPath}}\n        {{#payload.requestedSamplingRate}} requestedSamplingRate=\"{{{payload.requestedSamplingRate}}}\"{{/payload.requestedSamplingRate}}\n        >\n        {{#payload.ItemList}}\n        <Items\n            ItemName=\"{{{ItemName}}}\"{{#ItemPath}} \n            ItemPath=\"{{{ItemPath}}}\"{{/ItemPath}}{{#ClientItemHandle}}\n            ClientItemHandle=\"{{{ClientItemHandle}}}\"{{/ClientItemHandle}}\n            />\n        {{/payload.ItemList}}\n    </ItemList>\n</Subscribe>\t  \n</soap:Body>\n</soap:Envelope>\n",
+        "output": "str",
+        "x": 720,
+        "y": 180,
+        "wires": [
+            [
+                "8daff6d4.368e78"
+            ]
+        ]
+    },
+    {
+        "id": "63e32c20.b76e94",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "env",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "($boolean($env('action'))) ? $env('action'): $boolean(action) ? action : \"GetStatus\"\t",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "url",
+                "pt": "msg",
+                "to": "($boolean($env(\"url\"))) ? $env(\"url\"): $boolean(url) ? url : \"\"\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "700dcd8e.8e42d4"
+            ]
+        ]
+    },
+    {
+        "id": "6335ea21.ad4a54",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "default",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.SubscriptionPingRate",
+                "pt": "msg",
+                "to": "(\"SubscriptionPingRate\" in $keys(payload)) ? payload.SubscriptionPingRate: 60000\t",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload.requestedSamplingRate",
+                "pt": "msg",
+                "to": "(\"requestedSamplingRate\" in $keys(payload)) ? payload.requestedSamplingRate: 1000\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 180,
+        "wires": [
+            [
+                "4e95808c.a3252"
+            ]
+        ]
+    },
+    {
+        "id": "b865212e.e1d0b",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "SubscribeResponse",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "**.SubscribeResponse.{\t\"ServerSubHandle\":$.\"$\".ServerSubHandle\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 840,
+        "wires": [
+            [
+                "7d15a46f.55944c"
+            ]
+        ]
+    },
+    {
+        "id": "7d15a46f.55944c",
+        "type": "link out",
+        "z": "a0568e71.72952",
+        "name": "",
+        "links": [
+            "12f2c851.6e7428"
+        ],
+        "x": 615,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "957a24a0.800c58",
+        "type": "template",
+        "z": "a0568e71.72952",
+        "name": "SubscriptionPolledRefresh",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope \nxmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" \nxmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" \nxmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n<soap:Body>\n<SubscriptionPolledRefresh xmlns=\"http://opcfoundation.org/webservices/XMLDA/1.0/\" \n    ReturnAllItems=\"true\"> \n\t<Options ReturnErrorText=\"true\" ReturnItemTime=\"true\" ReturnItemName=\"true\" LocaleID=\"en\" /> \n\t<ServerSubHandles>{{{payload.ServerSubHandle}}}</ServerSubHandles>\n</SubscriptionPolledRefresh> \n</soap:Body>\n</soap:Envelope>\n",
+        "output": "str",
+        "x": 660,
+        "y": 220,
+        "wires": [
+            [
+                "8daff6d4.368e78"
+            ]
+        ]
+    },
+    {
+        "id": "9ffb90ef.88ccd",
+        "type": "template",
+        "z": "a0568e71.72952",
+        "name": "SubscriptionCancel",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope \nxmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" \nxmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" \nxmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n<soap:Body>\n<SubscriptionCancel xmlns=\"http://opcfoundation.org/webservices/XMLDA/1.0/\"\n\tServerSubHandle=\"{{{payload.ServerSubHandle}}}\"/> \n</soap:Body>\n</soap:Envelope>\n",
+        "output": "str",
+        "x": 630,
+        "y": 260,
+        "wires": [
+            [
+                "8daff6d4.368e78"
+            ]
+        ]
+    },
+    {
+        "id": "29092e47.e835a2",
+        "type": "template",
+        "z": "a0568e71.72952",
+        "name": "Write",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope \nxmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" \nxmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" \nxmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n<soap:Body>\n <Write xmlns=\"http://opcfoundation.org/webservices/XMLDA/1.0/\"  ReturnValuesOnReply=\"true\">\n  <Options\n    ReturnErrorText=\"true\"\n    ReturnItemTime=\"true\"\n    ReturnItemName=\"true\"\n    ReturnItemPath=\"true\"\n    LocaleID=\"en\" \n    />\n  <ItemList{{#payload.ItemPathExists}} ItemPath=\"{{{payload.ItemPath}}}\"{{/payload.ItemPathExists}}>\n    {{#payload.ItemList}}\n       <Items  ItemName=\"{{{ItemName}}}\"{{#ItemPathExists}} ItemPath=\"{{{ItemPath}}}\"{{/ItemPathExists}}{{#ClientItemHandle}} ClientItemHandle=\"{{{ClientItemHandle}}}\"{{/ClientItemHandle}}>\n            <Value xsi:type=\"{{dataType}}\">{{value}}</Value>\n        </Items>\n    {{/payload.ItemList}}\n  </ItemList>\n </Write>\t  \n</soap:Body>\n</soap:Envelope>\n",
+        "output": "str",
+        "x": 730,
+        "y": 140,
+        "wires": [
+            [
+                "8daff6d4.368e78"
+            ]
+        ]
+    },
+    {
+        "id": "700dcd8e.8e42d4",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "header",
+        "rules": [
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{\t   \"SOAPAction\":\"http://opcfoundation.org/webservices/XMLDA/1.0/\" & action,\t   \"Content-Type\":\"text/xml\"\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 260,
+        "y": 180,
+        "wires": [
+            [
+                "60c6ce6.1d42f3"
+            ]
+        ]
+    },
+    {
+        "id": "8e60984d.cfcf18",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "SubscriptionPolledRefreshResult",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "**.SubscriptionPolledRefreshResponse.RItemList.Items.{\t\"ItemName\":$.\"$\".ItemName,\t\"ClientItemHandle\":$.\"$\".ClientItemHandle,\t\"Timestamp\":$.\"$\".Timestamp,\t\"value\": Value.\"_\",\t\"type\": Value.\"$\".\"xsi:type\",\t\"Quality\": Quality[0]\t}[]",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 880,
+        "wires": [
+            [
+                "6d7a466.2d910b8"
+            ]
+        ]
+    },
+    {
+        "id": "6f1e64f4.bcbcac",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "SubscriptionCancelResponse",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "**.SubscriptionCancelResponse.*.ClientRequestHandle{\t\"ClientRequestHandle\":$\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 920,
+        "wires": [
+            [
+                "2854f3b9.1b98fc"
+            ]
+        ]
+    },
+    {
+        "id": "2854f3b9.1b98fc",
+        "type": "link out",
+        "z": "a0568e71.72952",
+        "name": "",
+        "links": [
+            "12f2c851.6e7428"
+        ],
+        "x": 675,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "2e7040d.343cbc",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "WriteResponse",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "**.WriteResponse.RItemList.Items.{\t\"ItemName\":$.\"$\".ItemName,\t\"Timestamp\":$.\"$\".Timestamp,\t\"value\": Value.\"_\",\t\"type\": Value.\"$\".\"xsi:type\"\t}[]",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 800,
+        "wires": [
+            [
+                "6d7a466.2d910b8"
+            ]
+        ]
+    },
+    {
+        "id": "35897351.3c2adc",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "Status",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "**.Status{\t\"StatusInfo\":StatusInfo,\t\"VendorInfo\":VendorInfo,\t\"SupportedLocaleIDs\":SupportedLocaleIDs,\t\"SupportedInterfaceVersions\":SupportedInterfaceVersions,\t\"StartTime\":*.StartTime,\t\"ProductVersion\":*.ProductVersion,\t\"ServerState\":$$.**.ServerState\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 720,
+        "wires": [
+            [
+                "a38f31fa.bd3fc"
+            ]
+        ]
+    },
+    {
+        "id": "a38f31fa.bd3fc",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "string cleanup",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "/* Straight strings or \"xsd:string\" */\t(\t$clean := function($o) {$join([\t$filter($o, function($v,$i,$a) {\"xsi:type\" in $keys($v.\"$\") ? true: false}).\"_\",\t$filter($o, function($v,$i,$a) {\"xsi:type\" in $keys($v.\"$\") ? false: true})\t], \",\")};\t{\t\"StatusInfo\": $clean(payload.StatusInfo),\t\"VendorInfo\": $clean(payload.VendorInfo),\t\"SupportedLocaleIDs\": $clean(payload.SupportedLocaleIDs),\t\"SupportedInterfaceVersions\": $clean(payload.SupportedInterfaceVersions),\t\"StartTime\":payload.StartTime,\t\"ProductVersion\":payload.ProductVersion,\t\"ServerState\":payload.ServerState\t}\t\t)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 720,
+        "wires": [
+            [
+                "f713686b.a04448"
+            ]
+        ]
+    },
+    {
+        "id": "14b7deacbb35defc",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "ItemPath",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "/*Global ItemPath*/ \t/*Add info about existing ItemPath for compatability with following template node mustache syntax */\t(\t    $merge(\t       [\t           { \"ItemPathExists\": \"ItemPath\" in $keys(payload) },\t           payload\t]\t)\t)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "/* Single Item's ItemPath */ \t/*Add info about existing ItemPath for compatability with following template node mustache syntax */\t(\t   payload  ~> | ItemList |  {\"ItemPathExists\": \"ItemPath\" in $keys()} | ;\t)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 140,
+        "wires": [
+            [
+                "29092e47.e835a2"
+            ]
+        ]
+    },
+    {
+        "id": "b1208d512d65cbf5",
+        "type": "comment",
+        "z": "a0568e71.72952",
+        "name": "Soap Envelope",
+        "info": "Construct SOAP Envelope depending on opcxml action\n\nNote:\nServer sometimes are quity specific on how to handle the ItemPath property. An empty ItemPath is not always treated the same as a non existing. Use GetProperties action to find what is correct in a specific use case.\n",
+        "x": 420,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "aad2bdb495d0b9ff",
+        "type": "comment",
+        "z": "a0568e71.72952",
+        "name": "Parse Response",
+        "info": "",
+        "x": 200,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "3692f15954804177",
+        "type": "change",
+        "z": "a0568e71.72952",
+        "name": "ItemPath",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "/*Global ItemPath*/ \t/*Add info about existing ItemPath for compatability with following template node mustache syntax */\t(\t    $merge(\t       [\t           { \"ItemPathExists\": \"ItemPath\" in $keys(payload) },\t           payload\t]\t)\t)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "/* Single Item's ItemPath */ \t/*Add info about existing ItemPath for compatability with following template node mustache syntax */\t(\t   payload  ~> | ItemList |  {\"ItemPathExists\": \"ItemPath\" in $keys()} | ;\t)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 100,
+        "wires": [
+            [
+                "57f9a1f9.97185"
+            ]
+        ]
+    },
+    {
+        "id": "03dd49412e5cd404",
+        "type": "comment",
+        "z": "a0568e71.72952",
+        "name": "updated 2023-05-19",
+        "info": "2019-10-16\n-Published\n\n2023-05-19\n-Fix transform to Soap Envelope for correct handling of empty ItemPath\n-GetProperties parsing all returned properties\n-Tested with .NET server implementation",
+        "x": 110,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "Example",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "6e4bf104204f9aa3",
+        "type": "subflow:a0568e71.72952",
+        "z": "f6f2187d.f17ca8",
+        "name": "Write",
+        "env": [
+            {
+                "name": "action",
+                "value": "Write",
+                "type": "str"
+            }
+        ],
+        "x": 350,
+        "y": 300,
+        "wires": [
+            [
+                "7fa8e71f09c9d06a"
+            ]
+        ]
+    },
+    {
+        "id": "7fa8e71f09c9d06a",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 23",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "3a6336ea551b4ca9",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": ".NET Write Int",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "url",
+                "v": "http://opcxml.demo-this.com/XmlDaSampleServer/Service.asmx",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": ".NET Write Int",
+        "payload": "{\"ItemList\":[{\"ItemPath\":\"\",\"ItemName\":\"Static/Analog Types/Int\",\"dataType\":\"xsd:int\",\"value\":17}]}",
+        "payloadType": "json",
+        "x": 180,
+        "y": 300,
+        "wires": [
+            [
+                "6e4bf104204f9aa3"
+            ]
+        ]
+    },
+    {
+        "id": "4ed8937a610e4be3",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": ".NET Browse",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "url",
+                "v": "http://opcxml.demo-this.com/XmlDaSampleServer/Service.asmx",
+                "vt": "str"
+            },
+            {
+                "p": "action",
+                "v": "Browse",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": ".NET Browse",
+        "payload": "{\"ItemName\":\"Dynamic/Analog Types\"}",
+        "payloadType": "json",
+        "x": 180,
+        "y": 100,
+        "wires": [
+            [
+                "bea53f5322453c94"
+            ]
+        ]
+    },
+    {
+        "id": "bea53f5322453c94",
+        "type": "subflow:a0568e71.72952",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "env": [
+            {
+                "name": "action",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "x": 440,
+        "y": 100,
+        "wires": [
+            [
+                "4b9be65ae2378baa"
+            ]
+        ]
+    },
+    {
+        "id": "92aef6f0714573ce",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "Advosol Browse",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "url",
+                "v": "http://info.advosol.com/XMLDADemo/TS_Sim/OpcDAGateway.asmx",
+                "vt": "str"
+            },
+            {
+                "p": "action",
+                "v": "Browse",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Advosol Browse",
+        "payload": "{\"ItemName\":\"Dynamic.Analog Types\"}",
+        "payloadType": "json",
+        "x": 190,
+        "y": 140,
+        "wires": [
+            [
+                "bea53f5322453c94"
+            ]
+        ]
+    },
+    {
+        "id": "b34fb3cfc357a685",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": ".NET GetProperties",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "url",
+                "v": "http://opcxml.demo-this.com/XmlDaSampleServer/Service.asmx",
+                "vt": "str"
+            },
+            {
+                "p": "action",
+                "v": "GetProperties",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": ".NET GetProperties",
+        "payload": "{\"ItemPath\":\"\",\"ItemName\":\"Dynamic/Analog Types/Double\"}",
+        "payloadType": "json",
+        "x": 200,
+        "y": 180,
+        "wires": [
+            [
+                "bea53f5322453c94"
+            ]
+        ]
+    },
+    {
+        "id": "3d0009309f37a86f",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": ".NET Read Int",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "url",
+                "v": "http://opcxml.demo-this.com/XmlDaSampleServer/Service.asmx",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": ".NET Read Int",
+        "payload": "{\"ItemList\":[{\"ItemPath\":\"\",\"ItemName\":\"Static/Analog Types/Int\"}]}",
+        "payloadType": "json",
+        "x": 180,
+        "y": 260,
+        "wires": [
+            [
+                "83e030279f6f0938"
+            ]
+        ]
+    },
+    {
+        "id": "83e030279f6f0938",
+        "type": "subflow:a0568e71.72952",
+        "z": "f6f2187d.f17ca8",
+        "name": "Read",
+        "env": [
+            {
+                "name": "action",
+                "value": "Read",
+                "type": "str"
+            }
+        ],
+        "x": 350,
+        "y": 260,
+        "wires": [
+            [
+                "5d06a5c01db06f3f"
+            ]
+        ]
+    },
+    {
+        "id": "5d06a5c01db06f3f",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 35",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload[0]",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "02a536aa1b08d42e",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "OPC XML Client Examples",
+        "info": "",
+        "x": 190,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "4b9be65ae2378baa",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 34",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 100,
+        "wires": []
+    }
+]
