@@ -39,6 +39,7 @@
     "kleur": "^4.1.4",
     "mock-aws-s3": "^4.0.2",
     "nock": "^13.5.1",
+    "node-red-contrib-compass": "^1.0.1",
     "node-red-contrib-google-calendar": "^0.1.5",
     "node-red-contrib-model-asset-exchange": "^0.2.8",
     "node-red-contrib-telegrambot": "^15.1.9",
@@ -46,8 +47,10 @@
     "node-red-contrib-time-range-switch": "^1.2.0",
     "node-red-contrib-viseo-google-authentication": "^0.1.1",
     "node-red-contrib-viseo-google-spreadsheet": "^0.5.1",
+    "node-red-dashboard": "^3.6.2",
     "node-red-node-email": "^2.2.0",
     "node-red-node-mysql": "^2.0.0",
+    "node-red-node-openweathermap": "^0.5.1",
     "node-red-node-sqlite": "^1.1.0",
     "yargs": "^17.0.1"
   },

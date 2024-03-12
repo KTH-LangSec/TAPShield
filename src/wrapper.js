@@ -13,7 +13,9 @@ let settings = {
   disableEditor: true, // Disable the editor
   httpAdminRoot: false, // Disable the http admin server
   httpNodeRoot: "/api", // All http nodes will be served from this root
+  ui: { path: "node-red-ui" },
   functionGlobalContext: {},
+  
   credentialSecret: process.env.NODE_RED_SECRET || "SKEY",
   
   https: {
