@@ -1,0 +1,1094 @@
+[
+    {
+        "id": "3d3ba81e747fea71",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bf129e19d0b880de",
+        "type": "mqtt in",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "topic": "COMMAND/#",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "89de8d8e.bac3d8",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 150,
+        "y": 300,
+        "wires": [
+            [
+                "4c2d91ec52a07e25"
+            ]
+        ]
+    },
+    {
+        "id": "81f5fc81f52a0b6e",
+        "type": "link out",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "links": [
+            "b572c9cf.b6d518",
+            "50f17f44cb7d59f4"
+        ],
+        "x": 895,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "76e645b5d7f81f09",
+        "type": "batch",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "mode": "interval",
+        "count": 10,
+        "overlap": 0,
+        "interval": "1",
+        "allowEmptySequence": false,
+        "topics": [],
+        "x": 493,
+        "y": 300,
+        "wires": [
+            [
+                "eb5e04c8b05e7709"
+            ]
+        ]
+    },
+    {
+        "id": "1ae78ed621a40a03",
+        "type": "debug",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 930,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "eb5e04c8b05e7709",
+        "type": "join",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "mode": "auto",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 613,
+        "y": 300,
+        "wires": [
+            [
+                "374789a85c40fff2"
+            ]
+        ]
+    },
+    {
+        "id": "4c2d91ec52a07e25",
+        "type": "function",
+        "z": "3d3ba81e747fea71",
+        "name": "Expand Payload",
+        "func": "/**\n * Merge topic and payload into the payload\n * so that we get something like 'COMMAND/SWITCH01: On'\n **/\n\n// Get the switch metadata\nconst switchLocations = global.get('switchLocations')\nconst switchId = msg.topic.replace('COMMAND/','')\nconst cmd = msg.payload.padStart(3)\n\nconst switchName = switchLocations[switchId] ? switchLocations[switchId].description : switchId\n\n//msg.payload = `${switchName}: ${msg.payload}`\nmsg.payload = `\\`${cmd} :: ${switchName}\\``\n\n// Also save the switch status in memory to allow replay\nlet cmdStatus = flow.get('cmdStatus') || {}\ncmdStatus[switchName] = msg.payload\nflow.set('cmdStatus', cmdStatus)\n\nmsg.topic = 'COMMAND'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 320,
+        "y": 300,
+        "wires": [
+            [
+                "76e645b5d7f81f09"
+            ]
+        ]
+    },
+    {
+        "id": "374789a85c40fff2",
+        "type": "function",
+        "z": "3d3ba81e747fea71",
+        "name": "Merge Payload",
+        "func": "/**\n * Join the payload array ready for sending to Telegram\n * Note that the Telegram output link also prepends the topic\n **/\n\nif ( msg.payload.length > 1 ) {\n    msg.topic = 'Current Switch Statuses'\n} else {\n    msg.topic = 'Switch Status Change'\n}\n\n//msg.payload = \"```&#160;\" + msg.payload.join(\"\\n\") + \"```\"\nmsg.payload = msg.payload.join(\"\\n\")\nmsg.parse_mode = 'Markdown'\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 763,
+        "y": 300,
+        "wires": [
+            [
+                "1ae78ed621a40a03",
+                "81f5fc81f52a0b6e"
+            ]
+        ]
+    },
+    {
+        "id": "ead5a25b96804cf3",
+        "type": "function",
+        "z": "3d3ba81e747fea71",
+        "name": "replay cache",
+        "func": "let cmdStatus = flow.get('cmdStatus') || {}\n\nfor (const switchName in cmdStatus) {\n  node.send( { topic: switchName, payload: cmdStatus[switchName] } )\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 380,
+        "wires": [
+            [
+                "1cda91145ac4cec5",
+                "76e645b5d7f81f09"
+            ]
+        ]
+    },
+    {
+        "id": "acca8b6e0635d447",
+        "type": "telegram command",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "command": "/lights",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "bot": "3c22b2ec0d03e81d",
+        "strict": false,
+        "hasresponse": false,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 1,
+        "x": 130,
+        "y": 380,
+        "wires": [
+            [
+                "ead5a25b96804cf3"
+            ]
+        ],
+        "outputLabels": [
+            "Authorised + Matches Command",
+            "Authorised - No command match"
+        ]
+    },
+    {
+        "id": "1cda91145ac4cec5",
+        "type": "debug",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 510,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "769bdad120f5e91f",
+        "type": "debug",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 950,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "c45253edb006022f",
+        "type": "telegram command",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "command": "/light",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "bot": "3c22b2ec0d03e81d",
+        "strict": false,
+        "hasresponse": false,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 1,
+        "x": 130,
+        "y": 700,
+        "wires": [
+            [
+                "9400a03169f98c83"
+            ]
+        ],
+        "outputLabels": [
+            "Authorised + Matches Command",
+            "Authorised - No command match"
+        ]
+    },
+    {
+        "id": "94d97306924a7e35",
+        "type": "function",
+        "z": "3d3ba81e747fea71",
+        "name": "Process Rivescript response",
+        "func": "const newPay = msg.origPay\nlet out = 0 // 0=command - goes to MQTT, 1 = msg back to bot\nlet payload = msg.payload\nlet cmd = ''\nlet msgId = msg.origPay.messageId\n\nfunction getMissingInfo(infoStr) {\n    out = 1\n    payload = payload.replace(infoStr,'')\n    \n    cmd = msg.originalMessage.text.split(' ')[0]\n    \n    // Save the info so far so we can combine with the reply\n    //pendingCmds(msgId, cmd)\n    \n    //msg.topic = `${cmd}: More information needed`\n    \n    newPay.content = `More information needed ...\\n${payload}`\n    \n    newPay.options = {\n        reply_to_message_id: msgId,\n        reply_markup: JSON.stringify({\n            force_reply: true,\n            selective: true,\n        }),\n        //parse_mode: 'Markdown'\n        /*\n            \n            'keyboard': [[\n                'on', 'off'\n            ]],\n            'resize_keyboard' : true, \n            'one_time_keyboard' : true\n\n            inline_keyboard: [[\n                {\n                    'text': 'On',\n                    'callback_data': 'on'            \n                }, {\n                    'text': 'Off',\n                    'callback_data': 'off'            \n                }\n            ]]\n        */\n    } // -- End of options -- //\n    \n    msg.payload = newPay\n}\n\n// A processable response?\nswitch ( payload.substr(0,4) ) {\n    // All info provided so send to MQTT command output {\n    case '|01,':\n        payload = payload.replace('|01,','')\n        \n        cmd = payload.toLowerCase().split(',')\n        \n        msg.topic = 'COMMAND/SWITCH' + cmd[0].padStart(2,'0')\n        \n        msg.payload = cmd[1]\n        break;\n    // --- End of |01, --- // }\n    \n    // Command given but not the switch number {\n    case '|02,':\n        getMissingInfo('|02,')\n        break;\n    // --- End of |02, --- // }\n\n    // Switch number given but not command (on|off) {\n    case '|03,':\n        getMissingInfo('|03,')\n        break;\n    // --- End of |03, --- // }\n    \n    // {\n    case '|04,':\n        return // exit, no msg sent\n        break;\n    // --- End of |04, --- // }\n\n    // The bot needs more info {\n    default:\n        return // exit, no msg sent\n    // --- End of Default --- // }\n    \n} // ---- End of switch ---- //\n\nif ( out === 0 ) return [msg, null]\nelse return [null, msg]",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 720,
+        "y": 680,
+        "wires": [
+            [
+                "769bdad120f5e91f",
+                "f01716877d6924b5"
+            ],
+            [
+                "74d8e2dfa067e391"
+            ]
+        ],
+        "outputLabels": [
+            "Known cmd with all info",
+            "More info needed"
+        ]
+    },
+    {
+        "id": "f01716877d6924b5",
+        "type": "mqtt out",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "topic": "",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d8d4adf0.7d5a2",
+        "x": 950,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "9aefa9f0dfdff42b",
+        "type": "rive",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "script": "! version = 2.0\n\n! array cmds = on off\n\n+  # (@cmds)\n- |01,<star1>,<star2>\n\n+  (@cmds) #\n- |01,<star2>,<star1>\n\n+ (@cmds)\n- |02,Which switch/light would you like to turn <star1>? [1-10]\n\n+ #\n- |03,Would you like to turn switch/light <star1> on or off? [on|off]\n\n+ *\n- I'm sorry, I don't understand what you are asking for.\\n\n^ Please use the format: /light # on|off\\n\n^ You can even use: /on #\n",
+        "x": 490,
+        "y": 700,
+        "wires": [
+            [
+                "3a1d05aeea44cfea",
+                "94d97306924a7e35"
+            ],
+            [
+                "00dd3181241d585b"
+            ]
+        ],
+        "outputLabels": [
+            "Known response",
+            "Unknown response"
+        ]
+    },
+    {
+        "id": "3a1d05aeea44cfea",
+        "type": "debug",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 650,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "9400a03169f98c83",
+        "type": "change",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "origPay",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "change",
+                "p": "payload.content",
+                "pt": "msg",
+                "from": "(\\/light|\\/switch|\\/off|\\/on)",
+                "fromt": "re",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.content",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 700,
+        "wires": [
+            [
+                "9aefa9f0dfdff42b",
+                "32b89a2ac89291f8"
+            ]
+        ]
+    },
+    {
+        "id": "7c23fd0395db87ac",
+        "type": "function",
+        "z": "3d3ba81e747fea71",
+        "name": "Save orig cmd",
+        "func": "const pendingCmds = flow.get('pendingCmds') || {}\n\npendingCmds[ msg.payload.sentMessageId ] = msg.originalMessage.text\n\nflow.set('pendingCmds', pendingCmds)\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 480,
+        "y": 1020,
+        "wires": [
+            [
+                "51923f96af6bacdf"
+            ]
+        ]
+    },
+    {
+        "id": "f3afe001b0680b69",
+        "type": "comment",
+        "z": "3d3ba81e747fea71",
+        "name": "Bot Command List",
+        "info": "Use the `/setcommands` command in the botfather channel.\n\n```\nlights - Show the current status of all lights and switches\nswitches - Show the current status of all lights and switches\non - Turn on a switch, provide the switch number\noff - Turn off a switch, provide the switch number\nlight - Turn on and off lights at home\nswitch - Turn on and off switches at home\nhelp - Show help about how to use this bot\nh - Show help about how to use this bot\n```",
+        "x": 130,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "e837df379325dcc1",
+        "type": "telegram command",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "command": "/help",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "bot": "3c22b2ec0d03e81d",
+        "strict": false,
+        "hasresponse": false,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 1,
+        "x": 130,
+        "y": 500,
+        "wires": [
+            [
+                "7090945606d6d63b"
+            ]
+        ],
+        "outputLabels": [
+            "Authorised + Matches Command",
+            "Authorised - No command match"
+        ]
+    },
+    {
+        "id": "16575bb7990beb31",
+        "type": "link out",
+        "z": "3d3ba81e747fea71",
+        "name": "Send simple response",
+        "links": [
+            "b572c9cf.b6d518",
+            "50f17f44cb7d59f4"
+        ],
+        "x": 435,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "7090945606d6d63b",
+        "type": "function",
+        "z": "3d3ba81e747fea71",
+        "name": "Return help info",
+        "func": "msg.topic = 'Bot Help'\n\nmsg.parse_mode = 'HTML'\n\nmsg.payload = \"There are several commands, type '/' to see them.\\n\"\n\nmsg.payload += `<b>/lights</b> or <b>/switches</b>\n&#160;&#160;&#160;List all showing whether <i>on</i> or <i>off</i>\n<b>/on #</b> or <b>/off #</b>\n&#160;&#160;&#160;Turn on or off switch number #\n<b>/light # [on|off]</b>\n&#160;&#160;&#160;As above (can also use /switch)\n<b>/light [on|off] #</b>\n&#160;&#160;&#160;As above\n<b>/help</b> or <b>/h</b>\n&#160;&#160;&#160;This information`\n\n//msg.payload += \"\\n```\"\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 300,
+        "y": 520,
+        "wires": [
+            [
+                "16575bb7990beb31"
+            ]
+        ]
+    },
+    {
+        "id": "941bf771278b0427",
+        "type": "telegram command",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "command": "/switches",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "bot": "3c22b2ec0d03e81d",
+        "strict": false,
+        "hasresponse": false,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 1,
+        "x": 140,
+        "y": 440,
+        "wires": [
+            [
+                "ead5a25b96804cf3"
+            ]
+        ],
+        "outputLabels": [
+            "Authorised + Matches Command",
+            "Authorised - No command match"
+        ]
+    },
+    {
+        "id": "7f0fa15cb0d3cd5b",
+        "type": "telegram command",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "command": "/switch",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "bot": "3c22b2ec0d03e81d",
+        "strict": false,
+        "hasresponse": false,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 1,
+        "x": 130,
+        "y": 760,
+        "wires": [
+            [
+                "9400a03169f98c83"
+            ]
+        ],
+        "outputLabels": [
+            "Authorised + Matches Command",
+            "Authorised - No command match"
+        ]
+    },
+    {
+        "id": "32b89a2ac89291f8",
+        "type": "debug",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 470,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "00dd3181241d585b",
+        "type": "debug",
+        "z": "3d3ba81e747fea71",
+        "name": "Unknown response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 690,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "2f2939fd1e30a1b7",
+        "type": "telegram sender",
+        "z": "3d3ba81e747fea71",
+        "name": "Ask for more info",
+        "bot": "3c22b2ec0d03e81d",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 290,
+        "y": 1020,
+        "wires": [
+            [
+                "7c23fd0395db87ac"
+            ]
+        ]
+    },
+    {
+        "id": "55d6ac16d40a5da3",
+        "type": "debug",
+        "z": "3d3ba81e747fea71",
+        "name": "Telegram Sender - reply",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 870,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "a3aee7ad79289033",
+        "type": "function",
+        "z": "3d3ba81e747fea71",
+        "name": "Merge reply with saved cmd",
+        "func": "const pendingCmds = flow.get('pendingCmds')\n\nmsg.payload.content = `${pendingCmds[ msg.originalMessage.reply_to_message.message_id ]} ${msg.payload.content}`\n\ndelete pendingCmds[ msg.originalMessage.reply_to_message.message_id ]\n\nflow.set('pendingCmds', pendingCmds)\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 880,
+        "y": 1020,
+        "wires": [
+            [
+                "1265f0ba472c0494"
+            ]
+        ]
+    },
+    {
+        "id": "74d8e2dfa067e391",
+        "type": "link out",
+        "z": "3d3ba81e747fea71",
+        "name": "Ask for more info (out)",
+        "links": [
+            "8c553b1d7f0f2fa1"
+        ],
+        "x": 915,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "8c553b1d7f0f2fa1",
+        "type": "link in",
+        "z": "3d3ba81e747fea71",
+        "name": "Ask for more info (in)",
+        "links": [
+            "74d8e2dfa067e391"
+        ],
+        "x": 160,
+        "y": 1020,
+        "wires": [
+            [
+                "2f2939fd1e30a1b7"
+            ]
+        ]
+    },
+    {
+        "id": "1265f0ba472c0494",
+        "type": "link out",
+        "z": "3d3ba81e747fea71",
+        "name": "Re-process (out)",
+        "links": [
+            "0f928cd3fe22906a"
+        ],
+        "x": 1075,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "0f928cd3fe22906a",
+        "type": "link in",
+        "z": "3d3ba81e747fea71",
+        "name": "Re-process (in)",
+        "links": [
+            "1265f0ba472c0494",
+            "44147adc89230fa1"
+        ],
+        "x": 155,
+        "y": 660,
+        "wires": [
+            [
+                "9400a03169f98c83"
+            ]
+        ]
+    },
+    {
+        "id": "57c23e15e85a9064",
+        "type": "telegram command",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "command": "/on",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "bot": "3c22b2ec0d03e81d",
+        "strict": false,
+        "hasresponse": false,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 1,
+        "x": 130,
+        "y": 880,
+        "wires": [
+            [
+                "7ad38fb92a47eb74"
+            ]
+        ],
+        "outputLabels": [
+            "Authorised + Matches Command",
+            "Authorised - No command match"
+        ]
+    },
+    {
+        "id": "7188ce8152df505c",
+        "type": "telegram command",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "command": "/off",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "bot": "3c22b2ec0d03e81d",
+        "strict": false,
+        "hasresponse": false,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 1,
+        "x": 130,
+        "y": 940,
+        "wires": [
+            [
+                "7ad38fb92a47eb74"
+            ]
+        ],
+        "outputLabels": [
+            "Authorised + Matches Command",
+            "Authorised - No command match"
+        ]
+    },
+    {
+        "id": "7ad38fb92a47eb74",
+        "type": "function",
+        "z": "3d3ba81e747fea71",
+        "name": "Translate Input to /switch cmd",
+        "func": "// Turn /on or /off into a /light command & send through its processing\n\nconst cmd = msg.originalMessage.text.substr(0,3).toLowerCase() === '/on' ? 'on' : 'off'\n\nmsg.originalMessage.text = `/switch ${cmd} ${msg.payload.content.trim()}`\n\nmsg.payload.content = `${cmd} ${msg.payload.content.trim()}`\n\nreturn msg\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 900,
+        "wires": [
+            [
+                "44147adc89230fa1"
+            ]
+        ]
+    },
+    {
+        "id": "44147adc89230fa1",
+        "type": "link out",
+        "z": "3d3ba81e747fea71",
+        "name": "Re-process (out)",
+        "links": [
+            "0f928cd3fe22906a"
+        ],
+        "x": 555,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "8ed4d7e920290439",
+        "type": "telegram command",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "command": "/h",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "bot": "3c22b2ec0d03e81d",
+        "strict": false,
+        "hasresponse": false,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 1,
+        "x": 130,
+        "y": 560,
+        "wires": [
+            [
+                "7090945606d6d63b"
+            ]
+        ],
+        "outputLabels": [
+            "Authorised + Matches Command",
+            "Authorised - No command match"
+        ]
+    },
+    {
+        "id": "bc324614a465e72c",
+        "type": "inject",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.001,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "79bd5d07423c15f8",
+                "ab0c16bfb21e0298"
+            ]
+        ]
+    },
+    {
+        "id": "79bd5d07423c15f8",
+        "type": "function",
+        "z": "3d3ba81e747fea71",
+        "name": "Save Switch MetaData to Global switchLocations",
+        "func": "// Record the physical locations of logical switch ID's\n// A switch recieves commands (a device sends data)\nglobal.set('switchLocations', {\n  \"SWITCH01\" : {location: \"HOME/IN/00/LIVING\",   description: \"Living room\",                      type: \"Siemens white remote plug\"},\n  \"SWITCH02\" : {location: \"HOME/IN/00/HALL\",     description: \"Hall (Rear)\",                      type: \"Siemens white remote plug\"},\n  \"SWITCH03\" : {location: \"HOME/IN/00/ENTRANCE\", description: \"Hall (Front)\",                     type: \"Siemens white remote plug\"},\n  \"SWITCH04\" : {location: \"HOME/IN/01/LANDING\",  description: \"Landing light\",                    type: \"Nexa remote plug\"},\n  \"SWITCH05\" : {location: \"HOME/OUT/00/TREE\",    description: \"Tree lights\",                      type: \"Nexa remote plug\"},\n  \"SWITCH06\" : {location: \"HOME/IN/02/LOFT\",     description: \"Loft LED lights\",                  type: \"Siemens white remote plug\"},\n  \"SWITCH07\" : {location: \"HOME/IN/99/NA\",       description: \"Not in use\",                       type: \"Siemens white remote plug\"},\n  \"SWITCH08\" : {location: \"HOME/IN/99/NA\",       description: \"Not in use\",                       type: \"Siemens white remote plug\"},\n  \"SWITCH09\" : {location: \"HOME/IN/00/ROAMING\",  description: \"Edimax\",                           type: \"Siemens remote/Edimax Smartswitch SP01\"},\n  \"BELL01\"   : {location: \"HOME/IN/00/HALL\",     description: \"Hall bell sounder near kitchen\",   type: \"Nexa bell sounder\"},\n});\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5671094a5600ff4a",
+        "type": "function",
+        "z": "3d3ba81e747fea71",
+        "name": "Set Telegram message options",
+        "func": "//{\"chatId\":202430638, \"type\":\"message\", \"text\":\"This is some text\"}\n//msg.payload.options = {parse_mode : \"Markdown\"}; // or HTML\n//// NB: The Family Knight group is connected to the IFTTT bot\n\nconst isObject = function (obj) {\n    // Lots of alternatives here: https://stackoverflow.com/questions/8511281/check-if-a-value-is-an-object-in-javascript\n    return Object.prototype.toString.call(obj) === '[object Object]';\n}\n\nif ( msg.topic === '' ) msg.topic = 'Node-RED Bot'\n\nconst payload = msg.payload\n\nif ( ! isObject(msg.payload) ) {\n    msg.payload = {}\n}\n\nmsg.payload.type = 'message'\nif ( ! msg.payload.options ) msg.payload.options = {}\n\nif ( !msg.payload.chatId && msg.chatId ) msg.payload.chatId = msg.chatId\nif ( !msg.payload.parse_mode && msg.parse_mode ) msg.payload.options.parse_mode = msg.parse_mode\n    \nif ( msg.replyTo ) msg.payload.options.reply_to_message_id = msg.replyTo\n\nmsg.payload.content = msg.topic + '\\n' + payload\n\nreturn msg;\n",
+        "outputs": "1",
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 140,
+        "wires": [
+            [
+                "43402d9422fc4083",
+                "a9cb471771ab98f9"
+            ]
+        ],
+        "outputLabels": [
+            "New Msg (for Telegram)"
+        ]
+    },
+    {
+        "id": "43402d9422fc4083",
+        "type": "telegram sender",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "bot": "3c22b2ec0d03e81d",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 790,
+        "y": 140,
+        "wires": [
+            [
+                "98fa0c08eaf56c06"
+            ]
+        ]
+    },
+    {
+        "id": "fc7081de30cacedf",
+        "type": "debug",
+        "z": "3d3ba81e747fea71",
+        "name": "Telegram Sender ERROR",
+        "active": true,
+        "console": "false",
+        "complete": "true",
+        "x": 1150,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "a9cb471771ab98f9",
+        "type": "debug",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "true",
+        "x": 750,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "50f17f44cb7d59f4",
+        "type": "link in",
+        "z": "3d3ba81e747fea71",
+        "name": "Telegram Out to JkPi2 Bot",
+        "links": [
+            "3029e7bd.5ebb18",
+            "5bb2a00e.7c072",
+            "b3711092.3c84a",
+            "b86d7c2c.8e92a",
+            "d8a95928.1c08c8",
+            "f42fbd8.e58ed4",
+            "68a6bd32.cdeac4",
+            "81f5fc81f52a0b6e",
+            "bb0c2efb.d8d75",
+            "16575bb7990beb31"
+        ],
+        "x": 58,
+        "y": 120,
+        "wires": [
+            [
+                "fb1ff51ec843344e"
+            ]
+        ]
+    },
+    {
+        "id": "1b8c4d77683bc63a",
+        "type": "link in",
+        "z": "3d3ba81e747fea71",
+        "name": "Telegram Out to Family Knight Group",
+        "links": [
+            "13c26be0.0e8fe4",
+            "5bb2a00e.7c072",
+            "68a6bd32.cdeac4"
+        ],
+        "x": 58,
+        "y": 160,
+        "wires": [
+            [
+                "7501c067a8a3ab0a"
+            ]
+        ]
+    },
+    {
+        "id": "98fa0c08eaf56c06",
+        "type": "switch",
+        "z": "3d3ba81e747fea71",
+        "name": "",
+        "property": "error",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nnull"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 2,
+        "x": 950,
+        "y": 140,
+        "wires": [
+            [
+                "fc7081de30cacedf"
+            ],
+            [
+                "c930952200b022e8"
+            ]
+        ],
+        "outputLabels": [
+            "Error",
+            null
+        ]
+    },
+    {
+        "id": "c930952200b022e8",
+        "type": "debug",
+        "z": "3d3ba81e747fea71",
+        "name": "Telegram Sender",
+        "active": false,
+        "console": "false",
+        "complete": "true",
+        "x": 1130,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "fb1ff51ec843344e",
+        "type": "change",
+        "z": "3d3ba81e747fea71",
+        "name": "chatId: JkPi2 Bot",
+        "rules": [
+            {
+                "t": "set",
+                "p": "chatId",
+                "pt": "msg",
+                "to": "106404807",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "5671094a5600ff4a"
+            ]
+        ]
+    },
+    {
+        "id": "7501c067a8a3ab0a",
+        "type": "change",
+        "z": "3d3ba81e747fea71",
+        "name": "chatId:Family Knight Group",
+        "rules": [
+            {
+                "t": "set",
+                "p": "chatId",
+                "pt": "msg",
+                "to": "106404807",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 220,
+        "y": 160,
+        "wires": [
+            [
+                "5671094a5600ff4a"
+            ]
+        ]
+    },
+    {
+        "id": "51923f96af6bacdf",
+        "type": "telegram reply",
+        "z": "3d3ba81e747fea71",
+        "name": "Process reply",
+        "bot": "3c22b2ec0d03e81d",
+        "x": 660,
+        "y": 1020,
+        "wires": [
+            [
+                "55d6ac16d40a5da3",
+                "a3aee7ad79289033"
+            ]
+        ]
+    },
+    {
+        "id": "ab0c16bfb21e0298",
+        "type": "debug",
+        "z": "3d3ba81e747fea71",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "89de8d8e.bac3d8",
+        "type": "mqtt-broker",
+        "name": "localhost:1883",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "3c22b2ec0d03e81d",
+        "type": "telegram bot",
+        "botname": "Node-Red-Example",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "4",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "d8d4adf0.7d5a2",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    }
+]
