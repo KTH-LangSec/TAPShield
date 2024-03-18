@@ -23,7 +23,7 @@
         "type": "udp out",
         "z": "92236e19.9e4cb",
         "name": "",
-        "addr": "localhost",
+        "addr": "127.0.0.1",
         "iface": "",
         "port": "1881",
         "ipv": "udp4",
@@ -48,7 +48,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "3",
+        "repeat": "1",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,

@@ -1,39 +1,47 @@
 [
     {
-        "id": "13410716.69c9d9",
+        "id": "c74047fa59370239",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c014fc9f8a612184",
         "type": "websocket in",
-        "z": "a8360b47.074ec8",
+        "z": "c74047fa59370239",
         "name": "",
         "server": "89db22b6.9aa36",
         "client": "",
-        "x": 280,
-        "y": 180,
+        "x": 320,
+        "y": 240,
         "wires": [
             [
-                "c2541f10.59544"
+                "bac91fe9b831c582"
             ]
         ]
     },
     {
-        "id": "c2541f10.59544",
+        "id": "bac91fe9b831c582",
         "type": "debug",
-        "z": "a8360b47.074ec8",
+        "z": "c74047fa59370239",
         "name": "",
         "active": true,
         "tosidebar": true,
-        "console": false,
+        "console": true,
         "tostatus": false,
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 430,
-        "y": 180,
+        "x": 500,
+        "y": 240,
         "wires": []
     },
     {
-        "id": "6788839e.04576c",
+        "id": "533dc39eca3e8966",
         "type": "inject",
-        "z": "a8360b47.074ec8",
+        "z": "c74047fa59370239",
         "name": "",
         "props": [
             {
@@ -44,40 +52,40 @@
                 "vt": "str"
             }
         ],
-        "repeat": "3",
+        "repeat": "1",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "Hello, World!",
         "payloadType": "str",
-        "x": 290,
-        "y": 120,
+        "x": 360,
+        "y": 180,
         "wires": [
             [
-                "438c232a.06c2cc"
+                "324f76db4897b98a"
             ]
         ]
     },
     {
-        "id": "438c232a.06c2cc",
+        "id": "324f76db4897b98a",
         "type": "websocket out",
-        "z": "a8360b47.074ec8",
+        "z": "c74047fa59370239",
         "name": "",
         "server": "",
         "client": "63620788.bda128",
-        "x": 500,
-        "y": 120,
+        "x": 630,
+        "y": 180,
         "wires": []
     },
     {
-        "id": "c88f97a9.4410f8",
+        "id": "d0c8692182398558",
         "type": "comment",
-        "z": "a8360b47.074ec8",
+        "z": "c74047fa59370239",
         "name": "Connect to websocket in server",
         "info": "`websocket out` node can connect to web socket server.  `websocket in` node can serve a web socket server.\n",
-        "x": 290,
-        "y": 80,
+        "x": 360,
+        "y": 140,
         "wires": []
     },
     {
@@ -89,8 +97,24 @@
     {
         "id": "63620788.bda128",
         "type": "websocket-client",
-        "path": "ws://localhost:1884/ws1",
-        "tls": "",
-        "wholemsg": "false"
+        "path": "wss://localhost:8443/api/ws1",
+        "tls": "b74801226ed9d557",
+        "wholemsg": "false",
+        "hb": "0",
+        "subprotocol": ""
+    },
+    {
+        "id": "b74801226ed9d557",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "server.cert",
+        "keyname": "server.key",
+        "caname": "ca.pem",
+        "servername": "",
+        "verifyservercert": false,
+        "alpnprotocol": ""
     }
 ]

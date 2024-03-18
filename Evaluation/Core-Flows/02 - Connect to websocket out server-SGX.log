@@ -1,0 +1,83 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+-----------------------------------------------------------------------------------------------------------------------
+Gramine detected the following insecure configurations:
+
+  - sgx.debug = true                           (this is a debug enclave)
+  - loader.log_level = warning|debug|trace|all (verbose log level, may leak information)
+  - loader.insecure__use_cmdline_argv = true   (forwarding command-line args from untrusted host to the app)
+  - loader.insecure__use_host_env = true       (forwarding environment vars from untrusted host to the app)
+  - sys.insecure__allow_eventfd = true         (host-based eventfd is enabled)
+  - sgx.allowed_files = [ ... ]                (some files are passed through from untrusted host without verification)
+
+Gramine will continue application execution, but this configuration must not be used in production!
+-----------------------------------------------------------------------------------------------------------------------
+
+Server listening on  8443
+Node-Red started
+WebSocketIn: 0.507ms
+Inject: 3.832ms
+WebSocket: 1.737ms
+Debug: 0.995ms
+Inject: 0.189ms
+WebSocket: 0.305ms
+Debug: 0.136ms
+Inject: 0.185ms
+WebSocket: 0.274ms
+Debug: 0.161ms
+Inject: 0.21ms
+WebSocket: 0.327ms
+Debug: 0.153ms
+Inject: 0.602ms
+WebSocket: 0.291ms
+Debug: 0.143ms
+Inject: 0.235ms
+WebSocket: 0.239ms
+Debug: 0.138ms
+Inject: 0.241ms
+WebSocket: 0.655ms
+Debug: 0.169ms
+Inject: 0.272ms
+WebSocket: 0.251ms
+Debug: 0.155ms
+Inject: 0.549ms
+WebSocket: 0.238ms
+Debug: 0.15ms
+Inject: 0.224ms
+WebSocket: 0.265ms
+Debug: 0.534ms
+Inject: 0.679ms
+WebSocket: 0.296ms
+Debug: 0.162ms
+Inject: 0.236ms
+WebSocket: 0.253ms
+Debug: 0.128ms
+Inject: 0.25ms
+WebSocket: 0.242ms
+Debug: 0.139ms
+Inject: 0.69ms
+WebSocket: 0.303ms
+Debug: 0.14ms
+Inject: 0.218ms
+WebSocket: 0.317ms
+Debug: 0.119ms
+Inject: 0.194ms
+WebSocket: 0.495ms
+Debug: 0.123ms
+Inject: 0.17ms
+WebSocket: 0.292ms
+Debug: 0.351ms
+Inject: 0.174ms
+WebSocket: 0.31ms
+Debug: 0.256ms
+Inject: 0.449ms
+WebSocket: 0.235ms
+Debug: 0.11ms
+Inject: 0.206ms
+WebSocket: 0.275ms
+Debug: 0.108ms
+Inject: 0.187ms
+WebSocket: 0.284ms
+Debug: 0.119ms
+Inject: 0.17ms
+WebSocket: 0.332ms
+Debug: 0.173ms

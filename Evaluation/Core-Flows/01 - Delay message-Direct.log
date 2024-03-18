@@ -1,0 +1,149 @@
+Server listening on  8443
+18 Mar 09:29:41 - [info] 
+
+runtime.welcome
+===================
+
+18 Mar 09:29:41 - [info] runtime.version
+18 Mar 09:29:41 - [info] runtime.version
+18 Mar 09:29:41 - [info] Linux 3.10.0 x64 LE
+18 Mar 09:29:41 - [info] server.palette-editor.disabled
+18 Mar 09:29:41 - [info] server.loading
+18 Mar 09:29:41 - [info] context.log-store-init
+18 Mar 09:29:41 - [info] storage.localfilesystem.user-dir
+18 Mar 09:29:41 - [warn] storage.localfilesystem.projects.disabledNoFlag
+18 Mar 09:29:41 - [info] storage.localfilesystem.flows-file
+Node-Red started
+18 Mar 09:29:41 - [debug] loaded flow revision: 85df5546c1582809433cdb87a5159cae
+18 Mar 09:29:41 - [debug] red/runtime/nodes/credentials.load : user provided key
+18 Mar 09:29:41 - [debug] red/runtime/nodes/credentials.load : keyType=user
+18 Mar 09:29:41 - [warn] nodes.credentials.encryptedNotFound
+18 Mar 09:29:41 - [trace] runtime event: {"id":"runtime-state","retain":true}
+18 Mar 09:29:41 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"85df5546c1582809433cdb87a5159cae"},"retain":true}
+18 Mar 09:29:41 - [info] nodes.flows.starting-flows
+18 Mar 09:29:41 - [debug] red/nodes/flows.start : starting flow : global
+18 Mar 09:29:41 - [debug] red/nodes/flows.start : starting flow : 3ae4b3d9.1f77bc
+18 Mar 09:29:41 - [trace] [flow:global] start flow [global]
+18 Mar 09:29:41 - [trace] [flow:3ae4b3d9.1f77bc] start flow [3ae4b3d9.1f77bc]
+18 Mar 09:29:41 - [debug] [inject:1d17715c.34170f] inject.repeat
+18 Mar 09:29:41 - [trace] [flow:3ae4b3d9.1f77bc] ------------------|--------------|-----------------
+18 Mar 09:29:41 - [trace] [flow:3ae4b3d9.1f77bc]  id               | type         | alias
+18 Mar 09:29:41 - [trace] [flow:3ae4b3d9.1f77bc] ------------------|--------------|-----------------
+18 Mar 09:29:41 - [trace] [flow:3ae4b3d9.1f77bc]  87bd706a.aec93   | comment      | 
+18 Mar 09:29:41 - [trace] [flow:3ae4b3d9.1f77bc]  1d17715c.34170f  | inject       | 
+18 Mar 09:29:41 - [trace] [flow:3ae4b3d9.1f77bc]  9930fecd.ee0c8   | debug        | 
+18 Mar 09:29:41 - [trace] [flow:3ae4b3d9.1f77bc]  26b43de5.4df8f2  | delay        | 
+18 Mar 09:29:41 - [trace] [flow:3ae4b3d9.1f77bc]  c8c2796c.dcb9f8  | change       | 
+18 Mar 09:29:41 - [trace] [flow:3ae4b3d9.1f77bc]  c58a290e.2fa438  | debug        | 
+18 Mar 09:29:41 - [trace] [flow:3ae4b3d9.1f77bc] ------------------|--------------|-----------------
+18 Mar 09:29:41 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+18 Mar 09:29:41 - [info] nodes.flows.started-flows
+Inject: 2.098ms
+Delay: 0.086ms
+Debug: 0.273ms
+Inject: 0.147ms
+Delay: 0.034ms
+Debug: 0.068ms
+Inject: 0.163ms
+Delay: 0.041ms
+Debug: 0.065ms
+Inject: 0.142ms
+Delay: 0.058ms
+Debug: 0.052ms
+Change: 0.659ms
+Debug: 0.037ms
+Change: 0.056ms
+Debug: 0.039ms
+Inject: 0.2ms
+Delay: 0.27ms
+Debug: 0.033ms
+Inject: 0.235ms
+Change: 0.05ms
+Delay: 0.03ms
+Debug: 0.052ms
+Debug: 0.2ms
+Inject: 0.116ms
+Change: 0.035ms
+Delay: 0.067ms
+Debug: 0.039ms
+Debug: 0.033ms
+Change: 0.055ms
+Debug: 0.032ms
+Inject: 0.073ms
+Delay: 0.074ms
+Debug: 0.025ms
+Change: 0.047ms
+Debug: 0.039ms
+Inject: 0.109ms
+Delay: 0.036ms
+Debug: 0.023ms
+Inject: 0.088ms
+Change: 0.035ms
+Delay: 0.032ms
+Debug: 0.028ms
+Debug: 0.018ms
+Inject: 0.206ms
+Change: 0.032ms
+Delay: 0.025ms
+Debug: 0.023ms
+Debug: 0.017ms
+Inject: 0.229ms
+Change: 0.051ms
+Delay: 0.036ms
+Debug: 0.031ms
+Debug: 0.021ms
+Inject: 0.087ms
+Change: 0.035ms
+Delay: 0.021ms
+Debug: 0.031ms
+Debug: 0.018ms
+Inject: 0.102ms
+Change: 0.037ms
+Delay: 0.018ms
+Debug: 0.026ms
+Debug: 0.017ms
+Change: 0.053ms
+Debug: 0.03ms
+Inject: 0.066ms
+Delay: 0.023ms
+Debug: 0.023ms
+Inject: 0.077ms
+Change: 0.064ms
+Delay: 0.028ms
+Debug: 0.031ms
+Debug: 0.033ms
+Inject: 0.066ms
+Change: 0.045ms
+Delay: 0.017ms
+Debug: 0.027ms
+Debug: 0.02ms
+Inject: 0.222ms
+Change: 0.052ms
+Delay: 0.057ms
+Debug: 0.037ms
+Debug: 0.031ms
+Inject: 0.085ms
+Change: 0.044ms
+Delay: 0.025ms
+Debug: 0.024ms
+Debug: 0.019ms
+Change: 0.056ms
+Inject: 0.207ms
+Debug: 0.026ms
+Delay: 0.017ms
+Debug: 0.022ms
+Inject: 0.104ms
+Delay: 0.025ms
+Debug: 0.06ms
+Change: 0.054ms
+Debug: 0.034ms
+cInject: 0.064ms
+Change: 0.051ms
+Delay: 0.029ms
+Debug: 0.026ms
+Debug: 0.022ms
+Change: 0.065ms
+Debug: 0.027ms
+Inject: 0.062ms
+Delay: 0.021ms
+Debug: 0.027ms

@@ -1,0 +1,116 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+-----------------------------------------------------------------------------------------------------------------------
+Gramine detected the following insecure configurations:
+
+  - sgx.debug = true                           (this is a debug enclave)
+  - loader.log_level = warning|debug|trace|all (verbose log level, may leak information)
+  - loader.insecure__use_cmdline_argv = true   (forwarding command-line args from untrusted host to the app)
+  - loader.insecure__use_host_env = true       (forwarding environment vars from untrusted host to the app)
+  - sys.insecure__allow_eventfd = true         (host-based eventfd is enabled)
+  - sgx.allowed_files = [ ... ]                (some files are passed through from untrusted host without verification)
+
+Gramine will continue application execution, but this configuration must not be used in production!
+-----------------------------------------------------------------------------------------------------------------------
+
+Server listening on  8443
+Node-Red started
+Inject: 4.644ms
+Template: 0.242ms
+Change: 1.337ms
+XML: 2.605ms
+Debug: 3.519ms
+Inject: 0.202ms
+Template: 0.094ms
+Change: 0.123ms
+XML: 0.528ms
+Debug: 0.658ms
+Inject: 0.222ms
+Template: 0.139ms
+Change: 0.115ms
+XML: 0.084ms
+Debug: 0.275ms
+Inject: 0.202ms
+Template: 0.501ms
+Change: 0.141ms
+XML: 0.115ms
+Debug: 0.458ms
+Inject: 0.186ms
+Template: 0.123ms
+Change: 0.138ms
+XML: 0.557ms
+Debug: 0.232ms
+Inject: 0.205ms
+Template: 0.123ms
+Change: 0.134ms
+XML: 0.111ms
+Debug: 0.518ms
+Inject: 0.182ms
+Template: 0.166ms
+Change: 0.131ms
+XML: 0.104ms
+Debug: 0.623ms
+Inject: 0.223ms
+Template: 0.616ms
+Change: 0.123ms
+XML: 0.095ms
+Debug: 0.36ms
+Inject: 0.193ms
+Template: 0.117ms
+Change: 0.127ms
+XML: 0.068ms
+Debug: 0.466ms
+Inject: 0.201ms
+Template: 0.11ms
+Change: 0.133ms
+XML: 0.105ms
+Debug: 0.602ms
+Inject: 0.158ms
+Template: 0.12ms
+Change: 0.104ms
+XML: 0.081ms
+Debug: 0.222ms
+Inject: 0.466ms
+Template: 0.075ms
+Change: 0.103ms
+XML: 0.07ms
+Debug: 0.22ms
+Inject: 0.176ms
+Template: 0.1ms
+Change: 0.103ms
+XML: 0.07ms
+Debug: 0.207ms
+Inject: 0.162ms
+Template: 0.076ms
+Change: 0.102ms
+XML: 0.07ms
+Debug: 0.716ms
+Inject: 0.16ms
+Template: 0.087ms
+Change: 0.101ms
+XML: 0.069ms
+Debug: 0.428ms
+Inject: 0.158ms
+Template: 0.091ms
+Change: 0.118ms
+XML: 0.083ms
+Debug: 0.226ms
+Inject: 0.162ms
+Template: 0.094ms
+Change: 0.116ms
+XML: 0.344ms
+Debug: 0.189ms
+Inject: 0.155ms
+Template: 0.105ms
+Change: 0.117ms
+XML: 0.068ms
+Debug: 0.183ms
+Inject: 0.158ms
+Template: 0.396ms
+Change: 0.109ms
+XML: 0.066ms
+Debug: 0.184ms
+Inject: 0.158ms
+Template: 0.1ms
+Change: 0.306ms
+XML: 0.067ms
+Debug: 0.185ms

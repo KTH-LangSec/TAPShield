@@ -1,0 +1,93 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+-----------------------------------------------------------------------------------------------------------------------
+Gramine detected the following insecure configurations:
+
+  - sgx.debug = true                           (this is a debug enclave)
+  - loader.log_level = warning|debug|trace|all (verbose log level, may leak information)
+  - loader.insecure__use_cmdline_argv = true   (forwarding command-line args from untrusted host to the app)
+  - loader.insecure__use_host_env = true       (forwarding environment vars from untrusted host to the app)
+  - sys.insecure__allow_eventfd = true         (host-based eventfd is enabled)
+  - sgx.allowed_files = [ ... ]                (some files are passed through from untrusted host without verification)
+
+Gramine will continue application execution, but this configuration must not be used in production!
+-----------------------------------------------------------------------------------------------------------------------
+
+Server listening on  8443
+18 Mar 08:44:21 - [info] 
+
+runtime.welcome
+===================
+
+18 Mar 08:44:21 - [info] runtime.version
+18 Mar 08:44:21 - [info] runtime.version
+18 Mar 08:44:21 - [info] Linux 3.10.0 x64 LE
+18 Mar 08:44:21 - [info] server.palette-editor.disabled
+18 Mar 08:44:21 - [info] server.loading
+18 Mar 08:44:21 - [info] context.log-store-init
+18 Mar 08:44:21 - [info] storage.localfilesystem.user-dir
+18 Mar 08:44:21 - [warn] storage.localfilesystem.projects.disabledNoFlag
+18 Mar 08:44:21 - [info] storage.localfilesystem.flows-file
+Node-Red started
+18 Mar 08:44:21 - [debug] loaded flow revision: 175be8ad9415ee646183da7011de2d3f
+18 Mar 08:44:21 - [debug] red/runtime/nodes/credentials.load : user provided key
+18 Mar 08:44:21 - [debug] red/runtime/nodes/credentials.load : keyType=user
+18 Mar 08:44:21 - [warn] nodes.credentials.encryptedNotFound
+18 Mar 08:44:21 - [trace] runtime event: {"id":"runtime-state","retain":true}
+18 Mar 08:44:21 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"175be8ad9415ee646183da7011de2d3f"},"retain":true}
+18 Mar 08:44:21 - [info] nodes.flows.starting-flows
+18 Mar 08:44:21 - [debug] red/nodes/flows.start : starting flow : global
+18 Mar 08:44:21 - [debug] red/nodes/flows.start : starting flow : 61feb619.5e3d68
+18 Mar 08:44:21 - [trace] [flow:global] start flow [global]
+18 Mar 08:44:21 - [trace] [flow:61feb619.5e3d68] start flow [61feb619.5e3d68]
+18 Mar 08:44:21 - [debug] [inject:6f477e7d.3a8da] inject.repeat
+18 Mar 08:44:21 - [trace] [flow:61feb619.5e3d68] ------------------|--------------|-----------------
+18 Mar 08:44:21 - [trace] [flow:61feb619.5e3d68]  id               | type         | alias
+18 Mar 08:44:21 - [trace] [flow:61feb619.5e3d68] ------------------|--------------|-----------------
+18 Mar 08:44:21 - [trace] [flow:61feb619.5e3d68]  30ed0a73.fcef86  | comment      | 
+18 Mar 08:44:21 - [trace] [flow:61feb619.5e3d68]  6f477e7d.3a8da   | inject       | 
+18 Mar 08:44:21 - [trace] [flow:61feb619.5e3d68]  19c9408d.ac6d4f  | debug        | 
+18 Mar 08:44:21 - [trace] [flow:61feb619.5e3d68] ------------------|--------------|-----------------
+18 Mar 08:44:21 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+18 Mar 08:44:21 - [info] nodes.flows.started-flows
+Inject: 3.868ms
+Debug: 1.342ms
+Inject: 0.203ms
+Debug: 0.086ms
+Inject: 0.219ms
+Debug: 0.083ms
+Inject: 0.177ms
+Debug: 0.095ms
+Inject: 0.174ms
+Debug: 0.099ms
+Inject: 0.19ms
+Debug: 0.103ms
+Inject: 0.192ms
+Debug: 0.078ms
+Inject: 0.182ms
+Debug: 0.105ms
+Inject: 0.59ms
+Debug: 0.079ms
+Inject: 0.209ms
+Debug: 0.074ms
+Inject: 0.195ms
+Debug: 0.074ms
+Inject: 0.193ms
+Debug: 0.341ms
+Inject: 0.492ms
+Debug: 0.09ms
+Inject: 0.225ms
+Debug: 0.064ms
+Inject: 0.178ms
+Debug: 0.065ms
+Inject: 0.195ms
+Debug: 0.072ms
+Inject: 0.246ms
+Debug: 0.067ms
+Inject: 0.196ms
+Debug: 0.125ms
+Inject: 0.557ms
+Debug: 0.141ms
+Inject: 0.229ms
+Debug: 0.081ms
+Inject: 0.177ms
+Debug: 0.064ms

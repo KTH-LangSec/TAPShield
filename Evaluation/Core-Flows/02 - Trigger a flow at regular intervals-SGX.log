@@ -1,0 +1,93 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+-----------------------------------------------------------------------------------------------------------------------
+Gramine detected the following insecure configurations:
+
+  - sgx.debug = true                           (this is a debug enclave)
+  - loader.log_level = warning|debug|trace|all (verbose log level, may leak information)
+  - loader.insecure__use_cmdline_argv = true   (forwarding command-line args from untrusted host to the app)
+  - loader.insecure__use_host_env = true       (forwarding environment vars from untrusted host to the app)
+  - sys.insecure__allow_eventfd = true         (host-based eventfd is enabled)
+  - sgx.allowed_files = [ ... ]                (some files are passed through from untrusted host without verification)
+
+Gramine will continue application execution, but this configuration must not be used in production!
+-----------------------------------------------------------------------------------------------------------------------
+
+Server listening on  8443
+18 Mar 08:49:56 - [info] 
+
+runtime.welcome
+===================
+
+18 Mar 08:49:56 - [info] runtime.version
+18 Mar 08:49:56 - [info] runtime.version
+18 Mar 08:49:56 - [info] Linux 3.10.0 x64 LE
+18 Mar 08:49:56 - [info] server.palette-editor.disabled
+18 Mar 08:49:56 - [info] server.loading
+18 Mar 08:49:56 - [info] context.log-store-init
+18 Mar 08:49:56 - [info] storage.localfilesystem.user-dir
+18 Mar 08:49:56 - [warn] storage.localfilesystem.projects.disabledNoFlag
+18 Mar 08:49:56 - [info] storage.localfilesystem.flows-file
+Node-Red started
+18 Mar 08:49:56 - [debug] loaded flow revision: ebb6a32076ba5fe6646cbdb933dd8c3f
+18 Mar 08:49:56 - [debug] red/runtime/nodes/credentials.load : user provided key
+18 Mar 08:49:56 - [debug] red/runtime/nodes/credentials.load : keyType=user
+18 Mar 08:49:56 - [warn] nodes.credentials.encryptedNotFound
+18 Mar 08:49:56 - [trace] runtime event: {"id":"runtime-state","retain":true}
+18 Mar 08:49:56 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"ebb6a32076ba5fe6646cbdb933dd8c3f"},"retain":true}
+18 Mar 08:49:56 - [info] nodes.flows.starting-flows
+18 Mar 08:49:56 - [debug] red/nodes/flows.start : starting flow : global
+18 Mar 08:49:56 - [debug] red/nodes/flows.start : starting flow : bfaec8ca.105278
+18 Mar 08:49:56 - [trace] [flow:global] start flow [global]
+18 Mar 08:49:56 - [trace] [flow:bfaec8ca.105278] start flow [bfaec8ca.105278]
+18 Mar 08:49:56 - [debug] [inject:7c820e88.2db33] inject.repeat
+18 Mar 08:49:56 - [trace] [flow:bfaec8ca.105278] ------------------|--------------|-----------------
+18 Mar 08:49:56 - [trace] [flow:bfaec8ca.105278]  id               | type         | alias
+18 Mar 08:49:56 - [trace] [flow:bfaec8ca.105278] ------------------|--------------|-----------------
+18 Mar 08:49:56 - [trace] [flow:bfaec8ca.105278]  64c1d7b3.a65b38  | comment      | 
+18 Mar 08:49:56 - [trace] [flow:bfaec8ca.105278]  7c820e88.2db33   | inject       | 
+18 Mar 08:49:56 - [trace] [flow:bfaec8ca.105278]  8f135212.6a9a9   | debug        | 
+18 Mar 08:49:56 - [trace] [flow:bfaec8ca.105278] ------------------|--------------|-----------------
+18 Mar 08:49:56 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+18 Mar 08:49:56 - [info] nodes.flows.started-flows
+Inject: 4.146ms
+Debug: 0.722ms
+Inject: 0.209ms
+Debug: 0.143ms
+Inject: 0.235ms
+Debug: 0.11ms
+Inject: 0.185ms
+Debug: 0.116ms
+Inject: 0.189ms
+Debug: 0.387ms
+Inject: 0.226ms
+Debug: 0.099ms
+Inject: 0.192ms
+Debug: 0.155ms
+Inject: 0.27ms
+Debug: 0.092ms
+Inject: 0.674ms
+Debug: 0.09ms
+Inject: 0.21ms
+Debug: 0.125ms
+Inject: 0.186ms
+Debug: 0.11ms
+Inject: 0.216ms
+Debug: 0.088ms
+Inject: 0.257ms
+Debug: 0.086ms
+Inject: 0.271ms
+Debug: 0.084ms
+Inject: 0.256ms
+Debug: 0.095ms
+Inject: 0.204ms
+Debug: 0.085ms
+Inject: 0.249ms
+Debug: 0.086ms
+Inject: 0.267ms
+Debug: 0.083ms
+Inject: 0.641ms
+Debug: 0.079ms
+Inject: 0.229ms
+Debug: 0.111ms
+Inject: 0.184ms
+Debug: 0.071ms

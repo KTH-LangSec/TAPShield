@@ -1,0 +1,113 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+-----------------------------------------------------------------------------------------------------------------------
+Gramine detected the following insecure configurations:
+
+  - sgx.debug = true                           (this is a debug enclave)
+  - loader.log_level = warning|debug|trace|all (verbose log level, may leak information)
+  - loader.insecure__use_cmdline_argv = true   (forwarding command-line args from untrusted host to the app)
+  - loader.insecure__use_host_env = true       (forwarding environment vars from untrusted host to the app)
+  - sys.insecure__allow_eventfd = true         (host-based eventfd is enabled)
+  - sgx.allowed_files = [ ... ]                (some files are passed through from untrusted host without verification)
+
+Gramine will continue application execution, but this configuration must not be used in production!
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Server listening on  8443
+18 Mar 09:42:30 - [info] 
+
+runtime.welcome
+===================
+
+18 Mar 09:42:30 - [info] runtime.version
+18 Mar 09:42:30 - [info] runtime.version
+18 Mar 09:42:30 - [info] Linux 3.10.0 x64 LE
+18 Mar 09:42:30 - [info] server.palette-editor.disabled
+18 Mar 09:42:30 - [info] server.loading
+18 Mar 09:42:30 - [info] context.log-store-init
+18 Mar 09:42:30 - [info] storage.localfilesystem.user-dir
+18 Mar 09:42:30 - [warn] storage.localfilesystem.projects.disabledNoFlag
+18 Mar 09:42:30 - [info] storage.localfilesystem.flows-file
+Node-Red started
+18 Mar 09:42:30 - [debug] loaded flow revision: 76e0f68ea1962ea045577a7f97f2863a
+18 Mar 09:42:30 - [debug] red/runtime/nodes/credentials.load : user provided key
+18 Mar 09:42:30 - [debug] red/runtime/nodes/credentials.load : keyType=user
+18 Mar 09:42:30 - [warn] nodes.credentials.encryptedNotFound
+18 Mar 09:42:30 - [trace] runtime event: {"id":"runtime-state","retain":true}
+18 Mar 09:42:30 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"76e0f68ea1962ea045577a7f97f2863a"},"retain":true}
+18 Mar 09:42:30 - [info] nodes.flows.starting-flows
+18 Mar 09:42:30 - [debug] red/nodes/flows.start : starting flow : global
+18 Mar 09:42:30 - [debug] red/nodes/flows.start : starting flow : 97cd77e0.37c268
+18 Mar 09:42:30 - [trace] [flow:global] start flow [global]
+18 Mar 09:42:30 - [trace] [flow:97cd77e0.37c268] start flow [97cd77e0.37c268]
+18 Mar 09:42:30 - [debug] [inject:a3a635eb.191188] inject.repeat
+18 Mar 09:42:30 - [trace] [flow:97cd77e0.37c268] ------------------|--------------|-----------------
+18 Mar 09:42:30 - [trace] [flow:97cd77e0.37c268]  id               | type         | alias
+18 Mar 09:42:30 - [trace] [flow:97cd77e0.37c268] ------------------|--------------|-----------------
+18 Mar 09:42:30 - [trace] [flow:97cd77e0.37c268]  a3a635eb.191188  | inject       | 
+18 Mar 09:42:30 - [trace] [flow:97cd77e0.37c268]  1a218bea.61ae04  | debug        | 
+18 Mar 09:42:30 - [trace] [flow:97cd77e0.37c268]  a56bde3a.330e1   | comment      | 
+18 Mar 09:42:30 - [trace] [flow:97cd77e0.37c268]  77f57d92.06fa14  | function     | 
+18 Mar 09:42:30 - [trace] [flow:97cd77e0.37c268] ------------------|--------------|-----------------
+18 Mar 09:42:30 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+18 Mar 09:42:30 - [info] nodes.flows.started-flows
+Inject: 3.483ms
+Function: 2.482ms
+Debug: 0.677ms
+Inject: 0.622ms
+Function: 0.133ms
+Debug: 0.076ms
+Inject: 0.194ms
+Function: 0.165ms
+Debug: 0.086ms
+Inject: 0.188ms
+Function: 0.135ms
+Debug: 0.167ms
+Inject: 0.212ms
+Function: 0.689ms
+Debug: 0.078ms
+Inject: 0.254ms
+Function: 0.466ms
+Debug: 0.077ms
+Inject: 0.44ms
+Function: 0.143ms
+Debug: 0.076ms
+Inject: 0.204ms
+Function: 0.197ms
+Debug: 0.086ms
+Inject: 0.259ms
+Function: 0.631ms
+Debug: 0.071ms
+Inject: 0.222ms
+Function: 0.195ms
+Debug: 0.319ms
+Inject: 0.22ms
+Function: 0.13ms
+Debug: 0.086ms
+Inject: 0.177ms
+Function: 0.127ms
+Debug: 0.066ms
+Inject: 0.311ms
+Function: 0.157ms
+Debug: 0.064ms
+Inject: 0.164ms
+Function: 0.16ms
+Debug: 0.071ms
+Inject: 0.159ms
+Function: 0.173ms
+Debug: 0.061ms
+Inject: 0.204ms
+Function: 0.182ms
+Debug: 0.062ms
+Inject: 0.155ms
+Function: 0.165ms
+Debug: 0.06ms
+Inject: 0.154ms
+Function: 0.133ms
+Debug: 0.063ms
+Inject: 0.155ms
+Function: 0.175ms
+Debug: 0.061ms
+Inject: 0.153ms
+Function: 0.138ms
+Debug: 0.059ms

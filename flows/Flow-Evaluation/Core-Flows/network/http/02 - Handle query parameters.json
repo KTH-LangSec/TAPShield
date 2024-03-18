@@ -1,46 +1,54 @@
 [
     {
-        "id": "ac0b58f6.c85138",
+        "id": "c002e2a9dac5b11f",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7e7f5014d20ae207",
         "type": "http in",
-        "z": "d41b4dd3.ecd6a",
+        "z": "c002e2a9dac5b11f",
         "name": "",
         "url": "/hello-query",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 260,
-        "y": 560,
+        "x": 620,
+        "y": 440,
         "wires": [
             [
-                "d9c345c7.c2e148"
+                "b6a9c90bb3a2e0f8"
             ]
         ]
     },
     {
-        "id": "c110b7f7.22f238",
+        "id": "2148b2410fcf787b",
         "type": "http response",
-        "z": "d41b4dd3.ecd6a",
+        "z": "c002e2a9dac5b11f",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 530,
-        "y": 560,
+        "x": 890,
+        "y": 440,
         "wires": []
     },
     {
-        "id": "976b2bb3.f5ff98",
+        "id": "f33956e9ad16099f",
         "type": "comment",
-        "z": "d41b4dd3.ecd6a",
+        "z": "c002e2a9dac5b11f",
         "name": "Handle query parameters passed to an HTTP endpoint",
         "info": "The `HTTP in` node can accept query parameters passwd to an HTTP endpoint.  It use the `msg.req.query` property of the message sent by the HTTP In node to access the parameters.\n\nSee Node-RED cookbook [item](https://cookbook.nodered.org/http/handle-query-parameters) for details.",
-        "x": 320,
-        "y": 520,
+        "x": 680,
+        "y": 400,
         "wires": []
     },
     {
-        "id": "77a6b44f.4695ac",
+        "id": "c7eedfb4caaeea57",
         "type": "inject",
-        "z": "d41b4dd3.ecd6a",
+        "z": "c002e2a9dac5b11f",
         "name": "",
         "props": [
             {
@@ -51,25 +59,25 @@
                 "vt": "str"
             }
         ],
-        "repeat": "3",
+        "repeat": "1",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 240,
-        "y": 660,
+        "x": 600,
+        "y": 540,
         "wires": [
             [
-                "9094aba0.095678"
+                "b1ad277e09e03c01"
             ]
         ]
     },
     {
-        "id": "f523b8e.b5c8c48",
+        "id": "ca7ecff0b5f49af9",
         "type": "debug",
-        "z": "d41b4dd3.ecd6a",
+        "z": "c002e2a9dac5b11f",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -78,24 +86,24 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 550,
-        "y": 660,
+        "x": 950,
+        "y": 540,
         "wires": []
     },
     {
-        "id": "9a63c9c5.949128",
+        "id": "5512f9a3598aac9b",
         "type": "comment",
-        "z": "d41b4dd3.ecd6a",
-        "name": "Send HTTP GET request: http://localhost:1880/hello-query?name=Nick",
+        "z": "c002e2a9dac5b11f",
+        "name": "Send HTTP GET request: https://localhost:8443/api/hello-query?name=Nick",
         "info": "`http request` node can be used to send **HTTP GET** request.",
-        "x": 370,
-        "y": 620,
+        "x": 730,
+        "y": 500,
         "wires": []
     },
     {
-        "id": "d9c345c7.c2e148",
+        "id": "b6a9c90bb3a2e0f8",
         "type": "template",
-        "z": "d41b4dd3.ecd6a",
+        "z": "c002e2a9dac5b11f",
         "name": "page",
         "field": "payload",
         "fieldType": "msg",
@@ -103,33 +111,50 @@
         "syntax": "mustache",
         "template": "<html>\n    <head></head>\n    <body>\n        <h1>Hello {{req.query.name}}!</h1>\n    </body>\n</html>",
         "output": "str",
-        "x": 410,
-        "y": 560,
+        "x": 770,
+        "y": 440,
         "wires": [
             [
-                "c110b7f7.22f238"
+                "2148b2410fcf787b"
             ]
         ]
     },
     {
-        "id": "9094aba0.095678",
+        "id": "b1ad277e09e03c01",
         "type": "http request",
-        "z": "d41b4dd3.ecd6a",
+        "z": "c002e2a9dac5b11f",
         "name": "",
         "method": "GET",
         "ret": "txt",
         "paytoqs": "ignore",
-        "url": "http://localhost:1880/hello-query?name=Nick",
-        "tls": "",
+        "url": "https://localhost:8443/api/hello-query?name=Nick",
+        "tls": "b74801226ed9d557",
         "persist": false,
         "proxy": "",
+        "insecureHTTPParser": false,
         "authType": "",
-        "x": 390,
-        "y": 660,
+        "senderr": false,
+        "headers": [],
+        "x": 770,
+        "y": 540,
         "wires": [
             [
-                "f523b8e.b5c8c48"
+                "ca7ecff0b5f49af9"
             ]
         ]
+    },
+    {
+        "id": "b74801226ed9d557",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "server.cert",
+        "keyname": "server.key",
+        "caname": "ca.pem",
+        "servername": "",
+        "verifyservercert": false,
+        "alpnprotocol": ""
     }
 ]

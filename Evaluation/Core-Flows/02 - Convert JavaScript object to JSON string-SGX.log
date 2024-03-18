@@ -1,0 +1,96 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+-----------------------------------------------------------------------------------------------------------------------
+Gramine detected the following insecure configurations:
+
+  - sgx.debug = true                           (this is a debug enclave)
+  - loader.log_level = warning|debug|trace|all (verbose log level, may leak information)
+  - loader.insecure__use_cmdline_argv = true   (forwarding command-line args from untrusted host to the app)
+  - loader.insecure__use_host_env = true       (forwarding environment vars from untrusted host to the app)
+  - sys.insecure__allow_eventfd = true         (host-based eventfd is enabled)
+  - sgx.allowed_files = [ ... ]                (some files are passed through from untrusted host without verification)
+
+Gramine will continue application execution, but this configuration must not be used in production!
+-----------------------------------------------------------------------------------------------------------------------
+
+Server listening on  8443
+Node-Red started
+Inject: 3.744ms
+Template: 0.263ms
+JSON: 0.433ms
+Debug: 0.498ms
+Inject: 0.514ms
+Template: 0.117ms
+JSON: 0.112ms
+Debug: 0.132ms
+Inject: 0.222ms
+Template: 0.138ms
+JSON: 0.134ms
+Debug: 0.139ms
+Inject: 0.222ms
+Template: 0.125ms
+JSON: 0.11ms
+Debug: 0.389ms
+Inject: 0.225ms
+Template: 0.117ms
+JSON: 0.137ms
+Debug: 0.146ms
+Inject: 0.22ms
+Template: 0.11ms
+JSON: 0.107ms
+Debug: 0.18ms
+Inject: 0.254ms
+Template: 0.279ms
+JSON: 0.111ms
+Debug: 0.139ms
+Inject: 0.2ms
+Template: 0.143ms
+JSON: 0.097ms
+Debug: 0.139ms
+Inject: 0.183ms
+Template: 0.14ms
+JSON: 0.525ms
+Debug: 0.142ms
+Inject: 0.212ms
+Template: 0.148ms
+JSON: 0.124ms
+Debug: 0.132ms
+Inject: 0.274ms
+Template: 0.098ms
+JSON: 0.089ms
+Debug: 0.132ms
+Inject: 0.219ms
+Template: 0.091ms
+JSON: 0.091ms
+Debug: 0.137ms
+Inject: 0.172ms
+Template: 0.123ms
+JSON: 0.086ms
+Debug: 0.133ms
+Inject: 0.166ms
+Template: 0.122ms
+JSON: 0.094ms
+Debug: 0.145ms
+Inject: 0.388ms
+Template: 0.104ms
+JSON: 0.118ms
+Debug: 0.168ms
+Inject: 0.223ms
+Template: 0.107ms
+JSON: 0.121ms
+Debug: 0.14ms
+Inject: 0.161ms
+Template: 0.133ms
+JSON: 0.095ms
+Debug: 0.119ms
+Inject: 0.158ms
+Template: 0.117ms
+JSON: 0.098ms
+Debug: 0.15ms
+Inject: 0.158ms
+Template: 0.119ms
+JSON: 0.097ms
+Debug: 0.112ms
+Inject: 0.166ms
+Template: 0.094ms
+JSON: 0.09ms
+Debug: 0.108ms

@@ -1,43 +1,16 @@
 [
     {
-        "id": "73874b9e.d985b4",
-        "type": "tcp in",
-        "z": "cfd9159c.6f73e8",
-        "name": "",
-        "server": "client",
-        "host": "localhost",
-        "port": "1881",
-        "datamode": "single",
-        "datatype": "utf8",
-        "newline": "",
-        "topic": "",
-        "base64": false,
-        "x": 230,
-        "y": 240,
-        "wires": [
-            [
-                "ce332113.d2c31"
-            ]
-        ]
+        "id": "9f9801d7cd86be51",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
     },
     {
-        "id": "a4bd9948.dfeb58",
-        "type": "tcp out",
-        "z": "cfd9159c.6f73e8",
-        "host": "localhost",
-        "port": "1881",
-        "beserver": "server",
-        "base64": false,
-        "end": true,
-        "name": "",
-        "x": 390,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "9f80f9c7.1e3c98",
+        "id": "1543b89bd38946e5",
         "type": "inject",
-        "z": "cfd9159c.6f73e8",
+        "z": "9f9801d7cd86be51",
         "name": "",
         "props": [
             {
@@ -48,45 +21,97 @@
                 "vt": "str"
             }
         ],
-        "repeat": "3",
+        "repeat": "1",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "Hello, World!",
+        "payload": "Test",
         "payloadType": "str",
-        "x": 210,
-        "y": 180,
+        "x": 350,
+        "y": 1060,
         "wires": [
             [
-                "a4bd9948.dfeb58"
+                "0d892c098465c4d4"
             ]
         ]
     },
     {
-        "id": "ce332113.d2c31",
-        "type": "debug",
-        "z": "cfd9159c.6f73e8",
+        "id": "0d892c098465c4d4",
+        "type": "tcp request",
+        "z": "9f9801d7cd86be51",
         "name": "",
+        "server": "localhost",
+        "port": "2000",
+        "out": "time",
+        "ret": "buffer",
+        "splitc": "0",
+        "newline": "",
+        "trim": false,
+        "tls": "",
+        "x": 610,
+        "y": 960,
+        "wires": [
+            [
+                "8693b2f014b3e391"
+            ]
+        ]
+    },
+    {
+        "id": "8693b2f014b3e391",
+        "type": "debug",
+        "z": "9f9801d7cd86be51",
+        "name": "debug 1",
         "active": true,
         "tosidebar": true,
-        "console": false,
+        "console": true,
         "tostatus": false,
-        "complete": "false",
+        "complete": "payload",
+        "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 410,
-        "y": 240,
+        "x": 890,
+        "y": 1120,
         "wires": []
     },
     {
-        "id": "711ed10d.1d765",
-        "type": "comment",
-        "z": "cfd9159c.6f73e8",
-        "name": "Connect to TCP out server",
-        "info": "`TCP in` node can connect to network server using tcp protocol.  `TCP out` node can serve a network server using tcp procol.\n",
-        "x": 190,
-        "y": 120,
+        "id": "47ea781edc740765",
+        "type": "tcp in",
+        "z": "9f9801d7cd86be51",
+        "name": "",
+        "server": "server",
+        "host": "",
+        "port": "2000",
+        "datamode": "stream",
+        "datatype": "buffer",
+        "newline": "",
+        "topic": "",
+        "trim": false,
+        "base64": false,
+        "tls": "",
+        "x": 340,
+        "y": 1180,
+        "wires": [
+            [
+                "269850b9bdf47412"
+            ]
+        ]
+    },
+    {
+        "id": "269850b9bdf47412",
+        "type": "debug",
+        "z": "9f9801d7cd86be51",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 1180,
         "wires": []
     }
 ]

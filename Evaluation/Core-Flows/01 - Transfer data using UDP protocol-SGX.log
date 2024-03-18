@@ -1,0 +1,96 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+-----------------------------------------------------------------------------------------------------------------------
+Gramine detected the following insecure configurations:
+
+  - sgx.debug = true                           (this is a debug enclave)
+  - loader.log_level = warning|debug|trace|all (verbose log level, may leak information)
+  - loader.insecure__use_cmdline_argv = true   (forwarding command-line args from untrusted host to the app)
+  - loader.insecure__use_host_env = true       (forwarding environment vars from untrusted host to the app)
+  - sys.insecure__allow_eventfd = true         (host-based eventfd is enabled)
+  - sgx.allowed_files = [ ... ]                (some files are passed through from untrusted host without verification)
+
+Gramine will continue application execution, but this configuration must not be used in production!
+-----------------------------------------------------------------------------------------------------------------------
+
+Server listening on  8443
+Node-Red started
+Inject: 3.923ms
+UDP: 0.52ms
+UDP: 0.12ms
+Debug: 0.656ms
+Inject: 0.216ms
+UDP: 0.097ms
+UDP: 0.09ms
+Debug: 0.078ms
+Inject: 0.162ms
+UDP: 0.095ms
+UDP: 0.084ms
+Debug: 0.082ms
+Inject: 0.185ms
+UDP: 0.064ms
+UDP: 0.089ms
+Debug: 0.089ms
+Inject: 0.643ms
+UDP: 0.064ms
+UDP: 0.095ms
+Debug: 0.105ms
+Inject: 0.198ms
+UDP: 0.064ms
+UDP: 0.078ms
+Debug: 0.39ms
+Inject: 0.186ms
+UDP: 0.093ms
+UDP: 0.093ms
+Debug: 0.085ms
+Inject: 0.186ms
+UDP: 0.069ms
+UDP: 0.08ms
+Debug: 0.094ms
+Inject: 0.73ms
+UDP: 0.066ms
+UDP: 0.082ms
+Debug: 0.078ms
+Inject: 0.182ms
+UDP: 0.12ms
+UDP: 0.093ms
+Debug: 0.073ms
+Inject: 0.48ms
+UDP: 0.067ms
+UDP: 0.072ms
+Debug: 0.126ms
+Inject: 0.215ms
+UDP: 0.091ms
+UDP: 0.082ms
+Debug: 0.07ms
+Inject: 0.185ms
+UDP: 0.079ms
+UDP: 0.08ms
+Debug: 0.065ms
+Inject: 0.592ms
+UDP: 0.064ms
+UDP: 0.128ms
+Debug: 0.065ms
+Inject: 0.21ms
+UDP: 0.115ms
+UDP: 0.078ms
+Debug: 0.064ms
+Inject: 0.182ms
+UDP: 0.125ms
+UDP: 0.077ms
+Debug: 0.062ms
+Inject: 0.131ms
+UDP: 0.329ms
+UDP: 0.072ms
+Debug: 0.062ms
+Inject: 0.146ms
+UDP: 0.106ms
+UDP: 0.062ms
+Debug: 0.066ms
+Inject: 0.147ms
+UDP: 0.066ms
+UDP: 0.064ms
+Debug: 0.065ms
+Inject: 0.167ms
+UDP: 0.084ms
+UDP: 0.056ms
+Debug: 0.063ms

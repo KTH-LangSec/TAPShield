@@ -1,0 +1,211 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+-----------------------------------------------------------------------------------------------------------------------
+Gramine detected the following insecure configurations:
+
+  - sgx.debug = true                           (this is a debug enclave)
+  - loader.log_level = warning|debug|trace|all (verbose log level, may leak information)
+  - loader.insecure__use_cmdline_argv = true   (forwarding command-line args from untrusted host to the app)
+  - loader.insecure__use_host_env = true       (forwarding environment vars from untrusted host to the app)
+  - sys.insecure__allow_eventfd = true         (host-based eventfd is enabled)
+  - sgx.allowed_files = [ ... ]                (some files are passed through from untrusted host without verification)
+
+Gramine will continue application execution, but this configuration must not be used in production!
+-----------------------------------------------------------------------------------------------------------------------
+
+Server listening on  8443
+18 Mar 08:33:43 - [info] 
+
+runtime.welcome
+===================
+
+18 Mar 08:33:43 - [info] runtime.version
+18 Mar 08:33:43 - [info] runtime.version
+18 Mar 08:33:43 - [info] Linux 3.10.0 x64 LE
+18 Mar 08:33:43 - [info] server.palette-editor.disabled
+18 Mar 08:33:43 - [info] server.loading
+18 Mar 08:33:43 - [info] context.log-store-init
+18 Mar 08:33:43 - [info] storage.localfilesystem.user-dir
+18 Mar 08:33:43 - [warn] storage.localfilesystem.projects.disabledNoFlag
+18 Mar 08:33:43 - [info] storage.localfilesystem.flows-file
+Node-Red started
+18 Mar 08:33:43 - [debug] loaded flow revision: 131349bc3cb2a9dec1a699c3af2dca76
+18 Mar 08:33:43 - [debug] red/runtime/nodes/credentials.load : user provided key
+18 Mar 08:33:43 - [debug] red/runtime/nodes/credentials.load : keyType=user
+18 Mar 08:33:43 - [warn] nodes.credentials.encryptedNotFound
+18 Mar 08:33:43 - [trace] runtime event: {"id":"runtime-state","retain":true}
+18 Mar 08:33:43 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"131349bc3cb2a9dec1a699c3af2dca76"},"retain":true}
+18 Mar 08:33:43 - [info] nodes.flows.starting-flows
+18 Mar 08:33:43 - [debug] red/nodes/flows.start : starting flow : global
+18 Mar 08:33:43 - [debug] red/nodes/flows.start : starting flow : 1e758f114b976c7e
+18 Mar 08:33:43 - [trace] [flow:global] start flow [global]
+18 Mar 08:33:43 - [trace] [flow:1e758f114b976c7e] start flow [1e758f114b976c7e]
+18 Mar 08:33:43 - [debug] [inject:d1073c30.cb321] inject.repeat
+18 Mar 08:33:43 - [trace] [flow:1e758f114b976c7e] ------------------|--------------|-----------------
+18 Mar 08:33:43 - [trace] [flow:1e758f114b976c7e]  id               | type         | alias
+18 Mar 08:33:43 - [trace] [flow:1e758f114b976c7e] ------------------|--------------|-----------------
+18 Mar 08:33:43 - [trace] [flow:1e758f114b976c7e]  d1073c30.cb321   | inject       | 
+18 Mar 08:33:43 - [trace] [flow:1e758f114b976c7e]  f96f0ba7.cfe008  | debug        | 
+18 Mar 08:33:43 - [trace] [flow:1e758f114b976c7e]  3ea03953.25a1a6  | comment      | 
+18 Mar 08:33:43 - [trace] [flow:1e758f114b976c7e]  d6a15623.056d18  | comment      | 
+18 Mar 08:33:43 - [trace] [flow:1e758f114b976c7e]  7e1c072c.bc1cc8  | comment      | 
+18 Mar 08:33:43 - [trace] [flow:1e758f114b976c7e]  b45ca54e.eca208  | catch        | 
+18 Mar 08:33:43 - [trace] [flow:1e758f114b976c7e]  7bab9134.35ad    | function     | 
+18 Mar 08:33:43 - [trace] [flow:1e758f114b976c7e] ------------------|--------------|-----------------
+18 Mar 08:33:43 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+18 Mar 08:33:43 - [info] nodes.flows.started-flows
+Inject: 3.573ms
+Function: 1.238ms
+Catch: 0.107ms
+Debug: 0.896ms
+Inject: 0.211ms
+Function: 0.208ms
+Catch: 0.097ms
+Debug: 0.396ms
+Inject: 0.442ms
+Function: 0.212ms
+Catch: 0.091ms
+Debug: 0.117ms
+Inject: 0.193ms
+Function: 0.165ms
+Catch: 0.09ms
+Debug: 0.577ms
+Inject: 0.191ms
+Function: 0.188ms
+Catch: 0.102ms
+Debug: 0.113ms
+Inject: 0.201ms
+Function: 0.171ms
+Catch: 0.092ms
+Debug: 0.385ms
+Inject: 0.215ms
+Function: 0.182ms
+Catch: 0.087ms
+Debug: 0.124ms
+Inject: 0.195ms
+Function: 0.179ms
+Catch: 0.416ms
+Debug: 0.125ms
+Inject: 0.233ms
+Function: 0.165ms
+Catch: 0.098ms
+Debug: 0.111ms
+Inject: 0.19ms
+Function: 0.323ms
+Catch: 0.119ms
+Debug: 0.162ms
+Inject: 0.216ms
+Function: 0.138ms
+Catch: 0.073ms
+Debug: 0.185ms
+Inject: 0.198ms
+Function: 0.141ms
+Catch: 0.087ms
+Debug: 0.097ms
+Inject: 0.745ms
+Function: 0.151ms
+Catch: 0.076ms
+Debug: 0.154ms
+Inject: 0.217ms
+Function: 0.179ms
+Catch: 0.151ms
+Debug: 0.096ms
+Inject: 0.55ms
+Function: 0.143ms
+Catch: 0.095ms
+Debug: 0.097ms
+Inject: 0.227ms
+Function: 0.285ms
+Catch: 0.076ms
+Debug: 0.096ms
+Inject: 0.156ms
+Function: 0.189ms
+Catch: 0.069ms
+Debug: 0.099ms
+Inject: 0.136ms
+Function: 0.19ms
+Catch: 0.093ms
+Debug: 0.101ms
+Inject: 0.154ms
+Function: 0.261ms
+Catch: 0.07ms
+Debug: 0.129ms
+Inject: 0.166ms
+Function: 0.18ms
+Catch: 0.063ms
+Debug: 0.125ms
+Inject: 0.155ms
+Function: 0.16ms
+Catch: 0.065ms
+Debug: 0.102ms
+Inject: 0.135ms
+Function: 0.214ms
+Catch: 0.07ms
+Debug: 0.101ms
+Inject: 0.14ms
+Function: 0.179ms
+Catch: 0.07ms
+Debug: 0.11ms
+Inject: 0.153ms
+Function: 0.173ms
+Catch: 0.069ms
+Debug: 0.099ms
+Inject: 0.318ms
+Function: 0.447ms
+Catch: 0.073ms
+Debug: 0.091ms
+Inject: 0.148ms
+Function: 0.167ms
+Catch: 0.066ms
+Debug: 0.094ms
+Inject: 0.134ms
+Function: 0.166ms
+Catch: 0.065ms
+Debug: 0.096ms
+Inject: 0.131ms
+Function: 0.242ms
+Catch: 0.101ms
+Debug: 0.155ms
+Inject: 0.136ms
+Function: 0.163ms
+Catch: 0.08ms
+Debug: 0.095ms
+Inject: 0.132ms
+Function: 0.173ms
+Catch: 0.062ms
+Debug: 0.101ms
+Inject: 0.135ms
+Function: 0.168ms
+Catch: 0.065ms
+Debug: 0.096ms
+Inject: 0.143ms
+Function: 0.181ms
+Catch: 0.067ms
+Debug: 0.118ms
+Inject: 0.15ms
+Function: 0.178ms
+Catch: 0.064ms
+Debug: 0.126ms
+Inject: 0.131ms
+Function: 0.175ms
+Catch: 0.072ms
+Debug: 0.101ms
+Inject: 0.132ms
+Function: 0.172ms
+Catch: 0.063ms
+Debug: 0.194ms
+Inject: 0.133ms
+Function: 0.186ms
+Catch: 0.066ms
+Debug: 0.124ms
+Inject: 0.133ms
+Function: 0.19ms
+Catch: 0.069ms
+Debug: 0.094ms
+Inject: 0.143ms
+Function: 0.213ms
+Catch: 0.069ms
+Debug: 0.122ms
+Inject: 0.135ms
+Function: 0.204ms
+Catch: 0.068ms
+Debug: 0.614ms

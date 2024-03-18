@@ -1,0 +1,96 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+-----------------------------------------------------------------------------------------------------------------------
+Gramine detected the following insecure configurations:
+
+  - sgx.debug = true                           (this is a debug enclave)
+  - loader.log_level = warning|debug|trace|all (verbose log level, may leak information)
+  - loader.insecure__use_cmdline_argv = true   (forwarding command-line args from untrusted host to the app)
+  - loader.insecure__use_host_env = true       (forwarding environment vars from untrusted host to the app)
+  - sys.insecure__allow_eventfd = true         (host-based eventfd is enabled)
+  - sgx.allowed_files = [ ... ]                (some files are passed through from untrusted host without verification)
+
+Gramine will continue application execution, but this configuration must not be used in production!
+-----------------------------------------------------------------------------------------------------------------------
+
+Server listening on  8443
+Node-Red started
+Inject: 4.601ms
+Template: 0.253ms
+YAML: 6.38ms
+Debug: 3.82ms
+Inject: 0.652ms
+Template: 0.103ms
+YAML: 0.242ms
+Debug: 0.357ms
+Inject: 0.217ms
+Template: 0.163ms
+YAML: 0.665ms
+Debug: 0.281ms
+Inject: 0.461ms
+Template: 0.1ms
+YAML: 0.374ms
+Debug: 0.444ms
+Inject: 0.211ms
+Template: 0.092ms
+YAML: 0.174ms
+Debug: 0.226ms
+Inject: 0.542ms
+Template: 0.102ms
+YAML: 0.177ms
+Debug: 0.53ms
+Inject: 0.434ms
+Template: 0.13ms
+YAML: 0.219ms
+Debug: 0.634ms
+Inject: 0.182ms
+Template: 0.089ms
+YAML: 0.48ms
+Debug: 0.233ms
+Inject: 0.22ms
+Template: 0.143ms
+YAML: 0.647ms
+Debug: 0.632ms
+Inject: 0.195ms
+Template: 0.133ms
+YAML: 0.438ms
+Debug: 0.376ms
+Inject: 0.21ms
+Template: 0.098ms
+YAML: 0.191ms
+Debug: 0.247ms
+Inject: 0.282ms
+Template: 0.12ms
+YAML: 0.186ms
+Debug: 0.501ms
+Inject: 0.174ms
+Template: 0.075ms
+YAML: 0.343ms
+Debug: 0.356ms
+Inject: 0.154ms
+Template: 0.131ms
+YAML: 0.194ms
+Debug: 0.26ms
+Inject: 0.178ms
+Template: 0.074ms
+YAML: 0.149ms
+Debug: 0.359ms
+Inject: 0.162ms
+Template: 0.088ms
+YAML: 0.156ms
+Debug: 0.207ms
+Inject: 0.172ms
+Template: 0.121ms
+YAML: 0.188ms
+Debug: 0.244ms
+Inject: 0.157ms
+Template: 0.091ms
+YAML: 0.154ms
+Debug: 0.295ms
+Inject: 0.181ms
+Template: 0.098ms
+YAML: 0.266ms
+Debug: 0.237ms
+Inject: 0.158ms
+Template: 0.142ms
+YAML: 0.193ms
+Debug: 0.222ms

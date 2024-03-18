@@ -1,0 +1,161 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+-----------------------------------------------------------------------------------------------------------------------
+Gramine detected the following insecure configurations:
+
+  - sgx.debug = true                           (this is a debug enclave)
+  - loader.log_level = warning|debug|trace|all (verbose log level, may leak information)
+  - loader.insecure__use_cmdline_argv = true   (forwarding command-line args from untrusted host to the app)
+  - loader.insecure__use_host_env = true       (forwarding environment vars from untrusted host to the app)
+  - sys.insecure__allow_eventfd = true         (host-based eventfd is enabled)
+  - sgx.allowed_files = [ ... ]                (some files are passed through from untrusted host without verification)
+
+Gramine will continue application execution, but this configuration must not be used in production!
+-----------------------------------------------------------------------------------------------------------------------
+
+Server listening on  8443
+18 Mar 10:31:42 - [info] 
+
+runtime.welcome
+===================
+
+18 Mar 10:31:42 - [info] runtime.version
+18 Mar 10:31:42 - [info] runtime.version
+18 Mar 10:31:42 - [info] Linux 3.10.0 x64 LE
+18 Mar 10:31:42 - [info] server.palette-editor.disabled
+18 Mar 10:31:42 - [info] server.loading
+18 Mar 10:31:42 - [info] context.log-store-init
+18 Mar 10:31:42 - [info] storage.localfilesystem.user-dir
+18 Mar 10:31:42 - [warn] storage.localfilesystem.projects.disabledNoFlag
+18 Mar 10:31:42 - [info] storage.localfilesystem.flows-file
+Node-Red started
+18 Mar 10:31:42 - [debug] loaded flow revision: d5b08df3af04a2a3bac13c162930e4b3
+18 Mar 10:31:42 - [debug] red/runtime/nodes/credentials.load : user provided key
+18 Mar 10:31:42 - [debug] red/runtime/nodes/credentials.load : keyType=user
+18 Mar 10:31:42 - [warn] nodes.credentials.encryptedNotFound
+18 Mar 10:31:42 - [trace] runtime event: {"id":"runtime-state","retain":true}
+18 Mar 10:31:42 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"d5b08df3af04a2a3bac13c162930e4b3"},"retain":true}
+18 Mar 10:31:42 - [info] nodes.flows.starting-flows
+18 Mar 10:31:42 - [debug] red/nodes/flows.start : starting flow : global
+18 Mar 10:31:42 - [debug] red/nodes/flows.start : starting flow : c002e2a9dac5b11f
+18 Mar 10:31:42 - [trace] [flow:global] start flow [global]
+18 Mar 10:31:42 - [trace] [flow:global] ------------------|--------------|-----------------
+18 Mar 10:31:42 - [trace] [flow:global]  id               | type         | alias
+18 Mar 10:31:42 - [trace] [flow:global] ------------------|--------------|-----------------
+18 Mar 10:31:42 - [trace] [flow:global]  b74801226ed9d557 | tls-config   | 
+18 Mar 10:31:42 - [trace] [flow:global] ------------------|--------------|-----------------
+18 Mar 10:31:42 - [trace] [flow:c002e2a9dac5b11f] start flow [c002e2a9dac5b11f]
+18 Mar 10:31:42 - [debug] [inject:c7eedfb4caaeea57] inject.repeat
+18 Mar 10:31:42 - [trace] [flow:c002e2a9dac5b11f] ------------------|--------------|-----------------
+18 Mar 10:31:42 - [trace] [flow:c002e2a9dac5b11f]  id               | type         | alias
+18 Mar 10:31:42 - [trace] [flow:c002e2a9dac5b11f] ------------------|--------------|-----------------
+18 Mar 10:31:42 - [trace] [flow:c002e2a9dac5b11f]  7e7f5014d20ae207 | http in      | 
+18 Mar 10:31:42 - [trace] [flow:c002e2a9dac5b11f]  2148b2410fcf787b | http response | 
+18 Mar 10:31:42 - [trace] [flow:c002e2a9dac5b11f]  f33956e9ad16099f | comment      | 
+18 Mar 10:31:42 - [trace] [flow:c002e2a9dac5b11f]  c7eedfb4caaeea57 | inject       | 
+18 Mar 10:31:42 - [trace] [flow:c002e2a9dac5b11f]  ca7ecff0b5f49af9 | debug        | 
+18 Mar 10:31:42 - [trace] [flow:c002e2a9dac5b11f]  5512f9a3598aac9b | comment      | 
+18 Mar 10:31:42 - [trace] [flow:c002e2a9dac5b11f]  b6a9c90bb3a2e0f8 | template     | 
+18 Mar 10:31:42 - [trace] [flow:c002e2a9dac5b11f]  b1ad277e09e03c01 | http request | 
+18 Mar 10:31:42 - [trace] [flow:c002e2a9dac5b11f] ------------------|--------------|-----------------
+18 Mar 10:31:42 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+18 Mar 10:31:42 - [info] nodes.flows.started-flows
+Inject: 3.528ms
+HttpReq: 9.003ms
+Template: 4.319ms
+HttpIn: 11.308ms
+Debug: 0.851ms
+Inject: 0.257ms
+HttpReq: 2.565ms
+Template: 0.201ms
+HttpIn: 1.034ms
+Debug: 0.417ms
+Inject: 0.254ms
+HttpReq: 1.056ms
+Template: 0.056ms
+HttpIn: 0.476ms
+Debug: 0.09ms
+Inject: 0.231ms
+HttpReq: 0.921ms
+Template: 0.041ms
+HttpIn: 0.467ms
+Debug: 0.067ms
+Inject: 0.246ms
+HttpReq: 0.647ms
+Template: 0.047ms
+HttpIn: 0.503ms
+Debug: 0.091ms
+Inject: 0.249ms
+HttpReq: 1.027ms
+Template: 0.046ms
+HttpIn: 1.093ms
+Debug: 0.302ms
+Inject: 0.264ms
+HttpReq: 0.582ms
+Template: 0.075ms
+HttpIn: 0.735ms
+Debug: 0.072ms
+Inject: 0.186ms
+HttpReq: 0.845ms
+Template: 0.084ms
+HttpIn: 0.99ms
+Debug: 0.094ms
+Inject: 0.229ms
+HttpReq: 1.587ms
+Template: 0.046ms
+HttpIn: 1.075ms
+Debug: 0.07ms
+Inject: 0.168ms
+HttpReq: 0.549ms
+Template: 0.043ms
+HttpIn: 0.648ms
+Debug: 0.068ms
+Inject: 0.161ms
+HttpReq: 1.743ms
+Template: 0.043ms
+HttpIn: 0.382ms
+Debug: 0.069ms
+Inject: 0.455ms
+HttpReq: 0.756ms
+Template: 0.045ms
+HttpIn: 0.381ms
+Debug: 0.061ms
+Inject: 0.221ms
+HttpReq: 0.747ms
+Template: 0.038ms
+HttpIn: 0.726ms
+Debug: 0.061ms
+Inject: 0.164ms
+HttpReq: 0.457ms
+Template: 0.038ms
+HttpIn: 0.381ms
+Debug: 0.059ms
+Inject: 0.15ms
+HttpReq: 0.425ms
+Template: 0.042ms
+HttpIn: 0.378ms
+Debug: 0.059ms
+Inject: 0.171ms
+HttpReq: 0.445ms
+Template: 0.039ms
+HttpIn: 0.699ms
+Debug: 0.058ms
+Inject: 0.163ms
+HttpReq: 0.434ms
+Template: 0.04ms
+HttpIn: 0.601ms
+Debug: 0.056ms
+Inject: 0.162ms
+HttpReq: 0.469ms
+Template: 0.038ms
+HttpIn: 0.548ms
+Debug: 0.059ms
+Inject: 0.178ms
+HttpReq: 0.402ms
+Template: 0.041ms
+HttpIn: 0.383ms
+Debug: 0.059ms
+Inject: 0.283ms
+HttpReq: 0.394ms
+Template: 0.037ms
+HttpIn: 0.362ms
+Debug: 0.058ms

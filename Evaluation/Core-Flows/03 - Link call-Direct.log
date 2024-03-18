@@ -1,0 +1,170 @@
+Server listening on  8443
+18 Mar 08:53:34 - [info] 
+
+runtime.welcome
+===================
+
+18 Mar 08:53:34 - [info] runtime.version
+18 Mar 08:53:34 - [info] runtime.version
+18 Mar 08:53:34 - [info] Linux 3.10.0 x64 LE
+18 Mar 08:53:34 - [info] server.palette-editor.disabled
+18 Mar 08:53:34 - [info] server.loading
+18 Mar 08:53:34 - [info] context.log-store-init
+18 Mar 08:53:34 - [info] storage.localfilesystem.user-dir
+18 Mar 08:53:34 - [warn] storage.localfilesystem.projects.disabledNoFlag
+18 Mar 08:53:34 - [info] storage.localfilesystem.flows-file
+Node-Red started
+18 Mar 08:53:34 - [debug] loaded flow revision: fd15e189e4ea19c9ee07b89a3b104652
+18 Mar 08:53:34 - [debug] red/runtime/nodes/credentials.load : user provided key
+18 Mar 08:53:34 - [debug] red/runtime/nodes/credentials.load : keyType=user
+18 Mar 08:53:34 - [warn] nodes.credentials.encryptedNotFound
+18 Mar 08:53:34 - [trace] runtime event: {"id":"runtime-state","retain":true}
+18 Mar 08:53:34 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"fd15e189e4ea19c9ee07b89a3b104652"},"retain":true}
+18 Mar 08:53:34 - [info] nodes.flows.starting-flows
+18 Mar 08:53:34 - [debug] red/nodes/flows.start : starting flow : global
+18 Mar 08:53:34 - [debug] red/nodes/flows.start : starting flow : 6312c0588348b2d4
+18 Mar 08:53:34 - [trace] [flow:global] start flow [global]
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4] start flow [6312c0588348b2d4]
+18 Mar 08:53:34 - [debug] [inject:6b61792143b3b0a3] inject.repeat
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4] ------------------|--------------|-----------------
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4]  id               | type         | alias
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4] ------------------|--------------|-----------------
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4]  62ea32aa.d73aac  | comment      | 
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4]  c588bc36.87fec   | comment      | 
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4]  cd31efb4d2c6967e | link call    | 
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4]  dbc46892c8d14c37 | link in      | 
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4]  6b61792143b3b0a3 | inject       | 
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4]  e10575d73f2e5352 | change       | 
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4]  cf8438e7137bc0f0 | link out     | 
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4]  c3db64d1d2260340 | debug        | 
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4]  6d077dfa0987febb | comment      | 
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4]  53b9a0adfd8c4217 | comment      | 
+18 Mar 08:53:34 - [trace] [flow:6312c0588348b2d4] ------------------|--------------|-----------------
+18 Mar 08:53:34 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+18 Mar 08:53:34 - [info] nodes.flows.started-flows
+Inject: 1.265ms
+LinkIn: 0.042ms
+LinkCall: 1.322ms
+Change: 0.537ms
+LinkOut: 0.2ms
+Debug: 0.243ms
+Inject: 0.102ms
+LinkIn: 0.029ms
+LinkCall: 0.255ms
+Change: 0.058ms
+LinkOut: 0.059ms
+Debug: 0.152ms
+Inject: 0.111ms
+LinkIn: 0.048ms
+LinkCall: 0.264ms
+Change: 0.051ms
+LinkOut: 0.051ms
+Debug: 0.039ms
+Inject: 0.22ms
+LinkIn: 0.032ms
+LinkCall: 0.211ms
+Change: 0.042ms
+LinkOut: 0.069ms
+Debug: 0.035ms
+Inject: 0.107ms
+LinkIn: 0.036ms
+LinkCall: 0.251ms
+Change: 0.059ms
+LinkOut: 0.047ms
+Debug: 0.036ms
+Inject: 0.09ms
+LinkIn: 0.028ms
+LinkCall: 0.197ms
+Change: 0.04ms
+LinkOut: 0.061ms
+Debug: 0.221ms
+Inject: 0.118ms
+LinkIn: 0.041ms
+LinkCall: 0.343ms
+Change: 0.041ms
+LinkOut: 0.039ms
+Debug: 0.135ms
+Inject: 0.089ms
+LinkIn: 0.182ms
+LinkCall: 0.399ms
+Change: 0.051ms
+LinkOut: 0.076ms
+Debug: 0.055ms
+Inject: 0.108ms
+LinkIn: 0.032ms
+LinkCall: 0.521ms
+Change: 0.054ms
+LinkOut: 0.053ms
+Debug: 0.058ms
+Inject: 0.117ms
+LinkIn: 0.021ms
+LinkCall: 0.233ms
+Change: 0.039ms
+LinkOut: 0.18ms
+Debug: 0.036ms
+Inject: 0.082ms
+LinkIn: 0.037ms
+LinkCall: 0.339ms
+Change: 0.043ms
+LinkOut: 0.05ms
+Debug: 0.038ms
+Inject: 0.197ms
+LinkIn: 0.019ms
+LinkCall: 0.182ms
+Change: 0.066ms
+LinkOut: 0.043ms
+Debug: 0.031ms
+Inject: 0.098ms
+LinkIn: 0.026ms
+LinkCall: 0.241ms
+Change: 0.07ms
+LinkOut: 0.054ms
+Debug: 0.211ms
+Inject: 0.072ms
+LinkIn: 0.022ms
+LinkCall: 0.205ms
+Change: 0.053ms
+LinkOut: 0.047ms
+Debug: 0.033ms
+Inject: 0.074ms
+LinkIn: 0.023ms
+LinkCall: 0.22ms
+Change: 0.05ms
+LinkOut: 0.054ms
+Debug: 0.031ms
+Inject: 0.072ms
+LinkIn: 0.038ms
+LinkCall: 0.234ms
+Change: 0.055ms
+LinkOut: 0.06ms
+Debug: 0.027ms
+Inject: 0.075ms
+LinkIn: 0.023ms
+LinkCall: 0.211ms
+Change: 0.106ms
+LinkOut: 0.042ms
+Debug: 0.029ms
+Inject: 0.084ms
+LinkIn: 0.055ms
+LinkCall: 0.322ms
+Change: 0.218ms
+LinkOut: 0.041ms
+Debug: 0.027ms
+Inject: 0.072ms
+LinkIn: 0.024ms
+LinkCall: 0.193ms
+Change: 0.049ms
+LinkOut: 0.062ms
+Debug: 0.034ms
+Inject: 0.074ms
+LinkIn: 0.026ms
+LinkCall: 0.219ms
+Change: 0.047ms
+LinkOut: 0.046ms
+Debug: 0.032ms
+Inject: 0.078ms
+LinkIn: 0.021ms
+LinkCall: 0.255ms
+Change: 0.049ms
+LinkOut: 0.036ms
+Debug: 0.026ms

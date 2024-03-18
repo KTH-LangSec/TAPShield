@@ -1,0 +1,77 @@
+Server listening on  8443
+18 Mar 08:49:12 - [info] 
+
+runtime.welcome
+===================
+
+18 Mar 08:49:12 - [info] runtime.version
+18 Mar 08:49:12 - [info] runtime.version
+18 Mar 08:49:12 - [info] Linux 3.10.0 x64 LE
+18 Mar 08:49:12 - [info] server.palette-editor.disabled
+18 Mar 08:49:12 - [info] server.loading
+18 Mar 08:49:12 - [info] context.log-store-init
+18 Mar 08:49:12 - [info] storage.localfilesystem.user-dir
+18 Mar 08:49:12 - [warn] storage.localfilesystem.projects.disabledNoFlag
+18 Mar 08:49:12 - [info] storage.localfilesystem.flows-file
+Node-Red started
+18 Mar 08:49:12 - [debug] loaded flow revision: ebb6a32076ba5fe6646cbdb933dd8c3f
+18 Mar 08:49:12 - [debug] red/runtime/nodes/credentials.load : user provided key
+18 Mar 08:49:12 - [debug] red/runtime/nodes/credentials.load : keyType=user
+18 Mar 08:49:12 - [warn] nodes.credentials.encryptedNotFound
+18 Mar 08:49:12 - [trace] runtime event: {"id":"runtime-state","retain":true}
+18 Mar 08:49:12 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"ebb6a32076ba5fe6646cbdb933dd8c3f"},"retain":true}
+18 Mar 08:49:12 - [info] nodes.flows.starting-flows
+18 Mar 08:49:12 - [debug] red/nodes/flows.start : starting flow : global
+18 Mar 08:49:12 - [debug] red/nodes/flows.start : starting flow : bfaec8ca.105278
+18 Mar 08:49:12 - [trace] [flow:global] start flow [global]
+18 Mar 08:49:12 - [trace] [flow:bfaec8ca.105278] start flow [bfaec8ca.105278]
+18 Mar 08:49:12 - [debug] [inject:7c820e88.2db33] inject.repeat
+18 Mar 08:49:12 - [trace] [flow:bfaec8ca.105278] ------------------|--------------|-----------------
+18 Mar 08:49:12 - [trace] [flow:bfaec8ca.105278]  id               | type         | alias
+18 Mar 08:49:12 - [trace] [flow:bfaec8ca.105278] ------------------|--------------|-----------------
+18 Mar 08:49:12 - [trace] [flow:bfaec8ca.105278]  64c1d7b3.a65b38  | comment      | 
+18 Mar 08:49:12 - [trace] [flow:bfaec8ca.105278]  7c820e88.2db33   | inject       | 
+18 Mar 08:49:12 - [trace] [flow:bfaec8ca.105278]  8f135212.6a9a9   | debug        | 
+18 Mar 08:49:12 - [trace] [flow:bfaec8ca.105278] ------------------|--------------|-----------------
+18 Mar 08:49:12 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+18 Mar 08:49:12 - [info] nodes.flows.started-flows
+Inject: 1.268ms
+Debug: 0.252ms
+Inject: 0.102ms
+Debug: 0.046ms
+Inject: 0.093ms
+Debug: 0.068ms
+Inject: 0.08ms
+Debug: 0.042ms
+Inject: 0.084ms
+Debug: 0.161ms
+Inject: 0.102ms
+Debug: 0.061ms
+Inject: 0.091ms
+Debug: 0.043ms
+Inject: 0.09ms
+Debug: 0.052ms
+Inject: 0.357ms
+Debug: 0.077ms
+Inject: 0.174ms
+Debug: 0.06ms
+Inject: 0.107ms
+Debug: 0.064ms
+Inject: 0.101ms
+Debug: 0.053ms
+Inject: 0.102ms
+Debug: 0.035ms
+Inject: 0.113ms
+Debug: 0.038ms
+Inject: 0.096ms
+Debug: 0.03ms
+Inject: 0.313ms
+Debug: 0.056ms
+Inject: 0.114ms
+Debug: 0.033ms
+Inject: 0.092ms
+Debug: 0.035ms
+Inject: 0.231ms
+Debug: 0.031ms
+Inject: 0.203ms
+Debug: 0.027ms

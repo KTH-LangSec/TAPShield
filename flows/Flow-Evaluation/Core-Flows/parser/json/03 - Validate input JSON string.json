@@ -137,7 +137,7 @@
                         "vt": "str"
                     }
                 ],
-                "repeat": "3",
+                "repeat": "1",
                 "crontab": "",
                 "once": false,
                 "onceDelay": 0.1,

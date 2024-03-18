@@ -1,0 +1,98 @@
+Server listening on  8443
+18 Mar 09:50:54 - [info] 
+
+runtime.welcome
+===================
+
+18 Mar 09:50:54 - [info] runtime.version
+18 Mar 09:50:54 - [info] runtime.version
+18 Mar 09:50:54 - [info] Linux 3.10.0 x64 LE
+18 Mar 09:50:54 - [info] server.palette-editor.disabled
+18 Mar 09:50:54 - [info] server.loading
+18 Mar 09:50:54 - [info] context.log-store-init
+18 Mar 09:50:54 - [info] storage.localfilesystem.user-dir
+18 Mar 09:50:54 - [warn] storage.localfilesystem.projects.disabledNoFlag
+18 Mar 09:50:54 - [info] storage.localfilesystem.flows-file
+Node-Red started
+18 Mar 09:50:54 - [debug] loaded flow revision: fcb05cf0b2e7a5209a729f33c56ce4ba
+18 Mar 09:50:54 - [debug] red/runtime/nodes/credentials.load : user provided key
+18 Mar 09:50:54 - [debug] red/runtime/nodes/credentials.load : keyType=user
+18 Mar 09:50:54 - [warn] nodes.credentials.encryptedNotFound
+18 Mar 09:50:54 - [trace] runtime event: {"id":"runtime-state","retain":true}
+18 Mar 09:50:54 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"fcb05cf0b2e7a5209a729f33c56ce4ba"},"retain":true}
+18 Mar 09:50:54 - [info] nodes.flows.starting-flows
+18 Mar 09:50:54 - [debug] red/nodes/flows.start : starting flow : global
+18 Mar 09:50:54 - [debug] red/nodes/flows.start : starting flow : 73a69428.bf4fec
+18 Mar 09:50:54 - [trace] [flow:global] start flow [global]
+18 Mar 09:50:54 - [trace] [flow:73a69428.bf4fec] start flow [73a69428.bf4fec]
+18 Mar 09:50:54 - [debug] [inject:Price of fruits] inject.repeat
+18 Mar 09:50:54 - [trace] [flow:73a69428.bf4fec] ------------------|--------------|-----------------
+18 Mar 09:50:54 - [trace] [flow:73a69428.bf4fec]  id               | type         | alias
+18 Mar 09:50:54 - [trace] [flow:73a69428.bf4fec] ------------------|--------------|-----------------
+18 Mar 09:50:54 - [trace] [flow:73a69428.bf4fec]  eaf91a6b.a55da8  | comment      | 
+18 Mar 09:50:54 - [trace] [flow:73a69428.bf4fec]  61fbfe34.14a02   | inject       | 
+18 Mar 09:50:54 - [trace] [flow:73a69428.bf4fec]  bf0cb02.d8e4b5   | template     | 
+18 Mar 09:50:54 - [trace] [flow:73a69428.bf4fec]  153eb0ff.5622df  | debug        | 
+18 Mar 09:50:54 - [trace] [flow:73a69428.bf4fec] ------------------|--------------|-----------------
+18 Mar 09:50:54 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+18 Mar 09:50:54 - [info] nodes.flows.started-flows
+Inject: 1.346ms
+Template: 1.521ms
+Debug: 0.238ms
+Inject: 0.276ms
+Template: 0.216ms
+Debug: 0.055ms
+Inject: 0.124ms
+Template: 0.214ms
+Debug: 0.037ms
+Inject: 0.25ms
+Template: 0.036ms
+Debug: 0.043ms
+Inject: 0.314ms
+Template: 0.069ms
+Debug: 0.037ms
+Inject: 0.112ms
+Template: 0.046ms
+Debug: 0.225ms
+Inject: 0.132ms
+Template: 0.032ms
+Debug: 0.183ms
+Inject: 0.102ms
+Template: 0.031ms
+Debug: 0.061ms
+Inject: 0.141ms
+Template: 0.027ms
+Debug: 0.057ms
+Inject: 0.282ms
+Template: 0.039ms
+Debug: 0.149ms
+Inject: 0.107ms
+Template: 0.03ms
+Debug: 0.053ms
+Inject: 0.108ms
+Template: 0.033ms
+Debug: 0.034ms
+Inject: 0.118ms
+Template: 0.03ms
+Debug: 0.032ms
+Inject: 0.097ms
+Template: 0.023ms
+Debug: 0.037ms
+Inject: 0.244ms
+Template: 0.024ms
+Debug: 0.025ms
+Inject: 0.126ms
+Template: 0.028ms
+Debug: 0.031ms
+Inject: 0.087ms
+Template: 0.025ms
+Debug: 0.025ms
+Inject: 0.087ms
+Template: 0.025ms
+Debug: 0.03ms
+Inject: 0.099ms
+Template: 0.027ms
+Debug: 0.031ms
+Inject: 0.125ms
+Template: 0.081ms
+Debug: 0.034ms

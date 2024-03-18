@@ -1,0 +1,73 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+-----------------------------------------------------------------------------------------------------------------------
+Gramine detected the following insecure configurations:
+
+  - sgx.debug = true                           (this is a debug enclave)
+  - loader.log_level = warning|debug|trace|all (verbose log level, may leak information)
+  - loader.insecure__use_cmdline_argv = true   (forwarding command-line args from untrusted host to the app)
+  - loader.insecure__use_host_env = true       (forwarding environment vars from untrusted host to the app)
+  - sys.insecure__allow_eventfd = true         (host-based eventfd is enabled)
+  - sgx.allowed_files = [ ... ]                (some files are passed through from untrusted host without verification)
+
+Gramine will continue application execution, but this configuration must not be used in production!
+-----------------------------------------------------------------------------------------------------------------------
+
+Server listening on  8443
+Node-Red started
+Inject: 3.645ms
+TCP: 9.825ms
+Debug: 9.54ms
+Inject: 0.364ms
+TCP: 0.271ms
+Debug: 0.853ms
+Inject: 0.197ms
+TCP: 0.167ms
+Debug: 0.711ms
+Inject: 0.23ms
+TCP: 0.18ms
+Debug: 0.394ms
+Inject: 0.229ms
+TCP: 0.185ms
+Debug: 0.787ms
+Inject: 0.607ms
+TCP: 0.159ms
+Debug: 0.471ms
+Inject: 0.201ms
+TCP: 0.148ms
+Debug: 0.702ms
+Inject: 0.223ms
+TCP: 0.259ms
+Debug: 0.358ms
+Inject: 0.339ms
+TCP: 0.181ms
+Debug: 0.409ms
+Inject: 0.22ms
+TCP: 0.241ms
+Debug: 0.587ms
+Inject: 0.674ms
+TCP: 0.172ms
+Debug: 0.563ms
+Inject: 0.237ms
+TCP: 0.182ms
+Debug: 0.31ms
+Inject: 0.851ms
+TCP: 0.168ms
+Debug: 0.478ms
+Inject: 0.249ms
+TCP: 0.432ms
+Debug: 0.488ms
+Inject: 0.239ms
+TCP: 0.178ms
+Debug: 0.465ms
+Inject: 0.181ms
+TCP: 0.179ms
+Debug: 0.321ms
+Inject: 0.146ms
+TCP: 0.202ms
+Debug: 0.556ms
+Inject: 0.557ms
+TCP: 0.168ms
+Debug: 0.872ms
+Inject: 0.175ms
+TCP: 0.447ms
+Debug: 0.363ms

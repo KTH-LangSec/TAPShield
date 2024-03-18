@@ -12,7 +12,7 @@ const caFile = "ca.pem";
 let settings = {
   disableEditor: true, // Disable the editor
   httpAdminRoot: false, // Disable the http admin server
-  httpNodeRoot: "/", // All http nodes will be served from this root
+  httpNodeRoot: "/api", // All http nodes will be served from this root
   ui: { path: "node-red-ui" },
   functionGlobalContext: {},
   
@@ -38,7 +38,7 @@ let settings = {
       // debug - record information which is more verbose than info + info + warn + error + fatal errors
       // trace - record very detailed logging + debug + info + warn + error + fatal errors
       // off - turn off all logging (doesn't affect metrics or audit)
-      level: "trace",
+      level: "fatal",
       // Whether or not to include metric events in the log output
       metrics: false,
       // Whether or not to include audit events in the log output

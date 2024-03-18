@@ -1,0 +1,114 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+-----------------------------------------------------------------------------------------------------------------------
+Gramine detected the following insecure configurations:
+
+  - sgx.debug = true                           (this is a debug enclave)
+  - loader.log_level = warning|debug|trace|all (verbose log level, may leak information)
+  - loader.insecure__use_cmdline_argv = true   (forwarding command-line args from untrusted host to the app)
+  - loader.insecure__use_host_env = true       (forwarding environment vars from untrusted host to the app)
+  - sys.insecure__allow_eventfd = true         (host-based eventfd is enabled)
+  - sgx.allowed_files = [ ... ]                (some files are passed through from untrusted host without verification)
+
+Gramine will continue application execution, but this configuration must not be used in production!
+-----------------------------------------------------------------------------------------------------------------------
+
+Server listening on  8443
+18 Mar 13:27:17 - [info] 
+
+runtime.welcome
+===================
+
+18 Mar 13:27:18 - [info] runtime.version
+18 Mar 13:27:18 - [info] runtime.version
+18 Mar 13:27:18 - [info] Linux 3.10.0 x64 LE
+18 Mar 13:27:18 - [info] server.palette-editor.disabled
+18 Mar 13:27:18 - [info] server.loading
+18 Mar 13:27:18 - [info] context.log-store-init
+18 Mar 13:27:18 - [info] storage.localfilesystem.user-dir
+18 Mar 13:27:18 - [warn] storage.localfilesystem.projects.disabledNoFlag
+18 Mar 13:27:18 - [info] storage.localfilesystem.flows-file
+Node-Red started
+18 Mar 13:27:18 - [warn] nodes.credentials.encryptedNotFound
+18 Mar 13:27:18 - [info] nodes.flows.starting-flows
+18 Mar 13:27:18 - [info] nodes.flows.started-flows
+WebSocketIn: 4.25ms
+Inject: 3.422ms
+WebSocket: 2.171ms
+18 Mar 13:27:19 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 1.413ms
+Inject: 0.585ms
+WebSocket: 0.352ms
+18 Mar 13:27:20 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.256ms
+Inject: 0.218ms
+WebSocket: 0.29ms
+18 Mar 13:27:21 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.509ms
+Inject: 0.213ms
+WebSocket: 0.398ms
+18 Mar 13:27:22 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.727ms
+Inject: 0.236ms
+WebSocket: 0.34ms
+18 Mar 13:27:23 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.253ms
+Inject: 0.223ms
+WebSocket: 0.319ms
+18 Mar 13:27:24 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.234ms
+Inject: 0.22ms
+WebSocket: 0.696ms
+18 Mar 13:27:25 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.499ms
+Inject: 0.206ms
+WebSocket: 0.376ms
+18 Mar 13:27:26 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.241ms
+Inject: 0.593ms
+WebSocket: 0.301ms
+18 Mar 13:27:27 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.251ms
+Inject: 0.225ms
+WebSocket: 0.302ms
+18 Mar 13:27:28 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.5ms
+Inject: 0.241ms
+WebSocket: 0.37ms
+18 Mar 13:27:29 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.252ms
+Inject: 0.21ms
+WebSocket: 0.294ms
+18 Mar 13:27:30 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.256ms
+Inject: 0.226ms
+WebSocket: 0.308ms
+18 Mar 13:27:31 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.242ms
+Inject: 0.426ms
+WebSocket: 0.33ms
+18 Mar 13:27:32 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.23ms
+Inject: 0.329ms
+WebSocket: 0.382ms
+18 Mar 13:27:33 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.218ms
+Inject: 0.191ms
+WebSocket: 0.372ms
+18 Mar 13:27:34 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.253ms
+Inject: 0.178ms
+WebSocket: 0.375ms
+18 Mar 13:27:35 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.337ms
+Inject: 0.18ms
+WebSocket: 0.326ms
+18 Mar 13:27:36 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.228ms
+Inject: 0.404ms
+WebSocket: 0.29ms
+18 Mar 13:27:37 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.215ms
+Inject: 0.282ms
+WebSocket: 0.318ms
+18 Mar 13:27:38 - [info] [debug:bac91fe9b831c582] Hello, World!
+Debug: 0.205ms
