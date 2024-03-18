@@ -1,0 +1,96 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+-----------------------------------------------------------------------------------------------------------------------
+Gramine detected the following insecure configurations:
+
+  - sgx.debug = true                           (this is a debug enclave)
+  - loader.log_level = warning|debug|trace|all (verbose log level, may leak information)
+  - loader.insecure__use_cmdline_argv = true   (forwarding command-line args from untrusted host to the app)
+  - loader.insecure__use_host_env = true       (forwarding environment vars from untrusted host to the app)
+  - sys.insecure__allow_eventfd = true         (host-based eventfd is enabled)
+  - sgx.allowed_files = [ ... ]                (some files are passed through from untrusted host without verification)
+
+Gramine will continue application execution, but this configuration must not be used in production!
+-----------------------------------------------------------------------------------------------------------------------
+
+Server listening on  8443
+Node-Red started
+Inject: 2.045ms
+WriteFile: 1.012ms
+ReadFile: 0.879ms
+Debug: 0.397ms
+Inject: 0.175ms
+WriteFile: 0.139ms
+ReadFile: 0.171ms
+Debug: 0.061ms
+Inject: 0.185ms
+WriteFile: 0.254ms
+ReadFile: 0.07ms
+Debug: 0.261ms
+Inject: 0.182ms
+WriteFile: 0.117ms
+ReadFile: 0.07ms
+Debug: 0.062ms
+Inject: 0.149ms
+WriteFile: 0.149ms
+ReadFile: 0.069ms
+Debug: 0.057ms
+Inject: 0.499ms
+WriteFile: 0.13ms
+ReadFile: 0.068ms
+Debug: 0.063ms
+Inject: 0.176ms
+WriteFile: 0.132ms
+ReadFile: 0.069ms
+Debug: 0.061ms
+Inject: 0.147ms
+WriteFile: 0.442ms
+ReadFile: 0.062ms
+Debug: 0.058ms
+Inject: 0.489ms
+WriteFile: 0.151ms
+ReadFile: 0.066ms
+Debug: 0.063ms
+Inject: 0.137ms
+WriteFile: 0.413ms
+ReadFile: 0.07ms
+Debug: 0.055ms
+Inject: 0.342ms
+WriteFile: 0.223ms
+ReadFile: 0.19ms
+Debug: 0.054ms
+Inject: 0.13ms
+WriteFile: 0.158ms
+ReadFile: 0.22ms
+Debug: 0.048ms
+Inject: 0.301ms
+WriteFile: 0.138ms
+ReadFile: 0.101ms
+Debug: 0.062ms
+Inject: 0.111ms
+WriteFile: 0.155ms
+ReadFile: 0.079ms
+Debug: 0.052ms
+Inject: 0.119ms
+WriteFile: 0.138ms
+ReadFile: 0.051ms
+Debug: 0.044ms
+Inject: 0.112ms
+WriteFile: 0.144ms
+ReadFile: 0.064ms
+Debug: 0.073ms
+Inject: 0.113ms
+WriteFile: 0.145ms
+ReadFile: 0.063ms
+Debug: 0.049ms
+Inject: 0.113ms
+WriteFile: 0.144ms
+ReadFile: 0.095ms
+Debug: 0.046ms
+Inject: 0.349ms
+WriteFile: 0.14ms
+ReadFile: 0.048ms
+Debug: 0.047ms
+Inject: 0.14ms
+WriteFile: 0.13ms
+ReadFile: 0.058ms
+Debug: 0.045ms

@@ -30,6 +30,7 @@ fs.mounts  = [
   { type = "chroot", path = "/usr/{{ arch_libdir }}", uri = "file:/usr/{{ arch_libdir }}"},
   { type = "chroot", path = "/etc", uri = "file:/etc" },
   { type = "chroot", path = "/proc", uri = "file:/proc" }, 
+  { type = "chroot", path = "/tmp", uri = "file:/tmp" }, 
   #{ type = "encrypted", path = "/user-dir", uri = "file:user-dir", key_name = "default"},
 ] 
 
@@ -48,15 +49,14 @@ sgx.trusted_files = [
   "file:ssl/ca.crt",
   "file:main.js",
   "file:user-dir/",
-  "file:watch.txt"
-  
+  "file:/tmp/hello.txt"
 ]
 
 # Add allowed files that can be written to:
 sgx.allowed_files = [
   "file:/etc/",
   "file:/proc/",
-  "file:watch.txt"
+  "file:/tmp/hello.txt"
 ]
 
 # Add profiling directives
