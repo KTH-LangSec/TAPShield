@@ -1,0 +1,220 @@
+File: 01 - Handle completion of node execution-Direct.log
+    Node: Inject, Average Execution Time: 0.189ms
+    Node: Complete, Average Execution Time: 0.037ms
+    Node: Debug, Average Execution Time: 0.151ms
+Total execution time is 0.377
+
+File: 01 - Handle status message output-Direct.log
+    Node: Inject, Average Execution Time: 0.186ms
+    Node: Status, Average Execution Time: 0.045ms
+    Node: Debug, Average Execution Time: 0.129ms
+Total execution time is 0.360
+
+File: 01 - Catch error-Direct.log
+    Node: Inject, Average Execution Time: 0.191ms
+    Node: Function, Average Execution Time: 0.120ms
+    Node: Catch, Average Execution Time: 0.051ms
+    Node: Debug, Average Execution Time: 0.123ms
+Total execution time is 0.483
+
+File: 02 - Trigger a flow at regular intervals-Direct.log
+    Node: Inject, Average Execution Time: 0.196ms
+    Node: Debug, Average Execution Time: 0.063ms
+Total execution time is 0.259
+
+File: 05 - Formatting output using JSONata-Direct.log
+    Node: Inject, Average Execution Time: 0.189ms
+    Node: Debug, Average Execution Time: 0.074ms
+Total execution time is 0.263
+
+File: 03 - Link call-Direct.log
+    Node: Inject, Average Execution Time: 0.157ms
+    Node: LinkIn, Average Execution Time: 0.038ms
+    Node: LinkCall, Average Execution Time: 0.315ms
+    Node: Change, Average Execution Time: 0.085ms
+    Node: LinkOut, Average Execution Time: 0.065ms
+    Node: Debug, Average Execution Time: 0.073ms
+Total execution time is 0.734
+
+================Average execution time of <DirEntry 'common'> is 0.413================
+File: 04 - Join extracedt  sequence of HTML element using join node-Direct.log
+    Node: Inject, Average Execution Time: 0.163ms
+    Node: Template, Average Execution Time: 0.048ms
+    Node: HTML, Average Execution Time: 1.876ms
+    Node: Join, Average Execution Time: 0.069ms
+    Node: Debug, Average Execution Time: 0.084ms
+Total execution time is 2.239
+
+File: 10 - Join parsed CSV message sequence using join node-Direct.log
+    Node: Inject, Average Execution Time: 0.149ms
+    Node: Template, Average Execution Time: 0.078ms
+    Node: CSV, Average Execution Time: 0.174ms
+    Node: Join, Average Execution Time: 0.061ms
+    Node: Debug, Average Execution Time: 0.096ms
+Total execution time is 0.558
+
+File: 03 - Control conversion using options property-Direct.log
+    Node: Inject, Average Execution Time: 0.157ms
+    Node: Template, Average Execution Time: 0.073ms
+    Node: Change, Average Execution Time: 0.105ms
+    Node: XML, Average Execution Time: 0.131ms
+    Node: Debug, Average Execution Time: 0.606ms
+Total execution time is 1.071
+
+File: 02 - Convert JavaScript object to JSON string-Direct.log
+    Node: Inject, Average Execution Time: 0.156ms
+    Node: Template, Average Execution Time: 0.063ms
+    Node: JSON, Average Execution Time: 0.078ms
+    Node: Debug, Average Execution Time: 0.099ms
+Total execution time is 0.395
+
+File: 02 - Convert YAML to JavaScript object-Direct.log
+    Node: Inject, Average Execution Time: 0.177ms
+    Node: Template, Average Execution Time: 0.047ms
+    Node: YAML, Average Execution Time: 0.308ms
+    Node: Debug, Average Execution Time: 0.283ms
+Total execution time is 0.814
+
+================Average execution time of <DirEntry 'parser'> is 1.016================
+File: 01 - Split message payload-Direct.log
+    Node: Inject, Average Execution Time: 0.081ms
+    Node: Template, Average Execution Time: 0.039ms
+    Node: Split, Average Execution Time: 0.141ms
+    Node: Debug, Average Execution Time: 0.024ms
+Total execution time is 0.285
+
+File: 01 - Automatic join mode-Direct.log
+    Node: Inject, Average Execution Time: 0.126ms
+    Node: Template, Average Execution Time: 0.053ms
+    Node: Split, Average Execution Time: 0.224ms
+    Node: Join, Average Execution Time: 0.042ms
+    Node: Debug, Average Execution Time: 0.067ms
+    Node: CSV, Average Execution Time: 0.246ms
+    Node: Switch, Average Execution Time: 0.167ms
+Total execution time is 0.924
+
+File: 01 - Sort array payload-Direct.log
+    Node: Inject, Average Execution Time: 0.170ms
+    Node: Template, Average Execution Time: 0.078ms
+    Node: Sort, Average Execution Time: 0.055ms
+    Node: Debug, Average Execution Time: 0.101ms
+Total execution time is 0.404
+
+File: 03 - Concatenate mode-Direct.log
+    Node: Inject, Average Execution Time: 0.161ms
+    Node: Split, Average Execution Time: 0.283ms
+    Node: Join, Average Execution Time: 0.023ms
+    Node: Debug, Average Execution Time: 0.259ms
+    Node: Switch, Average Execution Time: 0.085ms
+    Node: Change, Average Execution Time: 0.060ms
+Total execution time is 0.871
+
+================Average execution time of <DirEntry 'sequence'> is 0.621================
+File: 02 - Connect to websocket out server-Direct.log
+    Node: WebSocketIn, Average Execution Time: 0.233ms
+    Node: Inject, Average Execution Time: 0.182ms
+    Node: WebSocket, Average Execution Time: 0.222ms
+    Node: Debug, Average Execution Time: 0.092ms
+Total execution time is 0.729
+
+File: 01 - Transfer data using UDP protocol-Direct.log
+    Node: Inject, Average Execution Time: 0.196ms
+    Node: UDP, Average Execution Time: 0.057ms
+    Node: Debug, Average Execution Time: 0.059ms
+Total execution time is 0.312
+
+File: 01 - Connect to websocket in server-Direct.log
+    Node: WebSocketIn, Average Execution Time: 0.653ms
+    Node: Inject, Average Execution Time: 0.178ms
+    Node: WebSocket, Average Execution Time: 0.246ms
+    Node: Debug, Average Execution Time: 0.177ms
+Total execution time is 1.254
+
+File: 02 - Handle query parameters-Direct.log
+    Node: Inject, Average Execution Time: 0.184ms
+    Node: HttpReq, Average Execution Time: 0.631ms
+    Node: Template, Average Execution Time: 0.098ms
+    Node: HttpIn, Average Execution Time: 0.489ms
+    Node: Debug, Average Execution Time: 0.054ms
+Total execution time is 1.455
+
+File: 01 - Connect to TCP out server-Direct.log
+    Node: Inject, Average Execution Time: 0.179ms
+    Node: TCP, Average Execution Time: 0.291ms
+    Node: Debug, Average Execution Time: 0.365ms
+Total execution time is 0.835
+
+================Average execution time of <DirEntry 'network'> is 0.917================
+File: 06 - Storing data in context-Direct.log
+    Node: Inject, Average Execution Time: 0.158ms
+    Node: Function, Average Execution Time: 0.164ms
+    Node: Debug, Average Execution Time: 0.063ms
+Total execution time is 0.385
+
+File: 01 - Use mustache syntax-Direct.log
+    Node: Inject, Average Execution Time: 0.214ms
+    Node: Template, Average Execution Time: 0.128ms
+    Node: Debug, Average Execution Time: 0.071ms
+Total execution time is 0.413
+
+File: 07 - Move message property-Direct.log
+    Node: Inject, Average Execution Time: 0.200ms
+    Node: Change, Average Execution Time: 0.142ms
+    Node: Debug, Average Execution Time: 0.054ms
+Total execution time is 0.397
+
+File: 05 - Use JSONata for switch rule-Direct.log
+    Node: Inject, Average Execution Time: 0.134ms
+    Node: Switch, Average Execution Time: 0.119ms
+    Node: Change, Average Execution Time: 0.073ms
+    Node: Debug, Average Execution Time: 0.047ms
+Total execution time is 0.373
+
+File: 01 - Delay message-Direct.log
+    Node: Inject, Average Execution Time: 0.222ms
+    Node: Delay, Average Execution Time: 0.047ms
+    Node: Debug, Average Execution Time: 0.041ms
+    Node: Change, Average Execution Time: 0.079ms
+    Node: cInject, Average Execution Time: 0.064ms
+Total execution time is 0.452
+
+================Average execution time of <DirEntry 'function'> is 0.404================
+File: 01 - Write string to a file-Direct.log
+    Node: Inject, Average Execution Time: 0.134ms
+    Node: WriteFile, Average Execution Time: 0.128ms
+    Node: ReadFile, Average Execution Time: 0.102ms
+    Node: Debug, Average Execution Time: 0.041ms
+Total execution time is 0.404
+
+File: 04 - Create a message stream-Direct.log
+    Node: Inject, Average Execution Time: 0.116ms
+    Node: Template, Average Execution Time: 0.032ms
+    Node: WriteFile, Average Execution Time: 0.129ms
+    Node: ReadFile, Average Execution Time: 0.111ms
+    Node: Switch, Average Execution Time: 0.045ms
+    Node: Join, Average Execution Time: 0.041ms
+    Node: Debug, Average Execution Time: 0.041ms
+Total execution time is 0.514
+
+File: 01 - Read string from a file-Direct.log
+    Node: Inject, Average Execution Time: 0.126ms
+    Node: WriteFile, Average Execution Time: 0.115ms
+    Node: ReadFile, Average Execution Time: 0.097ms
+    Node: Debug, Average Execution Time: 0.043ms
+Total execution time is 0.381
+
+File: 04 - Specify encoding of written data-Direct.log
+    Node: Inject, Average Execution Time: 0.139ms
+    Node: WriteFile, Average Execution Time: 0.238ms
+    Node: ReadFile, Average Execution Time: 0.094ms
+    Node: Debug, Average Execution Time: 0.040ms
+Total execution time is 0.511
+
+File: 02 - Read data in specified encoding-Direct.log
+    Node: Inject, Average Execution Time: 0.141ms
+    Node: WriteFile, Average Execution Time: 0.116ms
+    Node: ReadFile, Average Execution Time: 0.090ms
+    Node: Debug, Average Execution Time: 0.038ms
+Total execution time is 0.386
+
+================Average execution time of <DirEntry 'storage'> is 0.439================

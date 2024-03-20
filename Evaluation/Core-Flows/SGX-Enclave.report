@@ -1,0 +1,220 @@
+File: 02 - Trigger a flow at regular intervals-SGX.log
+    Node: Inject, Average Execution Time: 0.452ms
+    Node: Debug, Average Execution Time: 0.144ms
+Total execution time is 0.596
+
+File: 05 - Formatting output using JSONata-SGX.log
+    Node: Inject, Average Execution Time: 0.423ms
+    Node: Debug, Average Execution Time: 0.158ms
+Total execution time is 0.582
+
+File: 01 - Handle completion of node execution-SGX.log
+    Node: Inject, Average Execution Time: 0.412ms
+    Node: Complete, Average Execution Time: 0.085ms
+    Node: Debug, Average Execution Time: 0.343ms
+Total execution time is 0.840
+
+File: 03 - Link call-SGX.log
+    Node: Inject, Average Execution Time: 0.386ms
+    Node: LinkIn, Average Execution Time: 0.088ms
+    Node: LinkCall, Average Execution Time: 0.658ms
+    Node: Change, Average Execution Time: 0.194ms
+    Node: LinkOut, Average Execution Time: 0.161ms
+    Node: Debug, Average Execution Time: 0.160ms
+Total execution time is 1.647
+
+File: 01 - Catch error-SGX.log
+    Node: Inject, Average Execution Time: 0.288ms
+    Node: Function, Average Execution Time: 0.222ms
+    Node: Catch, Average Execution Time: 0.089ms
+    Node: Debug, Average Execution Time: 0.175ms
+Total execution time is 0.773
+
+File: 01 - Handle status message output-SGX.log
+    Node: Inject, Average Execution Time: 0.521ms
+    Node: Status, Average Execution Time: 0.116ms
+    Node: Debug, Average Execution Time: 0.304ms
+Total execution time is 0.941
+
+================Average execution time of <DirEntry 'common'> is 0.896================
+File: 03 - Control conversion using options property-SGX.log
+    Node: Inject, Average Execution Time: 0.419ms
+    Node: Template, Average Execution Time: 0.174ms
+    Node: Change, Average Execution Time: 0.189ms
+    Node: XML, Average Execution Time: 0.268ms
+    Node: Debug, Average Execution Time: 0.524ms
+Total execution time is 1.573
+
+File: 02 - Convert YAML to JavaScript object-SGX.log
+    Node: Inject, Average Execution Time: 0.477ms
+    Node: Template, Average Execution Time: 0.117ms
+    Node: YAML, Average Execution Time: 0.591ms
+    Node: Debug, Average Execution Time: 0.523ms
+Total execution time is 1.708
+
+File: 02 - Convert JavaScript object to JSON string-SGX.log
+    Node: Inject, Average Execution Time: 0.404ms
+    Node: Template, Average Execution Time: 0.134ms
+    Node: JSON, Average Execution Time: 0.143ms
+    Node: Debug, Average Execution Time: 0.169ms
+Total execution time is 0.851
+
+File: 04 - Join extracedt  sequence of HTML element using join node-SGX.log
+    Node: Inject, Average Execution Time: 0.388ms
+    Node: Template, Average Execution Time: 0.127ms
+    Node: HTML, Average Execution Time: 3.001ms
+    Node: Join, Average Execution Time: 0.104ms
+    Node: Debug, Average Execution Time: 0.179ms
+Total execution time is 3.799
+
+File: 10 - Join parsed CSV message sequence using join node-SGX.log
+    Node: Inject, Average Execution Time: 0.346ms
+    Node: Template, Average Execution Time: 0.199ms
+    Node: CSV, Average Execution Time: 0.347ms
+    Node: Join, Average Execution Time: 0.125ms
+    Node: Debug, Average Execution Time: 0.179ms
+Total execution time is 1.197
+
+================Average execution time of <DirEntry 'parser'> is 1.826================
+File: 01 - Split message payload-SGX.log
+    Node: Inject, Average Execution Time: 0.177ms
+    Node: Template, Average Execution Time: 0.086ms
+    Node: Split, Average Execution Time: 0.295ms
+    Node: Debug, Average Execution Time: 0.061ms
+Total execution time is 0.619
+
+File: 01 - Automatic join mode-SGX.log
+    Node: Inject, Average Execution Time: 0.323ms
+    Node: Template, Average Execution Time: 0.129ms
+    Node: Split, Average Execution Time: 0.467ms
+    Node: Join, Average Execution Time: 0.103ms
+    Node: Debug, Average Execution Time: 0.134ms
+    Node: CSV, Average Execution Time: 0.381ms
+    Node: Switch, Average Execution Time: 0.384ms
+Total execution time is 1.921
+
+File: 03 - Concatenate mode-SGX.log
+    Node: Inject, Average Execution Time: 0.353ms
+    Node: Split, Average Execution Time: 0.557ms
+    Node: Join, Average Execution Time: 0.064ms
+    Node: Debug, Average Execution Time: 0.512ms
+    Node: Switch, Average Execution Time: 0.205ms
+    Node: Change, Average Execution Time: 0.112ms
+Total execution time is 1.803
+
+File: 01 - Sort array payload-SGX.log
+    Node: Inject, Average Execution Time: 0.395ms
+    Node: Template, Average Execution Time: 0.184ms
+    Node: Sort, Average Execution Time: 0.101ms
+    Node: Debug, Average Execution Time: 0.187ms
+Total execution time is 0.867
+
+================Average execution time of <DirEntry 'sequence'> is 1.303================
+File: 02 - Handle query parameters-SGX.log
+    Node: Inject, Average Execution Time: 0.386ms
+    Node: HttpReq, Average Execution Time: 1.253ms
+    Node: Template, Average Execution Time: 0.268ms
+    Node: HttpIn, Average Execution Time: 1.159ms
+    Node: Debug, Average Execution Time: 0.136ms
+Total execution time is 3.201
+
+File: 01 - Connect to TCP out server-SGX.log
+    Node: Inject, Average Execution Time: 0.503ms
+    Node: TCP, Average Execution Time: 0.723ms
+    Node: Debug, Average Execution Time: 1.012ms
+Total execution time is 2.239
+
+File: 02 - Connect to websocket out server-SGX.log
+    Node: WebSocketIn, Average Execution Time: 0.507ms
+    Node: Inject, Average Execution Time: 0.462ms
+    Node: WebSocket, Average Execution Time: 0.373ms
+    Node: Debug, Average Execution Time: 0.212ms
+Total execution time is 1.554
+
+File: 01 - Transfer data using UDP protocol-SGX.log
+    Node: Inject, Average Execution Time: 0.453ms
+    Node: UDP, Average Execution Time: 0.101ms
+    Node: Debug, Average Execution Time: 0.122ms
+Total execution time is 0.677
+
+File: 01 - Connect to websocket in server-SGX.log
+    Node: WebSocketIn, Average Execution Time: 4.250ms
+    Node: Inject, Average Execution Time: 0.440ms
+    Node: WebSocket, Average Execution Time: 0.445ms
+    Node: Debug, Average Execution Time: 0.366ms
+Total execution time is 5.502
+
+================Average execution time of <DirEntry 'network'> is 2.635================
+File: 01 - Use mustache syntax-SGX.log
+    Node: Inject, Average Execution Time: 0.478ms
+    Node: Template, Average Execution Time: 0.296ms
+    Node: Debug, Average Execution Time: 0.152ms
+Total execution time is 0.926
+
+File: 05 - Use JSONata for switch rule-SGX.log
+    Node: Inject, Average Execution Time: 0.301ms
+    Node: Switch, Average Execution Time: 0.242ms
+    Node: Change, Average Execution Time: 0.174ms
+    Node: Debug, Average Execution Time: 0.107ms
+Total execution time is 0.823
+
+File: 07 - Move message property-SGX.log
+    Node: Inject, Average Execution Time: 0.483ms
+    Node: Change, Average Execution Time: 0.343ms
+    Node: Debug, Average Execution Time: 0.107ms
+Total execution time is 0.932
+
+File: 01 - Delay message-SGX.log
+    Node: Inject, Average Execution Time: 0.551ms
+    Node: Delay, Average Execution Time: 0.097ms
+    Node: Debug, Average Execution Time: 0.098ms
+    Node: Change, Average Execution Time: 0.228ms
+Total execution time is 0.974
+
+File: 06 - Storing data in context-SGX.log
+    Node: Inject, Average Execution Time: 0.396ms
+    Node: Function, Average Execution Time: 0.339ms
+    Node: Debug, Average Execution Time: 0.118ms
+Total execution time is 0.854
+
+================Average execution time of <DirEntry 'function'> is 0.902================
+File: 04 - Create a message stream-SGX.log
+    Node: Inject, Average Execution Time: 0.246ms
+    Node: Template, Average Execution Time: 0.078ms
+    Node: WriteFile, Average Execution Time: 0.216ms
+    Node: ReadFile, Average Execution Time: 0.143ms
+    Node: Switch, Average Execution Time: 0.098ms
+    Node: Join, Average Execution Time: 0.073ms
+    Node: Debug, Average Execution Time: 0.072ms
+Total execution time is 0.926
+
+File: 01 - Read string from a file-SGX.log
+    Node: Inject, Average Execution Time: 0.284ms
+    Node: WriteFile, Average Execution Time: 0.207ms
+    Node: ReadFile, Average Execution Time: 0.130ms
+    Node: Debug, Average Execution Time: 0.506ms
+Total execution time is 1.127
+
+File: 04 - Specify encoding of written data-SGX.log
+    Node: Inject, Average Execution Time: 0.268ms
+    Node: WriteFile, Average Execution Time: 0.408ms
+    Node: ReadFile, Average Execution Time: 0.210ms
+    Node: Debug, Average Execution Time: 0.080ms
+Total execution time is 0.966
+
+File: 02 - Read data in specified encoding-SGX.log
+    Node: Inject, Average Execution Time: 0.301ms
+    Node: WriteFile, Average Execution Time: 0.223ms
+    Node: ReadFile, Average Execution Time: 0.128ms
+    Node: Debug, Average Execution Time: 0.083ms
+Total execution time is 0.734
+
+File: 01 - Write string to a file-SGX.log
+    Node: Inject, Average Execution Time: 0.264ms
+    Node: WriteFile, Average Execution Time: 0.206ms
+    Node: ReadFile, Average Execution Time: 0.125ms
+    Node: Debug, Average Execution Time: 0.081ms
+Total execution time is 0.676
+
+================Average execution time of <DirEntry 'storage'> is 0.886================
+
