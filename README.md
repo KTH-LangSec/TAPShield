@@ -108,9 +108,8 @@ This performs the following steps:
 ## Todo list 
 
 - [x] Check out use IFTTT use cases and add examples 
+- [x] Finish up core flows experiments (results added to the Evaluation/Core-Flows )
+- [ ] Evaluation on dependent upon flows (MYSQL flow remains)
 - [ ] Solve the problem with secret provisioning 
-- [ ] Evaluation on dependent upon flows 
-- [ ] Finish up core flows evaluation (1 set still remain)
-- [ ] Code refactoring
 - [ ] WASM Function node input with http-in node 
-- [ ] 
+- [ ] Code refactoring
