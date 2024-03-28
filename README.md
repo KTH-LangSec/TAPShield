@@ -40,7 +40,7 @@ You can specify the server address and ssh certificate in the [inventory.yaml](.
 The file [build.config.json](./build.config.json) contains all the configuration for the automation playbook, the flow and the enclave.
 
 <!-- 
-   "minify": true,
+   "minify": true, 
     "sourcemap": false,
     "bundleOnlyRequiredNodes": true,
     "outputDir": "build",
@@ -105,11 +105,19 @@ This performs the following steps:
 9. Build the enclave on the remote server
 10. Start the enclave on the remote server (if `startEnclave` is set to `true`)
 
-## Todo list 
+## ToDo list (Development)
 
 - [x] Check out use IFTTT use cases and add examples 
 - [x] Finish up core flows experiments (results added to the Evaluation/Core-Flows )
-- [ ] Evaluation on dependent upon flows (MYSQL flow remains)
+- [x] Evaluation on dependent upon flows (MYSQL flow remains)
 - [ ] Solve the problem with secret provisioning 
 - [ ] WASM Function node input with http-in node 
 - [ ] Code refactoring
+
+## ToDo list (Paper)
+
+- [x] Rewrite the protocol and code-level example 
+- [x] Write the background in the paper 
+- [x] Protocol figure need some changes 
+- [x] Add experiments table to the paper 
+- [ ] Application overview (Description of each component) 
