@@ -28,7 +28,7 @@ function flatten(obj){
 
 function replacer(key, value) {
   // Turn into a hash map
-  const cache = new Set();
+  /*const cache = new Set();
   return function(key, value) {
     if (typeof value === 'object' && value !== null) {
       if (cache.has(value)) {
@@ -38,7 +38,14 @@ function replacer(key, value) {
       cache.add(value);
     }
     return value;
-  };
+  };*/
+  console.log(key, value);
+  if(key === 'socket'){
+    return null;
+  }
+  // Add more unneeded properties here
+
+  return value;
 }
 
 
@@ -82,7 +89,7 @@ function get_context(RED, COMMAND_QUEUE, node, instancecb, self, world = ""){
       "node_red_msg_size": function() {
           {{#CAN_READ_MSG}}
           // Return the size in bytes of the message encoded as a JSON string 
-          let json = JSON.stringify(msg);
+          let json = JSON.stringify(msg, replacer);
           let buffer = new TextEncoder().encode(json);
           if(debug)  console.log("Sending msg size", buffer.byteLength, `[${world}]`);
           return buffer.byteLength;
@@ -97,7 +104,7 @@ function get_context(RED, COMMAND_QUEUE, node, instancecb, self, world = ""){
 
         {{#CAN_READ_NODE}}
         // Return the size in bytes of the message encoded as a JSON string 
-        let json = JSON.stringify(node); //flatten(node), replacer()
+        let json = JSON.stringify(node, replacer); //flatten(node), replacer()
         let buffer = new TextEncoder().encode(json);
         if(debug) console.log("Sending node struct size", buffer.byteLength, `[${world}]`);
         return buffer.byteLength;
@@ -111,7 +118,7 @@ function get_context(RED, COMMAND_QUEUE, node, instancecb, self, world = ""){
       "node_red_msg": function(data, offset, length){
         {{#CAN_READ_MSG}}
         
-        let json = JSON.stringify(msg);
+        let json = JSON.stringify(msg, replacer);
         let buffer = new TextEncoder().encode(json);
         let bytes = new Uint8Array(instancecb().exports.memory.buffer, data + offset, length);
         bytes.set(buffer);
@@ -128,7 +135,7 @@ function get_context(RED, COMMAND_QUEUE, node, instancecb, self, world = ""){
         {{#CAN_READ_NODE}}
         // TODO we need to see the consequences of this
         //node.flow = node._flow;
-        let json = JSON.stringify(node); // flatten(node), replacer());
+        let json = JSON.stringify(node, replacer); // flatten(node), replacer());
         // console.log("host", json);
         let buffer = new TextEncoder().encode(json);
         let bytes = new Uint8Array(instancecb().exports.memory.buffer, data + offset, length);
@@ -145,7 +152,7 @@ function get_context(RED, COMMAND_QUEUE, node, instancecb, self, world = ""){
 
         {{#CAN_READ_CONTEXT}}
         // Return the size in bytes of the message encoded as a JSON string 
-        let json = JSON.stringify(this.context());
+        let json = JSON.stringify(this.context(), replacer);
         let buffer = new TextEncoder().encode(json);
         if(debug) console.log("Sending node struct size", buffer.byteLength, `[${world}]`);
         return buffer.byteLength;
@@ -159,7 +166,7 @@ function get_context(RED, COMMAND_QUEUE, node, instancecb, self, world = ""){
       "node_red_context": function(data, offset, length){
 
         {{#CAN_READ_CONTEXT}}
-        let json = JSON.stringify(this.context());
+        let json = JSON.stringify(this.context(), replacer);
         let buffer = new TextEncoder().encode(json);
         let bytes = new Uint8Array(instancecb().exports.memory.buffer, data + offset, length);
         bytes.set(buffer);
