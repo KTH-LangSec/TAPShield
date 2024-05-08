@@ -47,7 +47,7 @@ export async function main() {
     outfile: path.join(DISTDIR, "index.js"),
     plugins: [
       nullPackage([
-        // remove not needed modules by returning empty modules
+        // remove not needed modules Mzeby returning empty modules
         "@node-red/editor-api",
         "@node-red/editor-client",
          // TODO 

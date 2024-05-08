@@ -101,13 +101,14 @@ export const initializeUserDir = async (USERDIR) => {
 };
 
 export const addSSLKeys = async (USERDIR, config) => {
+  
   // Load the key and certificate
   const caPath = path.resolve(config.caPath);
   const certPath = path.resolve(config.certPath);
   const keyPath = path.resolve(config.keyPath);
 
   try {
-    await fs.copyFile(caPath, path.join(USERDIR, "ca.pem"));
+    await fs.copyFile(caPath, path.join(USERDIR, path.basename(caPath)));
     await fs.copyFile(certPath, path.join(USERDIR, path.basename(certPath)));
     await fs.copyFile(keyPath, path.join(USERDIR, path.basename(keyPath)));
   } catch (error) {

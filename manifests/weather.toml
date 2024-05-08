@@ -30,7 +30,7 @@ fs.mounts  = [
   { type = "chroot", path = "/usr/{{ arch_libdir }}", uri = "file:/usr/{{ arch_libdir }}"},
   { type = "chroot", path = "/etc", uri = "file:/etc" },
   { type = "chroot", path = "/proc", uri = "file:/proc" }, 
-  { type = "encrypted", path = "/user-dir", uri = "file:user-dir", key_name = "default"}
+  { type = "encrypted", path = "/user-dir", uri = "file:user-dir"}
 ] 
 
 sgx.nonpie_binary = true
@@ -46,12 +46,11 @@ sgx.trusted_files = [
   "file:/usr/{{ arch_libdir }}/",
   "file:libsecret_prov_attest.so", 
   "file:ssl/ca.crt",
-  "file:main.js",
-  
+  "file:main.js", 
 ]
 
 sgx.allowed_files = [
   "file:/etc/",
-  "file:/proc/",
- 
+  "file:/proc/"
+
 ]

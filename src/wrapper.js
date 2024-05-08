@@ -7,7 +7,7 @@ import ws from "ws";
 const certFileName = "server.cert";
 const keyFileName = "server.key";
 const caFile = "ca.pem";
-
+console.log("-----------------");
 // Settings configuration for node-red
 let settings = {
   disableEditor: true, // Disable the editor
@@ -63,6 +63,7 @@ let settings = {
 };
 
 let init = async () => {
+  
   const app = express();
 
   // Add a simple route for static content served from 'public'

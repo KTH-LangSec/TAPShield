@@ -1,5 +1,5 @@
 {
-    "minify": true,
+    "minify": false,
     "sourcemap": false,
     "bundleOnlyRequiredNodes": true,
     "outputDir": "build",
@@ -12,5 +12,5 @@
     "remoteDir": "/home/azureuser/gramine-test",
     "uploadBundle": true,
     "startEnclave": false,
-    "encryptUserDir": false
+    "encryptUserDir": true
 }   
