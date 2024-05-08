@@ -71,6 +71,8 @@
         src: secret-prov-server/ssl/ca.crt
         dest: '{{remoteDir}}/ssl/ca.crt'
 
+
+
     # Building the enclave ---------------------------------------------------
 
     - name: Clean build directory
