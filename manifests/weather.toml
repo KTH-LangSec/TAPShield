@@ -51,6 +51,7 @@ sgx.trusted_files = [
 
 sgx.allowed_files = [
   "file:/etc/",
-  "file:/proc/"
+  "file:/proc/", 
+  "file:user-dir/package.json.$$$"
 
 ]

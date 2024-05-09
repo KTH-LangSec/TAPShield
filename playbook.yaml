@@ -9,15 +9,15 @@
 - hosts: localhost
   tasks: 
     - include_vars: build.config.json
-    # - name: Remove build directory
-    #   file:
-    #     state: absent
-    #     path: build
-    # - name: Build the bundle
-    #   shell: babel-node src/build.js
+    - name: Remove build directory
+      file:
+        state: absent
+        path: build
+    - name: Build the bundle
+      shell: babel-node src/build.js
     - block: # This block is only run if encryptUserDir is set to true in the config
-      - name: Start the secret prov server
-        shell: docker start dcap_server
+    #   - name: Start the secret prov server
+    #     shell: docker start dcap_server
       - name: Encrypt files in bundles/user-dir
         shell: docker exec dcap_server bash -c "cd node-red-sgx && sh ./encrypt-user-dir.sh"
         register: encrypted_user_dir

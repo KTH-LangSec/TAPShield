@@ -89,7 +89,7 @@ let init = async () => {
     // Start our own custom server instead on using the default one by node-red
     server.listen(8443, function() {
       console.log("Server listening on ", 8443);
-
+      console.log("heelo there ");
       RED.start().then(function() {
         console.log("Node-Red started");
       });
