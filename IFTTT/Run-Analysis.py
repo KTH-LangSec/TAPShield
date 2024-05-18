@@ -11,14 +11,14 @@ for i in range(1, num_directories + 1):
     dir_path = os.path.join(base_dir, str(i))
     for j in range(1, num_apps + 1):
         
-        if ((j != 7) and (j != 8) and (j != 14) and (j != 15) and (j != 17) and (j != 22) and (j != 23)):
-            file_path = os.path.join(dir_path, f'output_{j}.log')
-            with open(file_path, 'r') as file:
-                execution_time = float(file.read().strip())
-                total_times[j - 1] += execution_time
+        # if ((j != 7) and (j != 8) and (j != 14) and (j != 15) and (j != 17) and (j != 22) and (j != 23)):
+        file_path = os.path.join(dir_path, f'output_{j}.log')
+        with open(file_path, 'r') as file:
+            execution_time = float(file.read().strip())
+            total_times[j - 1] += execution_time
         
-        else:
-            continue
+        # else:
+        #     continue
 
         
 
