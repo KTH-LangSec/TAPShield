@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "switches2Action": {
+      "read": true,
+      "readPolicy": "Ewelink/switches2Action"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Ewelink/__proto__"
+    }
+  }
+}

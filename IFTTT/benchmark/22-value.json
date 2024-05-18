@@ -1,0 +1,28 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode":  "var re = /:/g; var safeFilename = Life360.first.PersonName + ' arrived first at ' + Life360.first.PlaceName + ' at ' + Life360.first.ArrivedAt.replace(re,'');Dropbox.createTextFileDb.setFilename(safeFilename);",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "Life360",
+        "name": "first",
+        "ingredients": "{\"PersonName\":\"tester\", \"PlaceName\":\"ThePlace\", \"ArrivedAt\" : \"23:11\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "Dropbox",
+          "name": "createTextFileDb",
+          "fields": ["Filename"]
+        }
+      ]
+    }
+  }
+}
+
+
+

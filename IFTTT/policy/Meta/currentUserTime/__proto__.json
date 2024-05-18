@@ -1,0 +1,21 @@
+{
+  "type": "contextify",
+  "properties": {
+    "day": {
+      "read": true,
+      "readPolicy": "Meta/currentUserTime/__proto__/day"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Meta/currentUserTime/__proto__/__proto__"
+    },
+    "hour": {
+      "read": true,
+      "readPolicy": "Meta/currentUserTime/__proto__/hour"
+    },
+    "minute": {
+      "read": true,
+      "readPolicy": "Meta/currentUserTime/__proto__/minute"
+    }
+  }
+}

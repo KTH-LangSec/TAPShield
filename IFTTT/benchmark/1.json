@@ -1,0 +1,30 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode":  "var CurrentDay = Meta.currentUserTime.day();var currentHour = Meta.currentUserTime.hour();if (CurrentDay == 0 || CurrentDay == 6 || currentHour > 19 && currentHour < 6 ) {AndroidMessages.sendAMessage.skip();}",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "ingredients": "true",
+        "serviceName": "Car",
+        "name": "nearby"
+      },
+      "actions": [
+        {
+          "serviceName": "AndroidMessages",
+          "name": "sendAMessage",
+          "fields": [
+            "Body",
+            "Subject",
+            "PhoneNumber"
+          ]
+        }
+      ]
+    }
+  }
+}
+

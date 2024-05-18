@@ -1,0 +1,17 @@
+{
+  "type": "contextify",
+  "properties": {
+    "setColorAllHue": {
+      "read": true,
+      "readPolicy": "Hue/setColorAllHue"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Hue/__proto__"
+    },
+    "turnOnAllHue": {
+      "read": true,
+      "readPolicy": "Hue/turnOnAllHue"
+    }
+  }
+}

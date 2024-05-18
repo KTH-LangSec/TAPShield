@@ -1,0 +1,9 @@
+{
+  "type": "contextify",
+  "properties": {
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Smartlife/turnOn/__proto__"
+    }
+  }
+}

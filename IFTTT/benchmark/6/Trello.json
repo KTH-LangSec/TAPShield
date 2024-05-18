@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "cardAddedToList": {
+      "read": true,
+      "readPolicy": "Trello/cardAddedToList"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Trello/__proto__"
+    }
+  }
+}

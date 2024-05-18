@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "CurrentCondition": {
+      "read": true,
+      "readPolicy": "Trigger/CurrentCondition"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Trigger/__proto__"
+    }
+  }
+}

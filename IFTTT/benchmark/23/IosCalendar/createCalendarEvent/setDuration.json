@@ -1,0 +1,10 @@
+{
+  "type": "contextify",
+  "call": {
+    "allow": "(thisArg, arg) => {return arg == (this.GetPolicyParameter(`Ends`) - this.GetPolicyParameter(`Starts`));}",
+    "arguments": [
+      {}
+    ],
+    "result": {}
+  }
+}

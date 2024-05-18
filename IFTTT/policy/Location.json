@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "enterRegionLocation": {
+      "read": true,
+      "readPolicy": "Location/enterRegionLocation"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Location/__proto__"
+    }
+  }
+}

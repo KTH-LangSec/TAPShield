@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "newEventAdded": {
+      "read": true,
+      "readPolicy": "GoogleCalendar/newEventAdded"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "GoogleCalendar/__proto__"
+    }
+  }
+}

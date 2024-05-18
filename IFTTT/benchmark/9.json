@@ -1,0 +1,27 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode" : "var time = Meta.currentUserTime.hour();if (time > 18 || time < 9) {    LightwaverfPower.switchOnSocket.skip();}",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "TriggerService",
+        "name": "trigger",
+        "ingredients": ""
+      },
+      "actions": [
+        {
+          "serviceName": "LightwaverfPower",
+          "name": "switchOnSocket",
+          "fields": []
+        }
+      ]
+    }
+  }
+}
+
+

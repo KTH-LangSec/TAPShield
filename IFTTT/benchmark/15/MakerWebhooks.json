@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "event": {
+      "read": true,
+      "readPolicy": "MakerWebhooks/event"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "MakerWebhooks/__proto__"
+    }
+  }
+}

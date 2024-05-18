@@ -1,0 +1,65 @@
+# Loader config
+#loader.preload = "file:{{ gramine.libos }}"  # for compatibility with v1.0
+loader.entrypoint = "file:{{ gramine.libos }}"
+loader.log_level = "all"
+loader.log_file = "gramine.log"
+loader.insecure__use_cmdline_argv = true
+loader.insecure__use_host_env = true
+# Node.js requires eventfd2() emulation otherwise fails on `(uv_loop_init(&tracing_loop_)) == (0)'
+sys.insecure__allow_eventfd = true
+
+libos.entrypoint = "{{ nodejs_dir }}/node"
+
+# Remote Attestation configuration -----------------------------------------------------------------
+sgx.remote_attestation = "none"
+sgx.debug = true
+
+loader.env.LD_LIBRARY_PATH = "/lib:{{ arch_libdir }}:/usr{{ arch_libdir }}"
+# loader.env.LD_PRELOAD = "libsecret_prov_attest.so"
+# loader.env.SECRET_PROVISION_CONSTRUCTOR = "1"
+# loader.env.SECRET_PROVISION_SET_KEY = "default"
+# loader.env.SECRET_PROVISION_CA_CHAIN_PATH = "ssl/ca.crt"
+# loader.env.SECRET_PROVISION_SERVERS = "remotehost:4433"
+
+# -------------------------------------------------------------------------------------------------
+
+fs.mounts  = [
+  { type = "chroot", path = "{{ nodejs_dir }}/node", uri = "file:{{ nodejs_dir }}/node"},
+  { type = "chroot", path = "/lib", uri = "file:{{ gramine.runtimedir() }}"},
+  { type = "chroot", path = "{{ arch_libdir }}", uri = "file:{{ arch_libdir }}"},
+  { type = "chroot", path = "/usr/{{ arch_libdir }}", uri = "file:/usr/{{ arch_libdir }}"},
+  { type = "chroot", path = "/etc", uri = "file:/etc" },
+  { type = "chroot", path = "/proc", uri = "file:/proc" }, 
+  # { type = "chroot", path = "/user-dir", uri = "file:user-dir"}
+] 
+
+#sgx.nonpie_binary = true
+# Node.js expects around 1.7GB of heap on startup, see https://github.com/nodejs/node/issues/13018
+sgx.enclave_size = "8G"
+sgx.max_threads = 32
+
+sgx.trusted_files = [
+  "file:{{ gramine.libos }}",
+  #"file:{{ nodejs_dir }}/node",
+  "file:{{ gramine.runtimedir() }}/",
+  "file:{{ arch_libdir }}/",
+  "file:/usr/{{ arch_libdir }}/", 
+  "file:ssl/ca.crt",
+  "file:invoker.js",
+  "file:lambda_interface.js",
+  "file:event.json",
+  "file:framework.js", 
+  "file:node_modules/sandtrap/out/contextification.js"
+]
+
+sgx.allowed_files = [
+  "file:/etc/",
+  "file:/proc/",
+  "file:benchmark/",
+  "file:node_modules/",
+  "file:policy/",
+  "file:./",
+  "file:{{ nodejs_dir }}/node",
+  "file:logs/"
+]
+

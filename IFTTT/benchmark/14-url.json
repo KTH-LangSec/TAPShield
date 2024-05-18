@@ -1,0 +1,27 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode":  "var content = Pinterest.aNewPinOnYourBoard.SourceUrl;if(content.search(/no_image_card/gi) != -1) {  Telegram.sendPhoto.skip();}else {Telegram.sendPhoto.setPhotoUrl(content);}",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "Pinterest",
+        "name": "aNewPinOnYourBoard",
+        "ingredients": "{\"SourceUrl\":\"https://i.pinimg.com/2.jpg\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "Telegram",
+          "name": "sendPhoto",
+          "fields": ["PhotoUrl"]
+        }
+      ]
+    }
+  }
+}
+
+

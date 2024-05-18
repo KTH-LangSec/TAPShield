@@ -1,0 +1,10 @@
+{
+  "type": "contextify",
+  "call": {
+    "allow": true,
+    "arguments": [
+      {}
+    ],
+    "result": {}
+  }
+}

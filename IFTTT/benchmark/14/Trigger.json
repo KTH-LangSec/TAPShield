@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "SourceUrl": {
+      "read": true,
+      "readPolicy": "Trigger/SourceUrl"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Trigger/__proto__"
+    }
+  }
+}

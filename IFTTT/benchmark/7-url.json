@@ -1,0 +1,27 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode" : "var source = Telegram.newChannelPhoto.PhotoUrl;Tumblr.createPhotoPost.setSourceUrl(source)",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "Telegram",
+        "name": "newChannelPhoto",
+        "ingredients": "{\"PhotoUrl\":\"https://t.me/myphoto.jpg\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "Tumblr",
+          "name": "createPhotoPost",
+          "fields": ["SourceUrl"]
+        }
+      ]
+    }
+  }
+}
+
+

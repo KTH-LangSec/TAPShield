@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "createTask": {
+      "read": true,
+      "readPolicy": "Todoist/createTask"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Todoist/__proto__"
+    }
+  }
+}

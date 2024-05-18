@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "skip": {
+      "read": true,
+      "readPolicy": "LightwaverfPower/switchOnSocket/__proto__/skip"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "LightwaverfPower/switchOnSocket/__proto__/__proto__"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "options": {
+    "interactive": false,
+    "learn": true,
+    "contextify": {
+      "read": false,
+      "write": false,
+      "call": false,
+      "construct": false
+    },
+    "decontextify": {
+      "read": false,
+      "write": false,
+      "call": false,
+      "construct": false
+    }
+  },
+  "onerror": "warn",
+  "global": "global",
+  "exports": "exports",
+  "allowEval": true,
+  "manifest": {
+    "global": "global.json",
+    "global/Buffer": "global/Buffer.json",
+    "global/clearImmediate": "global/clearImmediate.json",
+    "global/clearInterval": "global/clearInterval.json",
+    "global/clearTimeout": "global/clearTimeout.json",
+    "global/console": "global/console.json",
+    "global/process": "global/process.json",
+    "global/queueMicrotask": "global/queueMicrotask.json",
+    "global/setImmediate": "global/setImmediate.json",
+    "global/setInterval": "global/setInterval.json",
+    "global/setTimeout": "global/setTimeout.json",
+    "GoogleCalendar": "GoogleCalendar.json",
+    "IosCalendar": "IosCalendar.json",
+    "Meta": "Meta.json",
+    "moment": "moment.json",
+    "Trigger": "Trigger.json",
+    "filtercode-policy": "filtercode-policy.json",
+    "GoogleCalendar/newEventGcal": "GoogleCalendar/newEventGcal.json",
+    "GoogleCalendar/__proto__": "GoogleCalendar/__proto__.json",
+    "Trigger/Ends": "Trigger/Ends.json",
+    "Trigger/__proto__": "Trigger/__proto__.json",
+    "Trigger/Starts": "Trigger/Starts.json",
+    "IosCalendar/createCalendarEvent": "IosCalendar/createCalendarEvent.json",
+    "IosCalendar/__proto__": "IosCalendar/__proto__.json",
+    "IosCalendar/createCalendarEvent/setDuration": "IosCalendar/createCalendarEvent/setDuration.json",
+    "IosCalendar/createCalendarEvent/__proto__": "IosCalendar/createCalendarEvent/__proto__.json"
+  }
+}

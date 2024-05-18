@@ -1,0 +1,51 @@
+{
+  "options": {
+    "interactive": false,
+    "learn": true,
+    "contextify": {
+      "read": false,
+      "write": false,
+      "call": false,
+      "construct": false
+    },
+    "decontextify": {
+      "read": false,
+      "write": false,
+      "call": false,
+      "construct": false
+    }
+  },
+  "onerror": "warn",
+  "global": "global",
+  "exports": "exports",
+  "allowEval": true,
+  "manifest": {
+    "global": "global.json",
+    "global/Buffer": "global/Buffer.json",
+    "global/clearImmediate": "global/clearImmediate.json",
+    "global/clearInterval": "global/clearInterval.json",
+    "global/clearTimeout": "global/clearTimeout.json",
+    "global/console": "global/console.json",
+    "global/process": "global/process.json",
+    "global/queueMicrotask": "global/queueMicrotask.json",
+    "global/setImmediate": "global/setImmediate.json",
+    "global/setInterval": "global/setInterval.json",
+    "global/setTimeout": "global/setTimeout.json",
+    "Life360": "Life360.json",
+    "Dropbox": "Dropbox.json",
+    "Meta": "Meta.json",
+    "moment": "moment.json",
+    "Trigger": "Trigger.json",
+    "filtercode-policy": "filtercode-policy.json",
+    "Life360/first": "Life360/first.json",
+    "Life360/__proto__": "Life360/__proto__.json",
+    "Trigger/PersonName": "Trigger/PersonName.json",
+    "Trigger/__proto__": "Trigger/__proto__.json",
+    "Trigger/PlaceName": "Trigger/PlaceName.json",
+    "Trigger/ArrivedAt": "Trigger/ArrivedAt.json",
+    "Dropbox/createTextFileDb": "Dropbox/createTextFileDb.json",
+    "Dropbox/__proto__": "Dropbox/__proto__.json",
+    "Dropbox/createTextFileDb/setFilename": "Dropbox/createTextFileDb/setFilename.json",
+    "Dropbox/createTextFileDb/__proto__": "Dropbox/createTextFileDb/__proto__.json"
+  }
+}

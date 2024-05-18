@@ -1,0 +1,27 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode":  "if (Weather.currentWeatherAtTime.CurrentCondition == 'Rain Today!') { } else { Hue.setColorAllHue.skip(); }",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "Weather",
+        "name": "currentWeatherAtTime",
+        "ingredients": "{\"CurrentCondition\":\"Not Rain Today!\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "Hue",
+          "name": "setColorAllHue",
+          "fields": []
+        }
+      ]
+    }
+  }
+}
+
+

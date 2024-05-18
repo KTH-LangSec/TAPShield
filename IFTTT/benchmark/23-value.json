@@ -1,0 +1,29 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode":  "var duration = GoogleCalendar.newEventGcal.Ends - GoogleCalendar.newEventGcal.Starts; IosCalendar.createCalendarEvent.setDuration(duration);",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "GoogleCalendar",
+        "name": "newEventGcal",
+        "ingredients": "{\"Starts\":2, \"Ends\":7}"
+      },
+      "actions": [
+        {
+          "serviceName": "IosCalendar",
+          "name": "createCalendarEvent",
+          "fields": ["Duration"]
+        }
+      ]
+    }
+  }
+}
+
+
+
+

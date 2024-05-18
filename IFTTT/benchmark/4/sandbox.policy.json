@@ -1,0 +1,52 @@
+{
+  "options": {
+    "interactive": false,
+    "learn": true,
+    "contextify": {
+      "read": false,
+      "write": false,
+      "call": false,
+      "construct": false
+    },
+    "decontextify": {
+      "read": false,
+      "write": false,
+      "call": false,
+      "construct": false
+    }
+  },
+  "onerror": "warn",
+  "global": "global",
+  "exports": "exports",
+  "allowEval": true,
+  "manifest": {
+    "global": "global.json",
+    "global/Buffer": "global/Buffer.json",
+    "global/clearImmediate": "global/clearImmediate.json",
+    "global/clearInterval": "global/clearInterval.json",
+    "global/clearTimeout": "global/clearTimeout.json",
+    "global/console": "global/console.json",
+    "global/process": "global/process.json",
+    "global/queueMicrotask": "global/queueMicrotask.json",
+    "global/setImmediate": "global/setImmediate.json",
+    "global/setInterval": "global/setInterval.json",
+    "global/setTimeout": "global/setTimeout.json",
+    "GoogleCalendar": "GoogleCalendar.json",
+    "IfNotifications": "IfNotifications.json",
+    "Meta": "Meta.json",
+    "moment": "moment.json",
+    "Trigger": "Trigger.json",
+    "filtercode-policy": "filtercode-policy.json",
+    "IfNotifications/sendNotification": "IfNotifications/sendNotification.json",
+    "IfNotifications/__proto__": "IfNotifications/__proto__.json",
+    "IfNotifications/sendNotification/__proto__": "IfNotifications/sendNotification/__proto__.json",
+    "IfNotifications/sendNotification/__proto__/skip": "IfNotifications/sendNotification/__proto__/skip.json",
+    "IfNotifications/sendNotification/__proto__/__proto__": "IfNotifications/sendNotification/__proto__/__proto__.json",
+    "GoogleCalendar/newEventAdded": "GoogleCalendar/newEventAdded.json",
+    "GoogleCalendar/__proto__": "GoogleCalendar/__proto__.json",
+    "Trigger/Starts": "Trigger/Starts.json",
+    "Trigger/__proto__": "Trigger/__proto__.json",
+    "Trigger/Ends": "Trigger/Ends.json",
+    "Trigger/Title": "Trigger/Title.json"
+  }
+}

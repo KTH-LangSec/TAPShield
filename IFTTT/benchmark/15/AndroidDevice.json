@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "setDeviceVolume": {
+      "read": true,
+      "readPolicy": "AndroidDevice/setDeviceVolume"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "AndroidDevice/__proto__"
+    }
+  }
+}

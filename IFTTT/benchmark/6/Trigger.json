@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "Title": {
+      "read": true,
+      "readPolicy": "Trigger/Title"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Trigger/__proto__"
+    }
+  }
+}

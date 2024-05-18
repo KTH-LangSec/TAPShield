@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "sendPhoto": {
+      "read": true,
+      "readPolicy": "Telegram/sendPhoto"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Telegram/__proto__"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "currentWeatherAtTime": {
+      "read": true,
+      "readPolicy": "Weather/currentWeatherAtTime"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Weather/__proto__"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "contextify",
+  "properties": {
+    "Starts": {
+      "read": true,
+      "readPolicy": "Trigger/Starts"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Trigger/__proto__"
+    },
+    "Ends": {
+      "read": true,
+      "readPolicy": "Trigger/Ends"
+    },
+    "Title": {
+      "read": true,
+      "readPolicy": "Trigger/Title"
+    }
+  }
+}

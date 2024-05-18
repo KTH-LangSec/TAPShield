@@ -1,0 +1,9 @@
+{
+  "type": "contextify",
+  "properties": {
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Hue/setColorAllHue/__proto__"
+    }
+  }
+}

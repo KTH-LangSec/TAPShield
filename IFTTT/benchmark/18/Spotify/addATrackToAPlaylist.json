@@ -1,0 +1,17 @@
+{
+  "type": "contextify",
+  "properties": {
+    "setSearchQuery": {
+      "read": true,
+      "readPolicy": "Spotify/addATrackToAPlaylist/setSearchQuery"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Spotify/addATrackToAPlaylist/__proto__"
+    },
+    "setArtistName": {
+      "read": true,
+      "readPolicy": "Spotify/addATrackToAPlaylist/setArtistName"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode" : "var d = new Date();var n = d.getDay();if (0 == n) {  Monzo.potDeposit.setAmount('0.1'); } else if (1 == n) {   Monzo.potDeposit.setAmount('0.2'); } else if (2 == n) {   Monzo.potDeposit.setAmount('0.3'); } else if (3 == n) { Monzo.potDeposit.setAmount('0.4'); } else if (4 == n) {   Monzo.potDeposit.setAmount('0.5'); } else if (5 == n) {  Monzo.potDeposit.setAmount('0.6'); } else if (6 == n) {   Monzo.potDeposit.setAmount('0.7'); }",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "ingredients": "true",
+        "serviceName": "triggerService",
+        "name": "triggered"
+      },
+      "actions": [
+        {
+          "serviceName": "Monzo",
+          "name": "potDeposit",
+          "fields": ["Amount"]
+        }
+      ]
+    }
+  }
+}

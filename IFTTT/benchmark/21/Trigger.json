@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "Filename": {
+      "read": true,
+      "readPolicy": "Trigger/Filename"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Trigger/__proto__"
+    }
+  }
+}

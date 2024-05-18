@@ -1,0 +1,10 @@
+{
+  "type": "contextify",
+  "call": {
+    "allow": "(thisArg, arg) => {return arg.startsWith(this.GetPolicyParameter(`PersonName`) + ' arrived first at ' + this.GetPolicyParameter(`PlaceName`));}",
+    "arguments": [
+      {}
+    ],
+    "result": {}
+  }
+}

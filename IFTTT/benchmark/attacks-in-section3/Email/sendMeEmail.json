@@ -1,0 +1,17 @@
+{
+  "type": "contextify",
+  "properties": {
+    "setBody": {
+      "read": true,
+      "readPolicy": "Email/sendMeEmail/setBody"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Email/sendMeEmail/__proto__"
+    },
+    "setSubject": {
+      "read": true,
+      "readPolicy": "Email/sendMeEmail/setSubject"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode":  "var currentHour = Meta.currentUserTime.hour();if (currentHour >= 22 || currentHour < 6 ) {} else {  Email.sendMeEmail.skip()}",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "ingredients": "true",
+        "serviceName": "TriggerService",
+        "name": "trigger"
+      },
+      "actions": [
+        {
+          "serviceName": "Email",
+          "name": "sendMeEmail",
+          "fields": [
+            "Body",
+            "Subject"          ]
+        }
+      ]
+    }
+  }
+}
+

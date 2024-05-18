@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "postNewTweetWithImage": {
+      "read": true,
+      "readPolicy": "Twitter/postNewTweetWithImage"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Twitter/__proto__"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "contextify",
+  "properties": {
+    "Buffer": {
+      "readPolicy": "global/Buffer"
+    },
+    "clearImmediate": {
+      "readPolicy": "global/clearImmediate"
+    },
+    "clearInterval": {
+      "readPolicy": "global/clearInterval"
+    },
+    "clearTimeout": {
+      "readPolicy": "global/clearTimeout"
+    },
+    "console": {
+      "readPolicy": "global/console"
+    },
+    "process": {
+      "readPolicy": "global/process"
+    },
+    "queueMicrotask": {
+      "readPolicy": "global/queueMicrotask"
+    },
+    "setImmediate": {
+      "readPolicy": "global/setImmediate"
+    },
+    "setInterval": {
+      "readPolicy": "global/setInterval"
+    },
+    "setTimeout": {
+      "readPolicy": "global/setTimeout"
+    }
+  }
+}

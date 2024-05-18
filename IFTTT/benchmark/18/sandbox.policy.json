@@ -1,0 +1,50 @@
+{
+  "options": {
+    "interactive": false,
+    "learn": true,
+    "contextify": {
+      "read": false,
+      "write": false,
+      "call": false,
+      "construct": false
+    },
+    "decontextify": {
+      "read": false,
+      "write": false,
+      "call": false,
+      "construct": false
+    }
+  },
+  "onerror": "warn",
+  "global": "global",
+  "exports": "exports",
+  "allowEval": true,
+  "manifest": {
+    "global": "global.json",
+    "global/Buffer": "global/Buffer.json",
+    "global/clearImmediate": "global/clearImmediate.json",
+    "global/clearInterval": "global/clearInterval.json",
+    "global/clearTimeout": "global/clearTimeout.json",
+    "global/console": "global/console.json",
+    "global/process": "global/process.json",
+    "global/queueMicrotask": "global/queueMicrotask.json",
+    "global/setImmediate": "global/setImmediate.json",
+    "global/setInterval": "global/setInterval.json",
+    "global/setTimeout": "global/setTimeout.json",
+    "Reddit": "Reddit.json",
+    "Spotify": "Spotify.json",
+    "Meta": "Meta.json",
+    "moment": "moment.json",
+    "Trigger": "Trigger.json",
+    "filtercode-policy": "filtercode-policy.json",
+    "Reddit/newTopPostInSubreddit": "Reddit/newTopPostInSubreddit.json",
+    "Reddit/__proto__": "Reddit/__proto__.json",
+    "Trigger/Title": "Trigger/Title.json",
+    "Trigger/__proto__": "Trigger/__proto__.json",
+    "Spotify/addATrackToAPlaylist": "Spotify/addATrackToAPlaylist.json",
+    "Spotify/__proto__": "Spotify/__proto__.json",
+    "Spotify/addATrackToAPlaylist/setSearchQuery": "Spotify/addATrackToAPlaylist/setSearchQuery.json",
+    "Spotify/addATrackToAPlaylist/__proto__": "Spotify/addATrackToAPlaylist/__proto__.json",
+    "Spotify/addATrackToAPlaylist/setArtistName": "Spotify/addATrackToAPlaylist/setArtistName.json"
+  }
+}

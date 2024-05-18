@@ -1,0 +1,9 @@
+{
+  "type": "contextify",
+  "properties": {
+    "__proto__": {
+      "read": true,
+      "readPolicy": "AndroidMessages/sendAMessage/__proto__"
+    }
+  }
+}

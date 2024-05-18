@@ -1,0 +1,46 @@
+{
+  "options": {
+    "interactive": false,
+    "learn": true,
+    "contextify": {
+      "read": false,
+      "write": false,
+      "call": false,
+      "construct": false
+    },
+    "decontextify": {
+      "read": false,
+      "write": false,
+      "call": false,
+      "construct": false
+    }
+  },
+  "onerror": "warn",
+  "global": "global",
+  "exports": "exports",
+  "allowEval": true,
+  "manifest": {
+    "global": "global.json",
+    "global/Buffer": "global/Buffer.json",
+    "global/clearImmediate": "global/clearImmediate.json",
+    "global/clearInterval": "global/clearInterval.json",
+    "global/clearTimeout": "global/clearTimeout.json",
+    "global/console": "global/console.json",
+    "global/process": "global/process.json",
+    "global/queueMicrotask": "global/queueMicrotask.json",
+    "global/setImmediate": "global/setImmediate.json",
+    "global/setInterval": "global/setInterval.json",
+    "global/setTimeout": "global/setTimeout.json",
+    "triggerService": "triggerService.json",
+    "Hue": "Hue.json",
+    "Meta": "Meta.json",
+    "moment": "moment.json",
+    "Trigger": "Trigger.json",
+    "filtercode-policy": "filtercode-policy.json",
+    "Meta/currentUserTime": "Meta/currentUserTime.json",
+    "Meta/__proto__": "Meta/__proto__.json",
+    "Meta/currentUserTime/__proto__": "Meta/currentUserTime/__proto__.json",
+    "Meta/currentUserTime/__proto__/hour": "Meta/currentUserTime/__proto__/hour.json",
+    "Meta/currentUserTime/__proto__/__proto__": "Meta/currentUserTime/__proto__/__proto__.json"
+  }
+}

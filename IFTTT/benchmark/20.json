@@ -1,0 +1,29 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode":  "var hour = Meta.currentUserTime.hour();if (hour > 7 && hour < 17) {MyLeviton.toggleSwitch.skip()}",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "TS",
+        "name": "trigger",
+        "ingredients": ""
+      },
+      "actions": [
+        {
+          "serviceName": "MyLeviton",
+          "name": "toggleSwitch",
+          "fields": []
+        }
+      ]
+    }
+  }
+}
+
+
+
+

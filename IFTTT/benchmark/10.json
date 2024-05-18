@@ -1,0 +1,27 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode" : "var msg = ` How to make ${Feed.Trigger.EntryTitle}</br><script src= ${Feed.Trigger.PostURL}/comments.embed?limit=1&sort=qa&depth=1&style=off&expanded=1 type='text/javascript'></script>`;Tumblr.createPhotoPost.setCaption(msg)",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "Feed",
+        "name": "Trigger",
+        "ingredients": "{\"EntryTitle\":\"Banana!\", \"PostURL\":\"url://sth.com\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "Tumblr",
+          "name": "createPhotoPost",
+          "fields": ["Caption"]
+        }
+      ]
+    }
+  }
+}
+
+

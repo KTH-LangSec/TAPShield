@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "setPhotoUrl": {
+      "read": true,
+      "readPolicy": "Telegram/sendPhoto/setPhotoUrl"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Telegram/sendPhoto/__proto__"
+    }
+  }
+}

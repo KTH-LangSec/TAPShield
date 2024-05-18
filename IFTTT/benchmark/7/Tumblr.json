@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "createPhotoPost": {
+      "read": true,
+      "readPolicy": "Tumblr/createPhotoPost"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Tumblr/__proto__"
+    }
+  }
+}

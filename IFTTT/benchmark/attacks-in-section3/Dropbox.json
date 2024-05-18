@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "newFileInFolder": {
+      "read": true,
+      "readPolicy": "Dropbox/newFileInFolder"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Dropbox/__proto__"
+    }
+  }
+}

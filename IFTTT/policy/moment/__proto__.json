@@ -1,0 +1,21 @@
+{
+  "type": "contextify",
+  "properties": {
+    "format": {
+      "read": true,
+      "readPolicy": "moment/__proto__/format"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "moment/__proto__/__proto__"
+    },
+    "minutes": {
+      "read": true,
+      "readPolicy": "moment/__proto__/minutes"
+    },
+    "hours": {
+      "read": true,
+      "readPolicy": "moment/__proto__/hours"
+    }
+  }
+}

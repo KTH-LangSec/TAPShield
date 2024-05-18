@@ -1,0 +1,26 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode" : " var diffInMin = 0; IfNotifications.sendNotification.skip('Calendar: Skipping event because it is not an all-day event. It starts ' + GoogleCalendar.newEventAdded.Starts + ', ends ' +  GoogleCalendar.newEventAdded.Ends + ', and is titled \"' + GoogleCalendar.newEventAdded.Title  + '\". Duration = ' + diffInMin +' minutes.');",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "GoogleCalendar",
+        "name": "newEventAdded",
+        "ingredients": "{\"Starts\":1, \"Ends\":2, \"Title\":\"title\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "IfNotifications",
+          "name": "sendNotification",
+          "fields": ["Message"]
+        }
+      ]
+    }
+  }
+}
+

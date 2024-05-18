@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "sendMeEmail": {
+      "read": true,
+      "readPolicy": "Email/sendMeEmail"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Email/__proto__"
+    }
+  }
+}

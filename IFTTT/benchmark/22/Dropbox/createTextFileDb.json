@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "setFilename": {
+      "read": true,
+      "readPolicy": "Dropbox/createTextFileDb/setFilename"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Dropbox/createTextFileDb/__proto__"
+    }
+  }
+}

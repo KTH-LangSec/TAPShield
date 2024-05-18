@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "potDeposit": {
+      "read": true,
+      "readPolicy": "Monzo/potDeposit"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Monzo/__proto__"
+    }
+  }
+}

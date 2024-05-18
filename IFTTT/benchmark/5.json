@@ -1,0 +1,26 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode" : "if (moment().format('dddd') == 'Saturday' || moment().format('dddd') == 'Sunday') { IfNotifications.sendNotification.setMessage('Weekend: ' +moment().format('dddd'));} else  { IfNotifications.sendNotification.setMessage('Workday: ' + moment().format('dddd'));}",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "dummy",
+        "name": "dummy",
+        "ingredients": ""
+      },
+      "actions": [
+        {
+          "serviceName": "IfNotifications",
+          "name": "sendNotification",
+          "fields": ["Message"]
+        }
+      ]
+    }
+  }
+}
+

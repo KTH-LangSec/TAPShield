@@ -1,0 +1,25 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode":  "var currentHour = Meta.currentUserTime.hour();if (currentHour >= 17 && currentHour <= 22 ) {} else if (currentHour >= 5 && currentHour <= 8 ) {} else {Hue.turnOnAllHue.skip()}",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "ingredients": "true",
+        "serviceName": "triggerService",
+        "name": "triggered"
+      },
+      "actions": [
+        {
+          "serviceName": "Hue",
+          "name": "turnOnAllHue",
+          "fields": []
+        }
+      ]
+    }
+  }
+}

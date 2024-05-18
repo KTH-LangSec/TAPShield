@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "createCalendarEvent": {
+      "read": true,
+      "readPolicy": "IosCalendar/createCalendarEvent"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "IosCalendar/__proto__"
+    }
+  }
+}

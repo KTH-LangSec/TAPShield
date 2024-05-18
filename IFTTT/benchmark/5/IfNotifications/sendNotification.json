@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "setMessage": {
+      "read": true,
+      "readPolicy": "IfNotifications/sendNotification/setMessage"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "IfNotifications/sendNotification/__proto__"
+    }
+  }
+}

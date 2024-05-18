@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "Trigger": {
+      "read": true,
+      "readPolicy": "Feed/Trigger"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Feed/__proto__"
+    }
+  }
+}

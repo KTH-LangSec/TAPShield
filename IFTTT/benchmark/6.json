@@ -1,0 +1,32 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode" : "var matchingCard = Trello.cardAddedToList.Title.search('test');if (matchingCard == -1) {  Slack.postToChannel.skip();}else{Office365Mail.sendEmail.setBody('test found!');}",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "Trello",
+        "name": "cardAddedToList",
+        "ingredients": "{\"Title\":\"test\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "Slack",
+          "name": "postToChannel",
+          "fields": ["Message"]
+        },
+        {
+          "serviceName": "Office365Mail",
+          "name": "sendEmail",
+          "fields": ["Body"]
+        }
+      ]
+    }
+  }
+}
+
+

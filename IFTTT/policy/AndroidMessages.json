@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "sendAMessage": {
+      "read": true,
+      "readPolicy": "AndroidMessages/sendAMessage"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "AndroidMessages/__proto__"
+    }
+  }
+}

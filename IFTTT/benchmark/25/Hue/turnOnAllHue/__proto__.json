@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "skip": {
+      "read": true,
+      "readPolicy": "Hue/turnOnAllHue/__proto__/skip"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Hue/turnOnAllHue/__proto__/__proto__"
+    }
+  }
+}

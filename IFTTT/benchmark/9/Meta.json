@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "currentUserTime": {
+      "read": true,
+      "readPolicy": "Meta/currentUserTime"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Meta/__proto__"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "minify": true,
+    "sourcemap": false,
+    "bundleOnlyRequiredNodes": true,
+    "outputDir": "build",
+    "configNodesFilePath": "/home/rof13thfloor/.node-red/.config.nodes.json",
+    "caPath": "/home/rof13thfloor/work/ssl/ca.pem",
+    "certPath": "/home/rof13thfloor/work/ssl/server.cert",
+    "keyPath": "/home/rof13thfloor/work/ssl/server.key",
+    "flowFilePath": "./flows/Flow-Evaluation/Core-Flows/storage/write file/04 - Specify encoding of written data.json",
+    "manifestFilePath": "./manifests/files.toml",
+    "remoteDir": "/home/azureuser/gramine-IFTTT",
+    "uploadBundle": true,
+    "startEnclave": false,
+    "encryptUserDir": false
+}

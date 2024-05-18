@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "newTopPostInSubreddit": {
+      "read": true,
+      "readPolicy": "Reddit/newTopPostInSubreddit"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Reddit/__proto__"
+    }
+  }
+}

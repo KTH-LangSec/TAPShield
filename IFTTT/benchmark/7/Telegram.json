@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "newChannelPhoto": {
+      "read": true,
+      "readPolicy": "Telegram/newChannelPhoto"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Telegram/__proto__"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode":  "var HoraEmCasa = Location.enterRegionLocation.OccurredAt;if (HoraEmCasa > 22){  Smartlife.turnOn.skip('Não estás em casa');}",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "Location",
+        "name": "enterRegionLocation",
+        "ingredients": "{\"OccurredAt\":23}"
+      },
+      "actions": [
+        {
+          "serviceName": "Smartlife",
+          "name": "turnOn",
+          "fields": []
+        }
+      ]
+    }
+  }
+}
+
+
+

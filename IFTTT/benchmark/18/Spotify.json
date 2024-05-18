@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "addATrackToAPlaylist": {
+      "read": true,
+      "readPolicy": "Spotify/addATrackToAPlaylist"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Spotify/__proto__"
+    }
+  }
+}

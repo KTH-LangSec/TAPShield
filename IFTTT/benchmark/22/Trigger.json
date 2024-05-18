@@ -1,0 +1,21 @@
+{
+  "type": "contextify",
+  "properties": {
+    "PersonName": {
+      "read": true,
+      "readPolicy": "Trigger/PersonName"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Trigger/__proto__"
+    },
+    "PlaceName": {
+      "read": true,
+      "readPolicy": "Trigger/PlaceName"
+    },
+    "ArrivedAt": {
+      "read": true,
+      "readPolicy": "Trigger/ArrivedAt"
+    }
+  }
+}

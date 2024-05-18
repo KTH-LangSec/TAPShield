@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "setSourceUrl": {
+      "read": true,
+      "readPolicy": "Tumblr/createPhotoPost/setSourceUrl"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Tumblr/createPhotoPost/__proto__"
+    }
+  }
+}

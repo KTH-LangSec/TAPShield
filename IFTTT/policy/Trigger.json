@@ -1,0 +1,41 @@
+{
+  "type": "contextify",
+  "properties": {
+    "Filename": {
+      "read": true,
+      "readPolicy": "Trigger/Filename"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Trigger/__proto__"
+    },
+    "Starts": {
+      "read": true,
+      "readPolicy": "Trigger/Starts"
+    },
+    "Ends": {
+      "read": true,
+      "readPolicy": "Trigger/Ends"
+    },
+    "Title": {
+      "read": true,
+      "readPolicy": "Trigger/Title"
+    },
+    "EntryTitle": {
+      "read": true,
+      "readPolicy": "Trigger/EntryTitle"
+    },
+    "PostURL": {
+      "read": true,
+      "readPolicy": "Trigger/PostURL"
+    },
+    "CurrentCondition": {
+      "read": true,
+      "readPolicy": "Trigger/CurrentCondition"
+    },
+    "OccurredAt": {
+      "read": true,
+      "readPolicy": "Trigger/OccurredAt"
+    }
+  }
+}

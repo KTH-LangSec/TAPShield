@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "switchOnSocket": {
+      "read": true,
+      "readPolicy": "LightwaverfPower/switchOnSocket"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "LightwaverfPower/__proto__"
+    }
+  }
+}

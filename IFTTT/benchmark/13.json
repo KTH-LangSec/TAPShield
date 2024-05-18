@@ -1,0 +1,32 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode":  "var time = Meta.currentUserTime.hour(); if (time > 6 || time < 20 ) { Smartlife.turnOn.skip('Smartlife');Ewelink.switches2Action.skip('Ewelink');   } else { }",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "TS",
+        "name": "trigger",
+        "ingredients": "true"
+      },
+      "actions": [
+        {
+          "serviceName": "Ewelink",
+          "name": "switches2Action",
+          "fields": []
+        },
+        {
+          "serviceName": "Smartlife",
+          "name": "turnOn",
+          "fields": []
+        }
+      ]
+    }
+  }
+}
+
+

@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "PhotoUrl": {
+      "read": true,
+      "readPolicy": "Trigger/PhotoUrl"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Trigger/__proto__"
+    }
+  }
+}

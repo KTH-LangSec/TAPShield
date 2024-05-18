@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "setDuration": {
+      "read": true,
+      "readPolicy": "IosCalendar/createCalendarEvent/setDuration"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "IosCalendar/createCalendarEvent/__proto__"
+    }
+  }
+}

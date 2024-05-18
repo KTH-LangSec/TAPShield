@@ -1,0 +1,28 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode":  "var timeOfDay = Meta.currentUserTime.hour(); if(timeOfDay > 7 && timeOfDay < 12){ Todoist.createTask.setTaskContent('Clean coffee mug [15m] @office @5m @next_action'); Todoist.createTask.setDueDate('14:30'); } else{ Todoist.createTask.skip(); } ",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "TS",
+        "name": "trigger",
+        "ingredients": "true"
+      },
+      "actions": [
+        {
+          "serviceName": "Todoist",
+          "name": "createTask",
+          "fields": ["TaskContent", "DueDate"]
+        }
+      ]
+    }
+  }
+}
+
+
+

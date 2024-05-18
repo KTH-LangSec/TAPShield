@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "turnOnAllHue": {
+      "read": true,
+      "readPolicy": "Hue/turnOnAllHue"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Hue/__proto__"
+    }
+  }
+}

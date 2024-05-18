@@ -1,0 +1,17 @@
+{
+  "type": "contextify",
+  "properties": {
+    "EntryTitle": {
+      "read": true,
+      "readPolicy": "Trigger/EntryTitle"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Trigger/__proto__"
+    },
+    "PostURL": {
+      "read": true,
+      "readPolicy": "Trigger/PostURL"
+    }
+  }
+}

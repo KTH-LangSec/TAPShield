@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "anyNewPhotoByYou": {
+      "read": true,
+      "readPolicy": "Instagram/anyNewPhotoByYou"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Instagram/__proto__"
+    }
+  }
+}

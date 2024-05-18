@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "aNewPinOnYourBoard": {
+      "read": true,
+      "readPolicy": "Pinterest/aNewPinOnYourBoard"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Pinterest/__proto__"
+    }
+  }
+}

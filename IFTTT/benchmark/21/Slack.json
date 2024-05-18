@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "postToChannel": {
+      "read": true,
+      "readPolicy": "Slack/postToChannel"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Slack/__proto__"
+    }
+  }
+}

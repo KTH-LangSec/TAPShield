@@ -1,0 +1,29 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode":  "if (Trigger.Filename.match(/~\\$/i)) {Slack.postToChannel.skip('Temp File Was Skipped')}",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "TS",
+        "name": "trigger",
+        "ingredients": "{\"Filename\":\"~$\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "Slack",
+          "name": "postToChannel",
+          "fields": []
+        }
+      ]
+    }
+  }
+}
+
+
+
+

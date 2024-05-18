@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "first": {
+      "read": true,
+      "readPolicy": "Life360/first"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Life360/__proto__"
+    }
+  }
+}

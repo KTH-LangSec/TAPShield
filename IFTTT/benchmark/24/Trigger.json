@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "OccurredAt": {
+      "read": true,
+      "readPolicy": "Trigger/OccurredAt"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Trigger/__proto__"
+    }
+  }
+}

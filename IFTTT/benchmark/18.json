@@ -1,0 +1,25 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode": "var title = Reddit.newTopPostInSubreddit.Title.trim(); title = title.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, `'`).replace(/&#039;/g, `'`); if (title.charAt(0) == '[' && title.indexOf(']') > 0) { title = title.slice(0, title.indexOf(']')); } title = title.split('[')[0].trim(); var titleSplit = title.split('--'); if (titleSplit.length != 2) { titleSplit = title.split('-'); } if (titleSplit.length == 2) { var artistName = titleSplit[0].trim(); var trackName = titleSplit[1].trim(); Spotify.addATrackToAPlaylist.setSearchQuery(trackName); Spotify.addATrackToAPlaylist.setArtistName(artistName); } else if (titleSplit.length > 2) { Spotify.addATrackToAPlaylist.setSearchQuery(title); } else { Spotify.addATrackToAPlaylist.skip(); }",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "Reddit",
+        "name": "newTopPostInSubreddit",
+        "ingredients": "{\"Title\":\"artistNAME--TRACKname\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "Spotify",
+          "name": "addATrackToAPlaylist",
+          "fields": ["SearchQuery", "ArtistName"]
+        }
+      ]
+    }
+  }
+}

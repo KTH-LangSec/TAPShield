@@ -1,0 +1,13 @@
+{
+  "type": "contextify",
+  "properties": {
+    "sendEmail": {
+      "read": true,
+      "readPolicy": "Office365Mail/sendEmail"
+    },
+    "__proto__": {
+      "read": true,
+      "readPolicy": "Office365Mail/__proto__"
+    }
+  }
+}

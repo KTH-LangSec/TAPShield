@@ -1,0 +1,27 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode" : "Twitter.postNewTweetWithImage.setPhotoUrl(Instagram.anyNewPhotoByYou.SourceUrl.replace('http://', 'https://') );",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "Instagram",
+        "name": "anyNewPhotoByYou",
+        "ingredients": "{\"SourceUrl\":\"http://instagram.fgse2-1.fna.fbcdn.net/asd.jpg\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "Twitter",
+          "name": "postNewTweetWithImage",
+          "fields": ["PhotoUrl"]
+        }
+      ]
+    }
+  }
+}
+
+

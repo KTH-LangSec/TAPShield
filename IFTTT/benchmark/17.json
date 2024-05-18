@@ -1,0 +1,28 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode":  " var startTime = moment('01:00 pm', 'HH:mm a'); var stopTime = moment('11:00 am', 'HH:mm a'); var startTimeMinutes = startTime.minutes() + startTime.hours() * 60; var stopTimeMinutes = stopTime.minutes() + stopTime.hours() * 60; var triggerTimeMinutes = Meta.triggerTime.minutes() + Meta.triggerTime.hours()* 60; if (startTimeMinutes == stopTimeMinutes) { Gmail.sendYourselfAnEmail.skip('Start and end times cannot be the same - start is '+startTime.format('LT')+' and end time is '+stopTime.format('LT')); } else { var doThat = new Boolean(false); var whatsup = 'That has been skipped'; if ((startTimeMinutes<stopTimeMinutes) && (triggerTimeMinutes >= startTimeMinutes && triggerTimeMinutes <= stopTimeMinutes)) { doThat = Boolean(true); whatsup = 'range within a single day'; } else if ((startTimeMinutes>stopTimeMinutes) && (triggerTimeMinutes > startTimeMinutes || triggerTimeMinutes < stopTimeMinutes)) { doThat = Boolean(true); whatsup = 'range spans midnight'; } if (doThat == false) { Gmail.sendYourselfAnEmail.skip('Event happened outside time range (' + whatsup +') - time of trigger was '+Meta.triggerTime.format('LT')+', but start time to allow the action is '+ startTime.format('LT') + ' and stop time is '+ stopTime.format('LT') + ' Debug info: minutes are '+triggerTimeMinutes + ' ' + startTimeMinutes + ' ' + stopTimeMinutes); } } ",
+    "config": {
+      "currentTime": "2020-04-25T19:25:43.511Z",
+      "timeZone": "GMT",
+      "triggerTime": "2020-04-25T19:25:43.511Z",
+      "trigger": {
+        "serviceName": "TS",
+        "name": "trigger",
+        "ingredients": "true"
+      },
+      "actions": [
+        {
+          "serviceName": "Gmail",
+          "name": "sendYourselfAnEmail",
+          "fields": []
+        }
+      ]
+    }
+  }
+}
+
+
+
