@@ -9,7 +9,7 @@
     "keyPath": "/home/rof13thfloor/work/ssl/server.key",
     "flowFilePath": "./flows/Flow-Evaluation/Core-Flows/storage/write file/04 - Specify encoding of written data.json",
     "manifestFilePath": "./manifests/files.toml",
-    "remoteDir": "/home/azureuser/gramine-IFTTT",
+    "remoteDir": "/home/kth-rof13thfloor/work/gramine-IFTTT",
     "uploadBundle": true,
     "startEnclave": false,
     "encryptUserDir": false

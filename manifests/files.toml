@@ -49,15 +49,15 @@ sgx.trusted_files = [
   "file:ssl/ca.crt",
   "file:main.js",
   "file:user-dir/",
-  "file:/tmp/hello.txt"
+  "file:cat.jpg"
+  
 ]
 
 # Add allowed files that can be written to:
 sgx.allowed_files = [
   "file:/etc/",
-  "file:/proc/",
-  "file:/tmp/hello.txt"
-]
+  "file:/proc/"
+  ]
 
 # Add profiling directives
 #sgx.profile.enable = "main"

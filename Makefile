@@ -1,5 +1,5 @@
 THIS_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
-NODEJS_DIR ?= /usr/bin
+NODEJS_DIR ?= /usr/local/bin
 
 BIN_DIR = /bin
 

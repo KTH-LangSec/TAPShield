@@ -1,0 +1,1 @@
+{"tz":"UTC","smtp":{},"webhooks":[],"prometheus":{},"elastic":{"url":"","method":""},"yoctu":{"url":"","header":"","recipient":""},"webhook":{"url":"","header":"","method":"POST","payload":""},"ws":{"url":"/ws"}}

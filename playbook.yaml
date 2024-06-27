@@ -28,7 +28,7 @@
 - hosts: thesisvm
   environment:
     SGX: "1"
-    SGX_SIGNER_KEY: SGX_SIGNER_KEY=/home/azureuser/.config/gramine/enclave-key.pem
+    SGX_SIGNER_KEY: SGX_SIGNER_KEY=/home/kth-rof13thfloor/.config/gramine/enclave-key.pem
   tasks:
     - include_vars: build.config.json
     # Uploading required files to the VM
@@ -41,6 +41,10 @@
         copy:
           src: build/index.js
           dest: '{{remoteDir}}/main.js'
+      - name: Copy image 
+        copy:
+          src: /home/rof13thfloor/Pictures/cat.jpg
+          dest: '{{remoteDir}}/cat.jpg'
       - name: Copy user-dir from build
         copy  :
           src: build/user-dir/
@@ -82,7 +86,7 @@
     - name: Build the enclave using shell
       shell:
         chdir: '{{remoteDir}}'
-        cmd: make SGX=1 SGX_SIGNER_KEY=/home/azureuser/.config/gramine/enclave-key.pem DEBUG=1
+        cmd: make SGX=1 SGX_SIGNER_KEY=/home/kth-rof13thfloor/.config/gramine/enclave-key.pem DEBUG=1
       register: out1 # save the output of the command
 
     # Running the enclave -----------------------------------------------------

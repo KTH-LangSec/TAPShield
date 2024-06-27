@@ -7,9 +7,9 @@
     "caPath": "/home/rof13thfloor/work/ssl/ca.pem",
     "certPath": "/home/rof13thfloor/work/ssl/server.cert",
     "keyPath": "/home/rof13thfloor/work/ssl/server.key",
-    "flowFilePath": "./flows/Flow-Evaluation/Core-Flows/storage/write file/04 - Specify encoding of written data.json",
+    "flowFilePath": "./flows/Flow-Evaluation/Download-based/Object-Detection.json",
     "manifestFilePath": "./manifests/files.toml",
-    "remoteDir": "/home/azureuser/gramine-test",
+    "remoteDir": "/home/kth-rof13thfloor/gramine-test",
     "uploadBundle": true,
     "startEnclave": false,
     "encryptUserDir": false
