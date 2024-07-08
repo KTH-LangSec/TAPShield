@@ -48,16 +48,14 @@ sgx.trusted_files = [
   "file:libsecret_prov_attest.so", 
   "file:ssl/ca.crt",
   "file:main.js",
-  "file:user-dir/",
-  "file:cat.jpg"
+  "file:user-dir/"
   
 ]
 
 # Add allowed files that can be written to:
 sgx.allowed_files = [
   "file:/etc/",
-  "file:/proc/",
-  "file:./*"
+  "file:/proc/"
   ]
 
 # Add profiling directives

@@ -1,0 +1,5 @@
+Setup the NRG web server (execute the flow) 
+open serveradr/nrg
+open serveradr/apr/nrg (404 request)
+open nrg 8 times 
+

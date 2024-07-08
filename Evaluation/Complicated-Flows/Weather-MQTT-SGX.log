@@ -1,0 +1,499 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+Server listening on  8443
+2 Jul 11:56:18 - [info] 
+
+runtime.welcome
+===================
+
+2 Jul 11:56:18 - [info] runtime.version
+2 Jul 11:56:18 - [info] runtime.version
+2 Jul 11:56:18 - [info] Linux 3.10.0 x64 LE
+2 Jul 11:56:18 - [info] server.palette-editor.disabled
+2 Jul 11:56:18 - [info] server.loading
+/ui
+2 Jul 11:56:18 - [info] Dashboard version 3.6.2 started at /ui
+2 Jul 11:56:19 - [info] context.log-store-init
+2 Jul 11:56:19 - [info] storage.localfilesystem.user-dir
+2 Jul 11:56:19 - [warn] storage.localfilesystem.projects.disabledNoFlag
+2 Jul 11:56:19 - [info] storage.localfilesystem.flows-file
+Node-Red started
+2 Jul 11:56:19 - [info] [Dashboard] Dashboard using development folder
+2 Jul 11:56:19 - [debug] loaded flow revision: 1db3ed002c49f4ed662beaa66d7223cc
+2 Jul 11:56:19 - [debug] red/runtime/nodes/credentials.load : user provided key
+2 Jul 11:56:19 - [debug] red/runtime/nodes/credentials.load : keyType=user
+2 Jul 11:56:19 - [warn] nodes.credentials.encryptedNotFound
+2 Jul 11:56:19 - [trace] runtime event: {"id":"runtime-state","retain":true}
+2 Jul 11:56:19 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"1db3ed002c49f4ed662beaa66d7223cc"},"retain":true}
+2 Jul 11:56:19 - [info] nodes.flows.starting-flows
+2 Jul 11:56:19 - [debug] red/nodes/flows.start : starting flow : global
+2 Jul 11:56:19 - [debug] red/nodes/flows.start : starting flow : 90c1b7c454a7029f
+2 Jul 11:56:19 - [trace] [flow:global] start flow [global]
+2 Jul 11:56:19 - [trace] [flow:global] ------------------|--------------|-----------------
+2 Jul 11:56:19 - [trace] [flow:global]  id               | type         | alias
+2 Jul 11:56:19 - [trace] [flow:global] ------------------|--------------|-----------------
+2 Jul 11:56:19 - [trace] [flow:global]  d8d4adf0.7d5a2   | mqtt-broker  | 
+2 Jul 11:56:19 - [trace] [flow:global]  9fa2607d.99f8d   | mqtt-broker  | 
+2 Jul 11:56:19 - [trace] [flow:global]  e92767a.242f218  | ui_tab       | 
+2 Jul 11:56:19 - [trace] [flow:global]  2e3f5201.a75896  | ui_group     | 
+2 Jul 11:56:19 - [trace] [flow:global]  3bf74b01.4b4afc  | ui_group     | 
+2 Jul 11:56:19 - [trace] [flow:global]  25bd9d50.87fe6a  | ui_group     | 
+2 Jul 11:56:19 - [trace] [flow:global] ------------------|--------------|-----------------
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f] start flow [90c1b7c454a7029f]
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f] ------------------|--------------|-----------------
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  id               | type         | alias
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f] ------------------|--------------|-----------------
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  c9a2292b165a468d | mqtt in      | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  25b57237721bef02 | ui_gauge     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  df61c32f017efe44 | openweathermap in | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  b0f1522d4514715e | debug        | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  dbe69ea8d627d815 | function     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  6e679b6ed57ac87e | mqtt out     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  bc257c8e267f5c1c | debug        | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  62f5889b28089ed0 | function     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  84ed89ec143aaec6 | mqtt out     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  0c60e0c69668ad53 | function     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  f9d3738bd456a71d | mqtt out     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  a9176257b907f79c | ui_gauge     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  6d2e5f5c3505736d | mqtt in      | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  6061b5397421e6ec | mqtt in      | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  cbfc6e2a9f287138 | function     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  f9b9182660e46bab | function     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  cd364472369a151e | mqtt out     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  743b757084003cd9 | mqtt out     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  a24f3c326ec77cd0 | mqtt in      | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  f6239a41ba5a243b | mqtt in      | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  617edadab131d120 | mqtt in      | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  a808d323b650bfb2 | mqtt in      | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  a3ac68bba43538db | inject       | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  f0c0961e146a169c | mqtt out     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  40d54a24ac502e9a | debug        | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  1038fd65a4e5a6ec | mqtt in      | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  875b7557223ce8ec | inject       | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  7929f86864adb84c | switch       | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  bd58e0b9f32a05d9 | change       | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  c5c3e6f0d4b77624 | change       | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  585d1ea37efede4f | debug        | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  e7a48eb612b93bb7 | ui_text      | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  1acd43e961aed5e2 | ui_text      | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  3acc71cc261dafdb | debug        | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  1b9303e1859e63b0 | debug        | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  eff2d0d0a8351a5e | debug        | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  8ecfde3fa2ddee1f | delay        | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  d86a0ca7930467c7 | function     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  e4cdf3ac2dbdc53d | debug        | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  bf0c0dbf1939cd91 | mqtt out     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  8e5a44ba9e6890bf | inject       | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  2f50b9854c259165 | function     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  2f8ac6d7cd47b8e8 | debug        | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  375dfa025c7261e4 | mqtt in      | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  3b7798c3a792a494 | ui_gauge     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  650e5fca126e9e67 | mqtt out     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  3013f1652d8d5ddb | ui_gauge     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  6aeee5e14404acf9 | ui_text      | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  2f61c1af76f63336 | compass-point | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  c21b1109048f64e5 | debug        | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  4259d96a60d484da | function     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  a10955c8aae1e848 | debug        | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  1c1b2421a2bbd26a | mqtt out     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  14a14a8e9358ea9a | function     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  b7e42c61ca44f2c7 | debug        | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  14e4066ef67d5456 | ui_text      | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  1208746ffa50743f | mqtt out     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  7e1953d33e06641d | debug        | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f]  248f2600bab77bba | function     | 
+2 Jul 11:56:19 - [trace] [flow:90c1b7c454a7029f] ------------------|--------------|-----------------
+2 Jul 11:56:19 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+2 Jul 11:56:19 - [info] nodes.flows.started-flows
+2 Jul 11:56:20 - [info] [mqtt-broker:d8d4adf0.7d5a2] mqtt.state.connected
+GetWeather: 10.596ms
+OpenWeatherMapInputNode: 12.289ms
+CompassPointNode: 0.741ms
+Debug: 2.456ms
+Delay: 2.119ms
+Function: 1.773ms
+Function: 0.158ms
+Debug: 0.248ms
+Function: 0.131ms
+Function: 0.264ms
+Function: 0.105ms
+Function: 0.108ms
+Function: 78.879ms
+Function: 0.654ms
+Function: 0.378ms
+Function: 0.18ms
+Debug: 0.164ms
+MQTTOut: 0.617ms
+Debug: 0.101ms
+MQTTOut: 1.617ms
+MQTTOut: 0.331ms
+Debug: 0.108ms
+MQTTOut: 0.199ms
+Debug: 0.086ms
+MQTTOut: 0.244ms
+Debug: 0.327ms
+MQTTOut: 0.348ms
+MQTTOut: 0.185ms
+Debug: 0.126ms
+MQTTOut: 0.159ms
+MQTTOut: 0.183ms
+Debug: 0.078ms
+CompassPointNode: 0.054ms
+Function: 0.106ms
+Debug: 0.289ms
+Function: 0.082ms
+Debug: 0.108ms
+MQTTOut: 0.199ms
+**
+GetWeather: 12.736ms
+OpenWeatherMapInputNode: 14.43ms
+CompassPointNode: 2.14ms
+Function: 2.753ms
+Debug: 2.217ms
+Function: 0.346ms
+Debug: 0.304ms
+Delay: 1.557ms
+Function: 0.99ms
+Debug: 0.111ms
+MQTTOut: 2.751ms
+Function: 0.305ms
+Function: 0.27ms
+Function: 0.284ms
+Function: 78.338ms
+Function: 0.702ms
+Function: 2.084ms
+Function: 0.299ms
+Debug: 0.111ms
+MQTTOut: 0.069ms
+MQTTOut: 0.422ms
+Debug: 0.104ms
+MQTTOut: 0.231ms
+Debug: 0.089ms
+MQTTOut: 0.239ms
+Debug: 0.376ms
+MQTTOut: 0.217ms
+MQTTOut: 0.257ms
+Debug: 0.114ms
+MQTTOut: 0.172ms
+MQTTOut: 0.186ms
+Debug: 0.112ms
+CompassPointNode: 0.054ms
+Function: 0.128ms
+Debug: 0.373ms
+Function: 0.16ms
+Debug: 0.095ms
+MQTTOut: 0.18ms
+**
+GetWeather: 11.896ms
+OpenWeatherMapInputNode: 14.362ms
+CompassPointNode: 1.93ms
+Function: 4.008ms
+Debug: 2.344ms
+Function: 0.353ms
+Debug: 0.481ms
+Delay: 1.557ms
+Function: 0.975ms
+Debug: 0.1ms
+MQTTOut: 2.264ms
+Function: 0.783ms
+Function: 0.306ms
+Function: 0.932ms
+Function: 79.857ms
+Function: 0.873ms
+Function: 0.476ms
+Function: 0.467ms
+Debug: 0.364ms
+MQTTOut: 0.065ms
+MQTTOut: 0.375ms
+Debug: 0.087ms
+MQTTOut: 0.389ms
+Debug: 0.092ms
+MQTTOut: 0.501ms
+Debug: 0.105ms
+MQTTOut: 0.201ms
+MQTTOut: 0.224ms
+Debug: 0.092ms
+MQTTOut: 0.161ms
+MQTTOut: 0.187ms
+Debug: 0.099ms
+CompassPointNode: 0.055ms
+Function: 0.221ms
+Debug: 0.331ms
+Function: 0.104ms
+Debug: 0.108ms
+MQTTOut: 0.191ms
+**
+GetWeather: 15.263ms
+OpenWeatherMapInputNode: 17.273ms
+CompassPointNode: 1.336ms
+Function: 2.248ms
+Debug: 2.22ms
+Function: 0.333ms
+Debug: 0.28ms
+Delay: 1.528ms
+Function: 0.781ms
+Debug: 0.112ms
+MQTTOut: 2.531ms
+Function: 0.316ms
+Function: 0.352ms
+Function: 0.308ms
+Function: 80.194ms
+Function: 1.312ms
+Function: 0.367ms
+Function: 0.881ms
+Debug: 0.334ms
+MQTTOut: 0.07ms
+MQTTOut: 0.414ms
+Debug: 0.084ms
+MQTTOut: 0.424ms
+Debug: 0.089ms
+MQTTOut: 0.194ms
+Debug: 0.112ms
+MQTTOut: 0.221ms
+MQTTOut: 0.154ms
+Debug: 0.1ms
+MQTTOut: 0.161ms
+MQTTOut: 0.197ms
+Debug: 0.111ms
+2 Jul 11:58:09 - [info] [mqtt-broker:Raspi] mqtt.state.connected
+CompassPointNode: 0.085ms
+Function: 0.105ms
+Debug: 0.368ms
+Function: 0.117ms
+Debug: 0.107ms
+MQTTOut: 0.185ms
+**
+GetWeather: 15.479ms
+OpenWeatherMapInputNode: 17.389ms
+CompassPointNode: 1.635ms
+Function: 4.615ms
+Debug: 2.191ms
+Function: 0.999ms
+Debug: 0.339ms
+Delay: 1.981ms
+Function: 0.467ms
+Debug: 0.127ms
+MQTTOut: 2.354ms
+Function: 0.968ms
+Function: 0.31ms
+Function: 0.287ms
+Function: 78.644ms
+Function: 1.261ms
+Function: 2.628ms
+Function: 0.331ms
+Debug: 0.109ms
+MQTTOut: 0.068ms
+MQTTOut: 0.417ms
+Debug: 0.084ms
+MQTTOut: 0.231ms
+Debug: 0.176ms
+MQTTOut: 0.199ms
+Debug: 0.336ms
+MQTTOut: 0.206ms
+MQTTOut: 0.244ms
+Debug: 0.089ms
+MQTTOut: 0.175ms
+MQTTOut: 0.169ms
+Debug: 0.11ms
+CompassPointNode: 0.054ms
+Function: 0.126ms
+Debug: 0.498ms
+Function: 0.095ms
+Debug: 0.095ms
+MQTTOut: 0.2ms
+**
+GetWeather: 17.181ms
+OpenWeatherMapInputNode: 19.494ms
+CompassPointNode: 2.004ms
+Function: 2.51ms
+Debug: 2.024ms
+Function: 0.762ms
+Debug: 0.347ms
+Delay: 2.079ms
+Function: 0.821ms
+Debug: 0.166ms
+MQTTOut: 2.326ms
+Function: 0.413ms
+Function: 0.311ms
+Function: 0.93ms
+Function: 77.904ms
+Function: 0.653ms
+Function: 2.442ms
+Function: 0.757ms
+Debug: 0.113ms
+MQTTOut: 0.037ms
+MQTTOut: 0.483ms
+Debug: 0.101ms
+MQTTOut: 0.212ms
+Debug: 0.072ms
+MQTTOut: 0.208ms
+Debug: 0.339ms
+MQTTOut: 0.18ms
+MQTTOut: 0.173ms
+Debug: 0.097ms
+MQTTOut: 0.18ms
+MQTTOut: 0.184ms
+Debug: 0.111ms
+CompassPointNode: 0.054ms
+Function: 0.211ms
+Debug: 0.378ms
+Function: 0.107ms
+Debug: 0.096ms
+MQTTOut: 0.183ms
+**
+GetWeather: 13.491ms
+OpenWeatherMapInputNode: 15.689ms
+CompassPointNode: 2.208ms
+Function: 2.749ms
+Debug: 1.612ms
+Function: 1.002ms
+Debug: 0.302ms
+Delay: 2.197ms
+Function: 0.445ms
+Debug: 0.12ms
+MQTTOut: 2.344ms
+Function: 0.91ms
+Function: 0.318ms
+Function: 0.631ms
+Function: 79.514ms
+Function: 0.828ms
+Function: 0.307ms
+Function: 0.321ms
+Debug: 0.384ms
+MQTTOut: 0.076ms
+MQTTOut: 0.388ms
+Debug: 0.102ms
+MQTTOut: 0.454ms
+Debug: 0.104ms
+MQTTOut: 0.228ms
+Debug: 0.112ms
+MQTTOut: 0.265ms
+MQTTOut: 0.222ms
+Debug: 0.103ms
+MQTTOut: 0.189ms
+MQTTOut: 0.197ms
+Debug: 0.097ms
+CompassPointNode: 0.057ms
+Function: 0.108ms
+Debug: 0.32ms
+Function: 0.121ms
+Debug: 0.107ms
+MQTTOut: 0.232ms
+**
+GetWeather: 10.906ms
+OpenWeatherMapInputNode: 12.153ms
+CompassPointNode: 1.141ms
+Function: 1.897ms
+Debug: 1.554ms
+Function: 0.148ms
+Debug: 0.098ms
+MQTTOut: 2.525ms
+Debug: 0.622ms
+Delay: 3.141ms
+Function: 0.198ms
+Function: 0.132ms
+Function: 0.109ms
+Function: 0.104ms
+Function: 78.908ms
+Function: 0.506ms
+Function: 0.388ms
+Function: 0.162ms
+Debug: 0.208ms
+MQTTOut: 0.293ms
+MQTTOut: 0.212ms
+Debug: 0.086ms
+MQTTOut: 0.197ms
+Debug: 0.071ms
+MQTTOut: 0.153ms
+Debug: 0.084ms
+MQTTOut: 0.192ms
+MQTTOut: 0.165ms
+Debug: 0.09ms
+MQTTOut: 0.147ms
+MQTTOut: 0.179ms
+Debug: 0.078ms
+CompassPointNode: 0.058ms
+Function: 0.128ms
+Debug: 0.342ms
+Function: 0.082ms
+Debug: 0.094ms
+MQTTOut: 0.167ms
+**
+GetWeather: 14.125ms
+OpenWeatherMapInputNode: 15.737ms
+CompassPointNode: 0.782ms
+Function: 1.77ms
+Debug: 1.808ms
+Function: 0.173ms
+Debug: 0.105ms
+MQTTOut: 1.804ms
+Debug: 0.664ms
+Delay: 3.236ms
+Function: 0.24ms
+Function: 0.162ms
+Function: 0.112ms
+Function: 0.103ms
+Function: 78.864ms
+Function: 0.493ms
+Function: 0.386ms
+Function: 0.541ms
+Debug: 0.097ms
+MQTTOut: 0.293ms
+MQTTOut: 0.21ms
+Debug: 0.101ms
+MQTTOut: 0.198ms
+Debug: 0.083ms
+MQTTOut: 0.164ms
+Debug: 0.095ms
+MQTTOut: 0.163ms
+MQTTOut: 0.162ms
+Debug: 0.088ms
+MQTTOut: 0.159ms
+MQTTOut: 0.18ms
+Debug: 0.247ms
+CompassPointNode: 0.053ms
+Function: 0.127ms
+Debug: 0.73ms
+Function: 0.099ms
+Debug: 0.092ms
+MQTTOut: 0.164ms
+**
+GetWeather: 10.802ms
+OpenWeatherMapInputNode: 11.992ms
+CompassPointNode: 1.592ms
+Function: 4.8ms
+Debug: 3.333ms
+Function: 0.828ms
+Debug: 0.269ms
+MQTTOut: 4.065ms
+Debug: 0.555ms
+Delay: 3.509ms
+Function: 0.425ms
+Function: 0.328ms
+Function: 0.353ms
+Function: 0.564ms
+Function: 79.324ms
+Function: 0.658ms
+Function: 0.56ms
+Function: 0.313ms
+Debug: 0.101ms
+MQTTOut: 0.051ms
+MQTTOut: 0.397ms
+Debug: 0.086ms
+MQTTOut: 0.213ms
+Debug: 0.233ms
+MQTTOut: 0.199ms
+Debug: 0.37ms
+MQTTOut: 0.196ms
+MQTTOut: 0.158ms
+Debug: 0.09ms
+MQTTOut: 0.209ms
+MQTTOut: 0.17ms
+Debug: 0.111ms
+2 Jul 12:02:02 - [info] [mqtt-broker:Raspi] mqtt.state.connected
+CompassPointNode: 0.055ms
+Function: 0.147ms
+Debug: 0.359ms
+Function: 0.083ms
+Debug: 0.093ms
+MQTTOut: 0.186ms
+**

@@ -61,7 +61,7 @@
         "lat": "",
         "city": "Stockholm",
         "country": "Sweden",
-        "language": "de",
+        "language": "en",
         "x": 140,
         "y": 420,
         "wires": [
@@ -952,7 +952,7 @@
         "z": "90c1b7c454a7029f",
         "direction": "toCompass",
         "subset": "secondary",
-        "language": "de",
+        "language": "en",
         "inputField": "payload",
         "outputField": "payload",
         "name": "Change to compass point",

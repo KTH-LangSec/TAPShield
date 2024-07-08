@@ -48,8 +48,7 @@ sgx.trusted_files = [
   "file:libsecret_prov_attest.so", 
   "file:ssl/ca.crt",
   "file:main.js",
-  "file:user-dir/",
-  "file:cat.jpg"
+  "file:user-dir/"
   
 ]
 
@@ -57,7 +56,9 @@ sgx.trusted_files = [
 sgx.allowed_files = [
   "file:/etc/",
   "file:/proc/",
-  "file:./*"
+  "file:filters.json",
+  "file:database.json",
+  "file:config.json"
   ]
 
 # Add profiling directives

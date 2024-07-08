@@ -1,0 +1,334 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+Server listening on  8443
+8 Jul 08:30:22 - [info] 
+
+runtime.welcome
+===================
+
+8 Jul 08:30:22 - [info] runtime.version
+8 Jul 08:30:22 - [info] runtime.version
+8 Jul 08:30:22 - [info] Linux 3.10.0 x64 LE
+8 Jul 08:30:22 - [info] server.palette-editor.disabled
+8 Jul 08:30:22 - [info] server.loading
+8 Jul 08:30:22 - [info] context.log-store-init
+8 Jul 08:30:22 - [info] storage.localfilesystem.user-dir
+8 Jul 08:30:22 - [warn] storage.localfilesystem.projects.disabledNoFlag
+8 Jul 08:30:22 - [info] storage.localfilesystem.flows-file
+Node-Red started
+8 Jul 08:30:22 - [debug] loaded flow revision: b902d998fc8003067d386d70010d004f
+8 Jul 08:30:22 - [debug] red/runtime/nodes/credentials.load : user provided key
+8 Jul 08:30:22 - [debug] red/runtime/nodes/credentials.load : keyType=user
+8 Jul 08:30:22 - [warn] nodes.credentials.encryptedNotFound
+8 Jul 08:30:22 - [trace] runtime event: {"id":"runtime-state","retain":true}
+8 Jul 08:30:22 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"b902d998fc8003067d386d70010d004f"},"retain":true}
+8 Jul 08:30:22 - [info] nodes.flows.starting-flows
+8 Jul 08:30:22 - [debug] red/nodes/flows.start : starting flow : global
+8 Jul 08:30:22 - [debug] red/nodes/flows.start : starting flow : 1c7dd13.e21a82f
+8 Jul 08:30:22 - [trace] [flow:global] start flow [global]
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f] start flow [1c7dd13.e21a82f]
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e] start subflow [1c7dd13.e21a82f/aaec9eb8.b18e]
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e] ------------------|--------------|-----------------
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  id               | type         | alias
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e] ------------------|--------------|-----------------
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  1bf4395120f21f82 | comment      | 9ba9b09b.2e0e48
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  5d28f4450df6462d | exec         | cd0fb59e.e8986
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  c22be33513895aa4 | switch       | 7d314367.9d8004
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  0d90843169ba2762 | string       | 57c333eb.6924ec
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  b00d082a3c333fdd | string       | 1bd80df5.c89432
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  220187e173148e04 | exec         | c0baf4f5.13c78
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  772132680a5ad665 | change       | 1f21178b.aca7c8
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  a63a0a4fd1954b8e | template     | 9be4bb47.2a364
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  717654f54cc06f8b | change       | 88465d7d.d34
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  9d3cb2440252b210 | actionflows  | 58edef74.698168
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  7e5f0c5f602911ea | change       | 96b9a35f.3b1308
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  dfae8747d4848a2a | http in      | 484e436e.edd8ec
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  d05e900379be5a71 | change       | 2114aeb.9535c52
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  cd74d17764ed333d | actionflows_in | 82f1a05a.e03738
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  5641be8d681193ba | actionflows_out | b8abce13.798b2
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  34ae08e26b541e06 | comment      | 3607ad30.de8fda
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  f33ce8897c9b8c8c | function     | 6377f985.76206
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  e6598d365974112d | string       | 859deb86.c0f548
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  9825a733167d766b | http response | 67fa057d.843104
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  aa4e9fe7daaae252 | actionflows_in | 29a90210.a25cce
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  8023f1d2d3b7414c | actionflows_out | 6443b70.4e56b48
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  76c7c07f2808ab4a | file in      | d4c67ba5.caed78
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  537726d1ee8685f0 | catch        | abd26b7c.c131c
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  bbf56a454c588787 | comment      | 9d204fb7.5a6fd8
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  baaf1f441f56dbc5 | function     | af1a7d60.c5cef8
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  071fe908b569f27f | change       | b6921d4d.43cfd8
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  74494af124409ac5 | actionflows_in | 5c59abaf.c7175c
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  734a413542b195e5 | actionflows_out | 1a1bd0a4.a175df
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  2d898d0d602c67d3 | template     | 75beff57.ae022
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  9263794731e8fdba | actionflows_in | 2ea7c0e7.a70548
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  f0fc381353bc4320 | template     | 3e68a1d5.52532e
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  fa9fa2c5c9db2115 | actionflows_out | a0ad5853.ad4698
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  3fc994c5726f030e | comment      | 370bb56f.d97412
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  06c09668d42695c0 | function     | fdfa7574.4068c
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  4fe27c84d75ebd14 | comment      | fa2b1f8.9a44d6
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  0cd482f927face62 | http response | 52bf70bd.6b9bb
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  2fcec257971c0835 | change       | 995ccb24.688b58
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  e91fbb5a6f2836c4 | actionflows_in | 725badf9.79d5ec
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  df21c9996a52eb91 | actionflows_out | 61c2a667.156678
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  967e1d7feebd2e7c | template     | 4c8b7fb2.de85e
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  6dea2cdf73b8c8ca | template     | 203752c6.23fb46
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  6014b2e7ac6d9348 | comment      | 24ce397f.c5fdb6
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  dd1a56e1b7886773 | actionflows_in | a06e0974.91a168
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  c22faab93d6022ac | actionflows_out | 995a0729.a2aa6
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  ece783776372908d | actionflows_in | 21be1ec6.bd17fa
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  289685ba4ac90aad | actionflows_out | 5cca2e5d.b018
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  400b6e15f86f50f1 | actionflows_in | f5319ca3.4a5c6
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  c5f2ec076d17b48f | actionflows_out | 99366a66.96ccc8
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  65cb67aedcc2fb01 | actionflows_in | 52c25a5b.fde94c
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  834efe93a52bf4f0 | actionflows_out | 955f4dc0.8a4538
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  e7f426a75a2a0a42 | string       | 8ec6f4e7.c84ac
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  e60b2dad93f17ed3 | function     | 64bb008a.d28428
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  7c92af2c9cd443b6 | actionflows  | 51d6d37b.abbb1c
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  4ee97af6f62eb128 | function     | b7a5ae9a.5365f8
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  513c7dec88b0d18a | change       | 73646c92.f7dde4
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  95d75f73982be069 | function     | 87a61809.d5872
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e]  321f0fb1e88df37f | comment      | e40cbb36.70932
+8 Jul 08:30:22 - [trace] [subflow:aaec9eb8.b18e] ------------------|--------------|-----------------
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f] ------------------|--------------|-----------------
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f]  id               | type         | alias
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f] ------------------|--------------|-----------------
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f]  26ca9d56.ca379a  | actionflows_in | 
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f]  bf0f6732.4f65c8  | actionflows_out | 
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f]  7717df.5056502   | string       | 
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f]  aaec9eb8.b18e    | subflow:2b744329.f2992c | 
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f]  2a1d8e56.44d832  | comment      | 
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f]  3ba3dd48.3d9632  | comment      | 
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f]  6d1ca83.87ec858  | actionflows_in | 
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f]  9782427e.a43b98  | actionflows_out | 
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f]  4acb6a35.15a0a4  | string       | 
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f]  bae08ca1ef6bc987 | debug        | 
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f]  cf7ab8ebbb8d8ad0 | debug        | 
+8 Jul 08:30:22 - [trace] [flow:1c7dd13.e21a82f] ------------------|--------------|-----------------
+8 Jul 08:30:22 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+8 Jul 08:30:22 - [info] nodes.flows.started-flows
+Change: 2.788ms
+Exec: 22.167s
+Switch: 3.243ms
+Template: 3.103ms
+Template: 0.263ms
+Change: 0.578ms
+Debug: 17.686ms
+**
+Function: 0.492ms
+Function: 0.265ms
+Change: 0.142ms
+HttpIn: 1.088ms
+Function: 0.379ms
+ReadFile: 0.106ms
+Catch: 0.065ms
+ReadFile: 0.08ms
+Catch: 0.061ms
+ReadFile: 0.073ms
+Catch: 0.058ms
+Function: 0.322ms
+Template: 0.057ms
+Change: 0.095ms
+HttpIn: 0.733ms
+Function: 0.833ms
+ReadFile: 0.284ms
+Catch: 0.067ms
+Function: 0.346ms
+Change: 0.107ms
+HttpIn: 0.882ms
+Function: 0.366ms
+ReadFile: 0.116ms
+Catch: 0.08ms
+Function: 0.427ms
+Change: 0.116ms
+HttpIn: 0.57ms
+**
+Function: 4.39ms
+ReadFile: 1.479ms
+Catch: 0.11ms
+ReadFile: 0.198ms
+Catch: 0.112ms
+ReadFile: 0.314ms
+Catch: 0.099ms
+Function: 0.817ms
+Template: 3.867ms
+Change: 0.212ms
+HttpIn: 10.257ms
+Function: 1.359ms
+ReadFile: 1.379ms
+Catch: 0.306ms
+Function: 2.468ms
+Change: 0.351ms
+HttpIn: 3.967ms
+Function: 0.868ms
+ReadFile: 0.305ms
+Catch: 0.17ms
+Function: 0.779ms
+Change: 0.188ms
+HttpIn: 1.561ms
+**
+Function: 0.484ms
+ReadFile: 0.144ms
+Catch: 0.082ms
+ReadFile: 0.162ms
+Catch: 0.105ms
+ReadFile: 0.119ms
+Catch: 0.1ms
+Function: 0.519ms
+Template: 0.214ms
+Change: 0.159ms
+HttpIn: 0.801ms
+Function: 0.618ms
+ReadFile: 0.135ms
+Catch: 0.068ms
+Function: 0.891ms
+Change: 0.125ms
+HttpIn: 0.639ms
+Function: 0.508ms
+ReadFile: 0.128ms
+Catch: 0.095ms
+Function: 0.696ms
+Change: 0.145ms
+HttpIn: 0.879ms
+**
+Function: 1.152ms
+ReadFile: 0.331ms
+Catch: 0.174ms
+ReadFile: 1.077ms
+Catch: 0.218ms
+ReadFile: 0.416ms
+Catch: 0.166ms
+Function: 1.021ms
+Template: 0.116ms
+Change: 0.337ms
+HttpIn: 1.11ms
+Function: 1.121ms
+ReadFile: 0.181ms
+Catch: 0.069ms
+Function: 0.427ms
+Change: 0.137ms
+HttpIn: 0.914ms
+Function: 0.503ms
+ReadFile: 0.139ms
+Catch: 0.112ms
+Function: 0.563ms
+Change: 0.167ms
+HttpIn: 1.201ms
+**
+Function: 1.576ms
+ReadFile: 0.311ms
+Catch: 0.225ms
+ReadFile: 0.298ms
+Catch: 0.213ms
+ReadFile: 0.262ms
+Catch: 0.209ms
+Function: 0.983ms
+Template: 0.169ms
+Change: 0.267ms
+HttpIn: 1.603ms
+Function: 1.797ms
+ReadFile: 0.236ms
+Catch: 0.243ms
+Function: 1.356ms
+Change: 0.349ms
+HttpIn: 1.713ms
+Function: 1.169ms
+ReadFile: 0.314ms
+Catch: 0.088ms
+Function: 0.4ms
+Change: 0.114ms
+HttpIn: 0.639ms
+**
+Function: 0.465ms
+ReadFile: 0.109ms
+Catch: 0.094ms
+ReadFile: 0.117ms
+Catch: 0.069ms
+ReadFile: 0.085ms
+Catch: 0.088ms
+Function: 0.454ms
+Template: 0.06ms
+Change: 0.129ms
+HttpIn: 0.983ms
+Function: 1.154ms
+ReadFile: 0.309ms
+Catch: 0.2ms
+Function: 1.205ms
+Change: 0.403ms
+HttpIn: 0.84ms
+Function: 0.369ms
+ReadFile: 0.097ms
+Catch: 0.096ms
+Function: 0.498ms
+Change: 0.137ms
+HttpIn: 0.612ms
+**
+Function: 0.382ms
+ReadFile: 0.108ms
+Catch: 0.074ms
+ReadFile: 0.103ms
+Catch: 0.088ms
+ReadFile: 0.099ms
+Catch: 0.079ms
+Function: 0.405ms
+Template: 0.063ms
+Change: 0.137ms
+HttpIn: 0.999ms
+Function: 0.84ms
+ReadFile: 0.241ms
+Catch: 0.191ms
+Function: 1.002ms
+Change: 0.875ms
+HttpIn: 1.403ms
+Function: 0.918ms
+ReadFile: 0.229ms
+Catch: 0.193ms
+Function: 0.985ms
+Change: 0.274ms
+HttpIn: 1.188ms
+**
+Function: 0.379ms
+ReadFile: 0.104ms
+Catch: 0.071ms
+ReadFile: 0.105ms
+Catch: 0.068ms
+ReadFile: 1.552ms
+Catch: 0.071ms
+Function: 0.367ms
+Template: 0.07ms
+Change: 0.108ms
+HttpIn: 0.598ms
+Function: 0.835ms
+ReadFile: 0.236ms
+Catch: 0.188ms
+Function: 0.984ms
+Change: 0.296ms
+HttpIn: 1.272ms
+Function: 0.96ms
+ReadFile: 0.229ms
+Catch: 0.194ms
+Function: 1.072ms
+Change: 0.259ms
+HttpIn: 1.064ms
+**
+Function: 0.702ms
+ReadFile: 0.176ms
+Catch: 0.121ms
+ReadFile: 0.16ms
+Catch: 0.119ms
+ReadFile: 0.146ms
+Catch: 0.116ms
+Function: 0.59ms
+Template: 0.065ms
+Change: 0.101ms
+HttpIn: 0.758ms
+Function: 0.919ms
+ReadFile: 0.224ms
+Catch: 0.19ms
+Function: 0.963ms
+Change: 0.298ms
+HttpIn: 1.251ms
+Function: 0.936ms
+ReadFile: 0.248ms
+Catch: 0.223ms
+Function: 0.971ms
+Change: 0.291ms
+HttpIn: 1.154ms

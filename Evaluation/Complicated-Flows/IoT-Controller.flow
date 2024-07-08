@@ -1,0 +1,11 @@
+Setup the Flow  (execute the flow) 
+/lights  
+/Switches  
+/on 
+1 
+/help 
+/light on 1 
+/switch 10 off 
+/off 
+light 1 (incorrect command pattern)
+/switch 7 on

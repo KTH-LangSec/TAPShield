@@ -12,8 +12,10 @@ const caFile = "ca.pem";
 let settings = {
   disableEditor: true, // Disable the editor
   httpAdminRoot: false, // Disable the http admin server
-  httpNodeRoot: "/api", // All http nodes will be served from this root
-  ui: { path: "node-red-ui" },
+  httpNodeRoot: "", // All http nodes will be served from this root
+  ui: { path: "/ui", 
+  readOnly: true
+  },
   functionGlobalContext: {},
   
   credentialSecret: process.env.NODE_RED_SECRET || "SKEY",
@@ -55,13 +57,13 @@ let settings = {
       denyList: []
     },
     modules: {
-      allowInstall: false,
+      allowInstall: true,
       allowList: [],
       denyList: []
     }
   },
   projects: {
-    enabled: false
+    enabled: true
   }
 };
 
