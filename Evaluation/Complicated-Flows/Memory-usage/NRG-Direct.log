@@ -1,0 +1,529 @@
+memusg: current=308 KB, peak=308 KB
+Server listening on  8443
+8 Jul 15:18:23 - [info] 
+
+runtime.welcome
+===================
+
+8 Jul 15:18:23 - [info] runtime.version
+8 Jul 15:18:23 - [info] runtime.version
+8 Jul 15:18:23 - [info] Linux 3.10.0 x64 LE
+8 Jul 15:18:23 - [info] server.palette-editor.disabled
+8 Jul 15:18:23 - [info] server.loading
+8 Jul 15:18:23 - [info] context.log-store-init
+8 Jul 15:18:23 - [info] storage.localfilesystem.user-dir
+8 Jul 15:18:23 - [warn] storage.localfilesystem.projects.disabledNoFlag
+8 Jul 15:18:23 - [info] storage.localfilesystem.flows-file
+Node-Red started
+8 Jul 15:18:23 - [debug] loaded flow revision: b902d998fc8003067d386d70010d004f
+8 Jul 15:18:23 - [debug] red/runtime/nodes/credentials.load : user provided key
+8 Jul 15:18:23 - [debug] red/runtime/nodes/credentials.load : keyType=user
+8 Jul 15:18:23 - [warn] nodes.credentials.encryptedNotFound
+8 Jul 15:18:23 - [trace] runtime event: {"id":"runtime-state","retain":true}
+8 Jul 15:18:23 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"b902d998fc8003067d386d70010d004f"},"retain":true}
+8 Jul 15:18:23 - [info] nodes.flows.starting-flows
+8 Jul 15:18:23 - [debug] red/nodes/flows.start : starting flow : global
+8 Jul 15:18:23 - [debug] red/nodes/flows.start : starting flow : 1c7dd13.e21a82f
+8 Jul 15:18:23 - [trace] [flow:global] start flow [global]
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f] start flow [1c7dd13.e21a82f]
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e] start subflow [1c7dd13.e21a82f/aaec9eb8.b18e]
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e] ------------------|--------------|-----------------
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  id               | type         | alias
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e] ------------------|--------------|-----------------
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  1478b20570d43834 | comment      | 9ba9b09b.2e0e48
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  ed7ba1401e82a5bd | exec         | cd0fb59e.e8986
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  2c5f1dba2cb81669 | switch       | 7d314367.9d8004
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  2de640e148a1a0b3 | string       | 57c333eb.6924ec
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  54a348ae17f93b0f | string       | 1bd80df5.c89432
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  1cedd1ebe14bf4fe | exec         | c0baf4f5.13c78
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  84ed6e446847e094 | change       | 1f21178b.aca7c8
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  9d162aacfcbdf453 | template     | 9be4bb47.2a364
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  d4654f9b1c5a39fe | change       | 88465d7d.d34
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  6221f10676e5a490 | actionflows  | 58edef74.698168
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  89b5c090b5081816 | change       | 96b9a35f.3b1308
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  f2fefd7cdc12b46c | http in      | 484e436e.edd8ec
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  ce3455e6e766cd99 | change       | 2114aeb.9535c52
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  b02527b88d323261 | actionflows_in | 82f1a05a.e03738
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  5e0a3c4a7a105c9b | actionflows_out | b8abce13.798b2
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  e47a327c9f3d9592 | comment      | 3607ad30.de8fda
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  cbae2c208865caba | function     | 6377f985.76206
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  875835eb51368927 | string       | 859deb86.c0f548
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  9e37bdda327d6afc | http response | 67fa057d.843104
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  07932e3bec1dca5a | actionflows_in | 29a90210.a25cce
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  ee4ce0133fcae987 | actionflows_out | 6443b70.4e56b48
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  af462fd7f973d50d | file in      | d4c67ba5.caed78
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  4e9edd6bc5448895 | catch        | abd26b7c.c131c
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  6387f78aa510d60f | comment      | 9d204fb7.5a6fd8
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  021883ccf9198af0 | function     | af1a7d60.c5cef8
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  a88213d5e912a3e5 | change       | b6921d4d.43cfd8
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  9fd8befe8f407e78 | actionflows_in | 5c59abaf.c7175c
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  4ab789a0535389ed | actionflows_out | 1a1bd0a4.a175df
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  feccdcb1c50e33ed | template     | 75beff57.ae022
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  834d6f8fde335e81 | actionflows_in | 2ea7c0e7.a70548
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  e99c079d08dc1827 | template     | 3e68a1d5.52532e
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  132d745ddc599d58 | actionflows_out | a0ad5853.ad4698
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  8299a264bd4fa031 | comment      | 370bb56f.d97412
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  f225aa801ce78202 | function     | fdfa7574.4068c
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  22f9dfb6f4f153bc | comment      | fa2b1f8.9a44d6
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  06b3af140786e2df | http response | 52bf70bd.6b9bb
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  bf656b849be9b613 | change       | 995ccb24.688b58
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  dd0d8fb3c9d11210 | actionflows_in | 725badf9.79d5ec
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  3171727c3c381c4b | actionflows_out | 61c2a667.156678
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  bb70cb00136c7c3b | template     | 4c8b7fb2.de85e
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  150ac04066c1d7cb | template     | 203752c6.23fb46
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  6d528cf8839cf1d9 | comment      | 24ce397f.c5fdb6
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  b36b82cce2ee4a11 | actionflows_in | a06e0974.91a168
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  e196b92b80f78520 | actionflows_out | 995a0729.a2aa6
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  2c3ffb91c63f6b1d | actionflows_in | 21be1ec6.bd17fa
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  5612ca9d09a5b86b | actionflows_out | 5cca2e5d.b018
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  d54575b60ed1bd62 | actionflows_in | f5319ca3.4a5c6
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  c0a6a5659a74a584 | actionflows_out | 99366a66.96ccc8
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  53ac8613978cc421 | actionflows_in | 52c25a5b.fde94c
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  f2faee73df65b4bb | actionflows_out | 955f4dc0.8a4538
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  5dcdf24298eb7231 | string       | 8ec6f4e7.c84ac
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  7ee0622e4f2f2f47 | function     | 64bb008a.d28428
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  54aa257bb649adb6 | actionflows  | 51d6d37b.abbb1c
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  596ea33167ea64f3 | function     | b7a5ae9a.5365f8
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  ccf1899fbd989723 | change       | 73646c92.f7dde4
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  e4fd2dbc4e71c4cf | function     | 87a61809.d5872
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e]  ae4cfd404ee0cc49 | comment      | e40cbb36.70932
+8 Jul 15:18:23 - [trace] [subflow:aaec9eb8.b18e] ------------------|--------------|-----------------
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f] ------------------|--------------|-----------------
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f]  id               | type         | alias
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f] ------------------|--------------|-----------------
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f]  26ca9d56.ca379a  | actionflows_in | 
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f]  bf0f6732.4f65c8  | actionflows_out | 
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f]  7717df.5056502   | string       | 
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f]  aaec9eb8.b18e    | subflow:2b744329.f2992c | 
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f]  2a1d8e56.44d832  | comment      | 
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f]  3ba3dd48.3d9632  | comment      | 
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f]  6d1ca83.87ec858  | actionflows_in | 
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f]  9782427e.a43b98  | actionflows_out | 
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f]  4acb6a35.15a0a4  | string       | 
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f]  bae08ca1ef6bc987 | debug        | 
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f]  cf7ab8ebbb8d8ad0 | debug        | 
+8 Jul 15:18:23 - [trace] [flow:1c7dd13.e21a82f] ------------------|--------------|-----------------
+8 Jul 15:18:23 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+8 Jul 15:18:23 - [info] nodes.flows.started-flows
+Change: 1.294ms
+8 Jul 15:18:23 - [debug] [exec:ed7ba1401e82a5bd]  echo $HOME
+Exec: 360.509ms
+Switch: 0.916ms
+Template: 0.531ms
+Template: 0.119ms
+Change: 0.215ms
+8 Jul 15:18:24 - [error] [string:home/rof13thfloor/public_html] TypeError: Cannot read properties of undefined (reading 'length')
+8 Jul 15:18:24 - [info] [debug:debug 1] 
+{
+  _af: {
+    stack: [ 'af:3207e18ea8ecdfc5', 'af:6221f10676e5a490' ],
+    '6221f10676e5a490': {
+      id: '6221f10676e5a490',
+      type: 'actionflows',
+      z: 'aaec9eb8.b18e',
+      info: "This action occurs after the NRG-Flows web server's default configuration settings\n" +
+        'have been set. You can modify the `msg.payload` in this action flow by defining\n' +
+        'a flow segment using the ActionFlows `action in/out` nodes. Changing the \n' +
+        '`msg.payload` contents in this action will update the settings stored in the\n' +
+        '`flow.nrg` context. \n' +
+        '\n' +
+        '## NRG Settings\n' +
+        'The `msg.payload` object will contain the following properties that you can customize.\n' +
+        '\n' +
+        '* **siteRoot** - determines the document root folder to serve files from. The default is "public_html" under the current user folder. I.e. /Users/john/public_html\n' +
+        '* **urlPath** - determines the URL mount point where files will be appear under. The default is an empty string to serve files from the domain root. I.e. http://localhost. Set this value to begin serving under a subfolder. I.e. "/subfolder" will serve files under http://localhost/subfolder.\n' +
+        '* **mimeTypes** - determines the supported Content-Types that are set in the HTTP response header when a given file is requested. Content-Types are mapped by filename extension. This value contains an associative array.\n' +
+        '* **slash** - the platform directory separator "/" or "\\" (Windows) ',
+      untilproptype: 'num',
+      proptype: 'msg',
+      name: '#config',
+      prop: 'loop',
+      untilprop: 0,
+      until: 'gt',
+      loop: 'none',
+      scope: 'global',
+      perf: false,
+      seq: false,
+      x: 1140,
+      y: 480,
+      wires: [ [ '89b5c090b5081816' ] ],
+      g: undefined,
+      _closeCallbacks: [ [Function (anonymous)] ],
+      _inputCallback: [Function (anonymous)],
+      _inputCallbacks: null,
+      _alias: '58edef74.698168',
+      _wireCount: 1,
+      send: [Function (anonymous)],
+      _wire: '89b5c090b5081816',
+      _context: {},
+      ins: [
+        {
+          id: '26ca9d56.ca379a',
+          type: 'actionflows_in',
+          z: '1c7dd13.e21a82f',
+          name: '#config',
+          priority: '50',
+          links: [],
+          scope: 'global',
+          x: 70,
+          y: 160,
+          wires: [ [ '7717df.5056502', 'bae08ca1ef6bc987' ] ]
+        }
+      ],
+      execTime: [ 1720451904, 199466000 ],
+      index: 1
+    }
+  },
+  settings: {
+    get: [Function: get],
+    set: [Function: set],
+    delete: [Function: delete],
+    available: [Function: available],
+    registerNodeSettings: [Function: registerNodeSettings],
+    exportNodeSettings: [Function: exportNodeSettings],
+    enableNodeSettings: [Function: enableNodeSettings],
+    disableNodeSettings: [Function: disableNodeSettings],
+    getUserSettings: [Function: getUserSettings],
+    setUserSettings: [Function: setUserSettings],
+    disableEditor: true,
+    httpAdminRoot: false,
+    httpNodeRoot: '',
+    ui: { path: '/ui', readOnly: true },
+    functionGlobalContext: {},
+    credentialSecret: 'SKEY',
+    https: {
+      ca: './user-dir/ca.pem',
+      cert: './user-dir/server.cert',
+      key: './user-dir/server.key'
+    },
+    requireHttps: true,
+    userDir: './user-dir/',
+    coreNodesDir: './',
+    flowFile: 'flow.json',
+    logging: { console: { level: 'trace', metrics: false, audit: false } },
+    externalModules: {
+      autoInstall: false,
+      autoInstallRetry: 30,
+      palette: {
+        allowInstall: false,
+        allowUpload: false,
+        allowList: [],
+        denyList: []
+      },
+      modules: { allowInstall: true, allowList: [], denyList: [] }
+    },
+    projects: { enabled: true },
+    version: '1.0.0'
+  },
+  _msgid: 'a378f06de679bc68',
+  payload: {
+    slash: '/',
+    mimeTypes: {
+      'application/andrew-inset': [ 'ez' ],
+      'application/mac-binhex40': [ 'hqx' ],
+      'application/mac-compactpro': [ 'cpt' ],
+      'application/msword': [ 'doc' ],
+      'application/octet-stream': [
+        'bin', 'dms',
+        'lha', 'lzh',
+        'exe', 'class',
+        'so',  'dll'
+      ],
+      'application/oda': [ 'oda' ],
+      'application/pdf': [ 'pdf' ],
+      'application/postscript': [ 'ai', 'eps', 'ps' ],
+      'application/smil': [ 'smi', 'smil' ],
+      'application/vnd.mif': [ 'mif' ],
+      'application/vnd.ms-excel': [ 'xls' ],
+      'application/vnd.ms-powerpoint': [ 'ppt' ],
+      'application/vnd.wap.wbxml': [ 'wbxml' ],
+      'application/vnd.wap.wmlc': [ 'wmlc' ],
+      'application/vnd.wap.wmlscriptc': [ 'wmlsc' ],
+      'application/x-bcpio': [ 'bcpio' ],
+      'application/x-cdlink': [ 'vcd' ],
+      'application/x-chess-pgn': [ 'pgn' ],
+      'application/x-cpio': [ 'cpio' ],
+      'application/x-csh': [ 'csh' ],
+      'application/x-director': [ 'dcr', 'dir', 'dxr' ],
+      'application/x-dvi': [ 'dvi' ],
+      'application/x-futuresplash': [ 'spl' ],
+      'application/x-gtar': [ 'gtar' ],
+      'application/x-hdf': [ 'hdf' ],
+      'application/x-javascript': [ 'js' ],
+      'application/x-koan': [ 'skp', 'skd', 'skt', 'skm' ],
+      'application/x-latex': [ 'latex' ],
+      'application/x-netcdf': [ 'nc', 'cdf' ],
+      'application/x-sh': [ 'sh' ],
+      'application/x-shar': [ 'shar' ],
+      'application/x-shockwave-flash': [ 'swf' ],
+      'application/x-stuffit': [ 'sit' ],
+      'application/x-sv4cpio': [ 'sv4cpio' ],
+      'application/x-sv4crc': [ 'sv4crc' ],
+      'application/x-tar': [ 'tar' ],
+      'application/x-tcl': [ 'tcl' ],
+      'application/x-tex': [ 'tex' ],
+      'application/x-texinfo': [ 'texinfo', 'texi' ],
+      'application/x-troff': [ 't', 'tr', 'roff' ],
+      'application/x-troff-man': [ 'man' ],
+      'application/x-troff-me': [ 'me' ],
+      'application/x-troff-ms': [ 'ms' ],
+      'application/x-ustar': [ 'ustar' ],
+      'application/x-wais-source': [ 'src' ],
+      'application/xhtml+xml': [ 'xhtml', 'xht' ],
+      'application/zip': [ 'zip' ],
+      'audio/basic': [ 'au', 'snd' ],
+      'audio/midi': [ 'mid', 'midi', 'kar' ],
+      'audio/mpeg': [ 'mpga', 'mp2', 'mp3' ],
+      'audio/x-aiff': [ 'aif', 'aiff', 'aifc' ],
+      'audio/x-mpegurl': [ 'm3u' ],
+      'audio/x-pn-realaudio': [ 'ram', 'rm' ],
+      'audio/x-pn-realaudio-plugin': [ 'rpm' ],
+      'audio/x-realaudio': [ 'ra' ],
+      'audio/x-wav': [ 'wav' ],
+      'chemical/x-pdb': [ 'pdb' ],
+      'chemical/x-xyz': [ 'xyz' ],
+      'image/bmp': [ 'bmp' ],
+      'image/gif': [ 'gif' ],
+      'image/ief': [ 'ief' ],
+      'image/jpeg': [ 'jpeg', 'jpg', 'jpe' ],
+      'image/png': [ 'png' ],
+      'image/tiff': [ 'tiff', 'tif' ],
+      'image/vnd.djvu': [ 'djvu', 'djv' ],
+      'image/vnd.wap.wbmp': [ 'wbmp' ],
+      'image/x-cmu-raster': [ 'ras' ],
+      'image/x-portable-anymap': [ 'pnm' ],
+      'image/x-portable-bitmap': [ 'pbm' ],
+      'image/x-portable-graymap': [ 'pgm' ],
+      'image/x-portable-pixmap': [ 'ppm' ],
+      'image/x-rgb': [ 'rgb' ],
+      'image/x-xbitmap': [ 'xbm' ],
+      'image/x-xpixmap': [ 'xpm' ],
+      'image/x-xwindowdump': [ 'xwd' ],
+      'model/iges': [ 'igs', 'iges' ],
+      'model/mesh': [ 'msh', 'mesh', 'silo' ],
+      'model/vrml': [ 'wrl', 'vrml' ],
+      'text/css': [ 'css' ],
+      'text/html': [ 'html', 'htm', 'nrg' ],
+      'text/plain': [ 'asc', 'txt' ],
+      'text/richtext': [ 'rtx' ],
+      'text/rtf': [ 'rtf' ],
+      'text/sgml': [ 'sgml', 'sgm' ],
+      'text/tab-separated-values': [ 'tsv' ],
+      'text/vnd.wap.wml': [ 'wml' ],
+      'text/vnd.wap.wmlscript': [ 'wmls' ],
+      'text/x-setext': [ 'etx' ],
+      'text/xml': [ 'xml', 'xsl' ],
+      'video/mpeg': [ 'mpeg', 'mpg', 'mpe' ],
+      'video/quicktime': [ 'qt', 'mov' ],
+      'video/vnd.mpegurl': [ 'mxu' ],
+      'video/x-msvideo': [ 'avi' ],
+      'video/x-sgi-movie': [ 'movie' ],
+      'x-conference/x-cooltalk': [ 'ice' ],
+      'image/svg+xml': [ 'svg' ]
+    },
+    forbidden: [ 'flow', 'jss' ],
+    siteRoot: '/home/kth-rof13thfloor/public_html',
+    urlPath: ''
+  },
+  rc: { code: 0 }
+}
+Debug: 6.469ms
+memusg: current=81436 KB, peak=81436 KB
+Function: 1.659ms
+ReadFile: 0.714ms
+Catch: 0.073ms
+ReadFile: 0.213ms
+Catch: 0.094ms
+ReadFile: 0.274ms
+Catch: 0.061ms
+Function: 0.518ms
+Template: 2.493ms
+Change: 0.131ms
+HttpIn: 4.326ms
+Function: 0.808ms
+ReadFile: 0.542ms
+Catch: 0.044ms
+Function: 0.454ms
+Change: 0.063ms
+HttpIn: 0.851ms
+memusg: current=82396 KB, peak=82396 KB
+Function: 1.055ms
+Function: 0.605ms
+Change: 0.199ms
+HttpIn: 1.209ms
+memusg: current=82584 KB, peak=82584 KB
+Function: 0.704ms
+ReadFile: 0.272ms
+Catch: 0.035ms
+ReadFile: 0.079ms
+Catch: 0.026ms
+ReadFile: 0.065ms
+Catch: 0.021ms
+Function: 0.246ms
+Template: 0.155ms
+Change: 0.062ms
+HttpIn: 0.405ms
+Function: 0.861ms
+ReadFile: 0.51ms
+Catch: 0.085ms
+Function: 1.426ms
+Change: 0.227ms
+HttpIn: 1.872ms
+Function: 0.728ms
+ReadFile: 0.438ms
+Catch: 0.029ms
+ReadFile: 0.066ms
+Catch: 0.024ms
+ReadFile: 0.067ms
+Catch: 0.021ms
+Function: 0.224ms
+Template: 0.133ms
+Change: 0.365ms
+HttpIn: 0.456ms
+memusg: current=85072 KB, peak=85072 KB
+Function: 1.085ms
+ReadFile: 0.221ms
+Catch: 0.067ms
+Function: 0.762ms
+Change: 0.173ms
+HttpIn: 1.03ms
+Function: 0.693ms
+ReadFile: 0.291ms
+Catch: 0.075ms
+ReadFile: 0.204ms
+Catch: 0.021ms
+ReadFile: 0.051ms
+Catch: 0.022ms
+Function: 0.216ms
+Template: 0.155ms
+Change: 0.057ms
+HttpIn: 0.366ms
+Function: 0.598ms
+ReadFile: 0.197ms
+Catch: 0.068ms
+Function: 0.756ms
+Change: 0.171ms
+HttpIn: 1.427ms
+Function: 0.663ms
+ReadFile: 0.121ms
+Catch: 0.025ms
+ReadFile: 0.052ms
+Catch: 0.022ms
+ReadFile: 0.067ms
+Catch: 0.023ms
+Function: 0.229ms
+Template: 0.141ms
+Change: 0.054ms
+HttpIn: 0.426ms
+Function: 0.606ms
+ReadFile: 0.158ms
+Catch: 0.066ms
+Function: 0.723ms
+Change: 0.148ms
+HttpIn: 1.107ms
+memusg: current=85416 KB, peak=85416 KB
+Function: 0.646ms
+ReadFile: 0.167ms
+Catch: 0.064ms
+ReadFile: 0.146ms
+Catch: 0.023ms
+ReadFile: 0.05ms
+Catch: 0.021ms
+Function: 0.224ms
+Template: 0.03ms
+Change: 0.048ms
+HttpIn: 0.39ms
+Function: 0.571ms
+ReadFile: 0.154ms
+Catch: 0.071ms
+Function: 0.769ms
+Change: 0.507ms
+HttpIn: 1.084ms
+Function: 0.639ms
+ReadFile: 0.161ms
+Catch: 0.066ms
+ReadFile: 0.056ms
+Catch: 0.021ms
+ReadFile: 0.05ms
+Catch: 0.021ms
+Function: 0.208ms
+Template: 0.025ms
+Change: 1.183ms
+HttpIn: 0.674ms
+Function: 0.574ms
+ReadFile: 0.158ms
+Catch: 0.064ms
+Function: 0.708ms
+Change: 0.166ms
+HttpIn: 1.442ms
+memusg: current=85612 KB, peak=85612 KB
+Function: 0.681ms
+ReadFile: 0.159ms
+Catch: 0.067ms
+ReadFile: 0.155ms
+Catch: 0.023ms
+ReadFile: 0.049ms
+Catch: 0.02ms
+Function: 0.212ms
+Template: 0.037ms
+Change: 0.047ms
+HttpIn: 0.483ms
+Function: 0.563ms
+ReadFile: 0.155ms
+Catch: 0.069ms
+Function: 0.793ms
+Change: 0.148ms
+HttpIn: 1.443ms
+Function: 0.636ms
+ReadFile: 0.159ms
+Catch: 0.068ms
+ReadFile: 0.144ms
+Catch: 0.024ms
+ReadFile: 0.051ms
+Catch: 0.02ms
+Function: 0.229ms
+Template: 0.03ms
+Change: 0.049ms
+HttpIn: 0.462ms
+Function: 0.569ms
+ReadFile: 0.152ms
+Catch: 0.069ms
+Function: 0.709ms
+Change: 0.152ms
+HttpIn: 4.226ms
+memusg: current=85684 KB, peak=85684 KB
+Function: 0.63ms
+ReadFile: 0.166ms
+Catch: 0.068ms
+ReadFile: 0.157ms
+Catch: 0.067ms
+ReadFile: 0.047ms
+Catch: 0.019ms
+Function: 0.216ms
+Template: 0.029ms
+Change: 0.052ms
+HttpIn: 0.393ms
+Function: 0.623ms
+ReadFile: 0.15ms
+Catch: 0.071ms
+Function: 0.714ms
+Change: 0.443ms
+HttpIn: 1.03ms
+Function: 0.624ms
+ReadFile: 0.174ms
+Catch: 0.073ms
+ReadFile: 0.147ms
+Catch: 0.067ms
+ReadFile: 0.044ms
+Catch: 0.022ms
+Function: 0.21ms
+Template: 0.032ms
+Change: 0.05ms
+HttpIn: 0.368ms
+Function: 0.572ms
+ReadFile: 0.154ms
+Catch: 0.066ms
+Function: 0.735ms
+Change: 0.143ms
+HttpIn: 1.014ms
+memusg: current=85716 KB, peak=85716 KB

@@ -1,0 +1,599 @@
+Gramine is starting. Parsing TOML manifest file, this may take some time...
+memusg: current=5784 KB, peak=5784 KB
+memusg: current=10344 KB, peak=10344 KB
+memusg: current=10344 KB, peak=10344 KB
+memusg: current=105360 KB, peak=105360 KB
+Server listening on  8443
+8 Jul 15:19:42 - [info] 
+
+runtime.welcome
+===================
+
+8 Jul 15:19:42 - [info] runtime.version
+8 Jul 15:19:42 - [info] runtime.version
+8 Jul 15:19:42 - [info] Linux 3.10.0 x64 LE
+8 Jul 15:19:42 - [info] server.palette-editor.disabled
+8 Jul 15:19:42 - [info] server.loading
+8 Jul 15:19:42 - [info] context.log-store-init
+8 Jul 15:19:42 - [info] storage.localfilesystem.user-dir
+8 Jul 15:19:42 - [warn] storage.localfilesystem.projects.disabledNoFlag
+8 Jul 15:19:42 - [info] storage.localfilesystem.flows-file
+Node-Red started
+8 Jul 15:19:42 - [debug] loaded flow revision: b902d998fc8003067d386d70010d004f
+8 Jul 15:19:42 - [debug] red/runtime/nodes/credentials.load : user provided key
+8 Jul 15:19:42 - [debug] red/runtime/nodes/credentials.load : keyType=user
+8 Jul 15:19:42 - [warn] nodes.credentials.encryptedNotFound
+8 Jul 15:19:42 - [trace] runtime event: {"id":"runtime-state","retain":true}
+8 Jul 15:19:42 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"b902d998fc8003067d386d70010d004f"},"retain":true}
+8 Jul 15:19:42 - [info] nodes.flows.starting-flows
+8 Jul 15:19:42 - [debug] red/nodes/flows.start : starting flow : global
+8 Jul 15:19:42 - [debug] red/nodes/flows.start : starting flow : 1c7dd13.e21a82f
+8 Jul 15:19:42 - [trace] [flow:global] start flow [global]
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f] start flow [1c7dd13.e21a82f]
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e] start subflow [1c7dd13.e21a82f/aaec9eb8.b18e]
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e] ------------------|--------------|-----------------
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  id               | type         | alias
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e] ------------------|--------------|-----------------
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  72ace32097e123e8 | comment      | 9ba9b09b.2e0e48
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  d7fbf352fe8b42ee | exec         | cd0fb59e.e8986
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  db6f6407f3cdbce6 | switch       | 7d314367.9d8004
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  b3dd9a04f22e401b | string       | 57c333eb.6924ec
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  f3bc87c4f912e5b1 | string       | 1bd80df5.c89432
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  dbe19150836968e9 | exec         | c0baf4f5.13c78
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  8fc4c52b595bbce2 | change       | 1f21178b.aca7c8
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  53647da7d640bdb8 | template     | 9be4bb47.2a364
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  73d4125d0f7b2c0d | change       | 88465d7d.d34
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  818729b1cd64a492 | actionflows  | 58edef74.698168
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  0c32cde6fc6b2457 | change       | 96b9a35f.3b1308
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  9f22f0418d6fef21 | http in      | 484e436e.edd8ec
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  4151bd60d184df28 | change       | 2114aeb.9535c52
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  8e9ba2e9e08a3a0b | actionflows_in | 82f1a05a.e03738
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  aa27e77c35042c0b | actionflows_out | b8abce13.798b2
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  238afe65f19457dd | comment      | 3607ad30.de8fda
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  b59dc2c59afaa2a6 | function     | 6377f985.76206
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  b3bd3cf0602cb2c4 | string       | 859deb86.c0f548
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  732077cd91ccf4a1 | http response | 67fa057d.843104
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  45596ceb20785f03 | actionflows_in | 29a90210.a25cce
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  c03b8c42569ad2e7 | actionflows_out | 6443b70.4e56b48
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  dcf9593b1920df13 | file in      | d4c67ba5.caed78
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  e5221ed9474248c4 | catch        | abd26b7c.c131c
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  fe6c7714697fe461 | comment      | 9d204fb7.5a6fd8
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  22e19c6ed52c7c37 | function     | af1a7d60.c5cef8
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  3e203a828fadecc8 | change       | b6921d4d.43cfd8
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  276a1e61de243bbe | actionflows_in | 5c59abaf.c7175c
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  f8bf2b6839579fad | actionflows_out | 1a1bd0a4.a175df
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  b72c7bb70b17d201 | template     | 75beff57.ae022
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  c1d2c1376ff5abef | actionflows_in | 2ea7c0e7.a70548
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  08510bdd61533013 | template     | 3e68a1d5.52532e
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  67dd13fe792a67fe | actionflows_out | a0ad5853.ad4698
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  89db844728cae49d | comment      | 370bb56f.d97412
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  790923b8b7505209 | function     | fdfa7574.4068c
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  fb3187441e2fd034 | comment      | fa2b1f8.9a44d6
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  44c0130ac3c10e4e | http response | 52bf70bd.6b9bb
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  00fb407c1c8c47b2 | change       | 995ccb24.688b58
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  8778273d17aec66a | actionflows_in | 725badf9.79d5ec
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  417887dd6dfc2bbd | actionflows_out | 61c2a667.156678
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  84d2a1cc96fa97d7 | template     | 4c8b7fb2.de85e
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  0b8ea1b9f583080c | template     | 203752c6.23fb46
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  8b3049e834a63c28 | comment      | 24ce397f.c5fdb6
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  67bdf295bd271cf2 | actionflows_in | a06e0974.91a168
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  8bd156ee24881db1 | actionflows_out | 995a0729.a2aa6
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  d65484c9b4d85a61 | actionflows_in | 21be1ec6.bd17fa
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  be984f2f1b380632 | actionflows_out | 5cca2e5d.b018
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  bbeddfa5c3fbe828 | actionflows_in | f5319ca3.4a5c6
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  085c10c7b5b8531f | actionflows_out | 99366a66.96ccc8
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  8e852f6351c179b9 | actionflows_in | 52c25a5b.fde94c
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  c9859afeb1366fad | actionflows_out | 955f4dc0.8a4538
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  a76772222446d140 | string       | 8ec6f4e7.c84ac
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  488742cc9d440e33 | function     | 64bb008a.d28428
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  e6bc717f35667d44 | actionflows  | 51d6d37b.abbb1c
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  a31a8a2aaca4c4b3 | function     | b7a5ae9a.5365f8
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  0f467016f2032cd7 | change       | 73646c92.f7dde4
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  bc815d0418d738ac | function     | 87a61809.d5872
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e]  ec9f85af87073bba | comment      | e40cbb36.70932
+8 Jul 15:19:42 - [trace] [subflow:aaec9eb8.b18e] ------------------|--------------|-----------------
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f] ------------------|--------------|-----------------
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f]  id               | type         | alias
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f] ------------------|--------------|-----------------
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f]  26ca9d56.ca379a  | actionflows_in | 
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f]  bf0f6732.4f65c8  | actionflows_out | 
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f]  7717df.5056502   | string       | 
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f]  aaec9eb8.b18e    | subflow:2b744329.f2992c | 
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f]  2a1d8e56.44d832  | comment      | 
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f]  3ba3dd48.3d9632  | comment      | 
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f]  6d1ca83.87ec858  | actionflows_in | 
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f]  9782427e.a43b98  | actionflows_out | 
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f]  4acb6a35.15a0a4  | string       | 
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f]  bae08ca1ef6bc987 | debug        | 
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f]  cf7ab8ebbb8d8ad0 | debug        | 
+8 Jul 15:19:42 - [trace] [flow:1c7dd13.e21a82f] ------------------|--------------|-----------------
+8 Jul 15:19:42 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+8 Jul 15:19:42 - [info] nodes.flows.started-flows
+Change: 2.827ms
+8 Jul 15:19:42 - [debug] [exec:d7fbf352fe8b42ee]  echo $HOME
+memusg: current=115656 KB, peak=115656 KB
+memusg: current=115656 KB, peak=115656 KB
+memusg: current=115668 KB, peak=115668 KB
+memusg: current=115668 KB, peak=115668 KB
+Exec: 21.994s
+Switch: 3.107ms
+Template: 2.939ms
+Template: 0.224ms
+Change: 0.576ms
+8 Jul 15:20:04 - [error] [string:home/rof13thfloor/public_html] TypeError: Cannot read properties of undefined (reading 'length')
+8 Jul 15:20:04 - [info] [debug:debug 1] 
+{
+  _af: {
+    stack: [ 'af:0924db7367a25f17', 'af:818729b1cd64a492' ],
+    '818729b1cd64a492': {
+      id: '818729b1cd64a492',
+      type: 'actionflows',
+      z: 'aaec9eb8.b18e',
+      info: "This action occurs after the NRG-Flows web server's default configuration settings\n" +
+        'have been set. You can modify the `msg.payload` in this action flow by defining\n' +
+        'a flow segment using the ActionFlows `action in/out` nodes. Changing the \n' +
+        '`msg.payload` contents in this action will update the settings stored in the\n' +
+        '`flow.nrg` context. \n' +
+        '\n' +
+        '## NRG Settings\n' +
+        'The `msg.payload` object will contain the following properties that you can customize.\n' +
+        '\n' +
+        '* **siteRoot** - determines the document root folder to serve files from. The default is "public_html" under the current user folder. I.e. /Users/john/public_html\n' +
+        '* **urlPath** - determines the URL mount point where files will be appear under. The default is an empty string to serve files from the domain root. I.e. http://localhost. Set this value to begin serving under a subfolder. I.e. "/subfolder" will serve files under http://localhost/subfolder.\n' +
+        '* **mimeTypes** - determines the supported Content-Types that are set in the HTTP response header when a given file is requested. Content-Types are mapped by filename extension. This value contains an associative array.\n' +
+        '* **slash** - the platform directory separator "/" or "\\" (Windows) ',
+      untilproptype: 'num',
+      proptype: 'msg',
+      name: '#config',
+      prop: 'loop',
+      untilprop: 0,
+      until: 'gt',
+      loop: 'none',
+      scope: 'global',
+      perf: false,
+      seq: false,
+      x: 1140,
+      y: 480,
+      wires: [ [ '0c32cde6fc6b2457' ] ],
+      g: undefined,
+      _closeCallbacks: [ [Function (anonymous)] ],
+      _inputCallback: [Function (anonymous)],
+      _inputCallbacks: null,
+      _alias: '58edef74.698168',
+      _wireCount: 1,
+      send: [Function (anonymous)],
+      _wire: '0c32cde6fc6b2457',
+      _context: {},
+      ins: [
+        {
+          id: '26ca9d56.ca379a',
+          type: 'actionflows_in',
+          z: '1c7dd13.e21a82f',
+          name: '#config',
+          priority: '50',
+          links: [],
+          scope: 'global',
+          x: 70,
+          y: 160,
+          wires: [ [ '7717df.5056502', 'bae08ca1ef6bc987' ] ]
+        }
+      ],
+      execTime: [ 1720452004, 836845000 ],
+      index: 1
+    }
+  },
+  settings: {
+    get: [Function: get],
+    set: [Function: set],
+    delete: [Function: delete],
+    available: [Function: available],
+    registerNodeSettings: [Function: registerNodeSettings],
+    exportNodeSettings: [Function: exportNodeSettings],
+    enableNodeSettings: [Function: enableNodeSettings],
+    disableNodeSettings: [Function: disableNodeSettings],
+    getUserSettings: [Function: getUserSettings],
+    setUserSettings: [Function: setUserSettings],
+    disableEditor: true,
+    httpAdminRoot: false,
+    httpNodeRoot: '',
+    ui: { path: '/ui', readOnly: true },
+    functionGlobalContext: {},
+    credentialSecret: 'SKEY',
+    https: {
+      ca: './user-dir/ca.pem',
+      cert: './user-dir/server.cert',
+      key: './user-dir/server.key'
+    },
+    requireHttps: true,
+    userDir: './user-dir/',
+    coreNodesDir: './',
+    flowFile: 'flow.json',
+    logging: { console: { level: 'trace', metrics: false, audit: false } },
+    externalModules: {
+      autoInstall: false,
+      autoInstallRetry: 30,
+      palette: {
+        allowInstall: false,
+        allowUpload: false,
+        allowList: [],
+        denyList: []
+      },
+      modules: { allowInstall: true, allowList: [], denyList: [] }
+    },
+    projects: { enabled: true },
+    version: '1.0.0'
+  },
+  _msgid: 'd064b91b3d991275',
+  payload: {
+    slash: '/',
+    mimeTypes: {
+      'application/andrew-inset': [ 'ez' ],
+      'application/mac-binhex40': [ 'hqx' ],
+      'application/mac-compactpro': [ 'cpt' ],
+      'application/msword': [ 'doc' ],
+      'application/octet-stream': [
+        'bin', 'dms',
+        'lha', 'lzh',
+        'exe', 'class',
+        'so',  'dll'
+      ],
+      'application/oda': [ 'oda' ],
+      'application/pdf': [ 'pdf' ],
+      'application/postscript': [ 'ai', 'eps', 'ps' ],
+      'application/smil': [ 'smi', 'smil' ],
+      'application/vnd.mif': [ 'mif' ],
+      'application/vnd.ms-excel': [ 'xls' ],
+      'application/vnd.ms-powerpoint': [ 'ppt' ],
+      'application/vnd.wap.wbxml': [ 'wbxml' ],
+      'application/vnd.wap.wmlc': [ 'wmlc' ],
+      'application/vnd.wap.wmlscriptc': [ 'wmlsc' ],
+      'application/x-bcpio': [ 'bcpio' ],
+      'application/x-cdlink': [ 'vcd' ],
+      'application/x-chess-pgn': [ 'pgn' ],
+      'application/x-cpio': [ 'cpio' ],
+      'application/x-csh': [ 'csh' ],
+      'application/x-director': [ 'dcr', 'dir', 'dxr' ],
+      'application/x-dvi': [ 'dvi' ],
+      'application/x-futuresplash': [ 'spl' ],
+      'application/x-gtar': [ 'gtar' ],
+      'application/x-hdf': [ 'hdf' ],
+      'application/x-javascript': [ 'js' ],
+      'application/x-koan': [ 'skp', 'skd', 'skt', 'skm' ],
+      'application/x-latex': [ 'latex' ],
+      'application/x-netcdf': [ 'nc', 'cdf' ],
+      'application/x-sh': [ 'sh' ],
+      'application/x-shar': [ 'shar' ],
+      'application/x-shockwave-flash': [ 'swf' ],
+      'application/x-stuffit': [ 'sit' ],
+      'application/x-sv4cpio': [ 'sv4cpio' ],
+      'application/x-sv4crc': [ 'sv4crc' ],
+      'application/x-tar': [ 'tar' ],
+      'application/x-tcl': [ 'tcl' ],
+      'application/x-tex': [ 'tex' ],
+      'application/x-texinfo': [ 'texinfo', 'texi' ],
+      'application/x-troff': [ 't', 'tr', 'roff' ],
+      'application/x-troff-man': [ 'man' ],
+      'application/x-troff-me': [ 'me' ],
+      'application/x-troff-ms': [ 'ms' ],
+      'application/x-ustar': [ 'ustar' ],
+      'application/x-wais-source': [ 'src' ],
+      'application/xhtml+xml': [ 'xhtml', 'xht' ],
+      'application/zip': [ 'zip' ],
+      'audio/basic': [ 'au', 'snd' ],
+      'audio/midi': [ 'mid', 'midi', 'kar' ],
+      'audio/mpeg': [ 'mpga', 'mp2', 'mp3' ],
+      'audio/x-aiff': [ 'aif', 'aiff', 'aifc' ],
+      'audio/x-mpegurl': [ 'm3u' ],
+      'audio/x-pn-realaudio': [ 'ram', 'rm' ],
+      'audio/x-pn-realaudio-plugin': [ 'rpm' ],
+      'audio/x-realaudio': [ 'ra' ],
+      'audio/x-wav': [ 'wav' ],
+      'chemical/x-pdb': [ 'pdb' ],
+      'chemical/x-xyz': [ 'xyz' ],
+      'image/bmp': [ 'bmp' ],
+      'image/gif': [ 'gif' ],
+      'image/ief': [ 'ief' ],
+      'image/jpeg': [ 'jpeg', 'jpg', 'jpe' ],
+      'image/png': [ 'png' ],
+      'image/tiff': [ 'tiff', 'tif' ],
+      'image/vnd.djvu': [ 'djvu', 'djv' ],
+      'image/vnd.wap.wbmp': [ 'wbmp' ],
+      'image/x-cmu-raster': [ 'ras' ],
+      'image/x-portable-anymap': [ 'pnm' ],
+      'image/x-portable-bitmap': [ 'pbm' ],
+      'image/x-portable-graymap': [ 'pgm' ],
+      'image/x-portable-pixmap': [ 'ppm' ],
+      'image/x-rgb': [ 'rgb' ],
+      'image/x-xbitmap': [ 'xbm' ],
+      'image/x-xpixmap': [ 'xpm' ],
+      'image/x-xwindowdump': [ 'xwd' ],
+      'model/iges': [ 'igs', 'iges' ],
+      'model/mesh': [ 'msh', 'mesh', 'silo' ],
+      'model/vrml': [ 'wrl', 'vrml' ],
+      'text/css': [ 'css' ],
+      'text/html': [ 'html', 'htm', 'nrg' ],
+      'text/plain': [ 'asc', 'txt' ],
+      'text/richtext': [ 'rtx' ],
+      'text/rtf': [ 'rtf' ],
+      'text/sgml': [ 'sgml', 'sgm' ],
+      'text/tab-separated-values': [ 'tsv' ],
+      'text/vnd.wap.wml': [ 'wml' ],
+      'text/vnd.wap.wmlscript': [ 'wmls' ],
+      'text/x-setext': [ 'etx' ],
+      'text/xml': [ 'xml', 'xsl' ],
+      'video/mpeg': [ 'mpeg', 'mpg', 'mpe' ],
+      'video/quicktime': [ 'qt', 'mov' ],
+      'video/vnd.mpegurl': [ 'mxu' ],
+      'video/x-msvideo': [ 'avi' ],
+      'video/x-sgi-movie': [ 'movie' ],
+      'x-conference/x-cooltalk': [ 'ice' ],
+      'image/svg+xml': [ 'svg' ]
+    },
+    forbidden: [ 'flow', 'jss' ],
+    siteRoot: '/home/kth-rof13thfloor/public_html',
+    urlPath: ''
+  },
+  rc: { code: 0 }
+}
+Debug: 15.044ms
+Function: 4.748ms
+ReadFile: 1.632ms
+Catch: 0.159ms
+ReadFile: 0.367ms
+Catch: 0.312ms
+ReadFile: 0.165ms
+Catch: 0.109ms
+Function: 0.857ms
+Template: 3.652ms
+memusg: current=105388 KB, peak=115668 KB
+Change: 0.251ms
+HttpIn: 10.995ms
+Function: 0.524ms
+ReadFile: 0.171ms
+Catch: 0.101ms
+Function: 0.676ms
+Change: 0.133ms
+HttpIn: 1.479ms
+Function: 0.749ms
+ReadFile: 0.137ms
+Catch: 0.106ms
+ReadFile: 0.117ms
+Catch: 0.101ms
+ReadFile: 0.604ms
+Catch: 0.081ms
+Function: 0.446ms
+Template: 0.201ms
+Change: 0.123ms
+HttpIn: 0.655ms
+Function: 1.834ms
+ReadFile: 0.39ms
+Catch: 0.256ms
+Function: 1.288ms
+Change: 0.391ms
+HttpIn: 2.135ms
+Function: 0.802ms
+ReadFile: 0.141ms
+Catch: 0.069ms
+ReadFile: 0.105ms
+Catch: 0.084ms
+ReadFile: 0.125ms
+Catch: 0.063ms
+Function: 0.477ms
+Template: 0.048ms
+Change: 0.118ms
+HttpIn: 0.713ms
+Function: 1.21ms
+ReadFile: 3.609ms
+Catch: 0.179ms
+Function: 1.545ms
+Change: 0.358ms
+HttpIn: 2.049ms
+memusg: current=105388 KB, peak=115668 KB
+Function: 1.259ms
+ReadFile: 0.169ms
+Catch: 0.069ms
+ReadFile: 0.134ms
+Catch: 0.081ms
+ReadFile: 0.104ms
+Catch: 0.059ms
+Function: 0.397ms
+Template: 0.049ms
+Change: 0.124ms
+HttpIn: 0.931ms
+Function: 1.093ms
+ReadFile: 0.356ms
+Catch: 0.197ms
+Function: 1.25ms
+Change: 0.392ms
+HttpIn: 2.589ms
+Function: 0.492ms
+ReadFile: 0.132ms
+Catch: 0.101ms
+ReadFile: 0.131ms
+Catch: 0.087ms
+ReadFile: 0.138ms
+Catch: 0.084ms
+Function: 0.57ms
+Template: 0.073ms
+Change: 0.174ms
+HttpIn: 1.416ms
+Function: 1.116ms
+ReadFile: 0.294ms
+Catch: 0.242ms
+Function: 1.301ms
+Change: 0.34ms
+HttpIn: 2.009ms
+Function: 1.177ms
+ReadFile: 0.123ms
+Catch: 0.068ms
+ReadFile: 0.107ms
+Catch: 0.083ms
+ReadFile: 0.103ms
+Catch: 0.061ms
+Function: 0.417ms
+Template: 0.055ms
+Change: 0.136ms
+HttpIn: 0.695ms
+Function: 0.557ms
+ReadFile: 0.94ms
+Catch: 0.074ms
+Function: 0.417ms
+Change: 0.115ms
+HttpIn: 0.67ms
+memusg: current=105388 KB, peak=115668 KB
+Function: 1.217ms
+ReadFile: 0.119ms
+Catch: 0.068ms
+ReadFile: 0.082ms
+Catch: 0.102ms
+ReadFile: 0.123ms
+Catch: 0.06ms
+Function: 0.431ms
+Template: 0.049ms
+Change: 0.114ms
+HttpIn: 0.883ms
+Function: 1.115ms
+ReadFile: 0.291ms
+Catch: 0.345ms
+Function: 1.278ms
+Change: 0.357ms
+HttpIn: 2.109ms
+Function: 0.437ms
+ReadFile: 0.385ms
+Catch: 0.07ms
+ReadFile: 0.095ms
+Catch: 0.082ms
+ReadFile: 0.114ms
+Catch: 0.06ms
+Function: 0.443ms
+Template: 0.065ms
+Change: 0.118ms
+HttpIn: 0.887ms
+Function: 1.085ms
+ReadFile: 0.297ms
+Catch: 0.199ms
+Function: 1.156ms
+Change: 0.352ms
+HttpIn: 1.968ms
+memusg: current=105388 KB, peak=115668 KB
+Function: 0.496ms
+ReadFile: 0.115ms
+Catch: 0.075ms
+ReadFile: 0.087ms
+Catch: 0.067ms
+ReadFile: 0.081ms
+Catch: 0.068ms
+Function: 0.353ms
+Template: 0.063ms
+Change: 0.109ms
+HttpIn: 0.884ms
+Function: 0.846ms
+ReadFile: 0.231ms
+Catch: 0.19ms
+Function: 1.156ms
+Change: 0.296ms
+HttpIn: 1.995ms
+Function: 0.889ms
+ReadFile: 0.237ms
+Catch: 0.236ms
+ReadFile: 0.239ms
+Catch: 0.186ms
+ReadFile: 0.216ms
+Catch: 0.183ms
+Function: 1.003ms
+Template: 0.136ms
+Change: 0.284ms
+HttpIn: 1.434ms
+Function: 0.832ms
+ReadFile: 0.227ms
+Catch: 0.189ms
+Function: 0.957ms
+Change: 0.353ms
+HttpIn: 1.511ms
+Function: 0.89ms
+ReadFile: 0.235ms
+Catch: 1.877ms
+ReadFile: 0.118ms
+Catch: 0.067ms
+ReadFile: 0.077ms
+Catch: 0.061ms
+Function: 0.345ms
+Template: 0.064ms
+Change: 0.349ms
+HttpIn: 0.653ms
+memusg: current=105388 KB, peak=115668 KB
+Function: 0.832ms
+ReadFile: 0.226ms
+Catch: 0.189ms
+Function: 1.094ms
+Change: 0.305ms
+HttpIn: 1.718ms
+Function: 0.908ms
+ReadFile: 0.25ms
+Catch: 0.07ms
+ReadFile: 0.081ms
+Catch: 0.062ms
+ReadFile: 0.074ms
+Catch: 0.065ms
+Function: 0.382ms
+Template: 0.053ms
+Change: 0.121ms
+HttpIn: 0.623ms
+Function: 0.833ms
+ReadFile: 0.225ms
+Catch: 0.191ms
+Function: 1.16ms
+Change: 0.291ms
+HttpIn: 1.338ms
+Function: 0.983ms
+ReadFile: 0.235ms
+Catch: 0.067ms
+ReadFile: 0.083ms
+Catch: 0.061ms
+ReadFile: 0.075ms
+Catch: 0.061ms
+Function: 0.33ms
+Template: 0.044ms
+Change: 0.098ms
+HttpIn: 2.438ms
+Function: 0.85ms
+ReadFile: 0.233ms
+Catch: 0.23ms
+Function: 1.103ms
+Change: 0.288ms
+HttpIn: 1.251ms
+Function: 0.99ms
+ReadFile: 0.236ms
+Catch: 0.068ms
+ReadFile: 0.083ms
+Catch: 0.061ms
+ReadFile: 0.072ms
+Catch: 0.062ms
+Function: 0.326ms
+Template: 0.043ms
+Change: 0.1ms
+HttpIn: 0.572ms
+Function: 0.832ms
+ReadFile: 0.259ms
+Catch: 0.197ms
+Function: 1.011ms
+Change: 0.328ms
+HttpIn: 1.269ms
+memusg: current=105388 KB, peak=115668 KB
+Function: 0.879ms
+ReadFile: 0.236ms
+Catch: 0.066ms
+ReadFile: 0.079ms
+Catch: 0.061ms
+ReadFile: 0.072ms
+Catch: 0.06ms
+Function: 0.349ms
+Template: 0.042ms
+Change: 0.095ms
+HttpIn: 0.536ms
+Function: 0.839ms
+ReadFile: 0.225ms
+Catch: 0.19ms
+Function: 1.005ms
+Change: 0.283ms
+HttpIn: 1.861ms

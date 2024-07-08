@@ -1,0 +1,376 @@
+memusg: current=308 KB, peak=308 KB
+Server listening on  8443
+8 Jul 15:26:59 - [info] 
+
+runtime.welcome
+===================
+
+8 Jul 15:26:59 - [info] runtime.version
+8 Jul 15:26:59 - [info] runtime.version
+8 Jul 15:26:59 - [info] Linux 3.10.0 x64 LE
+8 Jul 15:26:59 - [info] server.palette-editor.disabled
+8 Jul 15:26:59 - [info] server.loading
+8 Jul 15:27:00 - [info] context.log-store-init
+8 Jul 15:27:00 - [info] storage.localfilesystem.user-dir
+8 Jul 15:27:00 - [warn] storage.localfilesystem.projects.disabledNoFlag
+8 Jul 15:27:00 - [info] storage.localfilesystem.flows-file
+Node-Red started
+8 Jul 15:27:00 - [debug] loaded flow revision: 63739836856ebd0692387996365c1719
+8 Jul 15:27:00 - [debug] red/runtime/nodes/credentials.load : user provided key
+8 Jul 15:27:00 - [debug] red/runtime/nodes/credentials.load : keyType=user
+8 Jul 15:27:00 - [warn] nodes.credentials.encryptedNotFound
+8 Jul 15:27:00 - [trace] runtime event: {"id":"runtime-state","retain":true}
+8 Jul 15:27:00 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"63739836856ebd0692387996365c1719"},"retain":true}
+8 Jul 15:27:00 - [info] nodes.flows.starting-flows
+8 Jul 15:27:00 - [debug] red/nodes/flows.start : starting flow : global
+8 Jul 15:27:00 - [debug] red/nodes/flows.start : starting flow : 3d3ba81e747fea71
+8 Jul 15:27:00 - [trace] [flow:global] start flow [global]
+8 Jul 15:27:00 - [trace] [flow:global] ------------------|--------------|-----------------
+8 Jul 15:27:00 - [trace] [flow:global]  id               | type         | alias
+8 Jul 15:27:00 - [trace] [flow:global] ------------------|--------------|-----------------
+8 Jul 15:27:00 - [trace] [flow:global]  89de8d8e.bac3d8  | mqtt-broker  | 
+8 Jul 15:27:00 - [trace] [flow:global]  3c22b2ec0d03e81d | telegram bot | 
+8 Jul 15:27:00 - [trace] [flow:global]  d8d4adf0.7d5a2   | mqtt-broker  | 
+8 Jul 15:27:00 - [trace] [flow:global] ------------------|--------------|-----------------
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71] start flow [3d3ba81e747fea71]
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71] ------------------|--------------|-----------------
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  id               | type         | alias
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71] ------------------|--------------|-----------------
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  bf129e19d0b880de | mqtt in      | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  81f5fc81f52a0b6e | link out     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  76e645b5d7f81f09 | batch        | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  1ae78ed621a40a03 | debug        | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  eb5e04c8b05e7709 | join         | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  4c2d91ec52a07e25 | function     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  374789a85c40fff2 | function     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  ead5a25b96804cf3 | function     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  acca8b6e0635d447 | telegram command | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  1cda91145ac4cec5 | debug        | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  769bdad120f5e91f | debug        | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  c45253edb006022f | telegram command | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  94d97306924a7e35 | function     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  f01716877d6924b5 | mqtt out     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  9aefa9f0dfdff42b | rive         | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  3a1d05aeea44cfea | debug        | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  9400a03169f98c83 | change       | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  7c23fd0395db87ac | function     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  f3afe001b0680b69 | comment      | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  e837df379325dcc1 | telegram command | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  16575bb7990beb31 | link out     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  7090945606d6d63b | function     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  941bf771278b0427 | telegram command | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  7f0fa15cb0d3cd5b | telegram command | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  32b89a2ac89291f8 | debug        | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  00dd3181241d585b | debug        | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  2f2939fd1e30a1b7 | telegram sender | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  55d6ac16d40a5da3 | debug        | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  a3aee7ad79289033 | function     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  74d8e2dfa067e391 | link out     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  8c553b1d7f0f2fa1 | link in      | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  1265f0ba472c0494 | link out     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  0f928cd3fe22906a | link in      | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  57c23e15e85a9064 | telegram command | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  7188ce8152df505c | telegram command | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  7ad38fb92a47eb74 | function     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  44147adc89230fa1 | link out     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  8ed4d7e920290439 | telegram command | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  bc324614a465e72c | inject       | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  79bd5d07423c15f8 | function     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  5671094a5600ff4a | function     | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  43402d9422fc4083 | telegram sender | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  fc7081de30cacedf | debug        | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  a9cb471771ab98f9 | debug        | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  50f17f44cb7d59f4 | link in      | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  1b8c4d77683bc63a | link in      | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  98fa0c08eaf56c06 | switch       | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  c930952200b022e8 | debug        | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  fb1ff51ec843344e | change       | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  7501c067a8a3ab0a | change       | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  51923f96af6bacdf | telegram reply | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71]  ab0c16bfb21e0298 | debug        | 
+8 Jul 15:27:00 - [trace] [flow:3d3ba81e747fea71] ------------------|--------------|-----------------
+8 Jul 15:27:00 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+8 Jul 15:27:00 - [info] nodes.flows.started-flows
+Inject: 1.939ms
+Function: 1.312ms
+8 Jul 15:27:00 - [info] [debug:debug 1] 1720452420146
+Debug: 0.813ms
+8 Jul 15:27:00 - [info] [mqtt-broker:localhost:1883] mqtt.state.connected
+8 Jul 15:27:00 - [info] [mqtt-broker:d8d4adf0.7d5a2] mqtt.state.connected
+Function: 0.576ms
+Function: 0.103ms
+Function: 0.25ms
+Function: 0.118ms
+Function: 0.281ms
+Join: 0.497ms
+Join: 0.05ms
+Join: 0.017ms
+Join: 0.017ms
+Join: 0.387ms
+Function: 0.09ms
+Debug: 0.014ms
+LinkOut: 0.133ms
+LinkIn: 0.05ms
+Change: 0.941ms
+Function: 0.121ms
+TGsender: 1.803ms
+Debug: 0.512ms
+Switch: 2.198ms
+Debug: 0.058ms
+memusg: current=100672 KB, peak=100672 KB
+memusg: current=100672 KB, peak=100672 KB
+TGcommand: 0.499ms
+TGcommand: 0.058ms
+TGcommand: 0.049ms
+TGcommand: 0.043ms
+TGcommand: 0.043ms
+TGcommand: 0.041ms
+TGcommand: 0.041ms
+TGcommand: 0.039ms
+Function: 2.843ms
+Debug: 0.035ms
+Debug: 0.027ms
+Debug: 0.024ms
+Debug: 0.023ms
+Debug: 0.023ms
+Join: 0.304ms
+Join: 0.066ms
+Join: 0.045ms
+Join: 0.042ms
+Join: 0.266ms
+Function: 0.277ms
+Debug: 0.029ms
+LinkOut: 0.191ms
+LinkIn: 0.061ms
+Change: 0.043ms
+Function: 0.059ms
+TGsender: 0.499ms
+Debug: 0.168ms
+Switch: 0.215ms
+Debug: 0.044ms
+memusg: current=101064 KB, peak=101064 KB
+TGcommand: 0.027ms
+TGcommand: 0.016ms
+TGcommand: 0.017ms
+TGcommand: 0.075ms
+TGcommand: 0.018ms
+TGcommand: 0.013ms
+TGcommand: 0.019ms
+TGcommand: 0.013ms
+Function: 0.28ms
+Debug: 0.009ms
+Debug: 0.009ms
+Debug: 0.008ms
+Debug: 0.008ms
+Debug: 0.012ms
+Join: 0.235ms
+Join: 0.072ms
+Join: 0.063ms
+Join: 0.06ms
+Join: 0.26ms
+Function: 0.175ms
+Debug: 0.027ms
+LinkOut: 0.159ms
+LinkIn: 0.056ms
+Change: 0.114ms
+Function: 0.159ms
+TGsender: 0.37ms
+Debug: 0.093ms
+Switch: 0.312ms
+Debug: 0.013ms
+TGcommand: 0.121ms
+TGcommand: 0.068ms
+TGcommand: 0.062ms
+TGcommand: 0.052ms
+TGcommand: 0.598ms
+TGcommand: 0.301ms
+TGcommand: 0.08ms
+TGcommand: 0.016ms
+Function: 0.109ms
+LinkOut: 0.038ms
+LinkIn: 0.037ms
+Change: 0.718ms
+RiVe: 5.058ms
+Debug: 0.018ms
+Debug: 0.012ms
+Function: 0.214ms
+LinkOut: 0.037ms
+LinkIn: 0.031ms
+TGsender: 0.487ms
+Function: 0.472ms
+TGreply: 0.199ms
+memusg: current=124480 KB, peak=124480 KB
+TGcommand: 0.078ms
+TGcommand: 0.056ms
+TGcommand: 0.04ms
+TGcommand: 0.034ms
+TGcommand: 0.033ms
+TGcommand: 0.031ms
+TGcommand: 0.03ms
+TGcommand: 0.04ms
+Debug: 0.015ms
+Function: 0.293ms
+LinkOut: 0.026ms
+LinkIn: 0.029ms
+Change: 0.308ms
+RiVe: 2.797ms
+Debug: 0.016ms
+Debug: 0.01ms
+Function: 0.09ms
+Debug: 0.013ms
+MQTTOut: 1.16ms
+Function: 0.145ms
+Join: 0.539ms
+Function: 0.265ms
+Debug: 0.027ms
+LinkOut: 0.221ms
+LinkIn: 0.079ms
+Change: 0.155ms
+Function: 0.251ms
+TGsender: 1.393ms
+Debug: 0.948ms
+Switch: 0.227ms
+Debug: 0.041ms
+TGcommand: 0.052ms
+TGcommand: 0.062ms
+TGcommand: 0.214ms
+TGcommand: 0.035ms
+TGcommand: 0.043ms
+TGcommand: 0.03ms
+TGcommand: 0.033ms
+TGcommand: 0.032ms
+Function: 0.093ms
+LinkOut: 0.12ms
+LinkIn: 0.034ms
+Change: 0.055ms
+Function: 0.062ms
+TGsender: 0.437ms
+Debug: 0.243ms
+Switch: 0.508ms
+Debug: 0.044ms
+memusg: current=124600 KB, peak=124600 KB
+TGcommand: 0.07ms
+TGcommand: 0.211ms
+TGcommand: 0.041ms
+TGcommand: 0.048ms
+TGcommand: 0.031ms
+TGcommand: 0.037ms
+TGcommand: 0.01ms
+TGcommand: 0.011ms
+Change: 0.204ms
+RiVe: 0.699ms
+Debug: 0.018ms
+Debug: 0.014ms
+Function: 0.097ms
+Debug: 0.008ms
+MQTTOut: 0.214ms
+Function: 0.123ms
+Join: 0.424ms
+Function: 0.201ms
+Debug: 0.029ms
+LinkOut: 0.15ms
+LinkIn: 0.081ms
+Change: 0.163ms
+Function: 0.17ms
+TGsender: 0.657ms
+Debug: 0.12ms
+Switch: 0.179ms
+Debug: 0.068ms
+memusg: current=124884 KB, peak=124884 KB
+memusg: current=124884 KB, peak=124884 KB
+TGcommand: 0.053ms
+TGcommand: 0.056ms
+TGcommand: 0.047ms
+TGcommand: 0.044ms
+TGcommand: 0.165ms
+TGcommand: 0.033ms
+TGcommand: 0.035ms
+TGcommand: 0.034ms
+Change: 0.178ms
+RiVe: 0.386ms
+Debug: 0.012ms
+Debug: 0.012ms
+Function: 0.082ms
+Debug: 0.007ms
+MQTTOut: 0.156ms
+Function: 0.105ms
+Join: 0.401ms
+Function: 0.18ms
+Debug: 0.024ms
+LinkOut: 0.15ms
+LinkIn: 0.062ms
+Change: 0.135ms
+Function: 0.164ms
+TGsender: 1.05ms
+Debug: 0.265ms
+Switch: 0.185ms
+Debug: 0.039ms
+TGcommand: 0.052ms
+TGcommand: 0.041ms
+TGcommand: 0.042ms
+TGcommand: 0.032ms
+TGcommand: 0.034ms
+TGcommand: 0.03ms
+TGcommand: 0.159ms
+TGcommand: 0.037ms
+Function: 0.068ms
+LinkOut: 0.023ms
+LinkIn: 0.021ms
+Change: 0.163ms
+RiVe: 0.385ms
+Debug: 0.014ms
+Debug: 0.015ms
+Function: 0.083ms
+LinkOut: 0.021ms
+LinkIn: 0.029ms
+TGsender: 0.358ms
+Function: 0.286ms
+TGreply: 0.07ms
+memusg: current=124908 KB, peak=124908 KB
+TGcommand: 0.056ms
+TGcommand: 0.031ms
+TGcommand: 0.039ms
+TGcommand: 0.026ms
+TGcommand: 0.032ms
+TGcommand: 0.025ms
+TGcommand: 0.024ms
+TGcommand: 0.03ms
+Debug: 0.027ms
+Function: 0.117ms
+LinkOut: 0.023ms
+LinkIn: 0.019ms
+Change: 0.419ms
+RiVe: 0.853ms
+Debug: 0.01ms
+Debug: 0.011ms
+Function: 0.061ms
+memusg: current=124908 KB, peak=124908 KB
+memusg: current=124908 KB, peak=124908 KB
+TGcommand: 0.055ms
+TGcommand: 0.04ms
+TGcommand: 0.034ms
+TGcommand: 0.031ms
+TGcommand: 0.126ms
+TGcommand: 0.03ms
+TGcommand: 0.032ms
+TGcommand: 0.026ms
+Change: 0.474ms
+RiVe: 0.836ms
+Debug: 0.008ms
+Debug: 0.007ms
+Function: 0.066ms
+Debug: 0.007ms
+MQTTOut: 0.223ms
+Function: 0.099ms
+Join: 0.4ms
+Function: 0.176ms
+Debug: 0.023ms
+LinkOut: 0.13ms
+LinkIn: 0.06ms
+Change: 0.128ms
+Function: 0.157ms
+TGsender: 2.118ms
+Debug: 0.221ms
+Switch: 0.216ms
+Debug: 0.03ms
+memusg: current=124988 KB, peak=124988 KB

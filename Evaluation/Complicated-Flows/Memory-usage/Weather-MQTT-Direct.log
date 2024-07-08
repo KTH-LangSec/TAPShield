@@ -1,0 +1,152 @@
+memusg: current=308 KB, peak=308 KB
+Server listening on  8443
+8 Jul 15:16:05 - [info] 
+
+runtime.welcome
+===================
+
+8 Jul 15:16:05 - [info] runtime.version
+8 Jul 15:16:05 - [info] runtime.version
+8 Jul 15:16:05 - [info] Linux 3.10.0 x64 LE
+8 Jul 15:16:05 - [info] server.palette-editor.disabled
+8 Jul 15:16:05 - [info] server.loading
+/ui
+8 Jul 15:16:05 - [info] Dashboard version 3.6.2 started at /ui
+8 Jul 15:16:05 - [info] context.log-store-init
+8 Jul 15:16:05 - [info] storage.localfilesystem.user-dir
+8 Jul 15:16:05 - [warn] storage.localfilesystem.projects.disabledNoFlag
+8 Jul 15:16:05 - [info] storage.localfilesystem.flows-file
+Node-Red started
+8 Jul 15:16:05 - [info] [Dashboard] Dashboard using development folder
+8 Jul 15:16:05 - [debug] loaded flow revision: 1db3ed002c49f4ed662beaa66d7223cc
+8 Jul 15:16:05 - [debug] red/runtime/nodes/credentials.load : user provided key
+8 Jul 15:16:05 - [debug] red/runtime/nodes/credentials.load : keyType=user
+8 Jul 15:16:05 - [warn] nodes.credentials.encryptedNotFound
+8 Jul 15:16:05 - [trace] runtime event: {"id":"runtime-state","retain":true}
+8 Jul 15:16:05 - [trace] runtime event: {"id":"runtime-deploy","payload":{"revision":"1db3ed002c49f4ed662beaa66d7223cc"},"retain":true}
+8 Jul 15:16:05 - [info] nodes.flows.starting-flows
+8 Jul 15:16:05 - [debug] red/nodes/flows.start : starting flow : global
+8 Jul 15:16:05 - [debug] red/nodes/flows.start : starting flow : 90c1b7c454a7029f
+8 Jul 15:16:05 - [trace] [flow:global] start flow [global]
+8 Jul 15:16:05 - [trace] [flow:global] ------------------|--------------|-----------------
+8 Jul 15:16:05 - [trace] [flow:global]  id               | type         | alias
+8 Jul 15:16:05 - [trace] [flow:global] ------------------|--------------|-----------------
+8 Jul 15:16:05 - [trace] [flow:global]  d8d4adf0.7d5a2   | mqtt-broker  | 
+8 Jul 15:16:05 - [trace] [flow:global]  9fa2607d.99f8d   | mqtt-broker  | 
+8 Jul 15:16:05 - [trace] [flow:global]  e92767a.242f218  | ui_tab       | 
+8 Jul 15:16:05 - [trace] [flow:global]  2e3f5201.a75896  | ui_group     | 
+8 Jul 15:16:05 - [trace] [flow:global]  3bf74b01.4b4afc  | ui_group     | 
+8 Jul 15:16:05 - [trace] [flow:global]  25bd9d50.87fe6a  | ui_group     | 
+8 Jul 15:16:05 - [trace] [flow:global] ------------------|--------------|-----------------
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f] start flow [90c1b7c454a7029f]
+GetWeather: 3.152ms
+OpenWeatherMapInputNode: 3.548ms
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f] ------------------|--------------|-----------------
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  id               | type         | alias
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f] ------------------|--------------|-----------------
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  c9a2292b165a468d | mqtt in      | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  25b57237721bef02 | ui_gauge     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  df61c32f017efe44 | openweathermap in | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  b0f1522d4514715e | debug        | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  dbe69ea8d627d815 | function     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  6e679b6ed57ac87e | mqtt out     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  bc257c8e267f5c1c | debug        | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  62f5889b28089ed0 | function     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  84ed89ec143aaec6 | mqtt out     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  0c60e0c69668ad53 | function     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  f9d3738bd456a71d | mqtt out     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  a9176257b907f79c | ui_gauge     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  6d2e5f5c3505736d | mqtt in      | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  6061b5397421e6ec | mqtt in      | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  cbfc6e2a9f287138 | function     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  f9b9182660e46bab | function     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  cd364472369a151e | mqtt out     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  743b757084003cd9 | mqtt out     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  a24f3c326ec77cd0 | mqtt in      | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  f6239a41ba5a243b | mqtt in      | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  617edadab131d120 | mqtt in      | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  a808d323b650bfb2 | mqtt in      | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  a3ac68bba43538db | inject       | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  f0c0961e146a169c | mqtt out     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  40d54a24ac502e9a | debug        | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  1038fd65a4e5a6ec | mqtt in      | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  875b7557223ce8ec | inject       | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  7929f86864adb84c | switch       | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  bd58e0b9f32a05d9 | change       | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  c5c3e6f0d4b77624 | change       | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  585d1ea37efede4f | debug        | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  e7a48eb612b93bb7 | ui_text      | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  1acd43e961aed5e2 | ui_text      | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  3acc71cc261dafdb | debug        | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  1b9303e1859e63b0 | debug        | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  eff2d0d0a8351a5e | debug        | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  8ecfde3fa2ddee1f | delay        | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  d86a0ca7930467c7 | function     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  e4cdf3ac2dbdc53d | debug        | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  bf0c0dbf1939cd91 | mqtt out     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  8e5a44ba9e6890bf | inject       | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  2f50b9854c259165 | function     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  2f8ac6d7cd47b8e8 | debug        | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  375dfa025c7261e4 | mqtt in      | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  3b7798c3a792a494 | ui_gauge     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  650e5fca126e9e67 | mqtt out     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  3013f1652d8d5ddb | ui_gauge     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  6aeee5e14404acf9 | ui_text      | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  2f61c1af76f63336 | compass-point | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  c21b1109048f64e5 | debug        | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  4259d96a60d484da | function     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  a10955c8aae1e848 | debug        | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  1c1b2421a2bbd26a | mqtt out     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  14a14a8e9358ea9a | function     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  b7e42c61ca44f2c7 | debug        | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  14e4066ef67d5456 | ui_text      | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  1208746ffa50743f | mqtt out     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  7e1953d33e06641d | debug        | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f]  248f2600bab77bba | function     | 
+8 Jul 15:16:05 - [trace] [flow:90c1b7c454a7029f] ------------------|--------------|-----------------
+8 Jul 15:16:05 - [trace] runtime event: {"id":"runtime-state","payload":{"state":"start"},"retain":true}
+8 Jul 15:16:05 - [info] nodes.flows.started-flows
+8 Jul 15:16:05 - [info] [mqtt-broker:d8d4adf0.7d5a2] mqtt.state.connected
+8 Jul 15:16:05 - [info] [mqtt-broker:Raspi] mqtt.state.connected
+CompassPointNode: 0.385ms
+Function: 0.331ms
+Debug: 0.539ms
+Function: 0.095ms
+Debug: 0.048ms
+MQTTOut: 0.992ms
+Debug: 0.279ms
+Delay: 0.718ms
+Function: 0.117ms
+Function: 0.071ms
+Function: 0.084ms
+Function: 0.059ms
+Function: 30.212ms
+Function: 0.267ms
+Function: 0.206ms
+Function: 0.087ms
+Debug: 0.049ms
+MQTTOut: 0.181ms
+MQTTOut: 0.108ms
+Debug: 0.062ms
+MQTTOut: 0.117ms
+Debug: 0.039ms
+MQTTOut: 0.127ms
+Debug: 0.063ms
+MQTTOut: 0.113ms
+MQTTOut: 0.081ms
+Debug: 0.069ms
+MQTTOut: 0.095ms
+MQTTOut: 0.092ms
+Debug: 0.046ms
+CompassPointNode: 0.031ms
+Function: 0.06ms
+Debug: 0.198ms
+Function: 0.076ms
+Debug: 0.04ms
+MQTTOut: 0.092ms
+memusg: current=102448 KB, peak=102448 KB
+memusg: current=102448 KB, peak=102448 KB
+memusg: current=102448 KB, peak=102448 KB
+memusg: current=124640 KB, peak=124640 KB
+memusg: current=124640 KB, peak=124640 KB
+memusg: current=124640 KB, peak=124640 KB

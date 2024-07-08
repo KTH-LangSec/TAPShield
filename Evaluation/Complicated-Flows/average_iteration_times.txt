@@ -27,4 +27,3 @@ Average Iteration Time: 5.381ms
 
 Log File: ./IoT-Controller-SGX.log
 Average Iteration Time: 0.759ms
-
