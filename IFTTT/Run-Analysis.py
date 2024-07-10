@@ -1,6 +1,6 @@
 import os
-
-base_dir = 'logs/SGX+SandTrap'
+# change base_dir based on the assumption
+base_dir = 'logs/SGX+VM2'
 
 num_directories = 10
 num_apps = 25

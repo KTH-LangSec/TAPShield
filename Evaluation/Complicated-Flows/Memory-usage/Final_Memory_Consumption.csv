@@ -1,0 +1,11 @@
+Filename, Average current memory (KB), Peak memory (KB)
+OPCxml-SGX.log, 65065.2, 105116
+url-monitor-SGX.log, 90143.15789473684, 105432
+NRG-SGX.log, 87629.14285714286, 115668
+url-monitor-Direct.log, 97953.17647058824, 107100
+OPCxml-Direct.log, 90204.36363636363, 106292
+Iot-Controller-Direct.log, 108439.66666666667, 124988
+Weather-MQTT-Direct.log, 97367.42857142857, 124640
+Weather-MQTT-SGX.log, 76462.4, 105444
+NRG-Direct.log, 74913.77777777778, 85716
+IoT-Controller-SGX.log, 90191.78947368421, 105448

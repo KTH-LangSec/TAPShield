@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Ensure the logs directory exists
+# Select Mode (-v -s -o ) based on the assumption
 mkdir -p logs
 basedir="logs/"
 for j in {1..10}
@@ -15,7 +16,9 @@ do
     # Run With SGX 
     # gramine-sgx node invoker.js $i -o 
     # Run With SGX + SandTrap 
-    gramine-sgx node invoker.js $i -s 
+    # gramine-sgx node invoker.js $i -s
+    # Run With SGX+VM2 Module 
+    gramine-sgx node invoker.js $i -v
   done
   cp logs/*.log "${basedir}/${j}"
   rm logs/*.log

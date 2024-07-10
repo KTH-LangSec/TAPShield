@@ -130,6 +130,13 @@ switch(mode) {
 //IFTTT version
     console.time("vm2-time");
     //run vm2
+    const argSIndex = process.argv.indexOf("-v");
+    const j = process.argv[argSIndex - 1];
+    console.log(j)
+    const logFilePathSand = path.join('logs', `output_${j}.log`);
+    
+    let newstartTime = performance.now();
+
     const vm = new NodeVM({
       console: 'inherit', //default
       sandbox: __services,
@@ -151,6 +158,9 @@ switch(mode) {
     //the new eval filtercode!
     vm.run(filterCode); 
     console.timeEnd("vm2-time");
+    newEndTime = performance.now();
+    let iftttExecutionTimeVM2 = newEndTime - newstartTime;
+    logToFile(iftttExecutionTimeVM2 , logFilePathSand); 
     break;
 
 

@@ -3,9 +3,6 @@ import os
 import glob
 
 def parse_log(file_content):
-    """
-    Parse the log content and return a list of average execution times for each iteration.
-    """
     iterations = file_content.split('**')
     iteration_averages = []
 
@@ -31,9 +28,6 @@ def parse_log(file_content):
     return iteration_averages
 
 def process_logs(log_dir, output_file):
-    """
-    Process all log files in a directory and write the average iteration times to an output file.
-    """
     log_files = glob.glob(os.path.join(log_dir, '*.log'))
 
     results = {}
@@ -48,13 +42,11 @@ def process_logs(log_dir, output_file):
             # print(results)
             # break;
 
-    # Write results to output file
     with open(output_file, 'w') as f:
         for log_file, avg_time in results.items():
             f.write(f'Log File: {log_file}\n')
             f.write(f'Average Iteration Time: {avg_time:.3f}ms\n\n')
 
-# Example usage
 log_directory = '.'
 output_file = 'average_iteration_times.txt'
 process_logs(log_directory, output_file)
