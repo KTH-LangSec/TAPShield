@@ -24,6 +24,7 @@ def process_all_logs(directory):
     results = []
 
     for filename in os.listdir(directory):
+
         if filename.endswith('.log'):
             file_path = os.path.join(directory, filename)
             average_current, peak = parse_memory_log(file_path)
