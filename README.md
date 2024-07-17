@@ -120,4 +120,11 @@ This performs the following steps:
 - [x] Write the background in the paper 
 - [x] Protocol figure need some changes 
 - [x] Add experiments table to the paper 
-- [ ] Application overview (Description of each component) 
+- [x] Application overview (Description of each component) 
+- [x] Add charts for performance of MDP flows  
+- [x] change figure 3 
+- [x] change table 1 
+- [ ] Change code level example of app-level attack  
+- [ ] add the explanation of object detection flow 
+
+

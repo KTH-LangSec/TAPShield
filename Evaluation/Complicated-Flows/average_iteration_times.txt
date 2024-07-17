@@ -11,16 +11,16 @@ Log File: ./url-monitor-SGX.log
 Average Iteration Time: 2.417ms
 
 Log File: ./NRG-SGX.log
-Average Iteration Time: 0.973ms
+Average Iteration Time: 5.381ms
 
 Log File: ./NRG-Direct.log
-Average Iteration Time: 5.381ms
+Average Iteration Time: 0.973ms
 
 Log File: ./Weather-MQTT-direct.log
 Average Iteration Time: 1.191ms
 
 Log File: ./Weather-MQTT-SGX.log
-Average Iteration Time: 3.351ms
+Average Iteration Time: 3.351ms 
 
 Log File: ./IoT-Controller-Direct.log
 Average Iteration Time: 0.282ms
@@ -40,4 +40,9 @@ Increasing rate :
 2.81
 
 2.67
+
+
+summing of SGX execution : 7.79
+
+summing of regular execution : 0.70
 
