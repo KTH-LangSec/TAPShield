@@ -125,5 +125,25 @@ This performs the following steps:
 - [x] change figure 3 
 - [x] change table 1 
 - [x] Change code level example of app-level attack  
-- [ ] add the explanation of object detection flow 
+- [x] add the explanation of object detection flow 
+
+- [x] add sandboxing to the background 
+
+- [x] Write about the sand boxing in the design 
+- [x] application level attacker - what is the problem 
+- [x] 3.1 , explain about the app level attacker 
+- [x] running in the same run time - this runtime 
+- [ ] add security analysis after the protocol  
+- [x] problem setting merge with example 
+- [x] try to change the threat model 
+- [x] change the threat model in a way to explain the trust assumptions - what we do trust ? 
+- [x] background : sandboxing (what is the sandbox) 
+- [x] Different type of the sandbox (process level and the language level)
+- [x] change the figure 2 to sandbox 
+- [x] Data preparation : explain the sandbox for this 
+- [ ] enclave execution : unify all the things 
+- [ ] transfer the 3.b to the up in the figure 3 
+- [ ] make a pass to unify all the names 
+- [ ] explain why do you need each entity 
+- [ ] 
 
