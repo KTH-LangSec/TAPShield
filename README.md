@@ -1,4 +1,4 @@
-# Node-RED with SGX on remote servers
+# TAPShield
 
 ## Preparing the environment
 
