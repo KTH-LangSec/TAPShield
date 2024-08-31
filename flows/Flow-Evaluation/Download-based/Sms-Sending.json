@@ -39,7 +39,7 @@
         "id": "e7e7ace57a1d08bf",
         "type": "exec",
         "z": "bfdcfa302fb7b04c",
-        "command": "curl -X \"POST\" \"https://rest.nexmo.com/sms/json\" \\   -d \"from=Vonage APIs\" \\   -d \"text=Hello Mojtaba\" \\                                  -d \"to=46728512465\" \\   -d \"api_key=1768736b\" \\   -d \"api_secret=S097qQkOCBnbwa3D\"",
+        "command": "curl -X \"POST\" \"https://rest.nexmo.com/sms/json\" \\   -d \"from=Vonage APIs\" \\   -d \"text=Hello Mojtaba\" \\                                  -d \"to=46728512465\" \\   -d \"api_key=\" \\   -d \"api_secret=S097qQkOCBnbwa3D\"",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -82,7 +82,7 @@
         "method": "POST",
         "ret": "txt",
         "paytoqs": "ignore",
-        "url": "https://rest.nexmo.com/sms/json?from=\"Vonage APIs\"&text=\"hello from HTTP response\"&to=46728512465&api_key=1768736b&api_secret=S097qQkOCBnbwa3D",
+        "url": "https://rest.nexmo.com/sms/json?from=\"Vonage APIs\"&text=\"hello from HTTP response\"&to=46728512465&api_key=&api_secret=S097qQkOCBnbwa3D",
         "tls": "",
         "persist": false,
         "proxy": "",
@@ -112,7 +112,7 @@
                 "keyType": "other",
                 "keyValue": "api_key",
                 "valueType": "other",
-                "valueValue": "1768736b"
+                "valueValue": ""
             },
             {
                 "keyType": "other",
