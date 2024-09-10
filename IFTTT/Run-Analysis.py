@@ -1,5 +1,5 @@
 import os
-# change base_dir based on the assumption
+
 base_dir = 'logs/SGX+VM2'
 
 num_directories = 10
