@@ -1,0 +1,6 @@
+Number of Watch node used = 17 out of 1092 Flows , only 1% 
+472 out of 2790 does not have any third-party node which is 44% of flows 
+122 flows just use one or more subflow of core-nodes subflow so they can be run also  
+173 flows are using tab node which is difinitely executable with tapshield 
+
+

@@ -105,45 +105,4 @@ This performs the following steps:
 9. Build the enclave on the remote server
 10. Start the enclave on the remote server (if `startEnclave` is set to `true`)
 
-## ToDo list (Development)
-
-- [x] Check out use IFTTT use cases and add examples 
-- [x] Finish up core flows experiments (results added to the Evaluation/Core-Flows )
-- [x] Evaluation on dependent upon flows (MYSQL flow remains)
-- [ ] Solve the problem with secret provisioning 
-- [ ] WASM Function node input with http-in node 
-- [ ] Code refactoring
-
-## ToDo list (Paper)
-
-- [x] Rewrite the protocol and code-level example 
-- [x] Write the background in the paper 
-- [x] Protocol figure need some changes 
-- [x] Add experiments table to the paper 
-- [x] Application overview (Description of each component) 
-- [x] Add charts for performance of MDP flows  
-- [x] change figure 3 
-- [x] change table 1 
-- [x] Change code level example of app-level attack  
-- [x] add the explanation of object detection flow 
-
-- [x] add sandboxing to the background 
-
-- [x] Write about the sand boxing in the design 
-- [x] application level attacker - what is the problem 
-- [x] 3.1 , explain about the app level attacker 
-- [x] running in the same run time - this runtime 
-- [ ] add security analysis after the protocol  
-- [x] problem setting merge with example 
-- [x] try to change the threat model 
-- [x] change the threat model in a way to explain the trust assumptions - what we do trust ? 
-- [x] background : sandboxing (what is the sandbox) 
-- [x] Different type of the sandbox (process level and the language level)
-- [x] change the figure 2 to sandbox 
-- [x] Data preparation : explain the sandbox for this 
-- [ ] enclave execution : unify all the things 
-- [ ] transfer the 3.b to the up in the figure 3 
-- [ ] make a pass to unify all the names 
-- [ ] explain why do you need each entity 
-- [ ] 
-
+## 
