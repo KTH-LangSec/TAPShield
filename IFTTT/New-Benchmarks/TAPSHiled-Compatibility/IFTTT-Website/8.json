@@ -1,0 +1,30 @@
+{
+    "_comments": "https://ifttt.com/applets/XnveYFDL-log-how-much-time-you-spend-at-specific-locations-like-the-office-or-home-in-a-spreadsheet",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var when = '2025-02-17T12:00:00.000Z'; var what = 'entered'; var where = 'https://maps.google.com/location'; var formattedRow = what + ' ||| ' + when + ' ||| ' + where; GoogleSheets.appendToGoogleSpreadsheet.setFilename('Time at location'); GoogleSheets.appendToGoogleSpreadsheet.setFormattedRow(formattedRow);",
+        "config": {
+            "currentTime": "2025-02-17T12:00:00.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-17T12:00:00.000Z",
+            "trigger": {
+                "ingredients": "true",
+                "serviceName": "Location",
+                "name": "enterOrExitRegionLocation"
+            },
+            "actions": [
+                {
+                    "serviceName": "GoogleSheets",
+                    "name": "appendToGoogleSpreadsheet",
+                    "fields": [
+                        "Filename",
+                        "FormattedRow"
+                    ]
+                }
+            ]
+        }
+    }
+  }
+  

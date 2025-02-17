@@ -1,0 +1,30 @@
+{
+    "_comments": "https://ifttt.com/applets/AcYmrsHw-dictate-a-voice-memo-and-email-yourself-an-mp3-file",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var url = PhoneCall.leaveIftttAVoicemail.Mp3Url; var subject = `Link to Phone Call`; Email.sendMeEmail.setSubject(subject); Email.sendMeEmail.setBody(url);",
+        "config": {
+            "currentTime": "2025-02-17T12:00:00.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-17T12:00:00.000Z",
+            "trigger": {
+                "serviceName": "PhoneCall",
+                "name": "leaveIftttAVoicemail",
+                "ingredients": "{\"Mp3Url\":\"https://www.example.com/sample-voicemail.mp3\"}"
+            },
+            "actions": [
+                {
+                    "serviceName": "Email",
+                    "name": "sendMeEmail",
+                    "fields": [
+                        "Subject",
+                        "Body"
+                    ]
+                }
+            ]
+        }
+    }
+  }
+  

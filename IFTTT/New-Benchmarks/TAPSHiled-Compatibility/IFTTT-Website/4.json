@@ -1,0 +1,29 @@
+{
+    "_comments": "https://ifttt.com/applets/SHLmrhuX-back-up-photos-you-re-tagged-in-on-facebook-to-an-ios-photos-album",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var url = 'https://facebook.com/sample-photo.jpg'; IosPhotos.createPhotoIosPhotos.setAlbum('My Facebook Photos'); IosPhotos.createPhotoIosPhotos.setPhotoUrl(url);",
+        "config": {
+            "currentTime": "2025-02-17T12:00:00.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-17T12:00:00.000Z",
+            "trigger": {
+                "ingredients": "true",
+                "serviceName": "Facebook",
+                "name": "youAreTaggedInAPhoto"
+            },
+            "actions": [
+                {
+                    "serviceName": "IosPhotos",
+                    "name": "createPhotoIosPhotos",
+                    "fields": [
+                        "Album",
+                        "PhotoUrl"
+                    ]
+                }
+            ]
+        }
+    }
+}  

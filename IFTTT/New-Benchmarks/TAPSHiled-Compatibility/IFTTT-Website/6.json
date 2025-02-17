@@ -1,0 +1,30 @@
+{
+    "_comments": "https://ifttt.com/applets/NAMgXbLj-press-a-button-to-track-work-hours-in-google-drive",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var timeButtonPress = '2025-02-17T12:00:00.000Z'; var date = '2025-02-17'; var formattedRow = date + ' ||| Button pressed at ' + timeButtonPress; GoogleSheets.appendToGoogleSpreadsheet.setFilename('Working hours'); GoogleSheets.appendToGoogleSpreadsheet.setFormattedRow(formattedRow);",
+        "config": {
+            "currentTime": "2025-02-17T12:00:00.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-17T12:00:00.000Z",
+            "trigger": {
+                "ingredients": "true",
+                "serviceName": "DoButton",
+                "name": "doButtonNewCommandCommon"
+            },
+            "actions": [
+                {
+                    "serviceName": "GoogleSheets",
+                    "name": "appendToGoogleSpreadsheet",
+                    "fields": [
+                        "Filename",
+                        "FormattedRow"
+                    ]
+                }
+            ]
+        }
+    }
+  }
+  

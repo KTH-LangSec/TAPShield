@@ -1,0 +1,29 @@
+{
+    "_comments": "https://ifttt.com/applets/sFk2WC4r-track-your-work-hours-in-google-calendar",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var when = '2025-02-17T12:00:00.000Z'; var what = 'entered'; var quickAddEvent = when + ': I ' + what + ' the office'; GoogleCalendar.quickAddEvent.setQuickAdd(quickAddEvent);",
+        "config": {
+            "currentTime": "2025-02-17T12:00:00.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-17T12:00:00.000Z",
+            "trigger": {
+                "ingredients": "true",
+                "serviceName": "Location",
+                "name": "enterOrExitRegionLocation"
+            },
+            "actions": [
+                {
+                    "serviceName": "GoogleCalendar",
+                    "name": "quickAddEvent",
+                    "fields": [
+                        "QuickAdd"
+                    ]
+                }
+            ]
+        }
+    }
+  }
+  

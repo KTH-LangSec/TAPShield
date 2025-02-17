@@ -1,0 +1,29 @@
+{
+    "_comments": "https://ifttt.com/applets/JdGRpXny-if-arlo-detects-motion-call-my-phone",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var message = `Motion Detected`; PhoneCall.callMyPhone.setMessage(message);",
+        "config": {
+            "currentTime": "2025-02-17T12:00:00.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-17T12:00:00.000Z",
+            "trigger": {
+                "serviceName": "Arlo",
+                "name": "detectsMotion",
+                "ingredients": "{}"
+            },
+            "actions": [
+                {
+                    "serviceName": "PhoneCall",
+                    "name": "callMyPhone",
+                    "fields": [
+                        "Message"
+                    ]
+                }
+            ]
+        }
+    }
+  }
+  

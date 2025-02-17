@@ -1,0 +1,29 @@
+{
+    "_comments": " It replaces all 236x strings with 564x in the RSS feed result.",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": " var trigger_url = Feed.newFeedItem.EntryImageUrl; if (trigger_url) { var newurl = trigger_url.replace(/236x/g, '564x'); FacebookPages.createPhotoPage.setPhotoUrl(newurl); }",
+      "config": {
+        "currentTime": "2025-02-17T12:00:00.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-17T12:00:00.000Z",
+        "trigger": {
+          "ingredients": "{ \"EntryImageUrl\": \"https://example.com/sample_236x.jpg\" }",
+          "serviceName": "Feed",
+          "name": "newFeedItem"
+        },
+        "actions": [
+          {
+            "serviceName": "FacebookPages",
+            "name": "createPhotoPage",
+            "fields": [
+              "PhotoUrl"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

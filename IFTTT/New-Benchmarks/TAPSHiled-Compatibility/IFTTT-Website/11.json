@@ -1,0 +1,29 @@
+{
+    "_comments": "https://ifttt.com/applets/WUubR7Kr-get-a-phone-call-when-your-blink-camera-detects-motions",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var message = `Motion Detected by Blink Camera`; PhoneCall.callMyPhone.setMessage(message);",
+        "config": {
+            "currentTime": "2025-02-17T12:00:00.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-17T12:00:00.000Z",
+            "trigger": {
+                "serviceName": "Blink",
+                "name": "detectsMotion",
+                "ingredients": "{}"
+            },
+            "actions": [
+                {
+                    "serviceName": "PhoneCall",
+                    "name": "callMyPhone",
+                    "fields": [
+                        "Message"
+                    ]
+                }
+            ]
+        }
+    }
+  }
+  

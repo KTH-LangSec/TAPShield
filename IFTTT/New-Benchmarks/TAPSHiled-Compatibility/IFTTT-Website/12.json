@@ -1,0 +1,29 @@
+{
+    "_comments": "https://ifttt.com/applets/WxGyqfAn-receive-intrusion-alerts-via-sms-text-message",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var message = `Intrusion Alert: Motion detected!`; Sms.sendMeTextMessage.setMessage(message);",
+        "config": {
+            "currentTime": "2025-02-17T12:00:00.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-17T12:00:00.000Z",
+            "trigger": {
+                "serviceName": "AnywareServices",
+                "name": "intrusionDetected",
+                "ingredients": "{}"
+            },
+            "actions": [
+                {
+                    "serviceName": "Sms",
+                    "name": "sendMeTextMessage",
+                    "fields": [
+                        "Message"
+                    ]
+                }
+            ]
+        }
+    }
+  }
+  
