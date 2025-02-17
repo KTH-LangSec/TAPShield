@@ -1,0 +1,2 @@
+Counter({'function': 96, 'debug': 87, 'inject': 82, 'http': 74, 'comment': 52, 'change': 46, 'mqtt': 39, 'switch': 38, 'delay': 28, 'link': 28, 'mqtt-broker': 25, 'file': 20, 'template': 18, 'json': 15, 'websocket': 9, 'exec': 8, 'trigger': 6, 'websocket-listener': 6, 'join': 6, 'split': 6, 'tcp': 5, 'catch': 3, 'rbe': 2, 'range': 2, 'tls-config': 1, 'udp': 1, 'complete': 1, 'status': 1, 'forecastio': 1, 'csv': 1, 'watch': 1, 'xml': 1, 'ui_group': 1, 'ui_tab': 1, 'ui_template': 1})
+
