@@ -1,0 +1,30 @@
+{
+    "_comments":"Applet that sends a rich Notification from the IFTTT app with the result of a Google query",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var trigger_noteText = DoNote.doNoteNewCommandCommon.NoteText; var googleSearchLink = encodeURI('https://www.google.com/search?q=site:ifttt.com/applets+' + trigger_noteText); IfNotifications.sendRichNotification.setMessage(googleSearchLink); IfNotifications.sendRichNotification.setLinkUrl(googleSearchLink);",
+      "config": {
+        "currentTime": "2025-02-17T12:00:00.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-17T12:00:00.000Z",
+        "trigger": {
+          "ingredients": "{ \"NoteText\": \"automation\" }",
+          "serviceName": "DoNote",
+          "name": "doNoteNewCommandCommon"
+        },
+        "actions": [
+          {
+            "serviceName": "IfNotifications",
+            "name": "sendRichNotification",
+            "fields": [
+              "Message",
+              "LinkUrl"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

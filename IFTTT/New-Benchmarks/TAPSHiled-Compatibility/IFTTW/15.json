@@ -1,0 +1,37 @@
+{
+    "_comments":"Applet that sends a daily Notification with a motivational quote and a weekly digest with all the quotes",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var trigger_day = DateAndTime.everyDayAt.CheckTime; var trigger_wday = Meta.currentUserTime.format('dddd'); var data = [ {\"quote\":\"Life is 10% what happens to you and 90% how you react to it.\",\"author\":\"Charles R. Swindoll\"}, {\"quote\":\"Only I can change my life. No one can do it for me.\",\"author\":\"Carol Burnett\"}, {\"quote\":\"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth.\",\"author\":\"Bradley Whitford\"}, {\"quote\":\"Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.\",\"author\":\"Helen Keller\"} ]; var day = trigger_day % data.length; var wday = trigger_wday; var msg = data[day]['quote'] + ' by ' + data[day]['author']; IfNotifications.sendNotification.setMessage(msg); EmailDigest.sendWeeklyEmail.setTitle(wday); EmailDigest.sendWeeklyEmail.setMessage(msg);",
+      "config": {
+        "currentTime": "2025-02-17T12:00:00.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-17T12:00:00.000Z",
+        "trigger": {
+          "ingredients": "{ \"CheckTime\": 2 }",
+          "serviceName": "DateAndTime",
+          "name": "everyDayAt"
+        },
+        "actions": [
+          {
+            "serviceName": "IfNotifications",
+            "name": "sendNotification",
+            "fields": [
+              "Message"
+            ]
+          },
+          {
+            "serviceName": "EmailDigest",
+            "name": "sendWeeklyEmail",
+            "fields": [
+              "Title",
+              "Message"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

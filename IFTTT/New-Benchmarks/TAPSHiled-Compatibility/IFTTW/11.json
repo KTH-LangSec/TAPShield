@@ -1,0 +1,29 @@
+{
+    "_comments":"Applet that picks a random color for LIFX when the Widget button is pressed", 
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var colors = ['#FF8400', '#FF0000', '#15FF00', '#FF00D4', '#00D4FF', '#003CFF']; var index = Math.floor((Math.random() * colors.length)); Lifx.color.setAdvancedOptions('color: ' + colors[index] + '; brightness: 1; duration: 12');",
+      "config": {
+        "currentTime": "2025-02-17T12:00:00.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-17T12:00:00.000Z",
+        "trigger": {
+          "ingredients": "{ \"OccurredAt\": \"2025-02-17T12:00:00.000Z\" }",
+          "serviceName": "DoButton",
+          "name": "doButtonNewCommandCommon"
+        },
+        "actions": [
+          {
+            "serviceName": "Lifx",
+            "name": "color",
+            "fields": [
+              "AdvancedOptions"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

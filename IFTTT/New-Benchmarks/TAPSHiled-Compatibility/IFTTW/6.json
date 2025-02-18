@@ -1,0 +1,30 @@
+{
+    "_comments": "Applet that calculates the duration of a Google Calendar Event and creates a new iOS Calendar entry",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var trigger_starts = GoogleCalendar.newEventAdded.Starts; var trigger_ends = GoogleCalendar.newEventAdded.Ends; var gCalendarStart = trigger_starts; var wheresAt = gCalendarStart.search(' at '); var startDate = trigger_starts; var endDate = trigger_ends; var startTime = '12:00AM'; var endTime = '12:00AM'; var fullStartTime = ''; var fullEndTime = ''; var setStart = ''; if (wheresAt == -1) { startDate = trigger_starts; startTime = '12:00AM'; endDate = trigger_ends; endTime = '12:00AM'; setStart = trigger_starts + ' at ' + startTime; } else { var startArray = trigger_starts.split(' at '); startDate = startArray[0]; startTime = startArray[1]; var endArray = trigger_ends.split(' at '); endDate = endArray[0]; endTime = endArray[1]; setStart = trigger_starts; } if (startTime.search('PM') == -1) { fullStartTime = new Date(startDate + ' ' + startTime.substr(0,5) + ' AM'); } else { fullStartTime = new Date(startDate + ' ' + startTime.substr(0,5) + ' PM'); } if (endTime.search('PM') == -1) { fullEndTime = new Date(endDate + ' ' + endTime.substr(0,5) + ' AM'); } else { fullEndTime = new Date(endDate + ' ' + endTime.substr(0,5) + ' PM'); } var fullDiffInMs = fullEndTime.getTime() - fullStartTime.getTime(); var msPerMin = 1000 * 60; var iOSduration = fullDiffInMs / msPerMin; var durationAsString = iOSduration.toString(); IosCalendar.createCalendarEvent.setDuration(durationAsString); IosCalendar.createCalendarEvent.setStartDate(setStart);",
+      "config": {
+        "currentTime": "2025-02-17T12:00:00.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-17T12:00:00.000Z",
+        "trigger": {
+          "ingredients": "{ \"Starts\": \"January 01, 2025 at 10:00AM\", \"Ends\": \"January 01, 2025 at 11:30AM\" }",
+          "serviceName": "GoogleCalendar",
+          "name": "newEventAdded"
+        },
+        "actions": [
+          {
+            "serviceName": "IosCalendar",
+            "name": "createCalendarEvent",
+            "fields": [
+              "Duration",
+              "StartDate"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  
