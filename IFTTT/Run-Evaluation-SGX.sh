@@ -8,8 +8,6 @@ do
   mkdir -p "${basedir}/${j}"
   for i in {1..25}
   do
-
-  
     echo "Run the evaluation for ${i}.json : execution number : ${j}"	  
 
     gramine-sgx node invoker.js $i -v

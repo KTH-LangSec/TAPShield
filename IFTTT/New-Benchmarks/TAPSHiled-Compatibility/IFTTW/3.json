@@ -24,7 +24,7 @@
             "serviceName": "Email",
             "name": "sendMeEmail",
             "fields": [
-              "setBody"
+              "Body"
             ]
           }
         ]

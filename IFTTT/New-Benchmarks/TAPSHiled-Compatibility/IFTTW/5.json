@@ -19,7 +19,7 @@
             "serviceName": "Blogger",
             "name": "createPostBlogger",
             "fields": [
-              "setBody"
+              "Body"
             ]
           }
         ]

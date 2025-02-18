@@ -4,7 +4,7 @@
     "path": "/IFTTT-instance",
     "httpMethod": "POST",
     "body": {
-      "scriptCode": "var trigger_minutes = Meta.currentUserTime.minutes(); var trigger_hours = Meta.currentUserTime.hours(); var startTimeMinutes = 360; var stopTimeMinutes = 1024; var triggerTimeMinutes = trigger_minutes + trigger_hours * 60; if (startTimeMinutes == stopTimeMinutes) { skip('Gogogate.closeDoor'); } else { var doThat = Boolean(false); if ((startTimeMinutes < stopTimeMinutes) && (triggerTimeMinutes >= startTimeMinutes && triggerTimeMinutes <= stopTimeMinutes)) { doThat = Boolean(true); } else if ((startTimeMinutes > stopTimeMinutes) && (triggerTimeMinutes > startTimeMinutes || triggerTimeMinutes < stopTimeMinutes)) { doThat = Boolean(true); } if (doThat == false) { skip('Gogogate.closeDoor'); } }",
+      "scriptCode": "var trigger_minutes = Meta.currentUserTime.minutes(); var trigger_hours = Meta.currentUserTime.hours(); var startTimeMinutes = 360; var stopTimeMinutes = 1024; var triggerTimeMinutes = trigger_minutes + trigger_hours * 60; if (startTimeMinutes == stopTimeMinutes) { Gogogate.closeDoor.skip(); } else { var doThat = Boolean(false); if ((startTimeMinutes < stopTimeMinutes) && (triggerTimeMinutes >= startTimeMinutes && triggerTimeMinutes <= stopTimeMinutes)) { doThat = Boolean(true); } else if ((startTimeMinutes > stopTimeMinutes) && (triggerTimeMinutes > startTimeMinutes || triggerTimeMinutes < stopTimeMinutes)) { doThat = Boolean(true); } if (doThat == false) { Gogogate.closeDoor.skip(); } }",
       "config": {
         "currentTime": "2025-02-17T12:00:00.000Z",
         "timeZone": "GMT",

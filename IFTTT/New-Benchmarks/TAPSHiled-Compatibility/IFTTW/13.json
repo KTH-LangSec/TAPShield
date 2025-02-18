@@ -3,7 +3,7 @@
     "path": "/IFTTT-instance",
     "httpMethod": "POST",
     "body": {
-      "scriptCode": "var trigger_txt = Twitter.newTweetFromSearch.Text; var txt = trigger_txt || ''; var price = parseInt((txt.match(/\\s\\$(\\d+)\\s/) || [])[1]); if (price >= 400 || isNaN(price)) { skip('EmailDigest.sendDailyEmail'); }",
+      "scriptCode": "var trigger_txt = Twitter.newTweetFromSearch.Text; var txt = trigger_txt || ''; var price = parseInt((txt.match(/\\s\\$(\\d+)\\s/) || [])[1]); if (price >= 400 || isNaN(price)) { EmailDigest.sendDailyEmail.skip(); }",
       "config": {
         "currentTime": "2025-02-17T12:00:00.000Z",
         "timeZone": "GMT",
