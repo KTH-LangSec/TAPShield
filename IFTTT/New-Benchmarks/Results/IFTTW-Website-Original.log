@@ -1,0 +1,271 @@
+Run the evaluation for 1.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 1.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json 10 times
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+All commands executed and logs stored in the 'logs' directory.

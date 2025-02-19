@@ -1,0 +1,295 @@
+Run the evaluation for 1.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3028837882] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 37.673ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3028837882] Done writing updated policies to disk.
+Run the evaluation for 2.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1557427099] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 41.799ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1557427099] Done writing updated policies to disk.
+Run the evaluation for 3.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3869870100] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.641ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3869870100] Done writing updated policies to disk.
+Run the evaluation for 4.json : execution number : 1
+#IFTTT+SandTrap is running#
+[463655634] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 37.528ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[463655634] Done writing updated policies to disk.
+Run the evaluation for 5.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3585276690] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 41.165ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3585276690] Done writing updated policies to disk.
+Run the evaluation for 6.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.694ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.728ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.779ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2040221493] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.341ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2040221493] Done writing updated policies to disk.
+Run the evaluation for 10.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2487119667] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.699ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2487119667] Done writing updated policies to disk.
+Run the evaluation for 11.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3164369538] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 39.323ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3164369538] Done writing updated policies to disk.
+Run the evaluation for 12.json : execution number : 1
+#IFTTT+SandTrap is running#
+[515773242] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 43.051ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[515773242] Done writing updated policies to disk.
+Run the evaluation for 13.json : execution number : 1
+#IFTTT+SandTrap is running#
+[935505306] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 42.586ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[935505306] Done writing updated policies to disk.
+Run the evaluation for 14.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3567329896] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 41.249ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3567329896] Done writing updated policies to disk.
+Run the evaluation for 15.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3049107221] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 41.399ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3049107221] Done writing updated policies to disk.
+Run the evaluation for 1.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.865ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.127ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.326ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.633ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.659ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.290ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.092ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.050ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.768ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 29.227ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.622ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.186ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.125ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 30.486ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.582ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+All commands executed and logs stored in the 'logs' directory.

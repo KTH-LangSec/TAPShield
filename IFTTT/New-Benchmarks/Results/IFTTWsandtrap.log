@@ -1,0 +1,271 @@
+Run the evaluation for 1.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.438ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.323ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.295ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.202ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.477ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 36.768ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 37.817ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.030ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.403ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.732ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 29.935ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF8400; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.224ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 30.026ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 74.950ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.847ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.691ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.090ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.867ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.756ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.128ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 37.851ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 37.892ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.598ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.789ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.183ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.560ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF00D4; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 30.466ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 70.867ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.314ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 37.760ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+All commands executed and logs stored in the 'logs' directory.

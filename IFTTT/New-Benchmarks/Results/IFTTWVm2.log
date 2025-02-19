@@ -1,0 +1,331 @@
+Run the evaluation for 1.json : execution number : 1
+#IFTTT+VM2 is running#
+1
+vm2-time: 47.557ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 1
+#IFTTT+VM2 is running#
+2
+vm2-time: 44.853ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 1
+#IFTTT+VM2 is running#
+3
+vm2-time: 47.096ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 1
+#IFTTT+VM2 is running#
+4
+vm2-time: 46.449ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 1
+#IFTTT+VM2 is running#
+5
+vm2-time: 45.868ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 1
+#IFTTT+VM2 is running#
+6
+vm2-time: 51.792ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json : execution number : 1
+#IFTTT+VM2 is running#
+7
+vm2-time: 51.106ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json : execution number : 1
+#IFTTT+VM2 is running#
+8
+vm2-time: 44.627ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 1
+#IFTTT+VM2 is running#
+9
+vm2-time: 43.805ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 1
+#IFTTT+VM2 is running#
+10
+vm2-time: 48.901ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 1
+#IFTTT+VM2 is running#
+11
+vm2-time: 47.396ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF0000; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 1
+#IFTTT+VM2 is running#
+12
+vm2-time: 42.755ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 1
+#IFTTT+VM2 is running#
+13
+vm2-time: 45.756ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 1
+#IFTTT+VM2 is running#
+14
+vm2-time: 45.230ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 1
+#IFTTT+VM2 is running#
+15
+vm2-time: 48.275ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 1.json : execution number : 2
+#IFTTT+VM2 is running#
+1
+vm2-time: 49.165ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 2
+#IFTTT+VM2 is running#
+2
+vm2-time: 44.207ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 2
+#IFTTT+VM2 is running#
+3
+vm2-time: 47.932ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 2
+#IFTTT+VM2 is running#
+4
+vm2-time: 44.367ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 2
+#IFTTT+VM2 is running#
+5
+vm2-time: 48.751ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 2
+#IFTTT+VM2 is running#
+6
+vm2-time: 52.012ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json : execution number : 2
+#IFTTT+VM2 is running#
+7
+vm2-time: 50.693ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json : execution number : 2
+#IFTTT+VM2 is running#
+8
+vm2-time: 45.495ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 2
+#IFTTT+VM2 is running#
+9
+vm2-time: 45.526ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 2
+#IFTTT+VM2 is running#
+10
+vm2-time: 45.517ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 2
+#IFTTT+VM2 is running#
+11
+vm2-time: 47.624ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF0000; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 2
+#IFTTT+VM2 is running#
+12
+vm2-time: 44.301ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 2
+#IFTTT+VM2 is running#
+13
+vm2-time: 46.734ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 2
+#IFTTT+VM2 is running#
+14
+vm2-time: 46.218ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 2
+#IFTTT+VM2 is running#
+15
+vm2-time: 48.327ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+All commands executed and logs stored in the 'logs' directory.

@@ -1,0 +1,343 @@
+Run the evaluation for 1.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 400,
+  body: {
+    event: {
+      _comments: 'Applet that calculates the duration of a Google Calendar Event and creates a new iOS Calendar entry',
+      resource: '/IFTTT-instance',
+      path: '/IFTTT-instance',
+      httpMethod: 'POST',
+      body: [Object]
+    },
+    message: "SyntaxError: Identifier 'startTime' has already been declared",
+    stack: "SyntaxError: Identifier 'startTime' has already been declared\n" +
+      '    at runScriptCode (/framework.js:80:10)\n' +
+      '    at Object.exports.handler (/lambda_interface.js:18:26)\n' +
+      '    at Object.<anonymous> (/invoker.js:19:32)\n' +
+      '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+      '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+      '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+      '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+      '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)\n' +
+      '    at internal/main/run_main_module.js:17:47'
+  },
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 400,
+  body: {
+    event: {
+      _comments: 'Applet that sends a Notification when an all-day calendar event is added to Google Calendar',
+      resource: '/IFTTT-instance',
+      path: '/IFTTT-instance',
+      httpMethod: 'POST',
+      body: [Object]
+    },
+    message: "SyntaxError: Identifier 'startTime' has already been declared",
+    stack: "SyntaxError: Identifier 'startTime' has already been declared\n" +
+      '    at runScriptCode (/framework.js:80:10)\n' +
+      '    at Object.exports.handler (/lambda_interface.js:18:26)\n' +
+      '    at Object.<anonymous> (/invoker.js:19:32)\n' +
+      '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+      '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+      '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+      '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+      '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)\n' +
+      '    at internal/main/run_main_module.js:17:47'
+  },
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #15FF00; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 1
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 1.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 400,
+  body: {
+    event: {
+      _comments: 'Applet that calculates the duration of a Google Calendar Event and creates a new iOS Calendar entry',
+      resource: '/IFTTT-instance',
+      path: '/IFTTT-instance',
+      httpMethod: 'POST',
+      body: [Object]
+    },
+    message: "SyntaxError: Identifier 'startTime' has already been declared",
+    stack: "SyntaxError: Identifier 'startTime' has already been declared\n" +
+      '    at runScriptCode (/framework.js:80:10)\n' +
+      '    at Object.exports.handler (/lambda_interface.js:18:26)\n' +
+      '    at Object.<anonymous> (/invoker.js:19:32)\n' +
+      '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+      '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+      '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+      '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+      '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)\n' +
+      '    at internal/main/run_main_module.js:17:47'
+  },
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 400,
+  body: {
+    event: {
+      _comments: 'Applet that sends a Notification when an all-day calendar event is added to Google Calendar',
+      resource: '/IFTTT-instance',
+      path: '/IFTTT-instance',
+      httpMethod: 'POST',
+      body: [Object]
+    },
+    message: "SyntaxError: Identifier 'startTime' has already been declared",
+    stack: "SyntaxError: Identifier 'startTime' has already been declared\n" +
+      '    at runScriptCode (/framework.js:80:10)\n' +
+      '    at Object.exports.handler (/lambda_interface.js:18:26)\n' +
+      '    at Object.<anonymous> (/invoker.js:19:32)\n' +
+      '    at Module._compile (internal/modules/cjs/loader.js:999:30)\n' +
+      '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n' +
+      '    at Module.load (internal/modules/cjs/loader.js:863:32)\n' +
+      '    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n' +
+      '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)\n' +
+      '    at internal/main/run_main_module.js:17:47'
+  },
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #003CFF; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 2
+#Original IFTTT is running#
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+All commands executed and logs stored in the 'logs' directory.

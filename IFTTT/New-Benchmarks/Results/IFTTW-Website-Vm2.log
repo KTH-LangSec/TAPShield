@@ -1,0 +1,331 @@
+Run the evaluation for 1.json : execution number : 1
+#IFTTT+VM2 is running#
+1
+vm2-time: 47.333ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 1
+#IFTTT+VM2 is running#
+2
+vm2-time: 42.805ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 1
+#IFTTT+VM2 is running#
+3
+vm2-time: 43.136ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 1
+#IFTTT+VM2 is running#
+4
+vm2-time: 44.527ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 1
+#IFTTT+VM2 is running#
+5
+vm2-time: 43.122ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 1
+#IFTTT+VM2 is running#
+6
+vm2-time: 43.323ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json : execution number : 1
+#IFTTT+VM2 is running#
+7
+vm2-time: 48.767ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json : execution number : 1
+#IFTTT+VM2 is running#
+8
+vm2-time: 43.066ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 1
+#IFTTT+VM2 is running#
+9
+vm2-time: 44.753ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 1
+#IFTTT+VM2 is running#
+10
+vm2-time: 43.257ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 1
+#IFTTT+VM2 is running#
+11
+vm2-time: 45.419ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 1
+#IFTTT+VM2 is running#
+12
+vm2-time: 44.587ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 1
+#IFTTT+VM2 is running#
+13
+vm2-time: 46.392ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 1
+#IFTTT+VM2 is running#
+14
+vm2-time: 43.944ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 1
+#IFTTT+VM2 is running#
+15
+vm2-time: 42.888ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 1.json : execution number : 2
+#IFTTT+VM2 is running#
+1
+vm2-time: 43.227ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 2
+#IFTTT+VM2 is running#
+2
+vm2-time: 47.579ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 2
+#IFTTT+VM2 is running#
+3
+vm2-time: 42.503ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 2
+#IFTTT+VM2 is running#
+4
+vm2-time: 42.572ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 2
+#IFTTT+VM2 is running#
+5
+vm2-time: 43.482ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 2
+#IFTTT+VM2 is running#
+6
+vm2-time: 45.154ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json : execution number : 2
+#IFTTT+VM2 is running#
+7
+vm2-time: 44.716ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json : execution number : 2
+#IFTTT+VM2 is running#
+8
+vm2-time: 47.557ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 2
+#IFTTT+VM2 is running#
+9
+vm2-time: 48.577ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 2
+#IFTTT+VM2 is running#
+10
+vm2-time: 47.140ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 2
+#IFTTT+VM2 is running#
+11
+vm2-time: 45.778ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 2
+#IFTTT+VM2 is running#
+12
+vm2-time: 42.810ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 2
+#IFTTT+VM2 is running#
+13
+vm2-time: 43.907ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 2
+#IFTTT+VM2 is running#
+14
+vm2-time: 47.653ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 2
+#IFTTT+VM2 is running#
+15
+vm2-time: 44.703ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+All commands executed and logs stored in the 'logs' directory.
