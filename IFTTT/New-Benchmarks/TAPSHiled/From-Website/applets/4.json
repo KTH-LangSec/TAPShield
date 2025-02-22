@@ -1,0 +1,79 @@
+{
+    "id": "kUmTYgCy",
+    "name": "Rss To Trello",
+    "description": "Rss To Trello",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "123859650",
+    "applet_trigger": {
+        "channel_module_name": "feed",
+        "module_name": "new_feed_item",
+        "fields": [
+            {
+                "custom_label": "Feed URL",
+                "name": "feed_url",
+                "hidden": false,
+                "default_value_json": "\"http://www.eguidesservice.com/feed\""
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "trello",
+            "module_name": "create_card",
+            "fields": [
+                {
+                    "custom_label": "Which board?",
+                    "name": "board",
+                    "hidden": false,
+                    "default_value_json": "null"
+                },
+                {
+                    "custom_label": "List name",
+                    "name": "list_name",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryTitle}}\""
+                },
+                {
+                    "custom_label": "Position",
+                    "name": "pos",
+                    "hidden": true,
+                    "default_value_json": "\"top\""
+                },
+                {
+                    "custom_label": "Title",
+                    "name": "title",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryTitle}}\""
+                },
+                {
+                    "custom_label": "Description",
+                    "name": "description",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryContent}}\\u003cbr\\u003e\\n{{EntryUrl}}\\u003cbr\\u003e\\nvia {{FeedTitle}} {{FeedUrl}}\""
+                },
+                {
+                    "custom_label": "Assign members",
+                    "name": "members",
+                    "hidden": true,
+                    "default_value_json": "\"\""
+                },
+                {
+                    "custom_label": "Apply labels",
+                    "name": "labels",
+                    "hidden": false,
+                    "default_value_json": "\"\""
+                },
+                {
+                    "custom_label": "Attachment URL",
+                    "name": "url",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryImageUrl}}\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/kUmTYgCy-rss-to-trello"
+}

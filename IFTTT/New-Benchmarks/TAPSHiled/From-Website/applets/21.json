@@ -1,0 +1,37 @@
+{
+    "id": "w9HVuagD",
+    "name": "Close your MyQ garage door with your voice",
+    "description": "This Applet will close your MyQ garage door when you say \"Ok Google, activate close garage.\"",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1694980308",
+    "applet_trigger": {
+        "channel_module_name": "google_assistant_v2",
+        "module_name": "activate_scene",
+        "fields": [
+            {
+                "custom_label": "Scene name",
+                "name": "scene_name",
+                "hidden": true,
+                "default_value_json": "\"Close garage\""
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "myq_devices",
+            "module_name": "close_door",
+            "fields": [
+                {
+                    "custom_label": "What is the door name?",
+                    "name": "door_name",
+                    "hidden": false,
+                    "default_value_json": "null"
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/w9HVuagD-close-your-myq-garage-door-with-your-voice"
+}

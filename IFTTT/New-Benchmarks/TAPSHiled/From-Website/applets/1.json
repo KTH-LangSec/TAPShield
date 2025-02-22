@@ -1,0 +1,49 @@
+{
+    "id": "LxtLrC3K",
+    "name": "Rss To Weebly",
+    "description": "Rss To Weebly",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1846340001",
+    "applet_trigger": {
+        "channel_module_name": "feed",
+        "module_name": "new_feed_item",
+        "fields": [
+            {
+                "custom_label": "Feed URL",
+                "name": "feed_url",
+                "hidden": false,
+                "default_value_json": "\"http://www.eguidesservice.com/feed\""
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "weebly",
+            "module_name": "publish_blog_post",
+            "fields": [
+                {
+                    "custom_label": "Which blog?",
+                    "name": "blog",
+                    "hidden": false,
+                    "default_value_json": "null"
+                },
+                {
+                    "custom_label": "Title",
+                    "name": "title",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryTitle}}\""
+                },
+                {
+                    "custom_label": "Body",
+                    "name": "body",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryContent}}\\u003cbr\\u003e\\u003cbr\\u003e\\nVia \\u003ca href=\\\"{{EntryUrl}}\\\"\\u003e{{EntryUrl}}\\u003c/a\\u003e\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/LxtLrC3K-rss-to-weebly"
+}

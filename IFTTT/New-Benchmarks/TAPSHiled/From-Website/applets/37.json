@@ -1,0 +1,42 @@
+{
+    "id": "NAMgXbLj",
+    "name": "Press a button to track work hours in Google Drive",
+    "description": "This makes a widget you can add to the home screen on your phone. Never hassle with another time-tracking software - when you start work, press the button widget. When you stop working, press it again. Your work hours will be tracked automatically in a Google Spreadsheet.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "799977804",
+    "applet_trigger": {
+        "channel_module_name": "do_button",
+        "module_name": "do_button_new_command_common",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "google_sheets",
+            "module_name": "append_to_google_spreadsheet",
+            "fields": [
+                {
+                    "custom_label": "Spreadsheet name",
+                    "name": "filename",
+                    "hidden": false,
+                    "default_value_json": "\"Work Hours\""
+                },
+                {
+                    "custom_label": "Formatted row",
+                    "name": "formatted_row",
+                    "hidden": true,
+                    "default_value_json": "\"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\\"Started\\\", \\\"Stopped\\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\\"\\\\w+ \\\\d{2}, \\\\d{4}\\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\\"\\\\d{2}:\\\\d{2}[A|P]M$\\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\\"\\\\w+ \\\\d{2}, \\\\d{4}\\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\\"\\\\d{2}:\\\\d{2}[A|P]M$\\\")))) * 24, 2),\\\"\\\")\""
+                },
+                {
+                    "custom_label": "Drive folder path",
+                    "name": "path",
+                    "hidden": false,
+                    "default_value_json": "\"IFTTT button\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/NAMgXbLj-press-a-button-to-track-work-hours-in-google-drive"
+}

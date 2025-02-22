@@ -1,0 +1,61 @@
+{
+    "id": "e4rwSTdG",
+    "name": "Rss To Toodledo",
+    "description": "Rss To Toodledo",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "597573620",
+    "applet_trigger": {
+        "channel_module_name": "feed",
+        "module_name": "new_feed_item",
+        "fields": [
+            {
+                "custom_label": "Feed URL",
+                "name": "feed_url",
+                "hidden": false,
+                "default_value_json": "\"http://www.eguidesservice.com/feed\""
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "toodledo",
+            "module_name": "add-task",
+            "fields": [
+                {
+                    "custom_label": "Title",
+                    "name": "title",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryTitle}}\""
+                },
+                {
+                    "custom_label": "Note",
+                    "name": "note",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryTitle}}\\u003cbr\\u003e\\n{{EntryUrl}}\\u003cbr\\u003e\\n{{EntryContent}}\\u003cbr\\u003e\\nOriginal Content Source : {{FeedUrl}}\\u003cbr\\u003e\\n{{EntryPublished}}\""
+                },
+                {
+                    "custom_label": "Tags",
+                    "name": "tag",
+                    "hidden": false,
+                    "default_value_json": "\"\""
+                },
+                {
+                    "custom_label": "Priority",
+                    "name": "priority",
+                    "hidden": false,
+                    "default_value_json": "\"3\""
+                },
+                {
+                    "custom_label": "Add to folder",
+                    "name": "folder",
+                    "hidden": false,
+                    "default_value_json": "null"
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/e4rwSTdG-rss-to-toodledo"
+}

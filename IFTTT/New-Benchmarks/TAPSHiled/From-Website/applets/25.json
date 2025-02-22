@@ -1,0 +1,37 @@
+{
+    "id": "RWjvrX6m",
+    "name": "Automatically arm your Blink System when you leave home",
+    "description": "Locate your home on the map when you configure it, and this Applet will arm your Blink System when you leave. This Applet requires the IFTTT app and works for both Android or iOS. ",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "2062016467",
+    "applet_trigger": {
+        "channel_module_name": "location",
+        "module_name": "exit_region_location",
+        "fields": [
+            {
+                "custom_label": "Locate your home",
+                "name": "location",
+                "hidden": false,
+                "default_value_json": "{\"latitude\":\"37.78394019763308\",\"longitude\":\"-122.40872900000001\",\"radius\":\"317.1445245133588\",\"address\":\"927-929 Market St, San Francisco, CA 94102, USA\",\"description\":\"927-929 Market St, San Francisco, CA 94102, USA\",\"zoom\":\"16\"}"
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "blink",
+            "module_name": "network_arm",
+            "fields": [
+                {
+                    "custom_label": "Which system?",
+                    "name": "network",
+                    "hidden": false,
+                    "default_value_json": "null"
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/RWjvrX6m-automatically-arm-your-blink-system-when-you-leave-home"
+}

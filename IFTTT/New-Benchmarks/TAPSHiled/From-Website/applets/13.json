@@ -1,0 +1,30 @@
+{
+    "id": "yNvHX9VQ",
+    "name": "Update your Android wallpaper with NASA's image of the day",
+    "description": "Your device can now contain the amazing vastness & beauty of space! Basically.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1829340444",
+    "applet_trigger": {
+        "channel_module_name": "space",
+        "module_name": "new_image_picture_nasa",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "android_device",
+            "module_name": "set_wallpaper",
+            "fields": [
+                {
+                    "custom_label": "Image URL",
+                    "name": "photo_url",
+                    "hidden": true,
+                    "default_value_json": "\"{{ImageSourceURL}}\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/yNvHX9VQ-update-your-android-wallpaper-with-nasa-s-image-of-the-day"
+}

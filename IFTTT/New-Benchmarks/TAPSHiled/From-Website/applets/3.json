@@ -1,0 +1,55 @@
+{
+    "id": "Eb2VCh8N",
+    "name": "RSS Feeds to Nimbus",
+    "description": "RSS Feeds to Nimbus",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1520122636",
+    "applet_trigger": {
+        "channel_module_name": "feed",
+        "module_name": "new_feed_item",
+        "fields": [
+            {
+                "custom_label": null,
+                "name": "feed_url",
+                "hidden": false,
+                "default_value_json": "\"http://www.eguidesservice.com/feed\""
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "nimbus_note",
+            "module_name": "addnote",
+            "fields": [
+                {
+                    "custom_label": null,
+                    "name": "title",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryTitle}}\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "text",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryContent}}\\u003cbr\\u003e\\n\\u003cbr\\u003e\\nArticle Source : {{EntryUrl}}\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "folder",
+                    "hidden": false,
+                    "default_value_json": "\"E Guides Service\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "tags",
+                    "hidden": true,
+                    "default_value_json": "null"
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/Eb2VCh8N-rss-feeds-to-nimbus"
+}

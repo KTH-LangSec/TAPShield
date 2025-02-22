@@ -1,0 +1,23 @@
+{
+    "id": "rRjAtSHM",
+    "name": "Music button",
+    "description": "Button that plays music!",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1108205771",
+    "applet_trigger": {
+        "channel_module_name": "do_button",
+        "module_name": "do_button_new_command_common",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "android_device",
+            "module_name": "play_best_song",
+            "fields": []
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/rRjAtSHM-music-button"
+}

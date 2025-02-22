@@ -1,0 +1,55 @@
+{
+    "id": "uWvtmJLa",
+    "name": "Main Site RSS To Evernote",
+    "description": "Main Site RSS To Evernote",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "25",
+    "applet_trigger": {
+        "channel_module_name": "feed",
+        "module_name": "new_feed_item",
+        "fields": [
+            {
+                "custom_label": null,
+                "name": "feed_url",
+                "hidden": false,
+                "default_value_json": "\"http://www.eguidesservice.com/feed\""
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "evernote",
+            "module_name": "create_note_with_link",
+            "fields": [
+                {
+                    "custom_label": null,
+                    "name": "link_url",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryUrl}}\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "body",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryTitle}}\\u003cbr\\u003e\\n{{EntryContent}}\\u003cbr\\u003e\\n\\u003cbr\\u003e\\n{{FeedTitle}} {{FeedUrl}}\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "notebook",
+                    "hidden": false,
+                    "default_value_json": "\"E Guides Service\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "tags",
+                    "hidden": false,
+                    "default_value_json": "null"
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/uWvtmJLa-main-site-rss-to-evernote"
+}

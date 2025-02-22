@@ -1,0 +1,61 @@
+{
+    "id": "Wi6uLChB",
+    "name": "Generate a draft blog post for a topic",
+    "description": "Quickly jot down blog post ideas via IFTTT's note widget on iOS and Android and IFTTT's AI Content Creator will generate your first draft for a post and save it to Google Docs.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "368703105",
+    "applet_trigger": {
+        "channel_module_name": "do_note",
+        "module_name": "do_note_new_command_common",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "google_docs",
+            "module_name": "create_google_doc",
+            "fields": [
+                {
+                    "custom_label": "Document name",
+                    "name": "filename",
+                    "hidden": false,
+                    "default_value_json": "\"Blog post ideas - {{OccurredAt}}\""
+                },
+                {
+                    "custom_label": "Content",
+                    "name": "body",
+                    "hidden": true,
+                    "default_value_json": "\"{{AiContentCreator.draftContent.Content}}\""
+                },
+                {
+                    "custom_label": "Drive folder path",
+                    "name": "path",
+                    "hidden": false,
+                    "default_value_json": "\"Drafts\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [
+        {
+            "channel_module_name": "ai_content_creator",
+            "module_name": "draft_content",
+            "fields": [
+                {
+                    "custom_label": "Topic",
+                    "name": "topic",
+                    "hidden": true,
+                    "default_value_json": "\"{{NoteText}}\""
+                },
+                {
+                    "custom_label": "Tone",
+                    "name": "tone",
+                    "hidden": true,
+                    "default_value_json": "\"\""
+                }
+            ]
+        }
+    ],
+    "Link": "https://ifttt.com/applets/Wi6uLChB-generate-a-draft-blog-post-for-a-topic"
+}

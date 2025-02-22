@@ -1,0 +1,36 @@
+{
+    "id": "UHcg5jkZ",
+    "name": "Quickly email yourself a note",
+    "description": "For many people, their inbox is their todo list. Use this Note widget Applet to quickly email yourself notes, ideas, or things to remember.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "6",
+    "applet_trigger": {
+        "channel_module_name": "do_note",
+        "module_name": "do_note_new_command_common",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "email",
+            "module_name": "send_me_email",
+            "fields": [
+                {
+                    "custom_label": "Subject",
+                    "name": "subject",
+                    "hidden": true,
+                    "default_value_json": "\"Note: {{NoteText}}\""
+                },
+                {
+                    "custom_label": "Body",
+                    "name": "body",
+                    "hidden": true,
+                    "default_value_json": "\"\\u003cb\\u003e{{NoteText}}\\u003c/b\\u003e\\u003cbr\\u003e\\u003cbr\\u003e\\nNote taken {{OccurredAt}}\\u003cbr\\u003e\\nFor more information, visit {{ShareURL}}\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/UHcg5jkZ-quickly-email-yourself-a-note"
+}

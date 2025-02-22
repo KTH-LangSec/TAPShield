@@ -1,0 +1,43 @@
+{
+    "id": "YY9Mqgw5",
+    "name": "Get the weather forecast every day at 7:00 AM",
+    "description": "Every morning you will receive a simple weather report notification at 7 AM. Keep in mind this Applet requires the IFTTT app.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "59109479",
+    "applet_trigger": {
+        "channel_module_name": "weather",
+        "module_name": "current_weather_at_time",
+        "fields": [
+            {
+                "custom_label": "The time you'll receive the forecast",
+                "name": "time",
+                "hidden": true,
+                "default_value_json": "\"07:00\""
+            },
+            {
+                "custom_label": null,
+                "name": "location",
+                "hidden": false,
+                "default_value_json": "null"
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "if_notifications",
+            "module_name": "send_notification",
+            "fields": [
+                {
+                    "custom_label": "Notification",
+                    "name": "message",
+                    "hidden": true,
+                    "default_value_json": "\"{{TodaysCondition}} today! Expect a high of {{HighTempFahrenheit}}\u00b0F ({{HighTempCelsius}}\u00b0C) and a low of {{LowTempFahrenheit}}\u00b0F ({{LowTempCelsius}}\u00b0C). The UV Index is {{UvIndex}}.\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/YY9Mqgw5-get-the-weather-forecast-every-day-at-7-00-am"
+}

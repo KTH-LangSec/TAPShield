@@ -1,0 +1,79 @@
+{
+    "id": "BAMSHyDY",
+    "name": "Rss To Raindrop",
+    "description": "Rss To Raindrop",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "946168322",
+    "applet_trigger": {
+        "channel_module_name": "feed",
+        "module_name": "new_feed_item",
+        "fields": [
+            {
+                "custom_label": "Feed URL",
+                "name": "feed_url",
+                "hidden": false,
+                "default_value_json": "\"http://www.eguidesservice.com/feed\""
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "raindrop",
+            "module_name": "raindrop",
+            "fields": [
+                {
+                    "custom_label": "URL",
+                    "name": "link",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryUrl}}\""
+                },
+                {
+                    "custom_label": "Collection",
+                    "name": "collectionId",
+                    "hidden": false,
+                    "default_value_json": "null"
+                },
+                {
+                    "custom_label": "Title",
+                    "name": "title",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryTitle}}\""
+                },
+                {
+                    "custom_label": "Description",
+                    "name": "excerpt",
+                    "hidden": true,
+                    "default_value_json": "\"{{EntryContent}}\""
+                },
+                {
+                    "custom_label": "Thumbnail URL",
+                    "name": "cover",
+                    "hidden": false,
+                    "default_value_json": "\"\""
+                },
+                {
+                    "custom_label": "Tags",
+                    "name": "tags",
+                    "hidden": true,
+                    "default_value_json": "\"\""
+                },
+                {
+                    "custom_label": "Creation date",
+                    "name": "created",
+                    "hidden": true,
+                    "default_value_json": "\"\""
+                },
+                {
+                    "custom_label": "Note",
+                    "name": "note",
+                    "hidden": false,
+                    "default_value_json": "\"\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/BAMSHyDY-rss-to-raindrop"
+}

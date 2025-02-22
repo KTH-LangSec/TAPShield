@@ -1,0 +1,42 @@
+{
+    "id": "ADTRpPSr",
+    "name": "Image of the day from NASA \u2192 iOS Reading List",
+    "description": "From space to your reading list!",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1829340444",
+    "applet_trigger": {
+        "channel_module_name": "space",
+        "module_name": "new_image_picture_nasa",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "ios_reading_list",
+            "module_name": "create_reading_list_item",
+            "fields": [
+                {
+                    "custom_label": null,
+                    "name": "url",
+                    "hidden": true,
+                    "default_value_json": "\"{{GalleryURL}}\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "title",
+                    "hidden": true,
+                    "default_value_json": "\"{{ImageTitle}}\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "preview_text",
+                    "hidden": true,
+                    "default_value_json": "\"{{Description}}\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/ADTRpPSr-image-of-the-day-from-nasa-ios-reading-list"
+}

@@ -1,0 +1,36 @@
+{
+    "id": "hJMKghVa",
+    "name": "If someone calls, show their location when the call ends",
+    "description": "This applet automatically initiates a Google Maps search for the phone number at the end of each call. If the number is associated with a registered business or a recognized location in Google's database, the applet then opens up navigation directions to that location. This tool is particularly useful for quickly and efficiently getting directions to businesses or locations immediately following a phone conversation.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1089090894",
+    "applet_trigger": {
+        "channel_module_name": "android_phone",
+        "module_name": "place_a_phone_call",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "android_device",
+            "module_name": "start_navigation",
+            "fields": [
+                {
+                    "custom_label": null,
+                    "name": "navigation_method",
+                    "hidden": true,
+                    "default_value_json": "\"driving\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "query",
+                    "hidden": true,
+                    "default_value_json": "\"{{ToNumber}}\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/hJMKghVa-if-someone-calls-show-their-location-when-the-call-ends"
+}

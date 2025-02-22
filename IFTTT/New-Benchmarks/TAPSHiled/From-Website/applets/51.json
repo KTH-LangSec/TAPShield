@@ -1,0 +1,42 @@
+{
+    "id": "HVaQjptn",
+    "name": "Google Drive Camera",
+    "description": "Create a camera widget on your phone for snapping photos directly to the folder of your choice. Great for quickly capturing receipts, reminders, and events. This Applet requires the IFTTT app. Learn more about widgets: https://ifttt.com/help/applets-with-widgets",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "142226432",
+    "applet_trigger": {
+        "channel_module_name": "do_camera",
+        "module_name": "do_camera_new_photo",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "google_drive",
+            "module_name": "upload_file_from_url_google_drive",
+            "fields": [
+                {
+                    "custom_label": "File URL",
+                    "name": "url",
+                    "hidden": true,
+                    "default_value_json": "\"{{TemporaryPublicPhotoURL}}\""
+                },
+                {
+                    "custom_label": "File name",
+                    "name": "filename",
+                    "hidden": true,
+                    "default_value_json": "\"{{OccurredAt}}\""
+                },
+                {
+                    "custom_label": "Choose a folder path",
+                    "name": "path",
+                    "hidden": false,
+                    "default_value_json": "\"Google Drive Camera\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/HVaQjptn-google-drive-camera"
+}

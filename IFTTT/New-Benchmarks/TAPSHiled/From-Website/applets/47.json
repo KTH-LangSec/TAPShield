@@ -1,0 +1,30 @@
+{
+    "id": "DefE5SkF",
+    "name": "Get a BrainyQuote quote of the day sent as a notification to your phone",
+    "description": "This IFTTT applet will send you a BrainyQuote quote of the day as a notification to your phone. Every day, you will receive a new quote to help you start your day off right. You can also save the quote to your phone for easy access and reference. Swipe to remove, no email, no text, no need to delete anything.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "514938662",
+    "applet_trigger": {
+        "channel_module_name": "brainyquote",
+        "module_name": "today_s_quote",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "if_notifications",
+            "module_name": "send_notification",
+            "fields": [
+                {
+                    "custom_label": "Message",
+                    "name": "message",
+                    "hidden": true,
+                    "default_value_json": "\"QoTD: {{Quote}} - {{Source}}\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/DefE5SkF-get-a-brainyquote-quote-of-the-day-sent-as-a-notification-to-your-phone"
+}

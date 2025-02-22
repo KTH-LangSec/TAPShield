@@ -1,0 +1,51 @@
+{
+    "id": "tQxqUWY7",
+    "name": "Park mower if weather forecast predicts frost or heavy rain",
+    "description": "This connection will be deprecated and stop working! See the AMC app for more details or visit https://tinyurl.com/5n6hrf7h",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "214221502",
+    "applet_trigger": null,
+    "applet_actions": [
+        {
+            "channel_module_name": "automower",
+            "module_name": "park_for_duration",
+            "fields": [
+                {
+                    "custom_label": "Automower",
+                    "name": "automower",
+                    "hidden": false,
+                    "default_value_json": "null"
+                },
+                {
+                    "custom_label": "Duration",
+                    "name": "minutes",
+                    "hidden": true,
+                    "default_value_json": "\"120\""
+                },
+                {
+                    "custom_label": "Duration in minutes",
+                    "name": "duration_in_minutes",
+                    "hidden": true,
+                    "default_value_json": "\"\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [
+        {
+            "channel_module_name": "weather",
+            "module_name": "current_weather",
+            "fields": [
+                {
+                    "custom_label": "Location",
+                    "name": "location",
+                    "hidden": false,
+                    "default_value_json": "{\"latitude\":\"57.788500787361926\",\"longitude\":\"14.279498099999985\",\"address\":\"Drottninggatan 1, 561 31 Huskvarna, Sweden\",\"description\":\"Drottninggatan 1, 561 31 Huskvarna, Sweden\",\"zoom\":\"16\"}"
+                }
+            ]
+        }
+    ],
+    "Link": "https://ifttt.com/applets/tQxqUWY7-park-mower-if-weather-forecast-predicts-frost-or-heavy-rain"
+}

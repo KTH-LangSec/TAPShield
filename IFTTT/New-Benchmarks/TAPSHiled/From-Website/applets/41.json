@@ -1,0 +1,48 @@
+{
+    "id": "dTJuvSmB",
+    "name": "Quick note to iOS Reminder",
+    "description": "Download the IFTTT app to access the Note widget on your device. Then all you have to do is launch the widget and enter a reminder for it to be added to your list. The more specific your description, the better! For more info on widgets: https://ifttt.com/help/applets-with-widgets",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "80",
+    "applet_trigger": {
+        "channel_module_name": "do_note",
+        "module_name": "do_note_new_command_common",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "ios_reminders",
+            "module_name": "create_reminder_ios_reminders",
+            "fields": [
+                {
+                    "custom_label": "Reminder",
+                    "name": "title",
+                    "hidden": false,
+                    "default_value_json": "\"\""
+                },
+                {
+                    "custom_label": "List Name",
+                    "name": "list",
+                    "hidden": false,
+                    "default_value_json": "\"\""
+                },
+                {
+                    "custom_label": "Priority",
+                    "name": "priority",
+                    "hidden": false,
+                    "default_value_json": "\"0\""
+                },
+                {
+                    "custom_label": "Alarm date",
+                    "name": "alarm_date",
+                    "hidden": false,
+                    "default_value_json": "\"\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/dTJuvSmB-quick-note-to-ios-reminder"
+}

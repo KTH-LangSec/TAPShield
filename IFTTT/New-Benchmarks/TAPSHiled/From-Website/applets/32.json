@@ -1,0 +1,49 @@
+{
+    "id": "XnveYFDL",
+    "name": "Log how much time you spend at specific locations like the office or home in a spreadsheet",
+    "description": "Set the map on an area that you want to track and this Applet will add a row of info to a Google Drive spreadsheet each time you arrive at or leave the area. ",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "799977804",
+    "applet_trigger": {
+        "channel_module_name": "location",
+        "module_name": "enter_or_exit_region_location",
+        "fields": [
+            {
+                "custom_label": "Locate an area",
+                "name": "location",
+                "hidden": false,
+                "default_value_json": "{\"latitude\":\"37.78396442254882\",\"longitude\":\"-122.40847480000001\",\"radius\":\"325.63956053956184\",\"address\":\"925 Market St, San Francisco, CA 94103, USA\",\"description\":\"925 Market St, San Francisco, CA 94103, USA\",\"zoom\":\"16\"}"
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "google_sheets",
+            "module_name": "append_to_google_spreadsheet",
+            "fields": [
+                {
+                    "custom_label": "Spreadsheet name",
+                    "name": "filename",
+                    "hidden": true,
+                    "default_value_json": "\"Location tracking\""
+                },
+                {
+                    "custom_label": "Formatted row",
+                    "name": "formatted_row",
+                    "hidden": true,
+                    "default_value_json": "\"{{OccurredAt}} ||| =IF(\\\"{{EnteredOrExited}}\\\"=\\\"entered\\\",\\\"Arrived at location\\\",\\\"Left location\\\") ||| {{Address}} ||| =IMAGE(\\\"{{LocationMapImageUrl}}\\\";1)\""
+                },
+                {
+                    "custom_label": "Drive folder path",
+                    "name": "path",
+                    "hidden": true,
+                    "default_value_json": "\"IFTTT\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/XnveYFDL-log-how-much-time-you-spend-at-specific-locations-like-the-office-or-home-in-a-spreadsheet"
+}

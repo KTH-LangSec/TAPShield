@@ -1,0 +1,42 @@
+{
+    "id": "pc6CeRjs",
+    "name": "Add songs from videos you like to a Spotify playlist",
+    "description": "This Applet will search the title of the video on Spotify \u2014 if it finds the track, it'll add it to a \"YouTube\" playlist. Not all songs on YouTube are available on Spotify. Happy tune hunting!",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "32",
+    "applet_trigger": {
+        "channel_module_name": "youtube",
+        "module_name": "new_liked_video",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "spotify",
+            "module_name": "add_a_track_to_a_playlist",
+            "fields": [
+                {
+                    "custom_label": "Playlist name",
+                    "name": "playlist",
+                    "hidden": false,
+                    "default_value_json": "\"YouTube\""
+                },
+                {
+                    "custom_label": "Search query",
+                    "name": "search_query",
+                    "hidden": true,
+                    "default_value_json": "\" {{Title}}\""
+                },
+                {
+                    "custom_label": "Artist name",
+                    "name": "artist_name",
+                    "hidden": true,
+                    "default_value_json": "\"\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/pc6CeRjs-add-songs-from-videos-you-like-to-a-spotify-playlist"
+}

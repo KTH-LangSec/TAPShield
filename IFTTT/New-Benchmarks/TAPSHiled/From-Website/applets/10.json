@@ -1,0 +1,43 @@
+{
+    "id": "LEbinUvF",
+    "name": "Rain tomorrow? Get a mobile notification",
+    "description": "When the forecast calls for rain in your area you'll receive a push notification. Remember to bring an umbrella! Keep in mind this Applet requires the IFTTT app.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "59109479",
+    "applet_trigger": {
+        "channel_module_name": "weather",
+        "module_name": "tomorrows_forecast_calls_for",
+        "fields": [
+            {
+                "custom_label": "Select the weather condition:",
+                "name": "condition",
+                "hidden": true,
+                "default_value_json": "\"rain\""
+            },
+            {
+                "custom_label": null,
+                "name": "location",
+                "hidden": false,
+                "default_value_json": "null"
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "if_notifications",
+            "module_name": "send_notification",
+            "fields": [
+                {
+                    "custom_label": "Notification",
+                    "name": "message",
+                    "hidden": true,
+                    "default_value_json": "\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}\u00b0F ({{LowTempCelsius}}\u00b0C) and a high of {{HighTempFahrenheit}}\u00b0F ({{HighTempCelsius}}\u00b0C)\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/LEbinUvF-rain-tomorrow-get-a-mobile-notification"
+}

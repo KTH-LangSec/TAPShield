@@ -1,0 +1,37 @@
+{
+    "id": "A38TqjpD",
+    "name": "When I leave home, start a cleaning job",
+    "description": "This Applet will start your Roomba\u00ae when you leave home.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1158179406",
+    "applet_trigger": {
+        "channel_module_name": "location",
+        "module_name": "exit_region_location",
+        "fields": [
+            {
+                "custom_label": "Locate an area",
+                "name": "location",
+                "hidden": false,
+                "default_value_json": "{\"latitude\":\"42.50491272331995\",\"longitude\":\"-71.24429359999999\",\"radius\":\"294.9521133805332\",\"address\":\"8 Crosby Dr, Bedford, MA 01730, USA\",\"description\":\"8 Crosby Dr, Bedford, MA 01730, USA\",\"zoom\":\"16\"}"
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "irobot",
+            "module_name": "start_robot",
+            "fields": [
+                {
+                    "custom_label": "Robot Name",
+                    "name": "robot_name",
+                    "hidden": false,
+                    "default_value_json": "null"
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/A38TqjpD-when-i-leave-home-start-a-cleaning-job"
+}
