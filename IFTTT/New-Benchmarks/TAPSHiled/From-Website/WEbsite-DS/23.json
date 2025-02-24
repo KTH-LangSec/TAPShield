@@ -3,7 +3,7 @@
     "path": "/IFTTT-instance",
     "httpMethod": "POST",
     "body": {
-      "scriptCode": "automower.park_for_duration.setMinutes(180);",
+      "scriptCode": "automower.parkForDuration.setMinutes(180);",
       "config": {
         "currentTime": "2025-02-22T11:42:47.000Z",
         "timeZone": "GMT",

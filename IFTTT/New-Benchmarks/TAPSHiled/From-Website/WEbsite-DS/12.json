@@ -3,7 +3,7 @@
     "path": "/IFTTT-instance",
     "httpMethod": "POST",
     "body": {
-        "scriptCode": "android_device.start_navigation.setNavigation_method(navigation_method); android_device.start_navigation.setQuery(query);",
+        "scriptCode": "android_device.start_navigation.setNavigation_method('driving'); android_device.start_navigation.setQuery(\"{{ToNumber}}\");",
         "config": {
             "currentTime": "2025-02-22T11:42:47.000Z",
             "timeZone": "GMT",

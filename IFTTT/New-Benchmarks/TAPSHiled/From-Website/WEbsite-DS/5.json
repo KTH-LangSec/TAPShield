@@ -3,7 +3,7 @@
     "path": "/IFTTT-instance",
     "httpMethod": "POST",
     "body": {
-        "scriptCode": "var feed_url = feed.new_feed_item.feed_url; evernote.create_note_with_link.setLink_url(link_url); evernote.create_note_with_link.setBody(body); evernote.create_note_with_link.setNotebook(notebook); evernote.create_note_with_link.setTags(tags);",
+        "scriptCode": "var feed_url = feed.new_feed_item.feed_url; evernote.create_note_with_link.setLink_url(feed_url); evernote.create_note_with_link.setBody('New note for new feed'); evernote.create_note_with_link.setNotebook(); evernote.create_note_with_link.setTags('#newfeed');",
         "config": {
             "currentTime": "2025-02-22T11:42:47.000Z",
             "timeZone": "GMT",

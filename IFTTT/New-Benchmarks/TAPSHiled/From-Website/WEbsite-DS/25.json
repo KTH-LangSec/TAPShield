@@ -10,7 +10,7 @@
         "triggerTime": "2025-02-22T11:42:47.000Z",
         "trigger": {
           "serviceName": "location",
-          "name": "exit_region_location",
+          "name": "park_for_duration",
           "ingredients": "{\"location\":\"927-929 Market St, San Francisco, CA 94102, USA\"}"
         },
         "actions": [
