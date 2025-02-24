@@ -1,0 +1,48 @@
+{
+    "id": "ntpzWP2L",
+    "name": "If my character is killed in Rust send me a notification",
+    "description": "Make sure you know when your character is killed by getting a push notification anytime your character is killed in-game",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "2004652503",
+    "applet_trigger": {
+        "channel_module_name": "rust",
+        "module_name": "player_killed",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "if_notifications",
+            "module_name": "send_rich_notification",
+            "fields": [
+                {
+                    "custom_label": "Title",
+                    "name": "title",
+                    "hidden": true,
+                    "default_value_json": "\"RustDeaths\""
+                },
+                {
+                    "custom_label": "Message",
+                    "name": "message",
+                    "hidden": true,
+                    "default_value_json": "\"Hey, just in case you didn't see already... {{Title}}\""
+                },
+                {
+                    "custom_label": "Link URL",
+                    "name": "link_url",
+                    "hidden": true,
+                    "default_value_json": "\"{{ServerUrl}}\""
+                },
+                {
+                    "custom_label": "Image URL",
+                    "name": "image_url",
+                    "hidden": true,
+                    "default_value_json": "\"{{ServerImageUrl}}\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/ntpzWP2L-if-my-character-is-killed-in-rust-send-me-a-notification"
+}

@@ -1,0 +1,43 @@
+{
+    "id": "PFpyfCUg",
+    "name": "Mail me free games with Steam keys posted to /r/gamedeals",
+    "description": "Free games on Steam!",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1352860597",
+    "applet_trigger": {
+        "channel_module_name": "reddit",
+        "module_name": "new_post_from_search_reddit",
+        "fields": [
+            {
+                "custom_label": "Search for",
+                "name": "query",
+                "hidden": false,
+                "default_value_json": "\"title:'free' title:'steam' AND subreddit:gamedeals\""
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "email",
+            "module_name": "send_me_email",
+            "fields": [
+                {
+                    "custom_label": "Free Games for Steam!!!",
+                    "name": "subject",
+                    "hidden": true,
+                    "default_value_json": "\"{{Title}} via /r/{{Subreddit}}\""
+                },
+                {
+                    "custom_label": "Body",
+                    "name": "body",
+                    "hidden": true,
+                    "default_value_json": "\"\\u003cimg src=\\\"{{ImageURL}}\\\"\\u003e\\u003cbr\\u003e\\u003cb\\u003e{{Title}}\\u003c/b\\u003e\\u003cbr\\u003e\\n{{ContentHTML}}\\u003cbr\\u003e\\u003cbr\\u003e\\nSubmitted {{PostedAt}} by {{Author}}\\u003cbr\\u003e\\nvia reddit {{PostURL}}\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/PFpyfCUg-mail-me-free-games-with-steam-keys-posted-to-r-gamedeals"
+}

@@ -1,0 +1,32 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var feed_url = feed.new_feed_item.feed_url; toodledo.add-task.setTitle(title); toodledo.add-task.setNote(note); toodledo.add-task.setTag(tag); toodledo.add-task.setPriority(priority); toodledo.add-task.setFolder(folder);",
+        "config": {
+            "currentTime": "2025-02-22T11:42:47.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-22T11:42:47.000Z",
+            "trigger": {
+                "serviceName": "feed",
+                "name": "new_feed_item",
+                "ingredients": "{\"feed_url\": \"http://www.eguidesservice.com/feed\"}"
+            },
+            "actions": [
+                {
+                    "serviceName": "toodledo",
+                    "name": "add-task",
+                    "fields": [
+                        "Title",
+                        "Note",
+                        "Tag",
+                        "Priority",
+                        "Folder"
+                    ]
+                }
+            ],
+            "link": "https://ifttt.com/applets/e4rwSTdG-rss-to-toodledo"
+        }
+    }
+}

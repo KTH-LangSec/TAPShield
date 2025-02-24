@@ -1,0 +1,27 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var video_title = youtube.new_liked_video.Title; spotify.add_a_track_to_a_playlist.setPlaylist('YouTube'); spotify.add_a_track_to_a_playlist.setSearchQuery(video_title);",
+      "config": {
+        "currentTime": "2025-02-22T11:42:47.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-22T11:42:47.000Z",
+        "trigger": {
+          "serviceName": "youtube",
+          "name": "new_liked_video",
+          "ingredients": "{}"
+        },
+        "actions": [
+          {
+            "serviceName": "spotify",
+            "name": "add_a_track_to_a_playlist",
+            "fields": ["Playlist", "SearchQuery"]
+          }
+        ],
+        "link": "https://ifttt.com/applets/pc6CeRjs-add-songs-from-videos-you-like-to-a-spotify-playlist"
+      }
+    }
+  }
+  

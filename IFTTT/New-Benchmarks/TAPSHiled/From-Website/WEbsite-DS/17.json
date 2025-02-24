@@ -1,0 +1,43 @@
+{
+    "id": "vyZYT5db",
+    "name": "Automatically \"save\" newly Shazam-ed songs in Spotify",
+    "description": "You can integrate Shazam with Spotify to create a \"My Shazam Tracks\" playlist. Then, this Applet will automatically add all newly Shazam-ed songs to \"Your music\" in Spotify, or another playlist your specify. ",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "51464135",
+    "applet_trigger": {
+        "channel_module_name": "spotify",
+        "module_name": "new_track_added_to_playlist",
+        "fields": [
+            {
+                "custom_label": null,
+                "name": "playlist",
+                "hidden": false,
+                "default_value_json": "null"
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "spotify",
+            "module_name": "save_a_track",
+            "fields": [
+                {
+                    "custom_label": null,
+                    "name": "search_query",
+                    "hidden": true,
+                    "default_value_json": "\"{{TrackName}} - {{ArtistName}}\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "artist_name",
+                    "hidden": true,
+                    "default_value_json": "null"
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/vyZYT5db-automatically-save-newly-shazam-ed-songs-in-spotify"
+}

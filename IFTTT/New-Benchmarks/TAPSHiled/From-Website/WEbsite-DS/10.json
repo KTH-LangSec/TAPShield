@@ -1,0 +1,28 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var condition = weather.tomorrows_forecast_calls_for.condition; var location = weather.tomorrows_forecast_calls_for.location; if_notifications.send_notification.setMessage(message);",
+        "config": {
+            "currentTime": "2025-02-22T11:42:47.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-22T11:42:47.000Z",
+            "trigger": {
+                "serviceName": "weather",
+                "name": "tomorrows_forecast_calls_for",
+                "ingredients": "{\"condition\": \"rain\", \"location\": \"null\"}"
+            },
+            "actions": [
+                {
+                    "serviceName": "if_notifications",
+                    "name": "send_notification",
+                    "fields": [
+                        "Message"
+                    ]
+                }
+            ],
+            "link": "https://ifttt.com/applets/LEbinUvF-rain-tomorrow-get-a-mobile-notification"
+        }
+    }
+}

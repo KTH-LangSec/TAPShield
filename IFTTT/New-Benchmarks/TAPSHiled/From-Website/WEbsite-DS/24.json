@@ -1,0 +1,30 @@
+{
+    "id": "jwGsdWaM",
+    "name": "Hey Siri, close my garage door",
+    "description": "This Applet will allow you to create a custom prompt with Siri to close your MyQ garage door.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1607240557",
+    "applet_trigger": {
+        "channel_module_name": "ios_shortcuts",
+        "module_name": "shortcut_automation_started",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "myq_devices",
+            "module_name": "close_door",
+            "fields": [
+                {
+                    "custom_label": "What is the door name?",
+                    "name": "door_name",
+                    "hidden": false,
+                    "default_value_json": "null"
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/jwGsdWaM-hey-siri-close-my-garage-door"
+}

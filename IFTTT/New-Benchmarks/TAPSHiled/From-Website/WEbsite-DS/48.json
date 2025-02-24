@@ -1,0 +1,27 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var url = space.new_image_picture_nasa.GalleryURL; var title = space.new_image_picture_nasa.ImageTitle; var preview_text = space.new_image_picture_nasa.Description; ios_reading_list.create_reading_list_item.setUrl(url); ios_reading_list.create_reading_list_item.setTitle(title); ios_reading_list.create_reading_list_item.setPreviewText(preview_text);",
+      "config": {
+        "currentTime": "2025-02-22T11:42:47.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-22T11:42:47.000Z",
+        "trigger": {
+          "serviceName": "space",
+          "name": "new_image_picture_nasa",
+          "ingredients": "{}"
+        },
+        "actions": [
+          {
+            "serviceName": "ios_reading_list",
+            "name": "create_reading_list_item",
+            "fields": ["Url", "Title", "PreviewText"]
+          }
+        ],
+        "link": "https://ifttt.com/applets/ADTRpPSr-image-of-the-day-from-nasa-ios-reading-list"
+      }
+    }
+  }
+  

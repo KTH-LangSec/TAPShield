@@ -1,0 +1,43 @@
+{
+    "id": "sFk2WC4r",
+    "name": "Track your work hours in Google Calendar",
+    "description": "All you have to do is set your work location and any time you arrive or leave the area, it will be automatically added to a calendar for easy tracking.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1396293310",
+    "applet_trigger": {
+        "channel_module_name": "location",
+        "module_name": "enter_or_exit_region_location",
+        "fields": [
+            {
+                "custom_label": "Locate your work",
+                "name": "location",
+                "hidden": false,
+                "default_value_json": "{\"latitude\":\"38.898118344192746\",\"longitude\":\"-77.03648269999997\",\"radius\":\"311.3741638736575\",\"address\":\"1600 Pennsylvania Ave NW, Washington, DC 20500\",\"description\":\"1600 Pennsylvania Ave NW, Washington, DC 20500\",\"zoom\":\"16\"}"
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "google_calendar",
+            "module_name": "quick_add_event",
+            "fields": [
+                {
+                    "custom_label": "Quick add text",
+                    "name": "quick_add",
+                    "hidden": true,
+                    "default_value_json": "\"{{OccurredAt}} You {{EnteredOrExited}} work  for 5 minutes\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "calendar",
+                    "hidden": false,
+                    "default_value_json": "null"
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/sFk2WC4r-track-your-work-hours-in-google-calendar"
+}

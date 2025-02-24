@@ -1,0 +1,36 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var feed_url = feed.new_feed_item.feed_url; raindrop.raindrop.setLink(feed_url); raindrop.raindrop.setTitle('This is our raindrop'); raindrop.raindrop.setExcerpt('{{EntryContent}}'); raindrop.raindrop.setCover('new Cover'); raindrop.raindrop.setTags('feed#new'); raindrop.raindrop.setCreated(''); raindrop.raindrop.setNote('');",
+      "config": {
+        "currentTime": "2025-02-22T11:42:47.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-22T11:42:47.000Z",
+        "trigger": {
+          "serviceName": "feed",
+          "name": "new_feed_item",
+          "ingredients": "{\"feed_url\":\"http://www.eguidesservice.com/feed\"}"
+        },
+        "actions": [
+          {
+            "serviceName": "raindrop",
+            "name": "raindrop",
+            "fields": [
+              "Link",
+              "CollectionId",
+              "Title",
+              "Excerpt",
+              "Cover",
+              "Tags",
+              "Created",
+              "Note"
+            ]
+          }
+        ],
+        "link": "https://ifttt.com/applets/BAMSHyDY-rss-to-raindrop"
+      }
+    }
+  }
+  

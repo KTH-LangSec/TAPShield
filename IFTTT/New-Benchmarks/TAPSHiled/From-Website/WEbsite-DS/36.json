@@ -1,0 +1,60 @@
+{
+    "id": "iv7Wt23s",
+    "name": "Save new iOS reminders as a Todoist task",
+    "description": "Creates a new Todoist task when you create an iOS reminder. Thus you can finally create Todoist tasks with Siri. ",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1148373811",
+    "applet_trigger": {
+        "channel_module_name": "ios_reminders",
+        "module_name": "new_reminder_added",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "todoist",
+            "module_name": "create_task",
+            "fields": [
+                {
+                    "custom_label": null,
+                    "name": "project_id",
+                    "hidden": false,
+                    "default_value_json": "null"
+                },
+                {
+                    "custom_label": null,
+                    "name": "task_content",
+                    "hidden": true,
+                    "default_value_json": "\"{{Title}}\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "note",
+                    "hidden": false,
+                    "default_value_json": "null"
+                },
+                {
+                    "custom_label": null,
+                    "name": "due_date",
+                    "hidden": false,
+                    "default_value_json": "null"
+                },
+                {
+                    "custom_label": null,
+                    "name": "priority",
+                    "hidden": false,
+                    "default_value_json": "null"
+                },
+                {
+                    "custom_label": "Task description",
+                    "name": "task_description",
+                    "hidden": false,
+                    "default_value_json": "\"\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/iv7Wt23s-save-new-ios-reminders-as-a-todoist-task"
+}

@@ -1,0 +1,67 @@
+{
+    "id": "m5yHgirZ",
+    "name": "Add a task to Todoist Inbox for every note tagged with \"Todoist\" in Evernote",
+    "description": "Create a task in your Todoist Inbox if you add \"Todoist\" tag to any notes in Evernote. It uses the Todoist formatting syntax to create a hyperlink in the task title to the note, using note's title and PublicUrl of the note.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "25",
+    "applet_trigger": {
+        "channel_module_name": "evernote",
+        "module_name": "add_tag_to_note",
+        "fields": [
+            {
+                "custom_label": null,
+                "name": "tag",
+                "hidden": true,
+                "default_value_json": "\"Todoist\""
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "todoist",
+            "module_name": "create_task",
+            "fields": [
+                {
+                    "custom_label": null,
+                    "name": "project_id",
+                    "hidden": false,
+                    "default_value_json": "null"
+                },
+                {
+                    "custom_label": null,
+                    "name": "task_content",
+                    "hidden": true,
+                    "default_value_json": "\"{{PublicUrl}} ({{Title}})\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "note",
+                    "hidden": true,
+                    "default_value_json": "\"{{PublicUrl}} ({{Title}}) is a note in Evernote tagged {{Tags}}\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "due_date",
+                    "hidden": true,
+                    "default_value_json": "null"
+                },
+                {
+                    "custom_label": null,
+                    "name": "priority",
+                    "hidden": true,
+                    "default_value_json": "null"
+                },
+                {
+                    "custom_label": "Task description",
+                    "name": "task_description",
+                    "hidden": false,
+                    "default_value_json": "\"\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/m5yHgirZ-add-a-task-to-todoist-inbox-for-every-note-tagged-with-todoist-in-evernote"
+}

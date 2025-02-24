@@ -2,9 +2,8 @@ import json
 import requests
 import re
 import os
-
+import random
 def extract_applet_ids(json_file):
-    """Extract applet IDs and their corresponding links from a JSON file."""
     with open(json_file, 'r', encoding='utf-8') as file:
         data = json.load(file)
     
@@ -18,7 +17,7 @@ def extract_applet_ids(json_file):
     return applet_data
 
 def query_ifttt_applet(applet_id):
-    """Query IFTTT API to get applet configuration and filter code."""
+    
     url = "https://ifttt.com/api/v3/graph"
     headers = {'Content-Type': 'application/json; charset=utf-8'}
     data = {
@@ -67,5 +66,41 @@ def main():
         else:
             print(f"Failed to retrieve data for applet ID: {applet['id']}")
 
+
+
+
+def select_random_files(directory, num_files=20):
+    
+    if not os.path.exists(directory):
+        print(f"Directory '{directory}' does not exist.")
+        return
+    
+    all_files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
+    
+    if not all_files:
+        print("No files found in the directory.")
+        return
+    
+    selected_files = random.sample(all_files, min(num_files, len(all_files)))  # Ensure we don't exceed available files
+    
+    print("Selected Files:")
+    for file in selected_files:
+        print(file)
+
+
+
+
+
+
+
 if __name__ == "__main__":
-    main()
+    # main()
+    select_random_files('./applets')
+
+# output of this function 
+"""
+['1.json', '3.json', '4.json', '5.json', '6.json', '10.json', 
+'12.json', '13.json', '16.json', '20.json', '21.json', '23.json',
+ '25.json', '26.json', '34.json', '37.json', '41.json', '43.json',
+'48.json', '51.json']
+"""

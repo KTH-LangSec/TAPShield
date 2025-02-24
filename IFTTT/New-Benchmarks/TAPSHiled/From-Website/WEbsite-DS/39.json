@@ -1,0 +1,55 @@
+{
+    "id": "UJcRMhDV",
+    "name": "Use Siri to create tasks in Google Tasks",
+    "description": "New tasks added to your chosen list in iOS Reminders are also added as tasks due today in Google tasks",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1687686272",
+    "applet_trigger": {
+        "channel_module_name": "ios_reminders",
+        "module_name": "new_reminder_added_to_list",
+        "fields": [
+            {
+                "custom_label": "List name",
+                "name": "list_name",
+                "hidden": false,
+                "default_value_json": "\"Tasks list\""
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "google_tasks",
+            "module_name": "add_task_to_tasklist",
+            "fields": [
+                {
+                    "custom_label": "Which task list?",
+                    "name": "tasklist_id",
+                    "hidden": false,
+                    "default_value_json": "null"
+                },
+                {
+                    "custom_label": "What is the title of the task?",
+                    "name": "task_title",
+                    "hidden": true,
+                    "default_value_json": "\"{{Title}}\""
+                },
+                {
+                    "custom_label": "What are the notes to include in the task?",
+                    "name": "task_notes",
+                    "hidden": true,
+                    "default_value_json": "\"{{Title}}\\u003cbr\\u003e\\n\\u003cbr\\u003e\\n{{Notes}}\\u003cbr\\u003e\\n\\u003cbr\\u003e\\nPriority: {{Priority}}\\u003cbr\\u003e\\nCreated: {{CreatedDate}}\\u003cbr\\u003e\\n\\u003cbr\\u003e\\nvia iOS Reminders {{List}} list\""
+                },
+                {
+                    "custom_label": "Does the task have a due date?",
+                    "name": "due_date",
+                    "hidden": true,
+                    "default_value_json": "\"{{CreatedDate}}\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/UJcRMhDV-use-siri-to-create-tasks-in-google-tasks"
+}

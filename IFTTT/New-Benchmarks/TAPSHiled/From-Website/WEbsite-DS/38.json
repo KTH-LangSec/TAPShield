@@ -1,0 +1,36 @@
+{
+    "id": "aVxGRrtD",
+    "name": "Tweet your Instagrams as native photos on Twitter",
+    "description": "Instagram photos will show up in your Twitter feed as a full image rather than a link. Note: only works for single photo posts.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "28",
+    "applet_trigger": {
+        "channel_module_name": "instagram",
+        "module_name": "any_new_photo_by_you",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "twitter",
+            "module_name": "post_new_tweet_with_image",
+            "fields": [
+                {
+                    "custom_label": "Tweet text",
+                    "name": "tweet",
+                    "hidden": true,
+                    "default_value_json": "\"{{Caption}} {{Url}}\""
+                },
+                {
+                    "custom_label": "Image URL",
+                    "name": "photo_url",
+                    "hidden": true,
+                    "default_value_json": "\"{{SourceUrl}}\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/aVxGRrtD-tweet-your-instagrams-as-native-photos-on-twitter"
+}

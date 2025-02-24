@@ -1,0 +1,36 @@
+{
+    "id": "QM6Ua5BE",
+    "name": "SMS2Email: Forward your text messages to your email",
+    "description": "SMS2Email forwards the text messages you receive on your Android phone to your email account, so as long as your phone is connected to the internet, you can view your text messages on your tablet, computer, or anywhere you can access your email! Use our other recipe Email2SMS to send texts from your email.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1322033008",
+    "applet_trigger": {
+        "channel_module_name": "android_messages",
+        "module_name": "received_a_message",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "email",
+            "module_name": "send_me_email",
+            "fields": [
+                {
+                    "custom_label": null,
+                    "name": "subject",
+                    "hidden": true,
+                    "default_value_json": "\"Text From {{ContactName}} ({{FromNumber}}) on {{OccurredAt}}\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "body",
+                    "hidden": true,
+                    "default_value_json": "\"{{Text}}\\u003cbr\\u003e\\nPowered by SMS2Email for IFTTT\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/QM6Ua5BE-sms2email-forward-your-text-messages-to-your-email"
+}

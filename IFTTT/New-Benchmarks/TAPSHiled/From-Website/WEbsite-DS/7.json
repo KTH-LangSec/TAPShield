@@ -1,0 +1,26 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "automower.park_for_duration.setAutomower(automower); automower.park_for_duration.setMinutes(minutes); automower.park_for_duration.setDuration_in_minutes(duration_in_minutes);",
+        "config": {
+            "currentTime": "2025-02-22T11:42:47.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-22T11:42:47.000Z",
+            "trigger": null,
+            "actions": [
+                {
+                    "serviceName": "automower",
+                    "name": "park_for_duration",
+                    "fields": [
+                        "Automower",
+                        "Minutes",
+                        "Duration_in_minutes"
+                    ]
+                }
+            ],
+            "link": "https://ifttt.com/applets/tQxqUWY7-park-mower-if-weather-forecast-predicts-frost-or-heavy-rain"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var location = location.exit_region_location.location; blink.network_arm.setNetwork(null);",
+      "config": {
+        "currentTime": "2025-02-22T11:42:47.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-22T11:42:47.000Z",
+        "trigger": {
+          "serviceName": "location",
+          "name": "exit_region_location",
+          "ingredients": "{\"location\":\"927-929 Market St, San Francisco, CA 94102, USA\"}"
+        },
+        "actions": [
+          {
+            "serviceName": "blink",
+            "name": "network_arm",
+            "fields": ["Network"]
+          }
+        ],
+        "link": "https://ifttt.com/applets/RWjvrX6m-automatically-arm-your-blink-system-when-you-leave-home"
+      }
+    }
+  }
+  

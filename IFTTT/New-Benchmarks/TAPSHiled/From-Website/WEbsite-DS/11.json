@@ -1,0 +1,29 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var condition = weather.tomorrows_forecast_calls_for.condition; var location = weather.tomorrows_forecast_calls_for.location; email.send_me_email.setSubject(subject); email.send_me_email.setBody(body);",
+        "config": {
+            "currentTime": "2025-02-22T11:42:47.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-22T11:42:47.000Z",
+            "trigger": {
+                "serviceName": "weather",
+                "name": "tomorrows_forecast_calls_for",
+                "ingredients": "{\"condition\": \"rain\", \"location\": \"{\\\"latitude\\\":\\\"37.78383134622294\\\",\\\"longitude\\\":\\\"-122.40843300000002\\\",\\\"address\\\":\\\"923 Market St, San Francisco, CA 94103, USA\\\",\\\"description\\\":\\\"923 Market St, San Francisco, CA 94103, USA\\\",\\\"zoom\\\":\\\"16\\\"}\"}"
+            },
+            "actions": [
+                {
+                    "serviceName": "email",
+                    "name": "send_me_email",
+                    "fields": [
+                        "Subject",
+                        "Body"
+                    ]
+                }
+            ],
+            "link": "https://ifttt.com/applets/Jb5YzAGn-get-an-email-if-it-will-rain-tomorrow"
+        }
+    }
+}

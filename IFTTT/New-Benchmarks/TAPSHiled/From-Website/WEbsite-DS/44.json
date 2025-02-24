@@ -1,0 +1,36 @@
+{
+    "id": "bW5KADF4",
+    "name": "Save screenshots to a separate iOS album",
+    "description": "When you take a screenshot it will be copied to unique album for easier organization.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "78",
+    "applet_trigger": {
+        "channel_module_name": "ios_photos",
+        "module_name": "ios_new_screenshot",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "ios_photos",
+            "module_name": "create_photo_ios_photos",
+            "fields": [
+                {
+                    "custom_label": null,
+                    "name": "photo_url",
+                    "hidden": true,
+                    "default_value_json": "\"{{PrivatePhotoURL}}\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "album",
+                    "hidden": true,
+                    "default_value_json": "\"Screenshots\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/bW5KADF4-save-screenshots-to-a-separate-ios-album"
+}

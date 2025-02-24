@@ -1,0 +1,30 @@
+{
+    "id": "wYf8ceZQ",
+    "name": "Turn on/off your lights with one tap on your phone",
+    "description": "",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1620619676",
+    "applet_trigger": {
+        "channel_module_name": "do_button",
+        "module_name": "do_button_new_command_common",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "hue",
+            "module_name": "toggle_all_hue",
+            "fields": [
+                {
+                    "custom_label": "Which lights?",
+                    "name": "lights",
+                    "hidden": false,
+                    "default_value_json": "null"
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/wYf8ceZQ-turn-on-off-your-lights-with-one-tap-on-your-phone"
+}

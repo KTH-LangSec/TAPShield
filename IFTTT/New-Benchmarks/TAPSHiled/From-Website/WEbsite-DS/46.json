@@ -1,0 +1,43 @@
+{
+    "id": "GutUrxFv",
+    "name": "Take on the 1p Savings Challenge",
+    "description": "Gradually increase the amount you're saving each day to a pot of your choice. On 1st January, you'll save 1p. On 2nd January, you'll save 2p. This goes right up to \u00a33.65 (or \u00a33.66 \ud83d\ude01) on the last day of the year!\n\nFeel free to jump in part way through the year, and see how far you get!\n\nThe challenge resets automatically on January 1st every year.",
+    "published": true,
+    "archived": false,
+    "filter_code": "var day_of_year = Meta.currentUserTime.format('DDD');\nvar amount = parseInt(day_of_year) / 100;\nMonzo.potDeposit.setAmount(amount.toFixed(2));\n\n",
+    "channel_id": "1201183828",
+    "applet_trigger": {
+        "channel_module_name": "date_and_time",
+        "module_name": "every_day_at",
+        "fields": [
+            {
+                "custom_label": "Time",
+                "name": "time",
+                "hidden": true,
+                "default_value_json": "\"08:00\""
+            }
+        ]
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "monzo",
+            "module_name": "pot_deposit",
+            "fields": [
+                {
+                    "custom_label": "Pot",
+                    "name": "pot",
+                    "hidden": false,
+                    "default_value_json": "null"
+                },
+                {
+                    "custom_label": "Amount",
+                    "name": "amount",
+                    "hidden": true,
+                    "default_value_json": "\"0\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/GutUrxFv-take-on-the-1p-savings-challenge"
+}

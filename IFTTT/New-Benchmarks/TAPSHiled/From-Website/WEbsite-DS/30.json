@@ -1,0 +1,36 @@
+{
+    "id": "CrhspkRx",
+    "name": "Quickly create events in a Google Calendar",
+    "description": "Download the IFTTT app to access the Note widget on your device. Then all you have to do is launch the widget and enter a description like \"Meeting with Jonathan at 3:30 on June 10th\" and the event will be created on your calendar with the correct date and time. The more specific your description, the better! For more info on widgets: https://ifttt.com/help/applets-with-widgets",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "1396293310",
+    "applet_trigger": {
+        "channel_module_name": "do_note",
+        "module_name": "do_note_new_command_common",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "google_calendar",
+            "module_name": "quick_add_event",
+            "fields": [
+                {
+                    "custom_label": "Quick add text",
+                    "name": "quick_add",
+                    "hidden": true,
+                    "default_value_json": "\"{{NoteText}}\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "calendar",
+                    "hidden": false,
+                    "default_value_json": "null"
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/CrhspkRx-quickly-create-events-in-a-google-calendar"
+}

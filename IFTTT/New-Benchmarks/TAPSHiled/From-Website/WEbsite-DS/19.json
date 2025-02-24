@@ -1,0 +1,36 @@
+{
+    "id": "EXZPxB9m",
+    "name": "Add songs you like on YouTube to Your Music on Spotify",
+    "description": "This recipe searches Spotify for the songs you liked on YouTube. It then saves the first matching result to Your Music on Spotify.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "32",
+    "applet_trigger": {
+        "channel_module_name": "youtube",
+        "module_name": "new_liked_video",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "spotify",
+            "module_name": "save_a_track",
+            "fields": [
+                {
+                    "custom_label": null,
+                    "name": "search_query",
+                    "hidden": true,
+                    "default_value_json": "\"{{Title}} {{Url}}\""
+                },
+                {
+                    "custom_label": null,
+                    "name": "artist_name",
+                    "hidden": true,
+                    "default_value_json": "null"
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/EXZPxB9m-add-songs-you-like-on-youtube-to-your-music-on-spotify"
+}

@@ -1,0 +1,23 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "automower.park_for_duration.setMinutes(180);",
+      "config": {
+        "currentTime": "2025-02-22T11:42:47.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-22T11:42:47.000Z",
+        "trigger": null,
+        "actions": [
+          {
+            "serviceName": "automower",
+            "name": "park_for_duration",
+            "fields": ["Minutes"]
+          }
+        ],
+        "link": "https://ifttt.com/applets/fkWjhvNe-park-mower-with-a-google-calendar-event"
+      }
+    }
+  }
+  

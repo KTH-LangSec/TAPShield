@@ -1,0 +1,42 @@
+{
+    "id": "VxiYR6Wr",
+    "name": "Share YouTube video to Discord",
+    "description": "Automatically post your latest YouTube video to a Discord channel when it goes live. Customize the message with Rich Message action instead.",
+    "published": true,
+    "archived": false,
+    "filter_code": null,
+    "channel_id": "32",
+    "applet_trigger": {
+        "channel_module_name": "youtube",
+        "module_name": "new_video_uploaded_yt",
+        "fields": []
+    },
+    "applet_actions": [
+        {
+            "channel_module_name": "discord",
+            "module_name": "post_message_to_channel",
+            "fields": [
+                {
+                    "custom_label": "Which Channel?",
+                    "name": "channel_id",
+                    "hidden": false,
+                    "default_value_json": "null"
+                },
+                {
+                    "custom_label": "Message",
+                    "name": "message",
+                    "hidden": true,
+                    "default_value_json": "\"{{Title}} by {{AuthorName}}\\u003cbr\\u003e\\n{{Description}}\\u003cbr\\u003e\\nvia YouTube {{Url}}\""
+                },
+                {
+                    "custom_label": "Allowable mentions",
+                    "name": "allowable_mentions",
+                    "hidden": true,
+                    "default_value_json": "\"all_mentions\""
+                }
+            ]
+        }
+    ],
+    "applet_queries": [],
+    "Link": "https://ifttt.com/applets/VxiYR6Wr-share-youtube-video-to-discord"
+}

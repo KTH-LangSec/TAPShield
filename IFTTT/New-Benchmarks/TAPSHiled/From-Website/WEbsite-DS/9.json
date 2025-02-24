@@ -1,0 +1,28 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var time = weather.current_weather_at_time.time; var location = weather.current_weather_at_time.location; if_notifications.send_notification.setMessage(message);",
+        "config": {
+            "currentTime": "2025-02-22T11:42:47.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-22T11:42:47.000Z",
+            "trigger": {
+                "serviceName": "weather",
+                "name": "current_weather_at_time",
+                "ingredients": "{\"time\": \"07:00\", \"location\": \"null\"}"
+            },
+            "actions": [
+                {
+                    "serviceName": "if_notifications",
+                    "name": "send_notification",
+                    "fields": [
+                        "Message"
+                    ]
+                }
+            ],
+            "link": "https://ifttt.com/applets/YY9Mqgw5-get-the-weather-forecast-every-day-at-7-00-am"
+        }
+    }
+}
