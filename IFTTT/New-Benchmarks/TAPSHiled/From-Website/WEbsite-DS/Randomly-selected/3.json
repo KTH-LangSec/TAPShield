@@ -1,0 +1,31 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var feed_url = feed.new_feed_item.feed_url; nimbus_note.addnote.setTitle('new feed added'); nimbus_note.addnote.setText(feed_url); nimbus_note.addnote.setFolder('presonal'); nimbus_note.addnote.setTags('#Feed');",
+        "config": {
+            "currentTime": "2025-02-22T11:42:47.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-22T11:42:47.000Z",
+            "trigger": {
+                "serviceName": "feed",
+                "name": "new_feed_item",
+                "ingredients": "{\"feed_url\": \"http://www.eguidesservice.com/feed\"}"
+            },
+            "actions": [
+                {
+                    "serviceName": "nimbus_note",
+                    "name": "addnote",
+                    "fields": [
+                        "Title",
+                        "Text",
+                        "Folder",
+                        "Tags"
+                    ]
+                }
+            ],
+            "link": "https://ifttt.com/applets/Eb2VCh8N-rss-feeds-to-nimbus"
+        }
+    }
+  }

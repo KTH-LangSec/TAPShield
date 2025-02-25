@@ -1,0 +1,29 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "android_device.start_navigation.setNavigation_method('driving'); android_device.start_navigation.setQuery(\"{{ToNumber}}\");",
+        "config": {
+            "currentTime": "2025-02-22T11:42:47.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-22T11:42:47.000Z",
+            "trigger": {
+                "serviceName": "android_phone",
+                "name": "place_a_phone_call",
+                "ingredients": "{}"
+            },
+            "actions": [
+                {
+                    "serviceName": "android_device",
+                    "name": "start_navigation",
+                    "fields": [
+                        "Navigation_method",
+                        "Query"
+                    ]
+                }
+            ],
+            "link": "https://ifttt.com/applets/hJMKghVa-if-someone-calls-show-their-location-when-the-call-ends"
+        }
+    }
+}
