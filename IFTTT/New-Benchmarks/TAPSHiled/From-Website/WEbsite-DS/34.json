@@ -1,28 +1,31 @@
 {
-    "resource": "/IFTTT-instance",
-    "path": "/IFTTT-instance",
-    "httpMethod": "POST",
-    "body": {
-      "scriptCode": "todoist.create_task.setProjectId(null); todoist.create_task.setTaskContent('Task content'); todoist.create_task.setNote('Note'); todoist.create_task.setDueDate(''); todoist.create_task.setPriority('4'); todoist.create_task.setTaskDescription(''); evernote.create_note.setTitle('Title'); evernote.create_note.setBody('Body'); evernote.create_note.setNotebook(''); evernote.create_note.setTags('');",
-      "config": {
-        "currentTime": "2025-02-22T11:42:47.000Z",
-        "timeZone": "GMT",
-        "triggerTime": "2025-02-22T11:42:47.000Z",
-        "trigger": null,
-        "actions": [
-          {
-            "serviceName": "todoist",
-            "name": "create_task",
-            "fields": ["ProjectId", "TaskContent", "Note", "DueDate", "Priority", "TaskDescription"]
-          },
-          {
-            "serviceName": "evernote",
-            "name": "create_note",
-            "fields": ["Title", "Body", "Notebook", "Tags"]
-          }
-        ],
-        "link": "https://ifttt.com/applets/wZNtTHJQ-sync-evernote-and-todoist"
-      }
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode": "todoist.create_task.setProjectId('95602'); todoist.create_task.setTaskContent('Task content'); todoist.create_task.setNote('Note'); todoist.create_task.setDueDate(''); todoist.create_task.setPriority('4'); todoist.create_task.setTaskDescription('This is a task from evernote'); evernote.create_note.setTitle('todois task'); evernote.create_note.setBody('task content'); evernote.create_note.setNotebook(''); evernote.create_note.setTags('#todoist');",
+    "config": {
+      "currentTime": "2025-02-22T11:42:47.000Z",
+      "timeZone": "GMT",
+      "triggerTime": "2025-02-22T11:42:47.000Z",
+      "trigger": {
+        "serviceName": "trigger",
+        "name": "Trigger",
+        "ingredients": "{}"
+      },
+      "actions": [
+        {
+          "serviceName": "todoist",
+          "name": "create_task",
+          "fields": ["ProjectId", "TaskContent", "Note", "DueDate", "Priority", "TaskDescription"]
+        },
+        {
+          "serviceName": "evernote",
+          "name": "create_note",
+          "fields": ["Title", "Body", "Notebook", "Tags"]
+        }
+      ],
+      "link": "https://ifttt.com/applets/wZNtTHJQ-sync-evernote-and-todoist"
     }
   }
-  
+}

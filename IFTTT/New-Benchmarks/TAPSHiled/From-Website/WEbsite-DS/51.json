@@ -1,27 +1,26 @@
 {
-    "resource": "/IFTTT-instance",
-    "path": "/IFTTT-instance",
-    "httpMethod": "POST",
-    "body": {
-      "scriptCode": "var url = do_camera.do_camera_new_photo.TemporaryPublicPhotoURL; var filename = do_camera.do_camera_new_photo.OccurredAt; google_drive.upload_file_from_url_google_drive.setUrl(url); google_drive.upload_file_from_url_google_drive.setFilename(filename); google_drive.upload_file_from_url_google_drive.setPath('Google Drive Camera');",
-      "config": {
-        "currentTime": "2025-02-22T11:42:47.000Z",
-        "timeZone": "GMT",
-        "triggerTime": "2025-02-22T11:42:47.000Z",
-        "trigger": {
-          "serviceName": "do_camera",
-          "name": "do_camera_new_photo",
-          "ingredients": "{}"
-        },
-        "actions": [
-          {
-            "serviceName": "google_drive",
-            "name": "upload_file_from_url_google_drive",
-            "fields": ["Url", "Filename", "Path"]
-          }
-        ],
-        "link": "https://ifttt.com/applets/HVaQjptn-google-drive-camera"
-      }
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode": "var url = do_camera.do_camera_new_photo.TemporaryPublicPhotoURL; var filename = do_camera.do_camera_new_photo.OccurredAt; GoogleDrive.uploadFileFromUrlGoogleDrive.setUrl(url); GoogleDrive.uploadFileFromUrlGoogleDrive.setFilename(filename); GoogleDrive.uploadFileFromUrlGoogleDrive.setPath('Google Drive Camera');",
+    "config": {
+      "currentTime": "2025-02-22T11:42:47.000Z",
+      "timeZone": "GMT",
+      "triggerTime": "2025-02-22T11:42:47.000Z",
+      "trigger": {
+        "serviceName": "do_camera",
+        "name": "do_camera_new_photo",
+        "ingredients": "{\"TemporaryPublicPhotoURL\":\"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf\", \"OccurredAt\":\"April 19, 2025 at 11:01PM\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "GoogleDrive",
+          "name": "uploadFileFromUrlGoogleDrive",
+          "fields": ["Url", "Filename", "Path"]
+        }
+      ],
+      "link": "https://ifttt.com/applets/HVaQjptn-google-drive-camera"
     }
   }
-  
+}

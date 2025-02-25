@@ -1,27 +1,26 @@
 {
-    "resource": "/IFTTT-instance",
-    "path": "/IFTTT-instance",
-    "httpMethod": "POST",
-    "body": {
-      "scriptCode": "google_sheets.append_to_google_spreadsheet.setFilename('Work Hours'); google_sheets.append_to_google_spreadsheet.setFormattedRow('{{OccurredAt}} ||| =IF(ISODD(ROW()), \"Started\", \"Stopped\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \"\\\\w+ \\\\d{2}, \\\\d{4}\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \"\\\\d{2}:\\\\d{2}[A|P]M$\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \"\\\\w+ \\\\d{2}, \\\\d{4}\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \"\\\\d{2}:\\\\d{2}[A|P]M$\")))) * 24, 2),\"\")'); google_sheets.append_to_google_spreadsheet.setPath('IFTTT button');",
-      "config": {
-        "currentTime": "2025-02-22T11:42:47.000Z",
-        "timeZone": "GMT",
-        "triggerTime": "2025-02-22T11:42:47.000Z",
-        "trigger": {
-          "serviceName": "do_button",
-          "name": "do_button_new_command_common",
-          "ingredients": "{}"
-        },
-        "actions": [
-          {
-            "serviceName": "google_sheets",
-            "name": "append_to_google_spreadsheet",
-            "fields": ["Filename", "FormattedRow", "Path"]
-          }
-        ],
-        "link": "https://ifttt.com/applets/NAMgXbLj-press-a-button-to-track-work-hours-in-google-drive"
-      }
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode": "google_sheets.appendToGoogleSpreadsheet.setFilename('WorkHours'); google_sheets.appendToGoogleSpreadsheet.setFormattedRow('{{OccurredAt}} ||| =IF(ISODD(ROW()), \"Started\", \"Stopped\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \"\\\\w+ \\\\d{2}, \\\\d{4}\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \"\\\\d{2}:\\\\d{2}[A|P]M$\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \"\\\\w+ \\\\d{2}, \\\\d{4}\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \"\\\\d{2}:\\\\d{2}[A|P]M$\")))) * 24, 2),\"\")'); google_sheets.appendToGoogleSpreadsheet.setPath('IFTTT button');",
+    "config": {
+      "currentTime": "2025-02-22T11:42:47.000Z",
+      "timeZone": "GMT",
+      "triggerTime": "2025-02-22T11:42:47.000Z",
+      "trigger": {
+        "serviceName": "do_button",
+        "name": "do_button_new_command_common",
+        "ingredients": "{}"
+      },
+      "actions": [
+        {
+          "serviceName": "google_sheets",
+          "name": "appendToGoogleSpreadsheet",
+          "fields": ["Filename", "FormattedRow", "Path"]
+        }
+      ],
+      "link": "https://ifttt.com/applets/NAMgXbLj-press-a-button-to-track-work-hours-in-google-drive"
     }
   }
-  
+}
