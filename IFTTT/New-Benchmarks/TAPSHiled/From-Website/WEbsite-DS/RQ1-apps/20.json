@@ -1,0 +1,26 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode": "var loca = location.exit_region_location.loc; irobot.startRobot.setRobotName('Vacc');",
+    "config": {
+      "currentTime": "2025-02-22T11:42:47.000Z",
+      "timeZone": "GMT",
+      "triggerTime": "2025-02-22T11:42:47.000Z",
+      "trigger": {
+        "serviceName": "location",
+        "name": "exit_region_location",
+        "ingredients": "{\"loc\": \"8 Crosby Dr, Bedford, MA 01730, USA\"}"
+      },  
+      "actions": [
+        {
+          "serviceName": "irobot",
+          "name": "startRobot",
+          "fields": ["RobotName"]
+        }
+      ],
+      "link": "https://ifttt.com/applets/A38TqjpD-when-i-leave-home-start-a-cleaning-job"
+    }
+  }
+}

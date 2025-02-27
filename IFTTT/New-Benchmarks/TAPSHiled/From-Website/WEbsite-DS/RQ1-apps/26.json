@@ -1,0 +1,27 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "-scriptCode": "var video_title = youtube.new_liked_video.Title; spotify.addATrackToAPlaylist.setPlaylist('YouTube'); spotify.addATrackToAPlaylist.setSearchQuery(video_title);",
+    "scriptCode":"var video_title = youtube.new_liked_video.Title; spotify.addATrackToAPlaylist.setPlaylist('YouTube'); spotify.addATrackToAPlaylist.setSearchQuery('Attacker's music');",
+    "config": {
+      "currentTime": "2025-02-22T11:42:47.000Z",
+      "timeZone": "GMT",
+      "triggerTime": "2025-02-22T11:42:47.000Z",
+      "trigger": {
+        "serviceName": "youtube",
+        "name": "new_liked_video",
+        "ingredients": "{\"Title\":\"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "spotify",
+          "name": "addATrackToAPlaylist",
+          "fields": ["Playlist", "SearchQuery", "artist_name"]
+        }
+      ],
+      "link": "https://ifttt.com/applets/pc6CeRjs-add-songs-from-videos-you-like-to-a-spotify-playlist"
+    }
+  }
+}

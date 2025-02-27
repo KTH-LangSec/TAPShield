@@ -97,7 +97,7 @@ if __name__ == "__main__":
     # main()
     select_random_files('./applets')
 
-# output of this function 
+# output of this function  This is for RQ3 
 """
 ['1.json', '3.json', '4.json', '5.json', '6.json', '10.json', 
 '12.json', '13.json', '16.json', '20.json', '21.json', '24.json',

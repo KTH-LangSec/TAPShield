@@ -1,0 +1,23 @@
+Insecure-log {
+#IFTTT+SandTrap is running#
+SyntaxError: Unexpected end of input
+    at get Allow [as Allow] (/home/kth-rof13thfloor/work/ifttt+sandtrap/ifttt+sandtrap/node_modules/sandtrap/out/policy/basic.js:201:38)
+    at Object.apply (contextification.js:888:40)
+    at evalmachine.<anonymous>:1:76
+    at Script.runInContext (node:vm:133:12)
+    at SandTrap.Eval (/home/kth-rof13thfloor/work/ifttt+sandtrap/ifttt+sandtrap/node_modules/sandtrap/out/sandtrap.js:44:29)
+    at runScriptCode (/home/kth-rof13thfloor/work/ifttt+sandtrap/ifttt+sandtrap/framework.js:114:13)
+    at exports.handler (/home/kth-rof13thfloor/work/ifttt+sandtrap/ifttt+sandtrap/lambda_interface.js:18:26)
+    at Object.<anonymous> (/home/kth-rof13thfloor/work/ifttt+sandtrap/ifttt+sandtrap/invoker.js:19:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+Contextify call action on path evernote/create_note_with_link/setLink_url denied.
+sandtrap-time: 9.746ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+}
+

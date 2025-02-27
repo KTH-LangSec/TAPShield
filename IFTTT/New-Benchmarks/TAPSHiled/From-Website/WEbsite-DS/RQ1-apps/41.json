@@ -1,0 +1,27 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode": "var d = new Date(); ios_reminders.createReminderIosReminders.setTitle('new ToDo'); ios_reminders.createReminderIosReminders.setList('work tasks'); ios_reminders.createReminderIosReminders.setPriority('0'); ios_reminders.createReminderIosReminders.setAlarmDate(d);",
+    "-scriptCode":"var d = new Date(); ios_reminders.createReminderIosReminders.setTitle('new ToDo'); ios_reminders.createReminderIosReminders.setList('work tasks'); ios_reminders.createReminderIosReminders.setPriority('0'); ios_reminders.createReminderIosReminders.setAlarmDate('28-10-26');",
+    "config": {
+      "currentTime": "2025-02-22T11:42:47.000Z",
+      "timeZone": "GMT",
+      "triggerTime": "2025-02-22T11:42:47.000Z",
+      "trigger": {
+        "serviceName": "do_note",
+        "name": "do_note_new_command_common",
+        "ingredients": "{}"
+      },
+      "actions": [
+        {
+          "serviceName": "ios_reminders",
+          "name": "createReminderIosReminders",
+          "fields": ["Title", "List", "Priority", "AlarmDate"]
+        }
+      ],
+      "link": "https://ifttt.com/applets/dTJuvSmB-quick-note-to-ios-reminder"
+    }
+  }
+}
