@@ -1,0 +1,26 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode": "var scene_name = google_assistant_v2.activate_scene.scene_name; MyqDevices.closeDoor.setDoorName('garage door');",
+    "config": {
+      "currentTime": "2025-02-22T11:42:47.000Z",
+      "timeZone": "GMT",
+      "triggerTime": "2025-02-22T11:42:47.000Z",
+      "trigger": {
+        "serviceName": "google_assistant_v2",
+        "name": "activate_scene",
+        "ingredients": "{\"scene_name\":\"Close garage\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "MyqDevices",
+          "name": "closeDoor",
+          "fields": ["DoorName"]
+        }
+      ],
+      "link": "https://ifttt.com/applets/w9HVuagD-close-your-myq-garage-door-with-your-voice"
+    }
+  }
+}

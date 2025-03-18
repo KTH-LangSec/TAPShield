@@ -1,0 +1,27 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode": "var topic = do_note.do_note_new_command_common.NoteText;var draft_content = 'This is a draft page on ai content '; GoogleDocs.createGoogleDoc.setFilename('Blog post ideas - {{OccurredAt}}'); GoogleDocs.createGoogleDoc.setBody(draft_content); GoogleDocs.createGoogleDoc.setPath('Drafts');",
+    "config": {
+      "currentTime": "2025-02-22T11:42:47.000Z",
+      "timeZone": "GMT",
+      "triggerTime": "2025-02-22T11:42:47.000Z",
+      "trigger":  {
+        "serviceName": "do_note",
+        "name": "do_note_new_command_common",
+        "ingredients": "{}"}
+        
+      ,
+      "actions": [
+        {
+          "serviceName": "GoogleDocs",
+          "name": "createGoogleDoc",
+          "fields": ["Filename", "Body", "Path"]
+        }
+      ],
+      "link": "https://ifttt.com/applets/Wi6uLChB-generate-a-draft-blog-post-for-a-topic"
+    }
+  }
+}

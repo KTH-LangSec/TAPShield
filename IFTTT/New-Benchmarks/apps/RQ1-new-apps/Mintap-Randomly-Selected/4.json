@@ -1,0 +1,35 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var feed_url = feed.new_feed_item.feed_url; trello.create_card.setBoard('dayliBoard'); trello.create_card.setList_name('dayli list'); trello.create_card.setPos('top'); trello.create_card.setTitle(\"{{EntryTitle}}\"); trello.create_card.setDescription('priority task'); trello.create_card.setMembers('all'); trello.create_card.setLabels('daily'); trello.create_card.setUrl(feed_url);",
+        "config": {
+            "currentTime": "2025-02-22T11:42:47.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-22T11:42:47.000Z",
+            "trigger": {
+                "serviceName": "feed",
+                "name": "new_feed_item",
+                "ingredients": "{\"feed_url\": \"http://www.eguidesservice.com/feed\"}"
+            },
+            "actions": [
+                {
+                    "serviceName": "trello",
+                    "name": "create_card",
+                    "fields": [
+                        "Board",
+                        "List_name",
+                        "Pos",
+                        "Title",
+                        "Description",
+                        "Members",
+                        "Labels",
+                        "Url"
+                    ]
+                }
+            ],
+            "link": "https://ifttt.com/applets/kUmTYgCy-rss-to-trello"
+        }
+    }
+}

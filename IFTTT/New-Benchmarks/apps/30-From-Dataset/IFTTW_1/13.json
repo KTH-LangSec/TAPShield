@@ -1,0 +1,30 @@
+{
+    "_comments": "https://ifttt.com/applets/QAP5SFLs-post-new-instagram-photos-to-wordpress",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var url = Instagram.anyNewPhotoByYou.Url; var title = `My Instagram Photo`; Wordpress.createPhotoPostWp.setTitle(title); Wordpress.createPhotoPostWp.setSourceUrl(url);",
+        "config": {
+            "currentTime": "2025-02-17T12:00:00.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-17T12:00:00.000Z",
+            "trigger": {
+                "serviceName": "Instagram",
+                "name": "anyNewPhotoByYou",
+                "ingredients": "{\"Url\":\"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0\"}"
+            },
+            "actions": [
+                {
+                    "serviceName": "Wordpress",
+                    "name": "createPhotoPostWp",
+                    "fields": [
+                        "Title",
+                        "SourceUrl"
+                    ]
+                }
+            ]
+        }
+    }
+  }
+  

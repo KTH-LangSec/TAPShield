@@ -1,0 +1,29 @@
+{
+    "_comments": "Applet that changes the LIFX colors as it gets darker outside",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var trigger_hour = DateAndTime.everyHourAt.CheckTime; var colorKey = trigger_hour.toString(); var colors = { '17':'#F3F2EB', '18':'#F7F2E6', '19':'#F9EFE0', '20':'#FBEFDC', '21':'#FBE5C6', '22':'#FBE5C6' }; if (trigger_hour < 17) { Lifx.color.skip(); } else if (trigger_hour < 22) { Lifx.color.setAdvancedOptions('color: ' + colors[colorKey] + '; brightness: 1; duration: 12'); } else { Lifx.color.skip() }",
+      "config": {
+        "currentTime": "2025-02-17T12:00:00.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-17T12:00:00.000Z",
+        "trigger": {
+          "ingredients": "{ \"CheckTime\": 20 }",
+          "serviceName": "DateAndTime",
+          "name": "everyHourAt"
+        },
+        "actions": [
+          {
+            "serviceName": "Lifx",
+            "name": "color",
+            "fields": [
+              "AdvancedOptions"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,29 @@
+{
+    "_comments": "https://ifttt.com/applets/LUptzh2C-save-photos-you-re-tagged-in-on-facebook-to-a-dropbox-folder",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var url = 'https://facebook.com/sample-photo.jpg'; Dropbox.addFileFromUrl.setFilename('My Facebook Photos'); Dropbox.addFileFromUrl.setUrl(url);",
+        "config": {
+            "currentTime": "2025-02-17T12:00:00.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-17T12:00:00.000Z",
+            "trigger": {
+                "ingredients": "true",
+                "serviceName": "Facebook",
+                "name": "youAreTaggedInAPhoto"
+            },
+            "actions": [
+                {
+                    "serviceName": "Dropbox",
+                    "name": "addFileFromUrl",
+                    "fields": [
+                        "Filename",
+                        "Url"
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "_comments": "https://ifttt.com/applets/RWLn4kXz-automatically-upload-your-instagrams-to-a-facebook-page-album",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var url = 'https://instagram.com/sample-photo.jpg'; FacebookPages.createPhotoPage.setPhotoUrl(url);",
+        "config": {
+            "currentTime": "2025-02-17T12:00:00.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-17T12:00:00.000Z",
+            "trigger": {
+                "ingredients": "true",
+                "serviceName": "Instagram",
+                "name": "anyNewPhotoByYou"
+            },
+            "actions": [
+                {
+                    "serviceName": "FacebookPages",
+                    "name": "createPhotoPage",
+                    "fields": [
+                        "PhotoUrl"
+                    ]
+                }
+            ]
+        }
+    }
+  }
+  

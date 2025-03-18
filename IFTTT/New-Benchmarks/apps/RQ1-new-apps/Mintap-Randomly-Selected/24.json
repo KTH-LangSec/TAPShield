@@ -1,0 +1,27 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "MyqDevices.closeDoor.setDoorName('garage door');",
+      "config": {
+        "currentTime": "2025-02-22T11:42:47.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-22T11:42:47.000Z",
+        "trigger": {
+          "serviceName": "ios_shortcuts",
+          "name": "shortcut_automation_started",
+          "ingredients": "{}"
+        },
+        "actions": [
+          {
+            "serviceName": "MyqDevices",
+            "name": "closeDoor",
+            "fields": ["DoorName"]
+          }
+        ],
+        "link": "https://ifttt.com/applets/jwGsdWaM-hey-siri-close-my-garage-door"
+      }
+    }
+  }
+  

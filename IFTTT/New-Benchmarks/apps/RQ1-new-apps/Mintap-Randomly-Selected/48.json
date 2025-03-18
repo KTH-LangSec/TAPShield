@@ -1,0 +1,26 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode": "var url = space.new_image_picture_nasa.GalleryURL; var title = space.new_image_picture_nasa.ImageTitle; var preview_text = space.new_image_picture_nasa.Description; IosReadingList.createReadingListItem.setUrl(url); IosReadingList.createReadingListItem.setTitle(title); IosReadingList.createReadingListItem.setPreviewText(preview_text);",
+    "config": {
+      "currentTime": "2025-02-22T11:42:47.000Z",
+      "timeZone": "GMT",
+      "triggerTime": "2025-02-22T11:42:47.000Z",
+      "trigger": {
+        "serviceName": "space",
+        "name": "new_image_picture_nasa",
+        "ingredients": "{\"GalleryURL\":\"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches\", \"ImageTitle\":\"Antares Rocket With Cygnus Spacecraft Launches\", \"Description\":\"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "IosReadingList",
+          "name": "createReadingListItem",
+          "fields": ["Url", "Title", "PreviewText"]
+        }
+      ],
+      "link": "https://ifttt.com/applets/ADTRpPSr-image-of-the-day-from-nasa-ios-reading-list"
+    }
+  }
+}

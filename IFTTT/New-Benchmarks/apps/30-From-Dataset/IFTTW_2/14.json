@@ -1,0 +1,26 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var trigger_txt = Twitter.newTweetFromSearch.Text; var txt = trigger_txt || ''; var price = parseInt((txt.match(/\\s\\$(\\d+)\\s/) || [])[1]); if (price >= 400 || isNaN(price)) { EmailDigest.sendDailyEmail.skip(); }",
+      "config": {
+        "currentTime": "2025-02-17T12:00:00.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-17T12:00:00.000Z",
+        "trigger": {
+          "ingredients": "{ \"Text\": \"Amazing deal! Flight from SF to NYC for just $299! Limited time offer.\" }",
+          "serviceName": "Twitter",
+          "name": "newTweetFromSearch"
+        },
+        "actions": [
+          {
+            "serviceName": "EmailDigest",
+            "name": "sendDailyEmail",
+            "fields": []
+          }
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,4503 @@
+Run the evaluation for 1.json 10 times
+#Original IFTTT is running#
+0.12463808059692383
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json 10 times
+#Original IFTTT is running#
+0.12154102325439453
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json 10 times
+#Original IFTTT is running#
+0.1791379451751709
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json 10 times
+#Original IFTTT is running#
+0.1206200122833252
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json 10 times
+#Original IFTTT is running#
+0.1354541778564453
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json 10 times
+#Original IFTTT is running#
+0.12371015548706055
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json 10 times
+#Original IFTTT is running#
+0.12766194343566895
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json 10 times
+#Original IFTTT is running#
+0.12063813209533691
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json 10 times
+#Original IFTTT is running#
+0.12301182746887207
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json 10 times
+#Original IFTTT is running#
+0.12103891372680664
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json 10 times
+#Original IFTTT is running#
+0.12974309921264648
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json 10 times
+#Original IFTTT is running#
+0.12245893478393555
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json 10 times
+#Original IFTTT is running#
+0.1258089542388916
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json 10 times
+#Original IFTTT is running#
+0.12414193153381348
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json 10 times
+#Original IFTTT is running#
+0.12481093406677246
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json 10 times
+#Original IFTTT is running#
+0.12413716316223145
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json 10 times
+#Original IFTTT is running#
+0.12283492088317871
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json 10 times
+#Original IFTTT is running#
+0.12487316131591797
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json 10 times
+#Original IFTTT is running#
+0.12392306327819824
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json 10 times
+#Original IFTTT is running#
+0.13259506225585938
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json 10 times
+#Original IFTTT is running#
+0.12952399253845215
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json 10 times
+#Original IFTTT is running#
+0.13283491134643555
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json 10 times
+#Original IFTTT is running#
+0.13041901588439941
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json 10 times
+#Original IFTTT is running#
+0.1347970962524414
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json 10 times
+#Original IFTTT is running#
+0.13058900833129883
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json 10 times
+#Original IFTTT is running#
+0.13208508491516113
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json 10 times
+#Original IFTTT is running#
+0.13181400299072266
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json 10 times
+#Original IFTTT is running#
+0.1355299949645996
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json 10 times
+#Original IFTTT is running#
+0.132781982421875
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json 10 times
+#Original IFTTT is running#
+0.13230109214782715
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json 10 times
+#Original IFTTT is running#
+0.17188405990600586
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json 10 times
+#Original IFTTT is running#
+0.1511690616607666
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json 10 times
+#Original IFTTT is running#
+0.12690997123718262
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json 10 times
+#Original IFTTT is running#
+0.12226700782775879
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json 10 times
+#Original IFTTT is running#
+0.12210297584533691
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json 10 times
+#Original IFTTT is running#
+0.12396407127380371
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json 10 times
+#Original IFTTT is running#
+0.12597203254699707
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json 10 times
+#Original IFTTT is running#
+0.1230628490447998
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json 10 times
+#Original IFTTT is running#
+0.12907695770263672
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json 10 times
+#Original IFTTT is running#
+0.12255978584289551
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json 10 times
+#Original IFTTT is running#
+0.12659382820129395
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json 10 times
+#Original IFTTT is running#
+0.12199997901916504
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json 10 times
+#Original IFTTT is running#
+0.12454819679260254
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json 10 times
+#Original IFTTT is running#
+0.12159490585327148
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json 10 times
+#Original IFTTT is running#
+0.12620210647583008
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json 10 times
+#Original IFTTT is running#
+0.12118887901306152
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json 10 times
+#Original IFTTT is running#
+0.1280829906463623
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json 10 times
+#Original IFTTT is running#
+0.12068486213684082
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json 10 times
+#Original IFTTT is running#
+0.23171114921569824
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json 10 times
+#Original IFTTT is running#
+0.12146997451782227
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json 10 times
+#Original IFTTT is running#
+0.12055301666259766
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json 10 times
+#Original IFTTT is running#
+0.1181020736694336
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json 10 times
+#Original IFTTT is running#
+0.11824798583984375
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json 10 times
+#Original IFTTT is running#
+0.11858201026916504
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json 10 times
+#Original IFTTT is running#
+0.12231206893920898
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json 10 times
+#Original IFTTT is running#
+0.1175692081451416
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json 10 times
+#Original IFTTT is running#
+0.1195058822631836
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json 10 times
+#Original IFTTT is running#
+0.11637592315673828
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json 10 times
+#Original IFTTT is running#
+0.2280750274658203
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json 10 times
+#Original IFTTT is running#
+0.1187138557434082
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json 10 times
+#Original IFTTT is running#
+0.11787080764770508
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json 10 times
+#Original IFTTT is running#
+0.10995697975158691
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json 10 times
+#Original IFTTT is running#
+0.1121828556060791
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json 10 times
+#Original IFTTT is running#
+0.10995697975158691
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json 10 times
+#Original IFTTT is running#
+0.10848188400268555
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json 10 times
+#Original IFTTT is running#
+0.1075901985168457
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json 10 times
+#Original IFTTT is running#
+0.11013507843017578
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json 10 times
+#Original IFTTT is running#
+0.10893893241882324
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json 10 times
+#Original IFTTT is running#
+0.1169731616973877
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json 10 times
+#Original IFTTT is running#
+0.1076359748840332
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json 10 times
+#Original IFTTT is running#
+0.11239480972290039
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json 10 times
+#Original IFTTT is running#
+0.11064600944519043
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json 10 times
+#Original IFTTT is running#
+0.10968399047851562
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json 10 times
+#Original IFTTT is running#
+0.11626100540161133
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json 10 times
+#Original IFTTT is running#
+0.11182904243469238
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json 10 times
+#Original IFTTT is running#
+0.11428499221801758
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json 10 times
+#Original IFTTT is running#
+0.10991787910461426
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json 10 times
+#Original IFTTT is running#
+0.11124181747436523
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json 10 times
+#Original IFTTT is running#
+0.11071109771728516
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json 10 times
+#Original IFTTT is running#
+0.17095017433166504
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json 10 times
+#Original IFTTT is running#
+0.11830902099609375
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json 10 times
+#Original IFTTT is running#
+0.12085294723510742
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json 10 times
+#Original IFTTT is running#
+0.12247896194458008
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json 10 times
+#Original IFTTT is running#
+0.11797094345092773
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json 10 times
+#Original IFTTT is running#
+0.12179899215698242
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json 10 times
+#Original IFTTT is running#
+0.16406893730163574
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json 10 times
+#Original IFTTT is running#
+0.11702919006347656
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json 10 times
+#Original IFTTT is running#
+0.11978697776794434
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json 10 times
+#Original IFTTT is running#
+0.11814403533935547
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json 10 times
+#Original IFTTT is running#
+0.12221002578735352
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json 10 times
+#Original IFTTT is running#
+0.11592674255371094
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json 10 times
+#Original IFTTT is running#
+0.11803817749023438
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json 10 times
+#Original IFTTT is running#
+0.11483001708984375
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json 10 times
+#Original IFTTT is running#
+0.11200571060180664
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json 10 times
+#Original IFTTT is running#
+0.11486196517944336
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json 10 times
+#Original IFTTT is running#
+0.1133880615234375
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json 10 times
+#Original IFTTT is running#
+0.1160883903503418
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json 10 times
+#Original IFTTT is running#
+0.1118617057800293
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json 10 times
+#Original IFTTT is running#
+0.11586904525756836
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json 10 times
+#Original IFTTT is running#
+0.1126260757446289
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json 10 times
+#Original IFTTT is running#
+0.10979199409484863
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json 10 times
+#Original IFTTT is running#
+0.10863614082336426
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json 10 times
+#Original IFTTT is running#
+0.1079099178314209
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json 10 times
+#Original IFTTT is running#
+0.11017012596130371
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json 10 times
+#Original IFTTT is running#
+0.11140012741088867
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json 10 times
+#Original IFTTT is running#
+0.11327505111694336
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json 10 times
+#Original IFTTT is running#
+0.108795166015625
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json 10 times
+#Original IFTTT is running#
+0.12334609031677246
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json 10 times
+#Original IFTTT is running#
+0.1957530975341797
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json 10 times
+#Original IFTTT is running#
+0.11131691932678223
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json 10 times
+#Original IFTTT is running#
+0.12440800666809082
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json 10 times
+#Original IFTTT is running#
+0.10607218742370605
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json 10 times
+#Original IFTTT is running#
+0.10230112075805664
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json 10 times
+#Original IFTTT is running#
+0.10394597053527832
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json 10 times
+#Original IFTTT is running#
+0.16033101081848145
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json 10 times
+#Original IFTTT is running#
+0.10710787773132324
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json 10 times
+#Original IFTTT is running#
+0.10268902778625488
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json 10 times
+#Original IFTTT is running#
+0.13054800033569336
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json 10 times
+#Original IFTTT is running#
+0.10263204574584961
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json 10 times
+#Original IFTTT is running#
+0.10365700721740723
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json 10 times
+#Original IFTTT is running#
+0.1102910041809082
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json 10 times
+#Original IFTTT is running#
+0.11437106132507324
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json 10 times
+#Original IFTTT is running#
+0.11077284812927246
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json 10 times
+#Original IFTTT is running#
+0.11323714256286621
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json 10 times
+#Original IFTTT is running#
+0.11204290390014648
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json 10 times
+#Original IFTTT is running#
+0.189133882522583
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json 10 times
+#Original IFTTT is running#
+0.11099386215209961
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json 10 times
+#Original IFTTT is running#
+0.11009788513183594
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json 10 times
+#Original IFTTT is running#
+0.11013102531433105
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json 10 times
+#Original IFTTT is running#
+0.11331391334533691
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json 10 times
+#Original IFTTT is running#
+0.11843299865722656
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json 10 times
+#Original IFTTT is running#
+0.12451601028442383
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json 10 times
+#Original IFTTT is running#
+0.11765122413635254
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json 10 times
+#Original IFTTT is running#
+0.17662405967712402
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json 10 times
+#Original IFTTT is running#
+0.1192169189453125
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json 10 times
+#Original IFTTT is running#
+0.12707901000976562
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json 10 times
+#Original IFTTT is running#
+0.11848306655883789
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json 10 times
+#Original IFTTT is running#
+0.1204221248626709
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json 10 times
+#Original IFTTT is running#
+0.1426529884338379
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json 10 times
+#Original IFTTT is running#
+0.12256002426147461
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json 10 times
+#Original IFTTT is running#
+0.14017915725708008
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json 10 times
+#Original IFTTT is running#
+0.1459028720855713
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json 10 times
+#Original IFTTT is running#
+0.14081907272338867
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json 10 times
+#Original IFTTT is running#
+0.1473851203918457
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json 10 times
+#Original IFTTT is running#
+0.13922500610351562
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json 10 times
+#Original IFTTT is running#
+0.14350104331970215
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json 10 times
+#Original IFTTT is running#
+0.139847993850708
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json 10 times
+#Original IFTTT is running#
+0.14364910125732422
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json 10 times
+#Original IFTTT is running#
+0.18456101417541504
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json 10 times
+#Original IFTTT is running#
+0.16027116775512695
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json 10 times
+#Original IFTTT is running#
+0.11873793601989746
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json 10 times
+#Original IFTTT is running#
+0.12564802169799805
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json 10 times
+#Original IFTTT is running#
+0.15389180183410645
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json 10 times
+#Original IFTTT is running#
+0.17733407020568848
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json 10 times
+#Original IFTTT is running#
+0.12070298194885254
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json 10 times
+#Original IFTTT is running#
+0.12140107154846191
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json 10 times
+#Original IFTTT is running#
+0.11735796928405762
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json 10 times
+#Original IFTTT is running#
+0.12079596519470215
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json 10 times
+#Original IFTTT is running#
+0.11908793449401855
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json 10 times
+#Original IFTTT is running#
+0.12028098106384277
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json 10 times
+#Original IFTTT is running#
+0.11734604835510254
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json 10 times
+#Original IFTTT is running#
+0.11751914024353027
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json 10 times
+#Original IFTTT is running#
+0.11682391166687012
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json 10 times
+#Original IFTTT is running#
+0.11681914329528809
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json 10 times
+#Original IFTTT is running#
+0.11873483657836914
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json 10 times
+#Original IFTTT is running#
+0.11923599243164062
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json 10 times
+#Original IFTTT is running#
+0.11682987213134766
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json 10 times
+#Original IFTTT is running#
+0.11934185028076172
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json 10 times
+#Original IFTTT is running#
+0.11859893798828125
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json 10 times
+#Original IFTTT is running#
+0.11657595634460449
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json 10 times
+#Original IFTTT is running#
+0.12443399429321289
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json 10 times
+#Original IFTTT is running#
+0.1613450050354004
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json 10 times
+#Original IFTTT is running#
+0.1255040168762207
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json 10 times
+#Original IFTTT is running#
+0.14692187309265137
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json 10 times
+#Original IFTTT is running#
+0.12544989585876465
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json 10 times
+#Original IFTTT is running#
+0.12592697143554688
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json 10 times
+#Original IFTTT is running#
+0.12454581260681152
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json 10 times
+#Original IFTTT is running#
+0.12798690795898438
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json 10 times
+#Original IFTTT is running#
+0.1228950023651123
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json 10 times
+#Original IFTTT is running#
+0.12412691116333008
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json 10 times
+#Original IFTTT is running#
+0.1728510856628418
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json 10 times
+#Original IFTTT is running#
+0.12569403648376465
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json 10 times
+#Original IFTTT is running#
+0.12623095512390137
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json 10 times
+#Original IFTTT is running#
+0.12505292892456055
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json 10 times
+#Original IFTTT is running#
+0.12775516510009766
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json 10 times
+#Original IFTTT is running#
+0.12649297714233398
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json 10 times
+#Original IFTTT is running#
+0.1321580410003662
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json 10 times
+#Original IFTTT is running#
+0.12507891654968262
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json 10 times
+#Original IFTTT is running#
+0.12558388710021973
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json 10 times
+#Original IFTTT is running#
+0.12788701057434082
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json 10 times
+#Original IFTTT is running#
+0.12657904624938965
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json 10 times
+#Original IFTTT is running#
+0.12702608108520508
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json 10 times
+#Original IFTTT is running#
+0.12810015678405762
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json 10 times
+#Original IFTTT is running#
+0.1286308765411377
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json 10 times
+#Original IFTTT is running#
+0.13013696670532227
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json 10 times
+#Original IFTTT is running#
+0.12660002708435059
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json 10 times
+#Original IFTTT is running#
+0.1260519027709961
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json 10 times
+#Original IFTTT is running#
+0.12488102912902832
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json 10 times
+#Original IFTTT is running#
+0.1258378028869629
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json 10 times
+#Original IFTTT is running#
+0.12501192092895508
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json 10 times
+#Original IFTTT is running#
+0.1789710521697998
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json 10 times
+#Original IFTTT is running#
+0.17701411247253418
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json 10 times
+#Original IFTTT is running#
+0.18583893775939941
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json 10 times
+#Original IFTTT is running#
+0.1818540096282959
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json 10 times
+#Original IFTTT is running#
+0.18509507179260254
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json 10 times
+#Original IFTTT is running#
+0.186722993850708
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json 10 times
+#Original IFTTT is running#
+0.1821610927581787
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json 10 times
+#Original IFTTT is running#
+0.18040204048156738
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json 10 times
+#Original IFTTT is running#
+0.18021607398986816
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json 10 times
+#Original IFTTT is running#
+0.17953205108642578
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json 10 times
+#Original IFTTT is running#
+0.1410369873046875
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json 10 times
+#Original IFTTT is running#
+0.1295909881591797
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json 10 times
+#Original IFTTT is running#
+0.1315779685974121
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json 10 times
+#Original IFTTT is running#
+0.13903284072875977
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json 10 times
+#Original IFTTT is running#
+0.13090801239013672
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json 10 times
+#Original IFTTT is running#
+0.16040396690368652
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json 10 times
+#Original IFTTT is running#
+0.13074707984924316
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json 10 times
+#Original IFTTT is running#
+0.1352851390838623
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json 10 times
+#Original IFTTT is running#
+0.1331348419189453
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json 10 times
+#Original IFTTT is running#
+0.13332605361938477
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json 10 times
+#Original IFTTT is running#
+0.20511293411254883
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json 10 times
+#Original IFTTT is running#
+0.1438000202178955
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json 10 times
+#Original IFTTT is running#
+0.1428380012512207
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json 10 times
+#Original IFTTT is running#
+0.14835596084594727
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json 10 times
+#Original IFTTT is running#
+0.14138102531433105
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json 10 times
+#Original IFTTT is running#
+0.1439659595489502
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json 10 times
+#Original IFTTT is running#
+0.14549493789672852
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json 10 times
+#Original IFTTT is running#
+0.14283299446105957
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json 10 times
+#Original IFTTT is running#
+0.14151597023010254
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json 10 times
+#Original IFTTT is running#
+0.14224004745483398
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json 10 times
+#Original IFTTT is running#
+0.11873888969421387
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json 10 times
+#Original IFTTT is running#
+0.11984896659851074
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json 10 times
+#Original IFTTT is running#
+0.12046480178833008
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json 10 times
+#Original IFTTT is running#
+0.1211850643157959
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json 10 times
+#Original IFTTT is running#
+0.11689400672912598
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json 10 times
+#Original IFTTT is running#
+0.12230491638183594
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json 10 times
+#Original IFTTT is running#
+0.11821603775024414
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json 10 times
+#Original IFTTT is running#
+0.11734986305236816
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json 10 times
+#Original IFTTT is running#
+0.11988615989685059
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json 10 times
+#Original IFTTT is running#
+0.1879439353942871
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json 10 times
+#Original IFTTT is running#
+0.15202093124389648
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json 10 times
+#Original IFTTT is running#
+0.15269899368286133
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json 10 times
+#Original IFTTT is running#
+0.15086817741394043
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json 10 times
+#Original IFTTT is running#
+0.15207719802856445
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json 10 times
+#Original IFTTT is running#
+0.15275001525878906
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json 10 times
+#Original IFTTT is running#
+0.15299296379089355
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json 10 times
+#Original IFTTT is running#
+0.23906517028808594
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json 10 times
+#Original IFTTT is running#
+0.15162992477416992
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json 10 times
+#Original IFTTT is running#
+0.1527090072631836
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json 10 times
+#Original IFTTT is running#
+0.15473198890686035
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json 10 times
+#Original IFTTT is running#
+0.36394405364990234
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json 10 times
+#Original IFTTT is running#
+0.3574690818786621
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json 10 times
+#Original IFTTT is running#
+0.4281940460205078
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json 10 times
+#Original IFTTT is running#
+0.35507774353027344
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json 10 times
+#Original IFTTT is running#
+0.35920190811157227
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json 10 times
+#Original IFTTT is running#
+0.3548269271850586
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json 10 times
+#Original IFTTT is running#
+0.3573751449584961
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json 10 times
+#Original IFTTT is running#
+0.400238037109375
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json 10 times
+#Original IFTTT is running#
+0.35297679901123047
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json 10 times
+#Original IFTTT is running#
+0.4919700622558594
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+
+
+Run the evaluation for 27.json 10 times
+#Original IFTTT is running#
+0.38328981399536133
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json 10 times
+#Original IFTTT is running#
+0.41262197494506836
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json 10 times
+#Original IFTTT is running#
+0.37861204147338867
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json 10 times
+#Original IFTTT is running#
+0.37605905532836914
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json 10 times
+#Original IFTTT is running#
+0.43483400344848633
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json 10 times
+#Original IFTTT is running#
+0.38280582427978516
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json 10 times
+#Original IFTTT is running#
+0.3804149627685547
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json 10 times
+#Original IFTTT is running#
+0.38364076614379883
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json 10 times
+#Original IFTTT is running#
+0.38085031509399414
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json 10 times
+#Original IFTTT is running#
+0.382051944732666
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json 10 times
+#Original IFTTT is running#
+0.1464400291442871
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json 10 times
+#Original IFTTT is running#
+0.19698190689086914
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json 10 times
+#Original IFTTT is running#
+0.1470339298248291
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json 10 times
+#Original IFTTT is running#
+0.14746499061584473
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json 10 times
+#Original IFTTT is running#
+0.14797401428222656
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json 10 times
+#Original IFTTT is running#
+0.15321087837219238
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json 10 times
+#Original IFTTT is running#
+0.14516878128051758
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json 10 times
+#Original IFTTT is running#
+0.1449260711669922
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json 10 times
+#Original IFTTT is running#
+0.14819717407226562
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json 10 times
+#Original IFTTT is running#
+0.1455249786376953
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json 10 times
+#Original IFTTT is running#
+0.12746691703796387
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json 10 times
+#Original IFTTT is running#
+0.1270608901977539
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json 10 times
+#Original IFTTT is running#
+0.12801003456115723
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json 10 times
+#Original IFTTT is running#
+0.12737488746643066
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json 10 times
+#Original IFTTT is running#
+0.13167881965637207
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json 10 times
+#Original IFTTT is running#
+0.12866592407226562
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json 10 times
+#Original IFTTT is running#
+0.12706708908081055
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json 10 times
+#Original IFTTT is running#
+0.12742185592651367
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json 10 times
+#Original IFTTT is running#
+0.12852692604064941
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json 10 times
+#Original IFTTT is running#
+0.1252150535583496
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json 10 times
+#Original IFTTT is running#
+0.21925806999206543
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json 10 times
+#Original IFTTT is running#
+0.21921014785766602
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json 10 times
+#Original IFTTT is running#
+0.2202320098876953
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json 10 times
+#Original IFTTT is running#
+0.21862101554870605
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json 10 times
+#Original IFTTT is running#
+0.22159409523010254
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json 10 times
+#Original IFTTT is running#
+0.21916699409484863
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json 10 times
+#Original IFTTT is running#
+0.22330307960510254
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json 10 times
+#Original IFTTT is running#
+0.22281289100646973
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json 10 times
+#Original IFTTT is running#
+0.3331441879272461
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json 10 times
+#Original IFTTT is running#
+0.21924996376037598
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json 10 times
+#Original IFTTT is running#
+0.2033240795135498
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF8400; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json 10 times
+#Original IFTTT is running#
+0.13198208808898926
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF00D4; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json 10 times
+#Original IFTTT is running#
+0.1306309700012207
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF0000; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json 10 times
+#Original IFTTT is running#
+0.13175511360168457
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF00D4; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json 10 times
+#Original IFTTT is running#
+0.20729303359985352
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF00D4; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json 10 times
+#Original IFTTT is running#
+0.13119983673095703
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF0000; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json 10 times
+#Original IFTTT is running#
+0.15415310859680176
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #15FF00; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json 10 times
+#Original IFTTT is running#
+0.13226318359375
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF0000; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json 10 times
+#Original IFTTT is running#
+0.13840007781982422
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF8400; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json 10 times
+#Original IFTTT is running#
+0.1313159465789795
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF8400; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json 10 times
+#Original IFTTT is running#
+0.14934396743774414
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json 10 times
+#Original IFTTT is running#
+0.15784883499145508
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json 10 times
+#Original IFTTT is running#
+0.14839696884155273
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json 10 times
+#Original IFTTT is running#
+0.1496729850769043
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json 10 times
+#Original IFTTT is running#
+0.14915895462036133
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json 10 times
+#Original IFTTT is running#
+0.1505439281463623
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json 10 times
+#Original IFTTT is running#
+0.1493690013885498
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json 10 times
+#Original IFTTT is running#
+0.14870285987854004
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json 10 times
+#Original IFTTT is running#
+0.14889097213745117
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json 10 times
+#Original IFTTT is running#
+0.15003418922424316
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json 10 times
+#Original IFTTT is running#
+0.20084285736083984
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json 10 times
+#Original IFTTT is running#
+0.19900012016296387
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json 10 times
+#Original IFTTT is running#
+0.1934659481048584
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json 10 times
+#Original IFTTT is running#
+0.19341206550598145
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json 10 times
+#Original IFTTT is running#
+0.2574632167816162
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json 10 times
+#Original IFTTT is running#
+0.1986069679260254
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json 10 times
+#Original IFTTT is running#
+0.19707512855529785
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json 10 times
+#Original IFTTT is running#
+0.24505019187927246
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json 10 times
+#Original IFTTT is running#
+0.20105600357055664
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json 10 times
+#Original IFTTT is running#
+0.1914381980895996
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json 10 times
+#Original IFTTT is running#
+0.19020819664001465
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json 10 times
+#Original IFTTT is running#
+0.19269800186157227
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json 10 times
+#Original IFTTT is running#
+0.1925678253173828
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json 10 times
+#Original IFTTT is running#
+0.195037841796875
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json 10 times
+#Original IFTTT is running#
+0.1918940544128418
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json 10 times
+#Original IFTTT is running#
+0.1947801113128662
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json 10 times
+#Original IFTTT is running#
+0.20238900184631348
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json 10 times
+#Original IFTTT is running#
+0.19237613677978516
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json 10 times
+#Original IFTTT is running#
+0.19812512397766113
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json 10 times
+#Original IFTTT is running#
+0.19675588607788086
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json 10 times
+#Original IFTTT is running#
+0.4167671203613281
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json 10 times
+#Original IFTTT is running#
+0.4198729991912842
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json 10 times
+#Original IFTTT is running#
+0.42131996154785156
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json 10 times
+#Original IFTTT is running#
+0.424731969833374
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json 10 times
+#Original IFTTT is running#
+0.42044997215270996
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json 10 times
+#Original IFTTT is running#
+0.4225451946258545
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json 10 times
+#Original IFTTT is running#
+0.4197859764099121
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json 10 times
+#Original IFTTT is running#
+0.4952280521392822
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json 10 times
+#Original IFTTT is running#
+0.4234640598297119
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json 10 times
+#Original IFTTT is running#
+0.47798609733581543
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json 10 times
+#Original IFTTT is running#
+0.12043905258178711
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json 10 times
+#Original IFTTT is running#
+0.12181901931762695
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json 10 times
+#Original IFTTT is running#
+0.11953306198120117
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json 10 times
+#Original IFTTT is running#
+0.11908912658691406
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json 10 times
+#Original IFTTT is running#
+0.12179899215698242
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json 10 times
+#Original IFTTT is running#
+0.12122797966003418
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json 10 times
+#Original IFTTT is running#
+0.1183319091796875
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json 10 times
+#Original IFTTT is running#
+0.12375903129577637
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json 10 times
+#Original IFTTT is running#
+0.12299489974975586
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json 10 times
+#Original IFTTT is running#
+0.11994004249572754
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json 10 times
+#Original IFTTT is running#
+0.12723898887634277
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json 10 times
+#Original IFTTT is running#
+0.12632489204406738
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json 10 times
+#Original IFTTT is running#
+0.12568402290344238
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json 10 times
+#Original IFTTT is running#
+0.1301729679107666
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json 10 times
+#Original IFTTT is running#
+0.12548398971557617
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json 10 times
+#Original IFTTT is running#
+0.12509703636169434
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json 10 times
+#Original IFTTT is running#
+0.1760408878326416
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json 10 times
+#Original IFTTT is running#
+0.12437105178833008
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json 10 times
+#Original IFTTT is running#
+0.12502408027648926
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json 10 times
+#Original IFTTT is running#
+0.15637612342834473
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json 10 times
+#Original IFTTT is running#
+0.11778903007507324
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json 10 times
+#Original IFTTT is running#
+0.13521099090576172
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json 10 times
+#Original IFTTT is running#
+0.11560797691345215
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json 10 times
+#Original IFTTT is running#
+0.11517596244812012
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json 10 times
+#Original IFTTT is running#
+0.11696696281433105
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json 10 times
+#Original IFTTT is running#
+0.115753173828125
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json 10 times
+#Original IFTTT is running#
+0.11414599418640137
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json 10 times
+#Original IFTTT is running#
+0.1173560619354248
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json 10 times
+#Original IFTTT is running#
+0.11614608764648438
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json 10 times
+#Original IFTTT is running#
+0.12058496475219727
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json 10 times
+#Original IFTTT is running#
+0.11639595031738281
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json 10 times
+#Original IFTTT is running#
+0.11471080780029297
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json 10 times
+#Original IFTTT is running#
+0.11792683601379395
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json 10 times
+#Original IFTTT is running#
+0.11588406562805176
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json 10 times
+#Original IFTTT is running#
+0.11748385429382324
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json 10 times
+#Original IFTTT is running#
+0.1260850429534912
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json 10 times
+#Original IFTTT is running#
+0.11782693862915039
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json 10 times
+#Original IFTTT is running#
+0.11431694030761719
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json 10 times
+#Original IFTTT is running#
+0.1147761344909668
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json 10 times
+#Original IFTTT is running#
+0.11373114585876465
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json 10 times
+#Original IFTTT is running#
+0.12219810485839844
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json 10 times
+#Original IFTTT is running#
+0.136307954788208
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json 10 times
+#Original IFTTT is running#
+0.1248009204864502
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json 10 times
+#Original IFTTT is running#
+0.12095308303833008
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json 10 times
+#Original IFTTT is running#
+0.1227109432220459
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json 10 times
+#Original IFTTT is running#
+0.12028193473815918
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json 10 times
+#Original IFTTT is running#
+0.12180280685424805
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json 10 times
+#Original IFTTT is running#
+0.12070608139038086
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json 10 times
+#Original IFTTT is running#
+0.12128996849060059
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json 10 times
+#Original IFTTT is running#
+0.1212930679321289
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json 10 times
+#Original IFTTT is running#
+0.1259469985961914
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json 10 times
+#Original IFTTT is running#
+0.13018393516540527
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json 10 times
+#Original IFTTT is running#
+0.12704801559448242
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json 10 times
+#Original IFTTT is running#
+0.12686395645141602
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json 10 times
+#Original IFTTT is running#
+0.12920594215393066
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json 10 times
+#Original IFTTT is running#
+0.12856006622314453
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json 10 times
+#Original IFTTT is running#
+0.12889790534973145
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json 10 times
+#Original IFTTT is running#
+0.19987893104553223
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json 10 times
+#Original IFTTT is running#
+0.12623286247253418
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json 10 times
+#Original IFTTT is running#
+0.1255810260772705
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json 10 times
+#Original IFTTT is running#
+0.10820698738098145
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json 10 times
+#Original IFTTT is running#
+0.15530991554260254
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json 10 times
+#Original IFTTT is running#
+0.10816693305969238
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json 10 times
+#Original IFTTT is running#
+0.11120986938476562
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json 10 times
+#Original IFTTT is running#
+0.10693693161010742
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json 10 times
+#Original IFTTT is running#
+0.10912108421325684
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json 10 times
+#Original IFTTT is running#
+0.10716795921325684
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json 10 times
+#Original IFTTT is running#
+0.11009693145751953
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json 10 times
+#Original IFTTT is running#
+0.10903286933898926
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json 10 times
+#Original IFTTT is running#
+0.10866308212280273
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json 10 times
+#Original IFTTT is running#
+0.13420701026916504
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json 10 times
+#Original IFTTT is running#
+0.13130402565002441
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json 10 times
+#Original IFTTT is running#
+0.1308000087738037
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json 10 times
+#Original IFTTT is running#
+0.1336219310760498
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json 10 times
+#Original IFTTT is running#
+0.1303877830505371
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json 10 times
+#Original IFTTT is running#
+0.13562798500061035
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json 10 times
+#Original IFTTT is running#
+0.13318181037902832
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json 10 times
+#Original IFTTT is running#
+0.13214397430419922
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json 10 times
+#Original IFTTT is running#
+0.13054800033569336
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json 10 times
+#Original IFTTT is running#
+0.1307978630065918
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json 10 times
+#Original IFTTT is running#
+0.1111440658569336
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json 10 times
+#Original IFTTT is running#
+0.16822099685668945
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json 10 times
+#Original IFTTT is running#
+0.11212396621704102
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json 10 times
+#Original IFTTT is running#
+0.11187386512756348
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json 10 times
+#Original IFTTT is running#
+0.11145901679992676
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json 10 times
+#Original IFTTT is running#
+0.11524200439453125
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json 10 times
+#Original IFTTT is running#
+0.15884995460510254
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json 10 times
+#Original IFTTT is running#
+0.11301589012145996
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json 10 times
+#Original IFTTT is running#
+0.11267399787902832
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json 10 times
+#Original IFTTT is running#
+0.11275291442871094
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json 10 times
+#Original IFTTT is running#
+0.11070895195007324
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json 10 times
+#Original IFTTT is running#
+0.10880494117736816
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json 10 times
+#Original IFTTT is running#
+0.10890316963195801
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json 10 times
+#Original IFTTT is running#
+0.10956692695617676
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json 10 times
+#Original IFTTT is running#
+0.10860896110534668
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json 10 times
+#Original IFTTT is running#
+0.10813307762145996
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json 10 times
+#Original IFTTT is running#
+0.10969185829162598
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json 10 times
+#Original IFTTT is running#
+0.1094827651977539
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json 10 times
+#Original IFTTT is running#
+0.10796403884887695
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json 10 times
+#Original IFTTT is running#
+0.10849905014038086
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json 10 times
+#Original IFTTT is running#
+0.10720491409301758
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json 10 times
+#Original IFTTT is running#
+0.10844111442565918
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json 10 times
+#Original IFTTT is running#
+0.10982203483581543
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json 10 times
+#Original IFTTT is running#
+0.1694049835205078
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json 10 times
+#Original IFTTT is running#
+0.10955095291137695
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json 10 times
+#Original IFTTT is running#
+0.10928702354431152
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json 10 times
+#Original IFTTT is running#
+0.11295294761657715
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json 10 times
+#Original IFTTT is running#
+0.10815978050231934
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json 10 times
+#Original IFTTT is running#
+0.11199402809143066
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json 10 times
+#Original IFTTT is running#
+0.10954713821411133
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json 10 times
+#Original IFTTT is running#
+0.11169791221618652
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json 10 times
+#Original IFTTT is running#
+0.1620469093322754
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json 10 times
+#Original IFTTT is running#
+0.11149907112121582
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json 10 times
+#Original IFTTT is running#
+0.10834217071533203
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json 10 times
+#Original IFTTT is running#
+0.10989904403686523
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json 10 times
+#Original IFTTT is running#
+0.11173486709594727
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json 10 times
+#Original IFTTT is running#
+0.1090390682220459
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json 10 times
+#Original IFTTT is running#
+0.10930800437927246
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json 10 times
+#Original IFTTT is running#
+0.1101369857788086
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json 10 times
+#Original IFTTT is running#
+0.11043286323547363
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json 10 times
+#Original IFTTT is running#
+0.12097597122192383
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json 10 times
+#Original IFTTT is running#
+0.11908793449401855
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json 10 times
+#Original IFTTT is running#
+0.12250995635986328
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json 10 times
+#Original IFTTT is running#
+0.12054586410522461
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json 10 times
+#Original IFTTT is running#
+0.1460409164428711
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json 10 times
+#Original IFTTT is running#
+0.13025307655334473
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json 10 times
+#Original IFTTT is running#
+0.1217489242553711
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json 10 times
+#Original IFTTT is running#
+0.12093496322631836
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json 10 times
+#Original IFTTT is running#
+0.18630003929138184
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json 10 times
+#Original IFTTT is running#
+0.12157201766967773
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json 10 times
+#Original IFTTT is running#
+0.1211080551147461
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json 10 times
+#Original IFTTT is running#
+0.12259197235107422
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json 10 times
+#Original IFTTT is running#
+0.12024283409118652
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json 10 times
+#Original IFTTT is running#
+0.12170600891113281
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json 10 times
+#Original IFTTT is running#
+0.12021899223327637
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json 10 times
+#Original IFTTT is running#
+0.12233591079711914
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json 10 times
+#Original IFTTT is running#
+0.12365293502807617
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json 10 times
+#Original IFTTT is running#
+0.1220240592956543
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json 10 times
+#Original IFTTT is running#
+0.12170100212097168
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json 10 times
+#Original IFTTT is running#
+0.12194013595581055
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json 10 times
+#Original IFTTT is running#
+0.12061381340026855
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json 10 times
+#Original IFTTT is running#
+0.12099099159240723
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json 10 times
+#Original IFTTT is running#
+0.13963603973388672
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json 10 times
+#Original IFTTT is running#
+0.11972808837890625
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json 10 times
+#Original IFTTT is running#
+0.11999106407165527
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json 10 times
+#Original IFTTT is running#
+0.12109804153442383
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json 10 times
+#Original IFTTT is running#
+0.13995599746704102
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json 10 times
+#Original IFTTT is running#
+0.11990690231323242
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json 10 times
+#Original IFTTT is running#
+0.12155795097351074
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json 10 times
+#Original IFTTT is running#
+0.11965298652648926
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+All commands executed and logs stored in the 'logs' directory.

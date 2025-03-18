@@ -1,0 +1,29 @@
+{
+    "_comments": "Applet that sets Hue bulbs or Nanoleaf to a particular color at a particular time depending on the weather forecast/condition for the day.",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var weatherCondition = Weather.currentWeatherAtTime.CurrentCondition; if (weatherCondition == 'Rain Today!') { Hue.setColorAllHue.setColor('red'); } else { Hue.setColorAllHue.skip(); }",
+      "config": {
+        "currentTime": "2025-02-17T12:00:00.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-17T12:00:00.000Z",
+        "trigger": {
+          "serviceName": "Weather",
+          "name": "currentWeatherAtTime",
+          "ingredients": "{ \"CurrentCondition\": \"Rain Today!\" }"
+        },
+        "actions": [
+          {
+            "serviceName": "Hue",
+            "name": "setColorAllHue",
+            "fields": [
+              "Color"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

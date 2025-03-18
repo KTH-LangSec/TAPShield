@@ -1,0 +1,30 @@
+{
+    "_comments": "https://ifttt.com/applets/dycqQ5A6-sync-all-your-new-ios-contacts-to-a-google-spreadsheet",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var name = 'New Contact Name'; var phoneNumber = '123-456-7890'; var formattedRow = name + ' ||| ' + phoneNumber; GoogleSheets.appendToGoogleSpreadsheet.setFilename( 'ContactList'); GoogleSheets.appendToGoogleSpreadsheet.setFormattedRow(formattedRow);",
+      "config": {
+        "currentTime": "2025-02-17T12:00:00.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-17T12:00:00.000Z",
+        "trigger": {
+          "ingredients": "true",
+          "serviceName": "IosContacts",
+          "name": "newContactAdded"
+        },
+        "actions": [
+          {
+            "serviceName": "GoogleSheets",
+            "name": "appendToGoogleSpreadsheet",
+            "fields": [
+              "Filename",
+              "FormattedRow"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

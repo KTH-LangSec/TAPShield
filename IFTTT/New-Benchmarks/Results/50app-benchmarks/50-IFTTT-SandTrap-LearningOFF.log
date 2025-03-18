@@ -1,0 +1,4589 @@
+Run the evaluation for 1.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3327983901] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.142ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3327983901] Done writing updated policies to disk.
+Run the evaluation for 2.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2751883446] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 40.461ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2751883446] Done writing updated policies to disk.
+Run the evaluation for 3.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1845122782] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 41.392ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1845122782] Done writing updated policies to disk.
+Run the evaluation for 4.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1457220861] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 39.759ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1457220861] Done writing updated policies to disk.
+Run the evaluation for 5.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3331596218] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 41.854ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3331596218] Done writing updated policies to disk.
+Run the evaluation for 6.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2450775115] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 39.881ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2450775115] Done writing updated policies to disk.
+Run the evaluation for 7.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1594041933] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 39.411ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1594041933] Done writing updated policies to disk.
+Run the evaluation for 8.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1066258452] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.935ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1066258452] Done writing updated policies to disk.
+Run the evaluation for 9.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1522215212] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 53.471ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1522215212] Done writing updated policies to disk.
+Run the evaluation for 10.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2818620748] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 97.715ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2818620748] Done writing updated policies to disk.
+Run the evaluation for 11.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2198899700] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 195.216ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2198899700] Done writing updated policies to disk.
+Run the evaluation for 12.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2320453180] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 186.427ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2320453180] Done writing updated policies to disk.
+Run the evaluation for 13.json : execution number : 1
+#IFTTT+SandTrap is running#
+[533990745] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 194.054ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[533990745] Done writing updated policies to disk.
+Run the evaluation for 14.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3104655916] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 189.130ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3104655916] Done writing updated policies to disk.
+Run the evaluation for 15.json : execution number : 1
+#IFTTT+SandTrap is running#
+[279067890] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 195.115ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[279067890] Done writing updated policies to disk.
+Run the evaluation for 16.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3654399304] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 189.268ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3654399304] Done writing updated policies to disk.
+Run the evaluation for 17.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3943458429] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 187.257ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3943458429] Done writing updated policies to disk.
+Run the evaluation for 18.json : execution number : 1
+#IFTTT+SandTrap is running#
+[4261758060] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 83.977ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[4261758060] Done writing updated policies to disk.
+Run the evaluation for 19.json : execution number : 1
+#IFTTT+SandTrap is running#
+[259304540] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 187.745ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[259304540] Done writing updated policies to disk.
+Run the evaluation for 20.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3544208053] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 88.662ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3544208053] Done writing updated policies to disk.
+Run the evaluation for 21.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.427ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1246215031] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 83.226ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1246215031] Done writing updated policies to disk.
+Run the evaluation for 23.json : execution number : 1
+#IFTTT+SandTrap is running#
+[4113563689] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 41.515ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[4113563689] Done writing updated policies to disk.
+Run the evaluation for 24.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1423471156] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 41.545ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1423471156] Done writing updated policies to disk.
+Run the evaluation for 25.json : execution number : 1
+#IFTTT+SandTrap is running#
+[4061628482] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 41.967ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[4061628482] Done writing updated policies to disk.
+Run the evaluation for 26.json : execution number : 1
+#IFTTT+SandTrap is running#
+[4105680807] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 47.186ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[4105680807] Done writing updated policies to disk.
+Run the evaluation for 27.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 38.307ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json : execution number : 1
+#IFTTT+SandTrap is running#
+[548609941] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 40.586ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[548609941] Done writing updated policies to disk.
+Run the evaluation for 29.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1619120982] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.312ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1619120982] Done writing updated policies to disk.
+Run the evaluation for 30.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1791459275] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 40.096ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1791459275] Done writing updated policies to disk.
+Run the evaluation for 31.json : execution number : 1
+#IFTTT+SandTrap is running#
+[857073946] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 41.327ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #15FF00; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[857073946] Done writing updated policies to disk.
+Run the evaluation for 32.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1816085903] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 41.407ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1816085903] Done writing updated policies to disk.
+Run the evaluation for 33.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2647208916] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 40.401ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2647208916] Done writing updated policies to disk.
+Run the evaluation for 34.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.125ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1046816799] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 43.828ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+[1046816799] Done writing updated policies to disk.
+Run the evaluation for 36.json : execution number : 1
+#IFTTT+SandTrap is running#
+[4203972803] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 41.243ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[4203972803] Done writing updated policies to disk.
+Run the evaluation for 37.json : execution number : 1
+#IFTTT+SandTrap is running#
+[971651861] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 37.966ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[971651861] Done writing updated policies to disk.
+Run the evaluation for 38.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1536484205] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 40.570ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1536484205] Done writing updated policies to disk.
+Run the evaluation for 39.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3617755419] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.523ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3617755419] Done writing updated policies to disk.
+Run the evaluation for 40.json : execution number : 1
+#IFTTT+SandTrap is running#
+[645860411] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 39.477ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[645860411] Done writing updated policies to disk.
+Run the evaluation for 41.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.047ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.279ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json : execution number : 1
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.011ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json : execution number : 1
+#IFTTT+SandTrap is running#
+[731519322] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 40.750ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[731519322] Done writing updated policies to disk.
+Run the evaluation for 45.json : execution number : 1
+#IFTTT+SandTrap is running#
+[129220192] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 39.852ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[129220192] Done writing updated policies to disk.
+Run the evaluation for 46.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2203468988] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 39.319ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2203468988] Done writing updated policies to disk.
+Run the evaluation for 47.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1160702428] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.746ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1160702428] Done writing updated policies to disk.
+Run the evaluation for 48.json : execution number : 1
+#IFTTT+SandTrap is running#
+[321745431] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.879ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[321745431] Done writing updated policies to disk.
+Run the evaluation for 49.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3278477642] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 42.225ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3278477642] Done writing updated policies to disk.
+Run the evaluation for 50.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3464799000] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.394ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3464799000] Done writing updated policies to disk.
+Run the evaluation for 1.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.981ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.935ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.315ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 37.258ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.623ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.920ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.079ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.931ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.535ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.669ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.406ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.416ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.118ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.657ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.608ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.441ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.647ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.224ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.524ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.333ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.575ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 30.280ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.267ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.913ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.938ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 36.397ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 38.399ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.744ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.191ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.928ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.321ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #15FF00; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.965ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.421ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.531ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 36.778ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 30.104ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.596ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.063ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.539ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.922ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.674ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.722ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json : execution number : 2
+
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.405ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.220ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.479ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.189ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.661ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.888ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.128ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.335ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.318ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.875ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.265ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.926ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.870ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.580ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.157ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.924ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.865ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.421ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.640ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.365ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.422ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.223ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.749ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.305ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.665ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.649ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.328ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.997ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.556ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.178ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.442ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.876ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.343ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.683ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 39.614ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.509ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.462ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.894ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.004ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #00D4FF; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.317ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.188ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 29.841ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 37.441ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.102ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.357ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.455ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.759ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.797ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.038ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.572ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.289ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.818ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.590ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.473ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.667ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.053ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 29.486ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.740ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.777ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.487ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.312ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.684ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.512ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.102ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.620ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.191ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.910ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.229ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.617ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.936ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.521ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.039ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 46.886ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.456ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.091ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.896ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.412ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.772ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.537ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.318ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.607ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.833ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.806ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 37.861ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 38.242ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.496ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.855ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.705ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.616ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #00D4FF; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.935ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json : execution number : 4#IFTTT+SandTrap is running#
+sandtrap-time: 29.326ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.057ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 36.228ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 29.456ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.508ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.886ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.702ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.427ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.303ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.680ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.048ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.644ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.066ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.456ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.311ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.087ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.357ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.404ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.536ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.332ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.240ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.346ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.629ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.438ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.559ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.092ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.037ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.602ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.247ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.299ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.613ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.079ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.884ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.720ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.007ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.474ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.402ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.025ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.015ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.638ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.729ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.747ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.855ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.733ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 37.767ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.966ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.189ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.606ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.458ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF8400; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 29.562ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.685ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.517ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 37.306ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.130ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.225ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.423ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.814ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.336ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.169ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.143ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.030ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.822ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.918ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.970ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.035ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.737ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.287ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.991ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.202ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.176ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.430ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.277ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.190ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.167ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.415ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.313ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.389ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.611ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.945ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.204ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.404ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.078ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.037ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.105ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.151ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.240ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.711ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.977ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.546ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.531ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 29.417ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.288ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.729ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.731ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 36.319ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.002ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.017ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.503ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.292ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #00D4FF; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.896ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.388ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.150ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.144ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.008ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.280ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.482ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.452ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.472ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.404ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.402ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.234ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.231ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.212ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.660ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.092ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.819ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.938ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.414ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.273ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.691ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.656ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.143ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.722ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.414ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.143ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.023ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.565ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.195ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.163ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.269ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.915ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.214ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.614ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.986ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.734ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.612ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.921ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.755ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.889ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.607ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.554ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.776ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.403ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 36.988ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 36.076ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.093ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.694ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.999ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.606ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF00D4; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.465ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.413ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.296ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.236ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.206ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.852ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.451ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.492ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.356ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.712ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.582ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.095ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.643ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.138ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.650ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.216ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.267ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.986ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.493ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.996ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 30.638ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.668ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.462ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.321ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.423ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.004ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.577ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.477ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.493ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.777ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.493ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.553ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.967ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.681ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.943ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.801ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.552ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.558ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.858ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.287ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.505ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.067ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.219ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.782ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 37.335ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.767ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.176ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.729ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.889ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.743ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF8400; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.888ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.534ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.618ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 36.005ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.817ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.609ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.069ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.405ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.193ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.886ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.397ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.406ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.767ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.273ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.754ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.413ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.066ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.923ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.293ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.516ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.983ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.100ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.257ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.364ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.589ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.463ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.027ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.933ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.572ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.211ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.484ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.867ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.453ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.469ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.547ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.564ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 36.750ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.592ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.014ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.374ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.301ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.836ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.409ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.405ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 38.386ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 36.498ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.475ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.660ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.706ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.123ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF8400; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.811ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.427ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 29.754ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.852ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.310ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.475ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.569ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.914ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.411ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.560ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.296ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.256ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.765ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.540ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.136ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.091ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.885ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.524ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.817ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.227ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.386ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.124ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.873ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.651ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.649ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.745ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.496ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.716ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.707ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.675ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.258ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.277ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.858ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.090ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.518ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.764ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.232ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.065ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 30.827ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.435ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.031ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.178ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.768ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.001ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 39.353ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 27.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 38.287ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 28.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.949ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 29.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.838ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 30.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.954ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 31.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.356ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF00D4; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 32.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.849ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 33.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.900ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.568ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 35.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 36.845ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 36.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.631ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 30.843ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 38.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.054ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 39.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.645ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 40.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.971ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.730ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 42.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.853ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.250ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 44.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.306ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 45.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.217ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 46.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.743ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 47.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.589ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 34.269ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 49.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.595ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 50.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.178ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+All commands executed and logs stored in the 'logs' directory.

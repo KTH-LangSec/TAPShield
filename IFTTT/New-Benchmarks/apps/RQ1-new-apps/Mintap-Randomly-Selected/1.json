@@ -1,0 +1,30 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var feed_url = feed.new_feed_item.feed_url; weebly.publish_blog_post.setBlog(); weebly.publish_blog_post.setTitle('new post'); weebly.publish_blog_post.setBody(feed_url); ",
+      "config": {
+        "currentTime": "2025-02-22T11:42:47.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-22T11:42:47.000Z",
+        "trigger": {
+          "serviceName": "feed",
+          "name": "new_feed_item",
+          "ingredients": "{\"feed_url\":\"http://www.eguidesservice.com/feed\"}"
+        },
+        "actions": [
+          {
+            "serviceName": "weebly",
+            "name": "publish_blog_post",
+            "fields": [
+              "Blog",
+              "Title",
+              "Body"]
+          }
+        ],
+        "link": "https://ifttt.com/applets/LxtLrC3K-rss-to-weebly"
+      }
+    }
+  }
+  

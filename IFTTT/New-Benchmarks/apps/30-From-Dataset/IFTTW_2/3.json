@@ -1,0 +1,34 @@
+{
+    "_comments": "Applet that sends a Slack notification and an Email if a Trello card is added to a specific list and it works perfectly.", 
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var trigger_title = Trello.cardAddedToList.Title;\n\nvar cardTitle = trigger_title;\nvar matchingCard = cardTitle.search(\"US\");\nif (matchingCard == -1) {\n    Slack.postToChannel.skip();\n} else {\n    Email.sendMeEmail.setBody(\"A US card has been added to the list.\");\n}",
+      "config": {
+        "currentTime": "2025-02-17T12:00:00.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-17T12:00:00.000Z",
+        "trigger": {
+          "ingredients": "{ \"Title\": \"Sample Card Title\" }",
+          "serviceName": "Trello",
+          "name": "cardAddedToList"
+        },
+        "actions": [
+          {
+            "serviceName": "Slack",
+            "name": "postToChannel",
+            "fields": []
+          },
+          {
+            "serviceName": "Email",
+            "name": "sendMeEmail",
+            "fields": [
+              "Body"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

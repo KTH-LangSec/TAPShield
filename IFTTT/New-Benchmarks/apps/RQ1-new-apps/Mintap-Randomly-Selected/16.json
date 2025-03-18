@@ -1,0 +1,26 @@
+{
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode": "var track_name = spotify.new_saved_track.TrackName; var artist_name = spotify.new_saved_track.ArtistName; spotify.addATrackToAPlaylist.setPlaylist('My Saved Songs'); spotify.addATrackToAPlaylist.setSearchQuery(track_name + ' - ' + artist_name);",
+    "config": {
+      "currentTime": "2025-02-22T11:42:47.000Z",
+      "timeZone": "GMT",
+      "triggerTime": "2025-02-22T11:42:47.000Z",
+      "trigger": {
+        "serviceName": "spotify",
+        "name": "new_saved_track",
+        "ingredients": "{\"TrackName\": \"Hello\", \"ArtistName\": \"Adele\"}"
+      },
+      "actions": [
+        {
+          "serviceName": "spotify",
+          "name": "addATrackToAPlaylist",
+          "fields": ["Playlist", "SearchQuery"]
+        }
+      ],
+      "link": "https://ifttt.com/applets/GW9pSz72-create-a-playlist-of-your-liked-songs"
+    }
+  }
+}

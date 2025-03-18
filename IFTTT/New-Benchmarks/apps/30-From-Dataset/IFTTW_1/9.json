@@ -1,0 +1,29 @@
+{
+    "_comments": "https://ifttt.com/applets/yfaY7BnX-tweet-your-facebook-status-updates",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+        "scriptCode": "var msg = `${Facebook.newStatusMessageByYou.Message}`; Twitter.postNewTweetWithImage.setTweet(msg);",
+        "config": {
+            "currentTime": "2025-02-17T12:00:00.000Z",
+            "timeZone": "GMT",
+            "triggerTime": "2025-02-17T12:00:00.000Z",
+            "trigger": {
+                "serviceName": "Facebook",
+                "name": "newStatusMessageByYou",
+                "ingredients": "{\"Message\":\"Just posted a new status!\"}"
+            },
+            "actions": [
+                {
+                    "serviceName": "Twitter",
+                    "name": "postNewTweetWithImage",
+                    "fields": [
+                        "Tweet"
+                    ]
+                }
+            ]
+        }
+    }
+  }
+  

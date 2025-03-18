@@ -1,0 +1,2302 @@
+Run the evaluation for 1.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2944140301] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 37.618ms
+null
+{
+  statusCode: 200,
+  body: '{"Car":{},"AndroidMessages":{"sendAMessage":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2944140301] Done writing updated policies to disk.
+Run the evaluation for 2.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2075970398] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 37.501ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Hue":{"turnOnAllHue":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2075970398] Done writing updated policies to disk.
+Run the evaluation for 3.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1667308872] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 39.766ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Monzo":{"potDeposit":{"Amount":"0.2"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1667308872] Done writing updated policies to disk.
+Run the evaluation for 4.json : execution number : 1
+#IFTTT+SandTrap is running#
+[228346252] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 41.898ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"__skipped":true,"__skipReason":"Calendar: Skipping event because it is not an all-day event. It starts 1, ends 2, and is titled \\"title\\". Duration = 0 minutes."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[228346252] Done writing updated policies to disk.
+Run the evaluation for 5.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2680837651] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 47.384ms
+null
+{
+  statusCode: 200,
+  body: '{"dummy":{},"IfNotifications":{"sendNotification":{"Message":"Workday: Monday"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2680837651] Done writing updated policies to disk.
+Run the evaluation for 6.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1133870973] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 40.666ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{}},"Office365Mail":{"sendEmail":{"Body":"test found!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1133870973] Done writing updated policies to disk.
+Run the evaluation for 7.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3234567399] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 39.191ms
+null
+{
+  statusCode: 200,
+  body: '{"Telegram":{},"Tumblr":{"createPhotoPost":{"SourceUrl":"https://t.me/myphoto.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3234567399] Done writing updated policies to disk.
+Run the evaluation for 8.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2809222235] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.967ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"PhotoUrl":"https://instagram.fgse2-1.fna.fbcdn.net/asd.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2809222235] Done writing updated policies to disk.
+Run the evaluation for 9.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3930440225] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 43.499ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"LightwaverfPower":{"switchOnSocket":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3930440225] Done writing updated policies to disk.
+Run the evaluation for 10.json : execution number : 1
+#IFTTT+SandTrap is running#
+[186016742] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 40.719ms
+null
+{
+  statusCode: 200,
+  body: `{"Feed":{},"Tumblr":{"createPhotoPost":{"Caption":" How to make Banana!</br><script src= url://sth.com/comments.embed?limit=1&sort=qa&depth=1&style=off&expanded=1 type='text/javascript'></script>"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+[186016742] Done writing updated policies to disk.
+Run the evaluation for 11.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2582263345] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 42.225ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Email":{"sendMeEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2582263345] Done writing updated policies to disk.
+Run the evaluation for 12.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3883137130] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 50.340ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3883137130] Done writing updated policies to disk.
+Run the evaluation for 13.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1063835121] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 202.254ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Ewelink":{"switches2Action":{"__skipped":true,"__skipReason":"Ewelink"}},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Smartlife"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1063835121] Done writing updated policies to disk.
+Run the evaluation for 14.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1027465997] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 145.091ms
+null
+{
+  statusCode: 200,
+  body: '{"Pinterest":{},"Telegram":{"sendPhoto":{"PhotoUrl":"https://i.pinimg.com/2.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1027465997] Done writing updated policies to disk.
+Run the evaluation for 15.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2452503441] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 145.123ms
+null
+{
+  statusCode: 200,
+  body: '{"MakerWebhooks":{},"AndroidDevice":{"setDeviceVolume":{"Volume":80}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2452503441] Done writing updated policies to disk.
+Run the evaluation for 16.json : execution number : 1
+#IFTTT+SandTrap is running#
+[397638534] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 196.003ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Todoist":{"createTask":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[397638534] Done writing updated policies to disk.
+Run the evaluation for 17.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2701256865] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 197.201ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Gmail":{"sendYourselfAnEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2701256865] Done writing updated policies to disk.
+Run the evaluation for 18.json : execution number : 1
+#IFTTT+SandTrap is running#
+[851494625] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 192.270ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Spotify":{"addATrackToAPlaylist":{"SearchQuery":"TRACKname","ArtistName":"artistNAME"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[851494625] Done writing updated policies to disk.
+Run the evaluation for 19.json : execution number : 1
+#IFTTT+SandTrap is running#
+[414057839] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 184.332ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Kasa":{"turnOn":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[414057839] Done writing updated policies to disk.
+Run the evaluation for 20.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2774114808] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 183.079ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"MyLeviton":{"toggleSwitch":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2774114808] Done writing updated policies to disk.
+Run the evaluation for 21.json : execution number : 1
+#IFTTT+SandTrap is running#
+[4126879726] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 189.534ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Slack":{"postToChannel":{"__skipped":true,"__skipReason":"Temp File Was Skipped"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[4126879726] Done writing updated policies to disk.
+Run the evaluation for 22.json : execution number : 1
+#IFTTT+SandTrap is running#
+[364590085] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 189.110ms
+null
+{
+  statusCode: 200,
+  body: '{"Life360":{},"Dropbox":{"createTextFileDb":{"Filename":"tester arrived first at ThePlace at 2311"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[364590085] Done writing updated policies to disk.
+Run the evaluation for 23.json : execution number : 1
+#IFTTT+SandTrap is running#
+[304129096] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 86.837ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":5}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[304129096] Done writing updated policies to disk.
+Run the evaluation for 24.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2505560364] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 83.314ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Não estás em casa"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2505560364] Done writing updated policies to disk.
+Run the evaluation for 25.json : execution number : 1
+#IFTTT+SandTrap is running#
+[82710479] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 90.518ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Hue":{"turnOnAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[82710479] Done writing updated policies to disk.
+Run the evaluation for 1.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.398ms
+null
+{
+  statusCode: 200,
+  body: '{"Car":{},"AndroidMessages":{"sendAMessage":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.709ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Hue":{"turnOnAllHue":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.394ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Monzo":{"potDeposit":{"Amount":"0.2"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.455ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"__skipped":true,"__skipReason":"Calendar: Skipping event because it is not an all-day event. It starts 1, ends 2, and is titled \\"title\\". Duration = 0 minutes."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 83.214ms
+null
+{
+  statusCode: 200,
+  body: '{"dummy":{},"IfNotifications":{"sendNotification":{"Message":"Workday: Monday"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 73.727ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{}},"Office365Mail":{"sendEmail":{"Body":"test found!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.477ms
+null
+{
+  statusCode: 200,
+  body: '{"Telegram":{},"Tumblr":{"createPhotoPost":{"SourceUrl":"https://t.me/myphoto.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 72.775ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"PhotoUrl":"https://instagram.fgse2-1.fna.fbcdn.net/asd.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.900ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"LightwaverfPower":{"switchOnSocket":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 81.888ms
+null
+{
+  statusCode: 200,
+  body: `{"Feed":{},"Tumblr":{"createPhotoPost":{"Caption":" How to make Banana!</br><script src= url://sth.com/comments.embed?limit=1&sort=qa&depth=1&style=off&expanded=1 type='text/javascript'></script>"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.040ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Email":{"sendMeEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.323ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.365ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Ewelink":{"switches2Action":{"__skipped":true,"__skipReason":"Ewelink"}},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Smartlife"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 74.202ms
+null
+{
+  statusCode: 200,
+  body: '{"Pinterest":{},"Telegram":{"sendPhoto":{"PhotoUrl":"https://i.pinimg.com/2.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 71.132ms
+null
+{
+  statusCode: 200,
+  body: '{"MakerWebhooks":{},"AndroidDevice":{"setDeviceVolume":{"Volume":80}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.828ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Todoist":{"createTask":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 87.609ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Gmail":{"sendYourselfAnEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.701ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Spotify":{"addATrackToAPlaylist":{"SearchQuery":"TRACKname","ArtistName":"artistNAME"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.239ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Kasa":{"turnOn":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.283ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"MyLeviton":{"toggleSwitch":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 74.483ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Slack":{"postToChannel":{"__skipped":true,"__skipReason":"Temp File Was Skipped"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.112ms
+null
+{
+  statusCode: 200,
+  body: '{"Life360":{},"Dropbox":{"createTextFileDb":{"Filename":"tester arrived first at ThePlace at 2311"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 74.800ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":5}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.489ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Não estás em casa"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.497ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Hue":{"turnOnAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 80.225ms
+null
+{
+  statusCode: 200,
+  body: '{"Car":{},"AndroidMessages":{"sendAMessage":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.900ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Hue":{"turnOnAllHue":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 83.325ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Monzo":{"potDeposit":{"Amount":"0.2"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.905ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"__skipped":true,"__skipReason":"Calendar: Skipping event because it is not an all-day event. It starts 1, ends 2, and is titled \\"title\\". Duration = 0 minutes."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 82.907ms
+null
+{
+  statusCode: 200,
+  body: '{"dummy":{},"IfNotifications":{"sendNotification":{"Message":"Workday: Monday"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.108ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{}},"Office365Mail":{"sendEmail":{"Body":"test found!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.242ms
+null
+{
+  statusCode: 200,
+  body: '{"Telegram":{},"Tumblr":{"createPhotoPost":{"SourceUrl":"https://t.me/myphoto.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.317ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"PhotoUrl":"https://instagram.fgse2-1.fna.fbcdn.net/asd.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.743ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"LightwaverfPower":{"switchOnSocket":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 72.647ms
+null
+{
+  statusCode: 200,
+  body: `{"Feed":{},"Tumblr":{"createPhotoPost":{"Caption":" How to make Banana!</br><script src= url://sth.com/comments.embed?limit=1&sort=qa&depth=1&style=off&expanded=1 type='text/javascript'></script>"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.473ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Email":{"sendMeEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 80.859ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.841ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Ewelink":{"switches2Action":{"__skipped":true,"__skipReason":"Ewelink"}},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Smartlife"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.205ms
+null
+{
+  statusCode: 200,
+  body: '{"Pinterest":{},"Telegram":{"sendPhoto":{"PhotoUrl":"https://i.pinimg.com/2.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.582ms
+null
+{
+  statusCode: 200,
+  body: '{"MakerWebhooks":{},"AndroidDevice":{"setDeviceVolume":{"Volume":80}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.753ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Todoist":{"createTask":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 86.749ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Gmail":{"sendYourselfAnEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 81.786ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Spotify":{"addATrackToAPlaylist":{"SearchQuery":"TRACKname","ArtistName":"artistNAME"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.529ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Kasa":{"turnOn":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.539ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"MyLeviton":{"toggleSwitch":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 81.071ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Slack":{"postToChannel":{"__skipped":true,"__skipReason":"Temp File Was Skipped"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.819ms
+null
+{
+  statusCode: 200,
+  body: '{"Life360":{},"Dropbox":{"createTextFileDb":{"Filename":"tester arrived first at ThePlace at 2311"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.058ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":5}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 73.258ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Não estás em casa"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 3
+#IFTTT+SandTrap is running#
+sandtrap-time: 81.074ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Hue":{"turnOnAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.853ms
+null
+{
+  statusCode: 200,
+  body: '{"Car":{},"AndroidMessages":{"sendAMessage":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.221ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Hue":{"turnOnAllHue":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 80.242ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Monzo":{"potDeposit":{"Amount":"0.2"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.334ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"__skipped":true,"__skipReason":"Calendar: Skipping event because it is not an all-day event. It starts 1, ends 2, and is titled \\"title\\". Duration = 0 minutes."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 83.053ms
+null
+{
+  statusCode: 200,
+  body: '{"dummy":{},"IfNotifications":{"sendNotification":{"Message":"Workday: Monday"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 82.831ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{}},"Office365Mail":{"sendEmail":{"Body":"test found!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.264ms
+null
+{
+  statusCode: 200,
+  body: '{"Telegram":{},"Tumblr":{"createPhotoPost":{"SourceUrl":"https://t.me/myphoto.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.266ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"PhotoUrl":"https://instagram.fgse2-1.fna.fbcdn.net/asd.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 81.240ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"LightwaverfPower":{"switchOnSocket":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.329ms
+null
+{
+  statusCode: 200,
+  body: `{"Feed":{},"Tumblr":{"createPhotoPost":{"Caption":" How to make Banana!</br><script src= url://sth.com/comments.embed?limit=1&sort=qa&depth=1&style=off&expanded=1 type='text/javascript'></script>"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.522ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Email":{"sendMeEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 73.870ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.743ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Ewelink":{"switches2Action":{"__skipped":true,"__skipReason":"Ewelink"}},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Smartlife"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.476ms
+null
+{
+  statusCode: 200,
+  body: '{"Pinterest":{},"Telegram":{"sendPhoto":{"PhotoUrl":"https://i.pinimg.com/2.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 81.035ms
+null
+{
+  statusCode: 200,
+  body: '{"MakerWebhooks":{},"AndroidDevice":{"setDeviceVolume":{"Volume":80}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.647ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Todoist":{"createTask":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 83.243ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Gmail":{"sendYourselfAnEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.646ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Spotify":{"addATrackToAPlaylist":{"SearchQuery":"TRACKname","ArtistName":"artistNAME"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.580ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Kasa":{"turnOn":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.957ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"MyLeviton":{"toggleSwitch":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.575ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Slack":{"postToChannel":{"__skipped":true,"__skipReason":"Temp File Was Skipped"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 74.009ms
+null
+{
+  statusCode: 200,
+  body: '{"Life360":{},"Dropbox":{"createTextFileDb":{"Filename":"tester arrived first at ThePlace at 2311"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.683ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":5}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 73.103ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Não estás em casa"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 4
+#IFTTT+SandTrap is running#
+sandtrap-time: 82.855ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Hue":{"turnOnAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.663ms
+null
+{
+  statusCode: 200,
+  body: '{"Car":{},"AndroidMessages":{"sendAMessage":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 73.264ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Hue":{"turnOnAllHue":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 80.755ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Monzo":{"potDeposit":{"Amount":"0.2"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.110ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"__skipped":true,"__skipReason":"Calendar: Skipping event because it is not an all-day event. It starts 1, ends 2, and is titled \\"title\\". Duration = 0 minutes."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 83.014ms
+null
+{
+  statusCode: 200,
+  body: '{"dummy":{},"IfNotifications":{"sendNotification":{"Message":"Workday: Monday"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.020ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{}},"Office365Mail":{"sendEmail":{"Body":"test found!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 74.978ms
+null
+{
+  statusCode: 200,
+  body: '{"Telegram":{},"Tumblr":{"createPhotoPost":{"SourceUrl":"https://t.me/myphoto.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.703ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"PhotoUrl":"https://instagram.fgse2-1.fna.fbcdn.net/asd.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.333ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"LightwaverfPower":{"switchOnSocket":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.903ms
+null
+{
+  statusCode: 200,
+  body: `{"Feed":{},"Tumblr":{"createPhotoPost":{"Caption":" How to make Banana!</br><script src= url://sth.com/comments.embed?limit=1&sort=qa&depth=1&style=off&expanded=1 type='text/javascript'></script>"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.086ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Email":{"sendMeEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 73.333ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 82.598ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Ewelink":{"switches2Action":{"__skipped":true,"__skipReason":"Ewelink"}},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Smartlife"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 73.952ms
+null
+{
+  statusCode: 200,
+  body: '{"Pinterest":{},"Telegram":{"sendPhoto":{"PhotoUrl":"https://i.pinimg.com/2.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.552ms
+null
+{
+  statusCode: 200,
+  body: '{"MakerWebhooks":{},"AndroidDevice":{"setDeviceVolume":{"Volume":80}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.586ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Todoist":{"createTask":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 83.983ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Gmail":{"sendYourselfAnEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.097ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Spotify":{"addATrackToAPlaylist":{"SearchQuery":"TRACKname","ArtistName":"artistNAME"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.376ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Kasa":{"turnOn":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.493ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"MyLeviton":{"toggleSwitch":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.975ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Slack":{"postToChannel":{"__skipped":true,"__skipReason":"Temp File Was Skipped"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 85.305ms
+null
+{
+  statusCode: 200,
+  body: '{"Life360":{},"Dropbox":{"createTextFileDb":{"Filename":"tester arrived first at ThePlace at 2311"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.138ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":5}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.793ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Não estás em casa"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 5
+#IFTTT+SandTrap is running#
+sandtrap-time: 82.825ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Hue":{"turnOnAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.618ms
+null
+{
+  statusCode: 200,
+  body: '{"Car":{},"AndroidMessages":{"sendAMessage":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.748ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Hue":{"turnOnAllHue":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.970ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Monzo":{"potDeposit":{"Amount":"0.2"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 73.628ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"__skipped":true,"__skipReason":"Calendar: Skipping event because it is not an all-day event. It starts 1, ends 2, and is titled \\"title\\". Duration = 0 minutes."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 81.541ms
+null
+{
+  statusCode: 200,
+  body: '{"dummy":{},"IfNotifications":{"sendNotification":{"Message":"Workday: Monday"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.166ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{}},"Office365Mail":{"sendEmail":{"Body":"test found!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.878ms
+null
+{
+  statusCode: 200,
+  body: '{"Telegram":{},"Tumblr":{"createPhotoPost":{"SourceUrl":"https://t.me/myphoto.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.542ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"PhotoUrl":"https://instagram.fgse2-1.fna.fbcdn.net/asd.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.593ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"LightwaverfPower":{"switchOnSocket":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.624ms
+null
+{
+  statusCode: 200,
+  body: `{"Feed":{},"Tumblr":{"createPhotoPost":{"Caption":" How to make Banana!</br><script src= url://sth.com/comments.embed?limit=1&sort=qa&depth=1&style=off&expanded=1 type='text/javascript'></script>"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 74.806ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Email":{"sendMeEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.755ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 80.163ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Ewelink":{"switches2Action":{"__skipped":true,"__skipReason":"Ewelink"}},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Smartlife"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.951ms
+null
+{
+  statusCode: 200,
+  body: '{"Pinterest":{},"Telegram":{"sendPhoto":{"PhotoUrl":"https://i.pinimg.com/2.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 74.496ms
+null
+{
+  statusCode: 200,
+  body: '{"MakerWebhooks":{},"AndroidDevice":{"setDeviceVolume":{"Volume":80}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 73.697ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Todoist":{"createTask":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 80.518ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Gmail":{"sendYourselfAnEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 80.448ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Spotify":{"addATrackToAPlaylist":{"SearchQuery":"TRACKname","ArtistName":"artistNAME"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.801ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Kasa":{"turnOn":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 80.134ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"MyLeviton":{"toggleSwitch":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.269ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Slack":{"postToChannel":{"__skipped":true,"__skipReason":"Temp File Was Skipped"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.265ms
+null
+{
+  statusCode: 200,
+  body: '{"Life360":{},"Dropbox":{"createTextFileDb":{"Filename":"tester arrived first at ThePlace at 2311"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.477ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":5}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.022ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Não estás em casa"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 6
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.289ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Hue":{"turnOnAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.987ms
+null
+{
+  statusCode: 200,
+  body: '{"Car":{},"AndroidMessages":{"sendAMessage":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 74.790ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Hue":{"turnOnAllHue":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 85.716ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Monzo":{"potDeposit":{"Amount":"0.2"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 81.883ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"__skipped":true,"__skipReason":"Calendar: Skipping event because it is not an all-day event. It starts 1, ends 2, and is titled \\"title\\". Duration = 0 minutes."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 86.300ms
+null
+{
+  statusCode: 200,
+  body: '{"dummy":{},"IfNotifications":{"sendNotification":{"Message":"Workday: Monday"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.364ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{}},"Office365Mail":{"sendEmail":{"Body":"test found!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 70.655ms
+null
+{
+  statusCode: 200,
+  body: '{"Telegram":{},"Tumblr":{"createPhotoPost":{"SourceUrl":"https://t.me/myphoto.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 72.774ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"PhotoUrl":"https://instagram.fgse2-1.fna.fbcdn.net/asd.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.293ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"LightwaverfPower":{"switchOnSocket":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.515ms
+null
+{
+  statusCode: 200,
+  body: `{"Feed":{},"Tumblr":{"createPhotoPost":{"Caption":" How to make Banana!</br><script src= url://sth.com/comments.embed?limit=1&sort=qa&depth=1&style=off&expanded=1 type='text/javascript'></script>"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.304ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Email":{"sendMeEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 71.046ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.480ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Ewelink":{"switches2Action":{"__skipped":true,"__skipReason":"Ewelink"}},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Smartlife"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.206ms
+null
+{
+  statusCode: 200,
+  body: '{"Pinterest":{},"Telegram":{"sendPhoto":{"PhotoUrl":"https://i.pinimg.com/2.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.534ms
+null
+{
+  statusCode: 200,
+  body: '{"MakerWebhooks":{},"AndroidDevice":{"setDeviceVolume":{"Volume":80}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 80.230ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Todoist":{"createTask":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 85.295ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Gmail":{"sendYourselfAnEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 80.980ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Spotify":{"addATrackToAPlaylist":{"SearchQuery":"TRACKname","ArtistName":"artistNAME"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.819ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Kasa":{"turnOn":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 81.573ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"MyLeviton":{"toggleSwitch":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.991ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Slack":{"postToChannel":{"__skipped":true,"__skipReason":"Temp File Was Skipped"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.584ms
+null
+{
+  statusCode: 200,
+  body: '{"Life360":{},"Dropbox":{"createTextFileDb":{"Filename":"tester arrived first at ThePlace at 2311"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.267ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":5}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.818ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Não estás em casa"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 7
+#IFTTT+SandTrap is running#
+sandtrap-time: 83.327ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Hue":{"turnOnAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.439ms
+null
+{
+  statusCode: 200,
+  body: '{"Car":{},"AndroidMessages":{"sendAMessage":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 72.296ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Hue":{"turnOnAllHue":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.473ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Monzo":{"potDeposit":{"Amount":"0.2"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.104ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"__skipped":true,"__skipReason":"Calendar: Skipping event because it is not an all-day event. It starts 1, ends 2, and is titled \\"title\\". Duration = 0 minutes."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 83.183ms
+null
+{
+  statusCode: 200,
+  body: '{"dummy":{},"IfNotifications":{"sendNotification":{"Message":"Workday: Monday"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.754ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{}},"Office365Mail":{"sendEmail":{"Body":"test found!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.338ms
+null
+{
+  statusCode: 200,
+  body: '{"Telegram":{},"Tumblr":{"createPhotoPost":{"SourceUrl":"https://t.me/myphoto.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.066ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"PhotoUrl":"https://instagram.fgse2-1.fna.fbcdn.net/asd.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.094ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"LightwaverfPower":{"switchOnSocket":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 74.358ms
+null
+{
+  statusCode: 200,
+  body: `{"Feed":{},"Tumblr":{"createPhotoPost":{"Caption":" How to make Banana!</br><script src= url://sth.com/comments.embed?limit=1&sort=qa&depth=1&style=off&expanded=1 type='text/javascript'></script>"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 80.453ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Email":{"sendMeEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.137ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.979ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Ewelink":{"switches2Action":{"__skipped":true,"__skipReason":"Ewelink"}},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Smartlife"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 74.928ms
+null
+{
+  statusCode: 200,
+  body: '{"Pinterest":{},"Telegram":{"sendPhoto":{"PhotoUrl":"https://i.pinimg.com/2.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.466ms
+null
+{
+  statusCode: 200,
+  body: '{"MakerWebhooks":{},"AndroidDevice":{"setDeviceVolume":{"Volume":80}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 82.497ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Todoist":{"createTask":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 84.855ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Gmail":{"sendYourselfAnEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.484ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Spotify":{"addATrackToAPlaylist":{"SearchQuery":"TRACKname","ArtistName":"artistNAME"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 80.529ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Kasa":{"turnOn":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 73.591ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"MyLeviton":{"toggleSwitch":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.775ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Slack":{"postToChannel":{"__skipped":true,"__skipReason":"Temp File Was Skipped"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 81.577ms
+null
+{
+  statusCode: 200,
+  body: '{"Life360":{},"Dropbox":{"createTextFileDb":{"Filename":"tester arrived first at ThePlace at 2311"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.670ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":5}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.548ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Não estás em casa"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 8
+#IFTTT+SandTrap is running#
+sandtrap-time: 87.927ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Hue":{"turnOnAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 73.290ms
+null
+{
+  statusCode: 200,
+  body: '{"Car":{},"AndroidMessages":{"sendAMessage":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.810ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Hue":{"turnOnAllHue":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.990ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Monzo":{"potDeposit":{"Amount":"0.2"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 83.504ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"__skipped":true,"__skipReason":"Calendar: Skipping event because it is not an all-day event. It starts 1, ends 2, and is titled \\"title\\". Duration = 0 minutes."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 80.559ms
+null
+{
+  statusCode: 200,
+  body: '{"dummy":{},"IfNotifications":{"sendNotification":{"Message":"Workday: Monday"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.373ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{}},"Office365Mail":{"sendEmail":{"Body":"test found!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 72.317ms
+null
+{
+  statusCode: 200,
+  body: '{"Telegram":{},"Tumblr":{"createPhotoPost":{"SourceUrl":"https://t.me/myphoto.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.840ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"PhotoUrl":"https://instagram.fgse2-1.fna.fbcdn.net/asd.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.948ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"LightwaverfPower":{"switchOnSocket":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 74.010ms
+null
+{
+  statusCode: 200,
+  body: `{"Feed":{},"Tumblr":{"createPhotoPost":{"Caption":" How to make Banana!</br><script src= url://sth.com/comments.embed?limit=1&sort=qa&depth=1&style=off&expanded=1 type='text/javascript'></script>"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.647ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Email":{"sendMeEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.822ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.070ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Ewelink":{"switches2Action":{"__skipped":true,"__skipReason":"Ewelink"}},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Smartlife"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.501ms
+null
+{
+  statusCode: 200,
+  body: '{"Pinterest":{},"Telegram":{"sendPhoto":{"PhotoUrl":"https://i.pinimg.com/2.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.309ms
+null
+{
+  statusCode: 200,
+  body: '{"MakerWebhooks":{},"AndroidDevice":{"setDeviceVolume":{"Volume":80}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 80.499ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Todoist":{"createTask":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.281ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Gmail":{"sendYourselfAnEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.085ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Spotify":{"addATrackToAPlaylist":{"SearchQuery":"TRACKname","ArtistName":"artistNAME"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 75.207ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Kasa":{"turnOn":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.031ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"MyLeviton":{"toggleSwitch":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.227ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Slack":{"postToChannel":{"__skipped":true,"__skipReason":"Temp File Was Skipped"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 82.217ms
+null
+{
+  statusCode: 200,
+  body: '{"Life360":{},"Dropbox":{"createTextFileDb":{"Filename":"tester arrived first at ThePlace at 2311"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.788ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":5}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.642ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Não estás em casa"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 9
+#IFTTT+SandTrap is running#
+sandtrap-time: 82.029ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Hue":{"turnOnAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 1.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.758ms
+null
+{
+  statusCode: 200,
+  body: '{"Car":{},"AndroidMessages":{"sendAMessage":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 2.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.549ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Hue":{"turnOnAllHue":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.932ms
+null
+{
+  statusCode: 200,
+  body: '{"triggerService":{},"Monzo":{"potDeposit":{"Amount":"0.2"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.194ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"__skipped":true,"__skipReason":"Calendar: Skipping event because it is not an all-day event. It starts 1, ends 2, and is titled \\"title\\". Duration = 0 minutes."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 81.886ms
+null
+{
+  statusCode: 200,
+  body: '{"dummy":{},"IfNotifications":{"sendNotification":{"Message":"Workday: Monday"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.588ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{}},"Office365Mail":{"sendEmail":{"Body":"test found!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 7.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.212ms
+null
+{
+  statusCode: 200,
+  body: '{"Telegram":{},"Tumblr":{"createPhotoPost":{"SourceUrl":"https://t.me/myphoto.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 8.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 73.099ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"PhotoUrl":"https://instagram.fgse2-1.fna.fbcdn.net/asd.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 9.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.288ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"LightwaverfPower":{"switchOnSocket":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.355ms
+null
+{
+  statusCode: 200,
+  body: `{"Feed":{},"Tumblr":{"createPhotoPost":{"Caption":" How to make Banana!</br><script src= url://sth.com/comments.embed?limit=1&sort=qa&depth=1&style=off&expanded=1 type='text/javascript'></script>"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 11.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 72.512ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Email":{"sendMeEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 73.164ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.598ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Ewelink":{"switches2Action":{"__skipped":true,"__skipReason":"Ewelink"}},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Smartlife"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 14.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 79.968ms
+null
+{
+  statusCode: 200,
+  body: '{"Pinterest":{},"Telegram":{"sendPhoto":{"PhotoUrl":"https://i.pinimg.com/2.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 15.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 77.278ms
+null
+{
+  statusCode: 200,
+  body: '{"MakerWebhooks":{},"AndroidDevice":{"setDeviceVolume":{"Volume":80}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.143ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Todoist":{"createTask":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 17.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 85.022ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Gmail":{"sendYourselfAnEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 18.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.612ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Spotify":{"addATrackToAPlaylist":{"SearchQuery":"TRACKname","ArtistName":"artistNAME"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 19.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 74.032ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Kasa":{"turnOn":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 76.311ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"MyLeviton":{"toggleSwitch":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 21.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.788ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Slack":{"postToChannel":{"__skipped":true,"__skipReason":"Temp File Was Skipped"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 22.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 72.533ms
+null
+{
+  statusCode: 200,
+  body: '{"Life360":{},"Dropbox":{"createTextFileDb":{"Filename":"tester arrived first at ThePlace at 2311"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 23.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 82.285ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":5}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 78.439ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"Smartlife":{"turnOn":{"__skipped":true,"__skipReason":"Não estás em casa"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 10
+#IFTTT+SandTrap is running#
+sandtrap-time: 85.591ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"Hue":{"turnOnAllHue":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+All commands executed and logs stored in the 'logs' directory.
+

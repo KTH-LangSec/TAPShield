@@ -1,0 +1,403 @@
+Run the evaluation for 1.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2887223534] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 39.354ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2887223534] Done writing updated policies to disk.
+Run the evaluation for 3.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2426134309] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 39.200ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2426134309] Done writing updated policies to disk.
+Run the evaluation for 4.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2414954326] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 40.366ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2414954326] Done writing updated policies to disk.
+Run the evaluation for 5.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2316157004] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 42.284ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2316157004] Done writing updated policies to disk.
+Run the evaluation for 6.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3677301922] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 42.744ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3677301922] Done writing updated policies to disk.
+Run the evaluation for 10.json : execution number : 1
+#IFTTT+SandTrap is running#
+[463346721] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.686ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[463346721] Done writing updated policies to disk.
+Run the evaluation for 12.json : execution number : 1
+#IFTTT+SandTrap is running#
+[211466428] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 40.003ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[211466428] Done writing updated policies to disk.
+Run the evaluation for 13.json : execution number : 1
+#IFTTT+SandTrap is running#
+[342251880] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 39.538ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[342251880] Done writing updated policies to disk.
+Run the evaluation for 16.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3808586994] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.651ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3808586994] Done writing updated policies to disk.
+Run the evaluation for 20.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1068759757] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 35.740ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1068759757] Done writing updated policies to disk.
+Run the evaluation for 21.json : execution number : 1
+#IFTTT+SandTrap is running#
+[739682814] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.858ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[739682814] Done writing updated policies to disk.
+Run the evaluation for 24.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2699849860] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 37.495ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2699849860] Done writing updated policies to disk.
+Run the evaluation for 25.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1083637522] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.416ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1083637522] Done writing updated policies to disk.
+Run the evaluation for 26.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1521125519] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 37.379ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1521125519] Done writing updated policies to disk.
+Run the evaluation for 34.json : execution number : 1
+#IFTTT+SandTrap is running#
+[2291124259] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 40.471ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[2291124259] Done writing updated policies to disk.
+Run the evaluation for 37.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1804126313] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 42.272ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1804126313] Done writing updated policies to disk.
+Run the evaluation for 41.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1471323155] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 43.184ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1471323155] Done writing updated policies to disk.
+Run the evaluation for 43.json : execution number : 1
+#IFTTT+SandTrap is running#
+[3250801007] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 37.205ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[3250801007] Done writing updated policies to disk.
+Run the evaluation for 48.json : execution number : 1
+#IFTTT+SandTrap is running#
+[1607215747] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 37.650ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1607215747] Done writing updated policies to disk.
+Run the evaluation for 51.json : execution number : 1
+#IFTTT+SandTrap is running#
+[717397189] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 38.369ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[717397189] Done writing updated policies to disk.
+Run the evaluation for 1.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 29.807ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 3.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.479ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 4.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.678ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 5.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 30.792ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 6.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 33.684ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 10.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.215ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 12.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 30.287ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 13.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 29.576ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 16.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 29.591ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 20.json : execution number : 2
+#IFTTT+SandTrap is running#
+[1068759757] Disk policies invalidated; write to disk scheduled in 50 ms.
+sandtrap-time: 33.870ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+[1068759757] Done writing updated policies to disk.
+Run the evaluation for 21.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 30.368ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 24.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 29.840ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 25.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.735ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 26.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 35.873ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 34.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.648ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 37.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 30.056ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 41.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.982ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 43.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.395ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 48.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 32.260ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+Run the evaluation for 51.json : execution number : 2
+#IFTTT+SandTrap is running#
+sandtrap-time: 31.863ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+All commands executed and logs stored in the 'logs' directory.

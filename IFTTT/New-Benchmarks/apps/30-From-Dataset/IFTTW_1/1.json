@@ -1,0 +1,32 @@
+
+
+
+{
+  "_comment": "https://ifttt.com/applets/aVxGRrtD-tweet-your-instagrams-as-native-photos-on-twitter",
+  "resource": "/IFTTT-instance",
+  "path": "/IFTTT-instance",
+  "httpMethod": "POST",
+  "body": {
+    "scriptCode": "var url = 'https://instagram.com/my-new-photo.jpg'; var tweetMessage = 'My Instagram Photo'; Twitter.postNewTweetWithImage.setTweet(tweetMessage); Twitter.postNewTweetWithImage.setPhotoUrl(url);",
+    "config": {
+      "currentTime": "2025-02-17T12:00:00.000Z",
+      "timeZone": "GMT",
+      "triggerTime": "2025-02-17T12:00:00.000Z",
+      "trigger": {
+        "ingredients": "true",
+        "serviceName": "Instagram",
+        "name": "anyNewPhotoByYou"
+      },
+      "actions": [
+        {
+          "serviceName": "Twitter",
+          "name": "postNewTweetWithImage",
+          "fields": [
+            "Tweet",
+            "PhotoUrl"
+          ]
+        }
+      ]
+    }
+  }
+}

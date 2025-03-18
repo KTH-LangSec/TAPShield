@@ -1,0 +1,27 @@
+{
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var photo_url = space.new_image_picture_nasa.ImageSourceURL; android_device.set_wallpaper.setPhotoUrl(photo_url);",
+      "config": {
+        "currentTime": "2025-02-22T11:42:47.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-22T11:42:47.000Z",
+        "trigger": {
+          "serviceName": "space",
+          "name": "new_image_picture_nasa",
+          "ingredients": "{}"
+        },
+        "actions": [
+          {
+            "serviceName": "android_device",
+            "name": "set_wallpaper",
+            "fields": ["PhotoUrl"]
+          }
+        ],
+        "link": "https://ifttt.com/applets/yNvHX9VQ-update-your-android-wallpaper-with-nasa-s-image-of-the-day"
+      }
+    }
+  }
+  

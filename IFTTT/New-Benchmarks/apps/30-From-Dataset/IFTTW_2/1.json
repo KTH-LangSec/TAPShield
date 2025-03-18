@@ -1,0 +1,27 @@
+{
+    "_comments" : "Applet that uses Nest (thermostat?) to activate a LightwaveRF socket between 0900 and 1800 every day.", 
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "time = Meta.currentUserTime.hour(); if (time > 18 || time < 9) { LightwaverfPower.switchOnSocket.skip(); } else { }",
+      "config": {
+        "currentTime": "2025-02-17T12:00:00.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-17T12:11:00.000Z",
+        "trigger": {
+        "serviceName": "TS",
+        "name": "trigger",
+        "ingredients": ""
+      },
+        "actions": [
+          {
+            "serviceName": "LightwaverfPower",
+            "name": "switchOnSocket",
+            "fields": []
+          }
+        ]
+      }
+    }
+  }
+  

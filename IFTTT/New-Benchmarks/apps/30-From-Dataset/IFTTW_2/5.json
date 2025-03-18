@@ -1,0 +1,29 @@
+{
+    "_comments": "Create a Blogger entry from a Reddit post",
+    "resource": "/IFTTT-instance",
+    "path": "/IFTTT-instance",
+    "httpMethod": "POST",
+    "body": {
+      "scriptCode": "var title = Reddit.newTopPostInSubreddit.Title; var imageURL = Reddit.newTopPostInSubreddit.ImageURL; var content = Reddit.newTopPostInSubreddit.Content; function myFunction(x, y, z) { return x + y + z; } var output = myFunction(title, imageURL, content); Blogger.createPostBlogger.setBody(output);",
+      "config": {
+        "currentTime": "2025-02-17T12:00:00.000Z",
+        "timeZone": "GMT",
+        "triggerTime": "2025-02-17T12:00:00.000Z",
+        "trigger": {
+          "ingredients": "{ \"Title\": \"Top Reddit Post\", \"ImageURL\": \"https://i.imgur.com/YOUR_REAL_IMAGE.jpg\", \"Content\": \"This is the content of the Reddit post.\" }",
+          "serviceName": "Reddit",
+          "name": "newTopPostInSubreddit"
+        },
+        "actions": [
+          {
+            "serviceName": "Blogger",
+            "name": "createPostBlogger",
+            "fields": [
+              "Body"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

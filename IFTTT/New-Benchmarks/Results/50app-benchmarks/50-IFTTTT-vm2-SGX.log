@@ -1,0 +1,5503 @@
+Run the evaluation for 1.json : execution number : 1
+#IFTTT+VM2 is running#
+1
+vm2-time: 37.573ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 1
+#IFTTT+VM2 is running#
+2
+vm2-time: 37.729ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 1
+#IFTTT+VM2 is running#
+3
+vm2-time: 37.926ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 1
+#IFTTT+VM2 is running#
+4
+vm2-time: 37.349ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 1
+#IFTTT+VM2 is running#
+5
+vm2-time: 38.098ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 1
+#IFTTT+VM2 is running#
+6
+vm2-time: 48.730ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json : execution number : 1
+#IFTTT+VM2 is running#
+7
+vm2-time: 44.030ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json : execution number : 1
+#IFTTT+VM2 is running#
+8
+vm2-time: 44.493ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 1
+#IFTTT+VM2 is running#
+9
+vm2-time: 43.706ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 1
+#IFTTT+VM2 is running#
+10
+vm2-time: 43.572ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 1
+#IFTTT+VM2 is running#
+11
+vm2-time: 45.830ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 1
+#IFTTT+VM2 is running#
+12
+vm2-time: 46.971ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 1
+#IFTTT+VM2 is running#
+13
+vm2-time: 48.029ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 1
+#IFTTT+VM2 is running#
+14
+vm2-time: 46.058ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 1
+#IFTTT+VM2 is running#
+15
+vm2-time: 44.515ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 16.json : execution number : 1
+#IFTTT+VM2 is running#
+16
+vm2-time: 47.261ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 17.json : execution number : 1
+#IFTTT+VM2 is running#
+17
+vm2-time: 48.020ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 18.json : execution number : 1
+#IFTTT+VM2 is running#
+18
+vm2-time: 42.908ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 19.json : execution number : 1
+#IFTTT+VM2 is running#
+19
+vm2-time: 45.610ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 20.json : execution number : 1
+#IFTTT+VM2 is running#
+20
+vm2-time: 47.028ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 21.json : execution number : 1
+#IFTTT+VM2 is running#
+21
+vm2-time: 47.988ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 22.json : execution number : 1
+#IFTTT+VM2 is running#
+22
+vm2-time: 47.370ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 23.json : execution number : 1
+#IFTTT+VM2 is running#
+23
+vm2-time: 44.861ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 24.json : execution number : 1
+#IFTTT+VM2 is running#
+24
+vm2-time: 45.538ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 25.json : execution number : 1
+#IFTTT+VM2 is running#
+25
+vm2-time: 44.003ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 26.json : execution number : 1
+#IFTTT+VM2 is running#
+26
+vm2-time: 51.107ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 27.json : execution number : 1
+#IFTTT+VM2 is running#
+27
+vm2-time: 47.239ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 28.json : execution number : 1
+#IFTTT+VM2 is running#
+28
+vm2-time: 44.015ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 29.json : execution number : 1
+#IFTTT+VM2 is running#
+29
+vm2-time: 47.536ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 30.json : execution number : 1
+#IFTTT+VM2 is running#
+30
+vm2-time: 45.113ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 31.json : execution number : 1
+#IFTTT+VM2 is running#
+31
+vm2-time: 42.948ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #003CFF; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 32.json : execution number : 1
+#IFTTT+VM2 is running#
+32
+vm2-time: 46.200ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 33.json : execution number : 1
+#IFTTT+VM2 is running#
+33
+vm2-time: 46.873ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 34.json : execution number : 1
+#IFTTT+VM2 is running#
+34
+vm2-time: 46.683ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 35.json : execution number : 1
+#IFTTT+VM2 is running#
+35
+vm2-time: 48.362ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 36.json : execution number : 1
+#IFTTT+VM2 is running#
+36
+vm2-time: 47.618ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 37.json : execution number : 1
+#IFTTT+VM2 is running#
+37
+vm2-time: 43.536ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 38.json : execution number : 1
+#IFTTT+VM2 is running#
+38
+vm2-time: 43.552ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 39.json : execution number : 1
+#IFTTT+VM2 is running#
+39
+vm2-time: 43.333ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 40.json : execution number : 1
+#IFTTT+VM2 is running#
+40
+vm2-time: 43.951ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 41.json : execution number : 1
+#IFTTT+VM2 is running#
+41
+vm2-time: 45.416ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 42.json : execution number : 1
+#IFTTT+VM2 is running#
+42
+vm2-time: 43.809ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 43.json : execution number : 1
+#IFTTT+VM2 is running#
+43
+vm2-time: 43.008ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 44.json : execution number : 1
+#IFTTT+VM2 is running#
+44
+vm2-time: 47.434ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 45.json : execution number : 1
+#IFTTT+VM2 is running#
+45
+vm2-time: 46.471ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 46.json : execution number : 1
+#IFTTT+VM2 is running#
+46
+vm2-time: 45.981ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 47.json : execution number : 1
+#IFTTT+VM2 is running#
+47
+vm2-time: 45.022ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 48.json : execution number : 1
+#IFTTT+VM2 is running#
+48
+vm2-time: 46.006ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 49.json : execution number : 1
+#IFTTT+VM2 is running#
+49
+vm2-time: 48.060ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 50.json : execution number : 1
+#IFTTT+VM2 is running#
+50
+vm2-time: 47.928ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 1.json : execution number : 2
+#IFTTT+VM2 is running#
+1
+vm2-time: 46.066ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 2
+#IFTTT+VM2 is running#
+2
+vm2-time: 46.969ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 2
+#IFTTT+VM2 is running#
+3
+vm2-time: 47.906ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 2
+#IFTTT+VM2 is running#
+4
+vm2-time: 45.203ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 2
+#IFTTT+VM2 is running#
+5
+vm2-time: 47.440ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 2
+#IFTTT+VM2 is running#
+6
+vm2-time: 46.563ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json : execution number : 2
+#IFTTT+VM2 is running#
+7
+vm2-time: 46.515ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json : execution number : 2
+#IFTTT+VM2 is running#
+8
+vm2-time: 46.991ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 2
+#IFTTT+VM2 is running#
+9
+vm2-time: 45.133ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 2
+#IFTTT+VM2 is running#
+10
+vm2-time: 46.243ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 2
+#IFTTT+VM2 is running#
+11
+vm2-time: 45.741ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 2
+#IFTTT+VM2 is running#
+12
+vm2-time: 44.294ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 2
+#IFTTT+VM2 is running#
+13
+vm2-time: 47.799ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 2
+#IFTTT+VM2 is running#
+14
+vm2-time: 43.691ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 2
+#IFTTT+VM2 is running#
+15
+vm2-time: 46.610ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 16.json : execution number : 2
+#IFTTT+VM2 is running#
+16
+vm2-time: 45.621ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 17.json : execution number : 2
+#IFTTT+VM2 is running#
+17
+vm2-time: 48.076ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 18.json : execution number : 2
+#IFTTT+VM2 is running#
+18
+vm2-time: 46.053ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 19.json : execution number : 2
+#IFTTT+VM2 is running#
+19
+vm2-time: 45.240ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 20.json : execution number : 2
+#IFTTT+VM2 is running#
+20
+vm2-time: 47.189ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 21.json : execution number : 2
+#IFTTT+VM2 is running#
+21
+vm2-time: 43.861ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 22.json : execution number : 2
+#IFTTT+VM2 is running#
+22
+vm2-time: 45.293ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 23.json : execution number : 2
+#IFTTT+VM2 is running#
+23
+vm2-time: 45.309ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 24.json : execution number : 2
+#IFTTT+VM2 is running#
+24
+vm2-time: 46.360ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 25.json : execution number : 2
+#IFTTT+VM2 is running#
+25
+vm2-time: 48.593ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 26.json : execution number : 2
+#IFTTT+VM2 is running#
+26
+vm2-time: 50.862ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 27.json : execution number : 2
+#IFTTT+VM2 is running#
+27
+vm2-time: 47.705ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 28.json : execution number : 2
+#IFTTT+VM2 is running#
+28
+vm2-time: 44.463ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 29.json : execution number : 2
+#IFTTT+VM2 is running#
+29
+vm2-time: 47.442ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 30.json : execution number : 2
+#IFTTT+VM2 is running#
+30
+vm2-time: 43.387ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 31.json : execution number : 2
+#IFTTT+VM2 is running#
+31
+vm2-time: 47.609ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF0000; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 32.json : execution number : 2
+#IFTTT+VM2 is running#
+32
+vm2-time: 48.160ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 33.json : execution number : 2
+#IFTTT+VM2 is running#
+33
+vm2-time: 45.990ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 34.json : execution number : 2
+#IFTTT+VM2 is running#
+34
+vm2-time: 46.809ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 35.json : execution number : 2
+#IFTTT+VM2 is running#
+35
+vm2-time: 51.995ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 36.json : execution number : 2
+#IFTTT+VM2 is running#
+36
+vm2-time: 44.470ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 37.json : execution number : 2
+#IFTTT+VM2 is running#
+37
+vm2-time: 45.575ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 38.json : execution number : 2
+#IFTTT+VM2 is running#
+38
+vm2-time: 45.564ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 39.json : execution number : 2
+#IFTTT+VM2 is running#
+39
+vm2-time: 46.676ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 40.json : execution number : 2
+#IFTTT+VM2 is running#
+40
+vm2-time: 46.990ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 41.json : execution number : 2
+#IFTTT+VM2 is running#
+41
+vm2-time: 44.461ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 42.json : execution number : 2
+#IFTTT+VM2 is running#
+42
+vm2-time: 46.209ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 43.json : execution number : 2
+#IFTTT+VM2 is running#
+43
+vm2-time: 47.926ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 44.json : execution number : 2
+#IFTTT+VM2 is running#
+44
+vm2-time: 45.161ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 45.json : execution number : 2
+#IFTTT+VM2 is running#
+45
+vm2-time: 47.887ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 46.json : execution number : 2
+#IFTTT+VM2 is running#
+46
+vm2-time: 43.469ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 47.json : execution number : 2
+#IFTTT+VM2 is running#
+47
+vm2-time: 43.085ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 48.json : execution number : 2
+#IFTTT+VM2 is running#
+48
+vm2-time: 45.311ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 49.json : execution number : 2
+#IFTTT+VM2 is running#
+49
+vm2-time: 45.382ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 50.json : execution number : 2
+#IFTTT+VM2 is running#
+50
+vm2-time: 43.000ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 1.json : execution number : 3
+#IFTTT+VM2 is running#
+1
+vm2-time: 45.677ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 3
+#IFTTT+VM2 is running#
+2
+vm2-time: 47.253ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 3
+#IFTTT+VM2 is running#
+3
+vm2-time: 48.420ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 3
+#IFTTT+VM2 is running#
+4
+vm2-time: 47.458ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 3
+#IFTTT+VM2 is running#
+5
+vm2-time: 43.884ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 3
+#IFTTT+VM2 is running#
+6
+vm2-time: 45.223ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json : execution number : 3
+#IFTTT+VM2 is running#
+7
+vm2-time: 45.410ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json : execution number : 3
+#IFTTT+VM2 is running#
+8
+vm2-time: 44.261ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 3
+#IFTTT+VM2 is running#
+9
+vm2-time: 48.312ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 3
+#IFTTT+VM2 is running#
+10
+vm2-time: 46.142ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 3
+#IFTTT+VM2 is running#
+11
+vm2-time: 48.319ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 3
+#IFTTT+VM2 is running#
+12
+vm2-time: 46.912ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 3
+#IFTTT+VM2 is running#
+13
+vm2-time: 48.276ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 3
+#IFTTT+VM2 is running#
+14
+vm2-time: 40.991ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 3
+#IFTTT+VM2 is running#
+15
+vm2-time: 45.541ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 16.json : execution number : 3
+#IFTTT+VM2 is running#
+16
+vm2-time: 45.697ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 17.json : execution number : 3
+#IFTTT+VM2 is running#
+17
+vm2-time: 44.182ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 18.json : execution number : 3
+#IFTTT+VM2 is running#
+18
+vm2-time: 48.023ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 19.json : execution number : 3
+#IFTTT+VM2 is running#
+19
+vm2-time: 47.283ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 20.json : execution number : 3
+#IFTTT+VM2 is running#
+20
+vm2-time: 46.544ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 21.json : execution number : 3
+#IFTTT+VM2 is running#
+21
+vm2-time: 45.432ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 22.json : execution number : 3
+#IFTTT+VM2 is running#
+22
+vm2-time: 43.297ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 23.json : execution number : 3
+#IFTTT+VM2 is running#
+23
+vm2-time: 44.033ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 24.json : execution number : 3
+#IFTTT+VM2 is running#
+24
+vm2-time: 45.843ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 25.json : execution number : 3
+#IFTTT+VM2 is running#
+25
+vm2-time: 47.374ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 26.json : execution number : 3
+#IFTTT+VM2 is running#
+26
+vm2-time: 46.589ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 27.json : execution number : 3
+#IFTTT+VM2 is running#
+27
+vm2-time: 49.702ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 28.json : execution number : 3
+#IFTTT+VM2 is running#
+28
+vm2-time: 45.836ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 29.json : execution number : 3
+#IFTTT+VM2 is running#
+29
+vm2-time: 49.231ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 30.json : execution number : 3
+#IFTTT+VM2 is running#
+30
+vm2-time: 43.403ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 31.json : execution number : 3
+#IFTTT+VM2 is running#
+31
+vm2-time: 46.979ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF0000; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 32.json : execution number : 3
+#IFTTT+VM2 is running#
+32
+vm2-time: 46.706ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 33.json : execution number : 3
+#IFTTT+VM2 is running#
+33
+vm2-time: 45.553ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 34.json : execution number : 3
+#IFTTT+VM2 is running#
+34
+vm2-time: 48.596ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 35.json : execution number : 3
+#IFTTT+VM2 is running#
+35
+vm2-time: 48.890ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 36.json : execution number : 3
+#IFTTT+VM2 is running#
+36
+vm2-time: 43.593ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 37.json : execution number : 3
+#IFTTT+VM2 is running#
+37
+vm2-time: 46.786ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 38.json : execution number : 3
+#IFTTT+VM2 is running#
+38
+vm2-time: 43.381ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 39.json : execution number : 3
+#IFTTT+VM2 is running#
+39
+vm2-time: 43.297ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 40.json : execution number : 3
+#IFTTT+VM2 is running#
+40
+vm2-time: 44.493ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 41.json : execution number : 3
+#IFTTT+VM2 is running#
+41
+vm2-time: 48.145ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 42.json : execution number : 3
+#IFTTT+VM2 is running#
+42
+vm2-time: 46.013ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 43.json : execution number : 3
+#IFTTT+VM2 is running#
+43
+vm2-time: 45.455ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 44.json : execution number : 3
+#IFTTT+VM2 is running#
+44
+vm2-time: 46.877ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 45.json : execution number : 3
+#IFTTT+VM2 is running#
+45
+vm2-time: 48.368ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 46.json : execution number : 3
+#IFTTT+VM2 is running#
+46
+vm2-time: 44.578ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 47.json : execution number : 3
+#IFTTT+VM2 is running#
+47
+vm2-time: 48.018ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 48.json : execution number : 3
+#IFTTT+VM2 is running#
+48
+vm2-time: 44.900ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 49.json : execution number : 3
+#IFTTT+VM2 is running#
+49
+vm2-time: 45.017ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 50.json : execution number : 3
+#IFTTT+VM2 is running#
+50
+vm2-time: 43.211ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 1.json : execution number : 4
+#IFTTT+VM2 is running#
+1
+vm2-time: 44.942ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 4
+#IFTTT+VM2 is running#
+2
+vm2-time: 43.318ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 4
+#IFTTT+VM2 is running#
+3
+vm2-time: 47.297ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 4
+#IFTTT+VM2 is running#
+4
+vm2-time: 44.986ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 4
+#IFTTT+VM2 is running#
+5
+vm2-time: 43.685ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 4
+#IFTTT+VM2 is running#
+6
+vm2-time: 44.033ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json : execution number : 4
+#IFTTT+VM2 is running#
+7
+vm2-time: 48.507ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json : execution number : 4
+#IFTTT+VM2 is running#
+8
+vm2-time: 43.884ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 4
+#IFTTT+VM2 is running#
+9
+vm2-time: 45.687ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 4
+#IFTTT+VM2 is running#
+10
+vm2-time: 47.060ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 4
+#IFTTT+VM2 is running#
+11
+vm2-time: 41.930ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 4
+#IFTTT+VM2 is running#
+12
+vm2-time: 42.344ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 4
+#IFTTT+VM2 is running#
+13
+vm2-time: 48.345ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 4
+#IFTTT+VM2 is running#
+14
+vm2-time: 43.521ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 4
+#IFTTT+VM2 is running#
+15
+vm2-time: 48.984ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 16.json : execution number : 4
+#IFTTT+VM2 is running#
+16
+vm2-time: 45.170ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 17.json : execution number : 4
+#IFTTT+VM2 is running#
+17
+vm2-time: 44.684ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 18.json : execution number : 4
+#IFTTT+VM2 is running#
+18
+vm2-time: 48.779ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 19.json : execution number : 4
+#IFTTT+VM2 is running#
+19
+vm2-time: 43.380ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 20.json : execution number : 4
+#IFTTT+VM2 is running#
+20
+vm2-time: 43.916ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 21.json : execution number : 4
+#IFTTT+VM2 is running#
+21
+vm2-time: 47.281ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 22.json : execution number : 4
+#IFTTT+VM2 is running#
+22
+vm2-time: 44.435ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 23.json : execution number : 4
+#IFTTT+VM2 is running#
+23
+vm2-time: 48.251ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 24.json : execution number : 4
+#IFTTT+VM2 is running#
+24
+vm2-time: 47.003ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 25.json : execution number : 4
+#IFTTT+VM2 is running#
+25
+vm2-time: 48.352ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 26.json : execution number : 4
+#IFTTT+VM2 is running#
+26
+vm2-time: 49.814ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 27.json : execution number : 4
+#IFTTT+VM2 is running#
+27
+vm2-time: 51.350ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 28.json : execution number : 4
+#IFTTT+VM2 is running#
+28
+vm2-time: 43.191ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 29.json : execution number : 4
+#IFTTT+VM2 is running#
+29
+vm2-time: 44.494ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 30.json : execution number : 4
+#IFTTT+VM2 is running#
+30
+vm2-time: 45.875ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 31.json : execution number : 4
+#IFTTT+VM2 is running#
+31
+vm2-time: 45.950ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #15FF00; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 32.json : execution number : 4
+#IFTTT+VM2 is running#
+32
+vm2-time: 45.101ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 33.json : execution number : 4
+#IFTTT+VM2 is running#
+33
+vm2-time: 45.546ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 34.json : execution number : 4
+#IFTTT+VM2 is running#
+34
+vm2-time: 46.847ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 35.json : execution number : 4
+#IFTTT+VM2 is running#
+35
+vm2-time: 47.608ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 36.json : execution number : 4
+#IFTTT+VM2 is running#
+36
+vm2-time: 43.428ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 37.json : execution number : 4
+#IFTTT+VM2 is running#
+37
+vm2-time: 48.536ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 38.json : execution number : 4
+#IFTTT+VM2 is running#
+38
+vm2-time: 44.600ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 39.json : execution number : 4
+#IFTTT+VM2 is running#
+39
+vm2-time: 46.553ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 40.json : execution number : 4
+#IFTTT+VM2 is running#
+40
+vm2-time: 47.627ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 41.json : execution number : 4
+#IFTTT+VM2 is running#
+41
+vm2-time: 43.892ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 42.json : execution number : 4
+#IFTTT+VM2 is running#
+42
+vm2-time: 44.910ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 43.json : execution number : 4
+#IFTTT+VM2 is running#
+43
+vm2-time: 43.570ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 44.json : execution number : 4
+#IFTTT+VM2 is running#
+44
+vm2-time: 44.226ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 45.json : execution number : 4
+#IFTTT+VM2 is running#
+45
+vm2-time: 47.502ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 46.json : execution number : 4
+#IFTTT+VM2 is running#
+46
+vm2-time: 48.383ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 47.json : execution number : 4
+#IFTTT+VM2 is running#
+47
+vm2-time: 47.131ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 48.json : execution number : 4
+#IFTTT+VM2 is running#
+48
+vm2-time: 48.015ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 49.json : execution number : 4
+#IFTTT+VM2 is running#
+49
+vm2-time: 48.433ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 50.json : execution number : 4
+#IFTTT+VM2 is running#
+50
+vm2-time: 44.735ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 1.json : execution number : 5
+#IFTTT+VM2 is running#
+1
+vm2-time: 48.794ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 5
+#IFTTT+VM2 is running#
+2
+vm2-time: 44.249ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 5
+#IFTTT+VM2 is running#
+3
+vm2-time: 45.470ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 5
+#IFTTT+VM2 is running#
+4
+vm2-time: 46.339ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 5
+#IFTTT+VM2 is running#
+5
+vm2-time: 46.159ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 5
+#IFTTT+VM2 is running#
+6
+vm2-time: 42.898ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json : execution number : 5
+#IFTTT+VM2 is running#
+7
+vm2-time: 44.566ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json : execution number : 5
+#IFTTT+VM2 is running#
+8
+vm2-time: 44.377ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 5
+#IFTTT+VM2 is running#
+9
+vm2-time: 45.746ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 5
+#IFTTT+VM2 is running#
+10
+vm2-time: 43.302ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 5
+#IFTTT+VM2 is running#
+11
+vm2-time: 48.314ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 5
+#IFTTT+VM2 is running#
+12
+vm2-time: 43.510ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 5
+#IFTTT+VM2 is running#
+13
+vm2-time: 45.013ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 5
+#IFTTT+VM2 is running#
+14
+vm2-time: 42.937ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 5
+#IFTTT+VM2 is running#
+15
+vm2-time: 47.103ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 16.json : execution number : 5
+#IFTTT+VM2 is running#
+16
+vm2-time: 47.596ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 17.json : execution number : 5
+#IFTTT+VM2 is running#
+17
+vm2-time: 46.661ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 18.json : execution number : 5
+#IFTTT+VM2 is running#
+18
+vm2-time: 48.249ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 19.json : execution number : 5
+#IFTTT+VM2 is running#
+19
+vm2-time: 47.497ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 20.json : execution number : 5
+#IFTTT+VM2 is running#
+20
+vm2-time: 44.535ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 21.json : execution number : 5
+#IFTTT+VM2 is running#
+21
+vm2-time: 44.742ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 22.json : execution number : 5
+#IFTTT+VM2 is running#
+22
+vm2-time: 46.589ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 23.json : execution number : 5
+#IFTTT+VM2 is running#
+23
+vm2-time: 47.633ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 24.json : execution number : 5
+#IFTTT+VM2 is running#
+24
+vm2-time: 47.034ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 25.json : execution number : 5
+#IFTTT+VM2 is running#
+25
+vm2-time: 44.177ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 26.json : execution number : 5
+#IFTTT+VM2 is running#
+26
+vm2-time: 50.906ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 27.json : execution number : 5
+#IFTTT+VM2 is running#
+27
+vm2-time: 50.340ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 28.json : execution number : 5
+#IFTTT+VM2 is running#
+28
+vm2-time: 46.916ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 29.json : execution number : 5
+#IFTTT+VM2 is running#
+29
+vm2-time: 48.471ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 30.json : execution number : 5
+#IFTTT+VM2 is running#
+30
+vm2-time: 44.784ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 31.json : execution number : 5
+#IFTTT+VM2 is running#
+31
+vm2-time: 45.597ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #003CFF; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 32.json : execution number : 5
+#IFTTT+VM2 is running#
+32
+vm2-time: 43.336ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 33.json : execution number : 5
+#IFTTT+VM2 is running#
+33
+vm2-time: 45.479ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 34.json : execution number : 5
+#IFTTT+VM2 is running#
+34
+vm2-time: 48.034ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 35.json : execution number : 5
+#IFTTT+VM2 is running#
+35
+vm2-time: 48.714ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 36.json : execution number : 5
+#IFTTT+VM2 is running#
+36
+vm2-time: 45.419ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 37.json : execution number : 5
+#IFTTT+VM2 is running#
+37
+vm2-time: 44.974ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 38.json : execution number : 5
+#IFTTT+VM2 is running#
+38
+vm2-time: 47.938ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 39.json : execution number : 5
+#IFTTT+VM2 is running#
+39
+vm2-time: 43.308ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 40.json : execution number : 5
+#IFTTT+VM2 is running#
+40
+vm2-time: 45.075ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 41.json : execution number : 5
+#IFTTT+VM2 is running#
+41
+vm2-time: 46.563ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 42.json : execution number : 5
+#IFTTT+VM2 is running#
+42
+vm2-time: 46.905ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 43.json : execution number : 5
+#IFTTT+VM2 is running#
+43
+vm2-time: 43.091ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 44.json : execution number : 5
+#IFTTT+VM2 is running#
+44
+vm2-time: 47.210ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 45.json : execution number : 5
+#IFTTT+VM2 is running#
+45
+vm2-time: 46.418ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 46.json : execution number : 5
+#IFTTT+VM2 is running#
+46
+vm2-time: 47.877ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 47.json : execution number : 5
+#IFTTT+VM2 is running#
+47
+vm2-time: 43.075ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 48.json : execution number : 5
+#IFTTT+VM2 is running#
+48
+vm2-time: 44.002ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 49.json : execution number : 5
+#IFTTT+VM2 is running#
+49
+vm2-time: 43.439ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 50.json : execution number : 5
+#IFTTT+VM2 is running#
+50
+vm2-time: 46.613ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 1.json : execution number : 6
+#IFTTT+VM2 is running#
+1
+vm2-time: 45.685ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 6
+#IFTTT+VM2 is running#
+2
+vm2-time: 43.489ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 6
+#IFTTT+VM2 is running#
+3
+vm2-time: 44.965ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 6
+#IFTTT+VM2 is running#
+4
+vm2-time: 43.503ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 6
+#IFTTT+VM2 is running#
+5
+vm2-time: 48.519ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 6
+#IFTTT+VM2 is running#
+6
+vm2-time: 47.650ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json : execution number : 6
+#IFTTT+VM2 is running#
+7
+vm2-time: 45.610ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json : execution number : 6
+#IFTTT+VM2 is running#
+8
+vm2-time: 44.476ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 6
+#IFTTT+VM2 is running#
+9
+vm2-time: 43.346ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 6
+#IFTTT+VM2 is running#
+10
+vm2-time: 44.036ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 6
+#IFTTT+VM2 is running#
+11
+vm2-time: 44.451ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 6
+#IFTTT+VM2 is running#
+12
+vm2-time: 49.303ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 6
+#IFTTT+VM2 is running#
+13
+vm2-time: 47.275ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 6
+#IFTTT+VM2 is running#
+14
+vm2-time: 43.612ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 6
+#IFTTT+VM2 is running#
+15
+vm2-time: 43.821ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 16.json : execution number : 6
+#IFTTT+VM2 is running#
+16
+vm2-time: 47.330ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 17.json : execution number : 6
+#IFTTT+VM2 is running#
+17
+vm2-time: 43.313ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 18.json : execution number : 6
+#IFTTT+VM2 is running#
+18
+vm2-time: 47.289ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 19.json : execution number : 6
+#IFTTT+VM2 is running#
+19
+vm2-time: 44.489ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 20.json : execution number : 6
+#IFTTT+VM2 is running#
+20
+vm2-time: 44.487ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 21.json : execution number : 6
+#IFTTT+VM2 is running#
+21
+vm2-time: 44.982ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 22.json : execution number : 6
+#IFTTT+VM2 is running#
+22
+vm2-time: 45.464ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 23.json : execution number : 6
+#IFTTT+VM2 is running#
+23
+vm2-time: 43.521ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 24.json : execution number : 6
+#IFTTT+VM2 is running#
+24
+vm2-time: 43.322ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 25.json : execution number : 6
+#IFTTT+VM2 is running#
+25
+vm2-time: 46.820ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 26.json : execution number : 6
+#IFTTT+VM2 is running#
+26
+vm2-time: 49.341ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 27.json : execution number : 6
+#IFTTT+VM2 is running#
+27
+vm2-time: 49.824ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 28.json : execution number : 6
+#IFTTT+VM2 is running#
+28
+vm2-time: 48.523ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 29.json : execution number : 6
+#IFTTT+VM2 is running#
+29
+vm2-time: 48.452ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 30.json : execution number : 6
+#IFTTT+VM2 is running#
+30
+vm2-time: 45.953ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 31.json : execution number : 6
+#IFTTT+VM2 is running#
+31
+vm2-time: 48.102ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #00D4FF; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 32.json : execution number : 6
+#IFTTT+VM2 is running#
+32
+vm2-time: 44.494ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 33.json : execution number : 6
+#IFTTT+VM2 is running#
+33
+vm2-time: 47.252ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 34.json : execution number : 6
+#IFTTT+VM2 is running#
+34
+vm2-time: 47.226ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 35.json : execution number : 6
+#IFTTT+VM2 is running#
+35
+vm2-time: 51.286ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 36.json : execution number : 6
+#IFTTT+VM2 is running#
+36
+vm2-time: 43.996ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 37.json : execution number : 6
+#IFTTT+VM2 is running#
+37
+vm2-time: 48.142ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 38.json : execution number : 6
+#IFTTT+VM2 is running#
+38
+vm2-time: 43.543ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 39.json : execution number : 6
+#IFTTT+VM2 is running#
+39
+vm2-time: 43.532ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 40.json : execution number : 6
+#IFTTT+VM2 is running#
+40
+vm2-time: 45.405ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 41.json : execution number : 6
+#IFTTT+VM2 is running#
+41
+vm2-time: 43.413ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 42.json : execution number : 6
+#IFTTT+VM2 is running#
+42
+vm2-time: 45.957ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 43.json : execution number : 6
+#IFTTT+VM2 is running#
+43
+vm2-time: 47.042ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 44.json : execution number : 6
+#IFTTT+VM2 is running#
+44
+vm2-time: 45.420ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 45.json : execution number : 6
+#IFTTT+VM2 is running#
+45
+vm2-time: 48.112ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 46.json : execution number : 6
+#IFTTT+VM2 is running#
+46
+vm2-time: 42.524ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 47.json : execution number : 6
+#IFTTT+VM2 is running#
+47
+vm2-time: 44.121ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 48.json : execution number : 6
+#IFTTT+VM2 is running#
+48
+vm2-time: 46.611ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 49.json : execution number : 6
+#IFTTT+VM2 is running#
+49
+vm2-time: 47.012ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 50.json : execution number : 6
+#IFTTT+VM2 is running#
+50
+vm2-time: 47.078ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 1.json : execution number : 7
+#IFTTT+VM2 is running#
+1
+vm2-time: 45.097ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 7
+#IFTTT+VM2 is running#
+2
+vm2-time: 42.541ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 7
+#IFTTT+VM2 is running#
+3
+vm2-time: 43.941ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 7
+#IFTTT+VM2 is running#
+4
+vm2-time: 46.353ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 7
+#IFTTT+VM2 is running#
+5
+vm2-time: 43.434ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 7
+#IFTTT+VM2 is running#
+6
+vm2-time: 44.563ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json : execution number : 7
+#IFTTT+VM2 is running#
+7
+vm2-time: 47.846ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json : execution number : 7
+#IFTTT+VM2 is running#
+8
+vm2-time: 47.079ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 7
+#IFTTT+VM2 is running#
+9
+vm2-time: 45.171ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 7
+#IFTTT+VM2 is running#
+10
+vm2-time: 44.001ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 7
+#IFTTT+VM2 is running#
+11
+vm2-time: 47.536ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 7
+#IFTTT+VM2 is running#
+12
+vm2-time: 43.114ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 7
+#IFTTT+VM2 is running#
+13
+vm2-time: 47.701ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 7
+#IFTTT+VM2 is running#
+14
+vm2-time: 44.529ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 7
+#IFTTT+VM2 is running#
+15
+vm2-time: 44.750ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 16.json : execution number : 7
+#IFTTT+VM2 is running#
+16
+vm2-time: 45.235ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 17.json : execution number : 7
+#IFTTT+VM2 is running#
+17
+vm2-time: 42.882ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 18.json : execution number : 7
+#IFTTT+VM2 is running#
+18
+vm2-time: 42.586ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 19.json : execution number : 7
+#IFTTT+VM2 is running#
+19
+vm2-time: 47.002ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 20.json : execution number : 7
+#IFTTT+VM2 is running#
+20
+vm2-time: 46.515ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 21.json : execution number : 7
+#IFTTT+VM2 is running#
+21
+vm2-time: 45.241ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 22.json : execution number : 7
+#IFTTT+VM2 is running#
+22
+vm2-time: 44.237ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 23.json : execution number : 7
+#IFTTT+VM2 is running#
+23
+vm2-time: 44.555ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 24.json : execution number : 7
+#IFTTT+VM2 is running#
+24
+vm2-time: 44.495ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 25.json : execution number : 7
+#IFTTT+VM2 is running#
+25
+vm2-time: 45.500ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 26.json : execution number : 7
+#IFTTT+VM2 is running#
+26
+vm2-time: 49.690ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 27.json : execution number : 7
+#IFTTT+VM2 is running#
+27
+vm2-time: 48.583ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 28.json : execution number : 7
+#IFTTT+VM2 is running#
+28
+vm2-time: 47.186ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 29.json : execution number : 7
+#IFTTT+VM2 is running#
+29
+vm2-time: 45.473ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 30.json : execution number : 7
+#IFTTT+VM2 is running#
+30
+vm2-time: 44.383ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 31.json : execution number : 7
+#IFTTT+VM2 is running#
+31
+vm2-time: 46.017ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF00D4; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 32.json : execution number : 7
+#IFTTT+VM2 is running#
+32
+vm2-time: 43.395ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 33.json : execution number : 7
+#IFTTT+VM2 is running#
+33
+vm2-time: 46.635ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 34.json : execution number : 7
+#IFTTT+VM2 is running#
+34
+vm2-time: 47.200ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 35.json : execution number : 7
+#IFTTT+VM2 is running#
+35
+vm2-time: 49.199ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 36.json : execution number : 7
+#IFTTT+VM2 is running#
+36
+vm2-time: 43.156ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 37.json : execution number : 7
+#IFTTT+VM2 is running#
+37
+vm2-time: 45.952ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 38.json : execution number : 7
+#IFTTT+VM2 is running#
+38
+vm2-time: 47.156ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 39.json : execution number : 7
+#IFTTT+VM2 is running#
+39
+vm2-time: 45.843ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 40.json : execution number : 7
+#IFTTT+VM2 is running#
+40
+vm2-time: 47.638ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 41.json : execution number : 7
+#IFTTT+VM2 is running#
+41
+vm2-time: 44.775ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 42.json : execution number : 7
+#IFTTT+VM2 is running#
+42
+vm2-time: 45.421ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 43.json : execution number : 7
+#IFTTT+VM2 is running#
+43
+vm2-time: 45.414ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 44.json : execution number : 7
+#IFTTT+VM2 is running#
+44
+vm2-time: 43.468ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 45.json : execution number : 7
+#IFTTT+VM2 is running#
+45
+vm2-time: 47.536ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 46.json : execution number : 7
+#IFTTT+VM2 is running#
+46
+vm2-time: 44.673ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 47.json : execution number : 7
+#IFTTT+VM2 is running#
+47
+vm2-time: 44.989ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 48.json : execution number : 7
+#IFTTT+VM2 is running#
+48
+vm2-time: 48.120ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 49.json : execution number : 7
+#IFTTT+VM2 is running#
+49
+vm2-time: 47.852ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 50.json : execution number : 7
+#IFTTT+VM2 is running#
+50
+vm2-time: 47.943ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 1.json : execution number : 8
+#IFTTT+VM2 is running#
+1
+vm2-time: 47.347ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 8
+#IFTTT+VM2 is running#
+2
+vm2-time: 43.961ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 8
+#IFTTT+VM2 is running#
+3
+vm2-time: 43.992ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 8
+#IFTTT+VM2 is running#
+4
+vm2-time: 46.043ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 8
+#IFTTT+VM2 is running#
+5
+vm2-time: 47.040ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 8
+#IFTTT+VM2 is running#
+6
+vm2-time: 44.291ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json : execution number : 8
+#IFTTT+VM2 is running#
+7
+vm2-time: 48.188ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json : execution number : 8
+#IFTTT+VM2 is running#
+8
+vm2-time: 41.656ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 8
+#IFTTT+VM2 is running#
+9
+vm2-time: 44.466ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 8
+#IFTTT+VM2 is running#
+10
+vm2-time: 47.422ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 8
+#IFTTT+VM2 is running#
+11
+vm2-time: 44.731ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 8
+#IFTTT+VM2 is running#
+12
+vm2-time: 43.450ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 8
+#IFTTT+VM2 is running#
+13
+vm2-time: 43.031ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 8
+#IFTTT+VM2 is running#
+14
+vm2-time: 47.447ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 8
+#IFTTT+VM2 is running#
+15
+vm2-time: 46.434ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 16.json : execution number : 8
+#IFTTT+VM2 is running#
+16
+vm2-time: 45.420ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 17.json : execution number : 8
+#IFTTT+VM2 is running#
+17
+vm2-time: 44.699ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 18.json : execution number : 8
+#IFTTT+VM2 is running#
+18
+vm2-time: 44.587ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 19.json : execution number : 8
+#IFTTT+VM2 is running#
+19
+vm2-time: 43.392ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 20.json : execution number : 8
+#IFTTT+VM2 is running#
+20
+vm2-time: 46.578ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 21.json : execution number : 8
+#IFTTT+VM2 is running#
+21
+vm2-time: 43.524ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 22.json : execution number : 8
+#IFTTT+VM2 is running#
+22
+vm2-time: 48.163ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 23.json : execution number : 8
+#IFTTT+VM2 is running#
+23
+vm2-time: 46.404ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 24.json : execution number : 8
+#IFTTT+VM2 is running#
+24
+vm2-time: 46.129ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 25.json : execution number : 8
+#IFTTT+VM2 is running#
+25
+vm2-time: 45.222ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 26.json : execution number : 8
+#IFTTT+VM2 is running#
+26
+vm2-time: 48.358ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 27.json : execution number : 8
+#IFTTT+VM2 is running#
+27
+vm2-time: 51.568ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 28.json : execution number : 8
+#IFTTT+VM2 is running#
+28
+vm2-time: 47.934ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 29.json : execution number : 8
+#IFTTT+VM2 is running#
+29
+vm2-time: 46.304ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 30.json : execution number : 8
+#IFTTT+VM2 is running#
+30
+vm2-time: 46.615ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 31.json : execution number : 8
+#IFTTT+VM2 is running#
+31
+vm2-time: 43.521ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #FF8400; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 32.json : execution number : 8
+#IFTTT+VM2 is running#
+32
+vm2-time: 47.645ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 33.json : execution number : 8
+#IFTTT+VM2 is running#
+33
+vm2-time: 47.198ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 34.json : execution number : 8
+#IFTTT+VM2 is running#
+34
+vm2-time: 44.582ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 35.json : execution number : 8
+#IFTTT+VM2 is running#
+35
+vm2-time: 47.357ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 36.json : execution number : 8
+#IFTTT+VM2 is running#
+36
+vm2-time: 45.667ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 37.json : execution number : 8
+#IFTTT+VM2 is running#
+37
+vm2-time: 44.218ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 38.json : execution number : 8
+#IFTTT+VM2 is running#
+38
+vm2-time: 44.041ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 39.json : execution number : 8
+#IFTTT+VM2 is running#
+39
+vm2-time: 46.613ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 40.json : execution number : 8
+#IFTTT+VM2 is running#
+40
+vm2-time: 43.569ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 41.json : execution number : 8
+#IFTTT+VM2 is running#
+41
+vm2-time: 43.215ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 42.json : execution number : 8
+#IFTTT+VM2 is running#
+42
+vm2-time: 48.018ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 43.json : execution number : 8
+#IFTTT+VM2 is running#
+43
+vm2-time: 45.823ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 44.json : execution number : 8
+#IFTTT+VM2 is running#
+44
+vm2-time: 48.442ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 45.json : execution number : 8
+#IFTTT+VM2 is running#
+45
+vm2-time: 48.102ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 46.json : execution number : 8
+#IFTTT+VM2 is running#
+46
+vm2-time: 44.827ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 47.json : execution number : 8
+#IFTTT+VM2 is running#
+47
+vm2-time: 47.396ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 48.json : execution number : 8
+#IFTTT+VM2 is running#
+48
+vm2-time: 45.438ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 49.json : execution number : 8
+#IFTTT+VM2 is running#
+49
+vm2-time: 44.454ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 50.json : execution number : 8
+#IFTTT+VM2 is running#
+50
+vm2-time: 47.070ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 1.json : execution number : 9
+#IFTTT+VM2 is running#
+1
+vm2-time: 47.686ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 9
+#IFTTT+VM2 is running#
+2
+vm2-time: 44.887ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 9
+#IFTTT+VM2 is running#
+3
+vm2-time: 43.428ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 9
+#IFTTT+VM2 is running#
+4
+vm2-time: 47.235ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 9
+#IFTTT+VM2 is running#
+5
+vm2-time: 45.087ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 9
+#IFTTT+VM2 is running#
+6
+vm2-time: 47.165ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json : execution number : 9
+#IFTTT+VM2 is running#
+7
+vm2-time: 43.597ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json : execution number : 9
+#IFTTT+VM2 is running#
+8
+vm2-time: 45.444ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 9
+#IFTTT+VM2 is running#
+9
+vm2-time: 46.320ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 9
+#IFTTT+VM2 is running#
+10
+vm2-time: 46.040ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 9
+#IFTTT+VM2 is running#
+11
+vm2-time: 44.885ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 9
+#IFTTT+VM2 is running#
+12
+vm2-time: 45.181ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 9
+#IFTTT+VM2 is running#
+13
+vm2-time: 46.868ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 9
+#IFTTT+VM2 is running#
+14
+vm2-time: 45.781ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 9
+#IFTTT+VM2 is running#
+15
+vm2-time: 45.239ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 16.json : execution number : 9
+#IFTTT+VM2 is running#
+16
+vm2-time: 46.101ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 17.json : execution number : 9
+#IFTTT+VM2 is running#
+17
+vm2-time: 45.259ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 18.json : execution number : 9
+#IFTTT+VM2 is running#
+18
+vm2-time: 43.130ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 19.json : execution number : 9
+#IFTTT+VM2 is running#
+19
+vm2-time: 47.162ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 20.json : execution number : 9
+#IFTTT+VM2 is running#
+20
+vm2-time: 45.800ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 21.json : execution number : 9
+#IFTTT+VM2 is running#
+21
+vm2-time: 48.533ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 22.json : execution number : 9
+#IFTTT+VM2 is running#
+22
+vm2-time: 46.434ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 23.json : execution number : 9
+#IFTTT+VM2 is running#
+23
+vm2-time: 46.908ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 24.json : execution number : 9
+#IFTTT+VM2 is running#
+24
+vm2-time: 47.606ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 25.json : execution number : 9
+#IFTTT+VM2 is running#
+25
+vm2-time: 47.169ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 26.json : execution number : 9
+#IFTTT+VM2 is running#
+26
+vm2-time: 51.644ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 27.json : execution number : 9
+#IFTTT+VM2 is running#
+27
+vm2-time: 48.808ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 28.json : execution number : 9
+#IFTTT+VM2 is running#
+28
+vm2-time: 45.582ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 29.json : execution number : 9
+#IFTTT+VM2 is running#
+29
+vm2-time: 47.651ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 30.json : execution number : 9
+#IFTTT+VM2 is running#
+30
+vm2-time: 48.195ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 31.json : execution number : 9
+#IFTTT+VM2 is running#
+31
+vm2-time: 46.856ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #15FF00; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 32.json : execution number : 9
+#IFTTT+VM2 is running#
+32
+vm2-time: 45.590ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 33.json : execution number : 9
+#IFTTT+VM2 is running#
+33
+vm2-time: 46.051ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 34.json : execution number : 9
+#IFTTT+VM2 is running#
+34
+vm2-time: 45.379ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 35.json : execution number : 9
+#IFTTT+VM2 is running#
+35
+vm2-time: 48.328ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 36.json : execution number : 9
+#IFTTT+VM2 is running#
+36
+vm2-time: 46.462ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 37.json : execution number : 9
+#IFTTT+VM2 is running#
+37
+vm2-time: 45.236ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 38.json : execution number : 9
+#IFTTT+VM2 is running#
+38
+vm2-time: 47.375ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 39.json : execution number : 9
+#IFTTT+VM2 is running#
+39
+vm2-time: 46.971ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 40.json : execution number : 9
+#IFTTT+VM2 is running#
+40
+vm2-time: 47.258ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 41.json : execution number : 9
+#IFTTT+VM2 is running#
+41
+vm2-time: 47.089ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 42.json : execution number : 9
+#IFTTT+VM2 is running#
+42
+vm2-time: 41.091ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 43.json : execution number : 9
+#IFTTT+VM2 is running#
+43
+vm2-time: 47.974ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 44.json : execution number : 9
+#IFTTT+VM2 is running#
+44
+vm2-time: 47.951ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 45.json : execution number : 9
+#IFTTT+VM2 is running#
+45
+vm2-time: 43.663ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 46.json : execution number : 9
+#IFTTT+VM2 is running#
+46
+vm2-time: 47.534ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 47.json : execution number : 9
+#IFTTT+VM2 is running#
+47
+vm2-time: 46.564ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 48.json : execution number : 9
+#IFTTT+VM2 is running#
+48
+vm2-time: 48.163ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 49.json : execution number : 9
+#IFTTT+VM2 is running#
+49
+vm2-time: 43.056ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 50.json : execution number : 9
+#IFTTT+VM2 is running#
+50
+vm2-time: 45.376ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 1.json : execution number : 10
+#IFTTT+VM2 is running#
+1
+vm2-time: 45.119ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"weebly":{"publish_blog_post":{"Title":"new post","Body":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 2.json : execution number : 10
+#IFTTT+VM2 is running#
+2
+vm2-time: 44.689ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"nimbus_note":{"addnote":{"Title":"new feed added","Text":"http://www.eguidesservice.com/feed","Folder":"presonal","Tags":"#Feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 3.json : execution number : 10
+#IFTTT+VM2 is running#
+3
+vm2-time: 47.260ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"trello":{"create_card":{"Board":"dayliBoard","List_name":"dayli list","Pos":"top","Title":"{{EntryTitle}}","Description":"priority task","Members":"all","Labels":"daily","Url":"http://www.eguidesservice.com/feed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 4.json : execution number : 10
+#IFTTT+VM2 is running#
+4
+vm2-time: 45.303ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"evernote":{"create_note_with_link":{"Link_url":"http://www.eguidesservice.com/feed","Body":"New note for new feed","Tags":"#newfeed"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 5.json : execution number : 10
+#IFTTT+VM2 is running#
+5
+vm2-time: 41.273ms
+null
+{
+  statusCode: 200,
+  body: '{"feed":{},"toodledo":{"addtask":{"Title":"new TASK","Note":"fix issues with Intel-SGX","Tag":"#work","Priority":"3","Folder":"null"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 6.json : execution number : 10
+#IFTTT+VM2 is running#
+6
+vm2-time: 45.526ms
+null
+{
+  statusCode: 200,
+  body: '{"weather":{},"IfNotifications":{"sendNotification":{"Message":"\\"{{TomorrowsCondition}} tomorrow! Expect a low of {{LowTempFahrenheit}}°F ({{LowTempCelsius}}°C) and a high of {{HighTempFahrenheit}}°F ({{HighTempCelsius}}°C)\\""}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 7.json : execution number : 10
+#IFTTT+VM2 is running#
+7
+vm2-time: 47.304ms
+null
+{
+  statusCode: 200,
+  body: '{"android_phone":{},"android_device":{"start_navigation":{"Navigation_method":"driving","Query":"{{ToNumber}}"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 8.json : execution number : 10
+#IFTTT+VM2 is running#
+8
+vm2-time: 43.295ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"android_device":{"set_wallpaper":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 9.json : execution number : 10
+#IFTTT+VM2 is running#
+9
+vm2-time: 42.179ms
+null
+{
+  statusCode: 200,
+  body: '{"spotify":{"addATrackToAPlaylist":{"Playlist":"My Saved Songs","SearchQuery":"Hello - Adele"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 10.json : execution number : 10
+#IFTTT+VM2 is running#
+10
+vm2-time: 45.168ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"irobot":{"startRobot":{"RobotName":"Vacc"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 11.json : execution number : 10
+#IFTTT+VM2 is running#
+11
+vm2-time: 44.987ms
+null
+{
+  statusCode: 200,
+  body: '{"google_assistant_v2":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 12.json : execution number : 10
+#IFTTT+VM2 is running#
+12
+vm2-time: 45.162ms
+null
+{
+  statusCode: 200,
+  body: '{"ios_shortcuts":{},"MyqDevices":{"closeDoor":{"DoorName":"garage door"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 13.json : execution number : 10
+#IFTTT+VM2 is running#
+13
+vm2-time: 47.430ms
+null
+{
+  statusCode: 200,
+  body: '{"location":{},"blink":{"networkArm":{"Network":"927-929 Market St, San Francisco, CA 94102, USA"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 14.json : execution number : 10
+#IFTTT+VM2 is running#
+14
+vm2-time: 47.789ms
+null
+{
+  statusCode: 200,
+  body: '{"youtube":{},"spotify":{"addATrackToAPlaylist":{"Playlist":"YouTube","SearchQuery":"37 Tips I Wish I Knew Before Visiting Stockholm, Sweden"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 15.json : execution number : 10
+#IFTTT+VM2 is running#
+15
+vm2-time: 45.057ms
+null
+{
+  statusCode: 200,
+  body: '{"trigger":{},"todoist":{"create_task":{"ProjectId":"95602","TaskContent":"Task content","Note":"Note","DueDate":"","Priority":"4","TaskDescription":"This is a task from evernote"}},"evernote":{"create_note":{"Title":"todois task","Body":"task content","Notebook":"","Tags":"#todoist"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 16.json : execution number : 10
+#IFTTT+VM2 is running#
+16
+vm2-time: 45.521ms
+null
+{
+  statusCode: 200,
+  body: '{"do_button":{},"google_sheets":{"appendToGoogleSpreadsheet":{"Filename":"WorkHours","FormattedRow":"{{OccurredAt}} ||| =IF(ISODD(ROW()), \\"Started\\", \\"Stopped\\") ||| =IF(ISEVEN(ROW()),ROUND(((DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW(),COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\"))) - ( DATEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\w+ \\\\d{2}, \\\\d{4}\\")) + TIMEVALUE(REGEXEXTRACT(INDIRECT(ADDRESS(ROW()-1,COLUMN()-2,4)), \\"\\\\d{2}:\\\\d{2}[A|P]M$\\")))) * 24, 2),\\"\\")","Path":"IFTTT button"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 17.json : execution number : 10
+#IFTTT+VM2 is running#
+17
+vm2-time: 48.257ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"ios_reminders":{"createReminderIosReminders":{"Title":"new ToDo","List":"work tasks","Priority":"0","AlarmDate":"2025-02-29"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 18.json : execution number : 10
+#IFTTT+VM2 is running#
+18
+vm2-time: 47.472ms
+null
+{
+  statusCode: 200,
+  body: '{"do_note":{},"GoogleDocs":{"createGoogleDoc":{"Filename":"Blog post ideas - {{OccurredAt}}","Body":"This is a draft page on ai content ","Path":"Drafts"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 19.json : execution number : 10
+#IFTTT+VM2 is running#
+19
+vm2-time: 46.375ms
+null
+{
+  statusCode: 200,
+  body: '{"space":{},"IosReadingList":{"createReadingListItem":{"Url":"http://www.nasa.gov/content/antares-rocket-with-cygnus-spacecraft-launches","Title":"Antares Rocket With Cygnus Spacecraft Launches","PreviewText":"The Orbital Sciences Corporation Antares rocket, with the Cygnus cargo spacecraft aboard"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 20.json : execution number : 10
+#IFTTT+VM2 is running#
+20
+vm2-time: 43.234ms
+null
+{
+  statusCode: 200,
+  body: '{"do_camera":{},"GoogleDrive":{"uploadFileFromUrlGoogleDrive":{"Url":"https://locker.ifttt.com/public/4bfc930c-ac73-11e2-b086-22000a9730cf","Filename":"April 19, 2025 at 11:01PM","Path":"Google Drive Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 21.json : execution number : 10
+#IFTTT+VM2 is running#
+21
+vm2-time: 43.395ms
+null
+{
+  statusCode: 200,
+  body: '{"TS":{},"LightwaverfPower":{"switchOnSocket":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 22.json : execution number : 10
+#IFTTT+VM2 is running#
+22
+vm2-time: 44.536ms
+null
+{
+  statusCode: 200,
+  body: '{"Feed":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://example.com/sample_564x.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 23.json : execution number : 10
+#IFTTT+VM2 is running#
+23
+vm2-time: 47.229ms
+null
+{
+  statusCode: 200,
+  body: '{"Trello":{},"Slack":{"postToChannel":{"__skipped":true}},"Email":{"sendMeEmail":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 24.json : execution number : 10
+#IFTTT+VM2 is running#
+24
+vm2-time: 46.795ms
+null
+{
+  statusCode: 200,
+  body: '{"Weather":{},"Hue":{"setColorAllHue":{"Color":"red"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 25.json : execution number : 10
+#IFTTT+VM2 is running#
+25
+vm2-time: 47.184ms
+null
+{
+  statusCode: 200,
+  body: '{"Reddit":{},"Blogger":{"createPostBlogger":{"Body":"Top Reddit Posthttps://i.imgur.com/YOUR_REAL_IMAGE.jpgThis is the content of the Reddit post."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 26.json : execution number : 10
+#IFTTT+VM2 is running#
+26
+vm2-time: 50.643ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IosCalendar":{"createCalendarEvent":{"Duration":"90","StartDate":"January 01, 2025 at 10:00AM"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 27.json : execution number : 10
+#IFTTT+VM2 is running#
+27
+vm2-time: 48.454ms
+null
+{
+  statusCode: 200,
+  body: '{"GoogleCalendar":{},"IfNotifications":{"sendNotification":{"Message":"Calendar: 24-hour event added that starts January 01, 2025 at 10:00AM, ends January 02, 2025 at 10:00AM, and is titled \\"Project Kickoff Meeting\\"."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+All commands executed and logs stored in the 'logs' directory.
+
+Run the evaluation for 28.json : execution number : 10
+#IFTTT+VM2 is running#
+28
+vm2-time: 44.999ms
+null
+{
+  statusCode: 200,
+  body: '{"Gmail":{},"IfNotifications":{"sendRichNotification":{"Title":"Tap to run \\"Gmail New Email\\"","Message":"The email’s subject and body will be passed unformatted to the workflow.","LinkUrl":"workflow://run-workflow?name=Gmail%20New%20Email&input=text&text=Meeting%20Update%7C%7CThe%20meeting%20has%20been%20rescheduled%20to%203%20PM."}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 29.json : execution number : 10
+#IFTTT+VM2 is running#
+29
+vm2-time: 44.868ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"IfNotifications":{"sendRichNotification":{"Message":"https://www.google.com/search?q=site:ifttt.com/applets+automation","LinkUrl":"https://www.google.com/search?q=site:ifttt.com/applets+automation"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 30.json : execution number : 10
+#IFTTT+VM2 is running#
+30
+vm2-time: 45.176ms
+null
+{
+  statusCode: 200,
+  body: '{"TriggerService":{},"Gogogate":{"closeDoor":{}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 31.json : execution number : 10
+#IFTTT+VM2 is running#
+31
+vm2-time: 43.775ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"Lifx":{"color":{"AdvancedOptions":"color: #003CFF; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 32.json : execution number : 10
+#IFTTT+VM2 is running#
+32
+vm2-time: 47.208ms
+null
+{
+  statusCode: 200,
+  body: '{"DateAndTime":{},"Lifx":{"color":{"AdvancedOptions":"color: #FBEFDC; brightness: 1; duration: 12"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 33.json : execution number : 10
+#IFTTT+VM2 is running#
+33
+vm2-time: 43.774ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 34.json : execution number : 10
+#IFTTT+VM2 is running#
+34
+vm2-time: 44.028ms
+null
+{
+  statusCode: 200,
+  body: '{"Twitter":{},"EmailDigest":{"sendDailyEmail":{"__skipped":true}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 35.json : execution number : 10
+#IFTTT+VM2 is running#
+35
+vm2-time: 50.521ms
+null
+{
+  statusCode: 200,
+  body: `{"DateAndTime":{},"IfNotifications":{"sendNotification":{"Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}},"EmailDigest":{"sendWeeklyEmail":{"Title":"Monday","Message":"Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, but by doing what you can to make grace happen... yourself, right now, right down here on Earth. by Bradley Whitford"}}}`,
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 36.json : execution number : 10
+#IFTTT+VM2 is running#
+36
+vm2-time: 44.729ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"My Instagram Photo","PhotoUrl":"https://instagram.com/my-new-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 37.json : execution number : 10
+#IFTTT+VM2 is running#
+37
+vm2-time: 46.676ms
+null
+{
+  statusCode: 200,
+  body: '{"IosContacts":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"ContactList","FormattedRow":"New Contact Name ||| 123-456-7890"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 38.json : execution number : 10
+#IFTTT+VM2 is running#
+38
+vm2-time: 44.912ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Dropbox":{"addFileFromUrl":{"Filename":"My Facebook Photos","Url":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 39.json : execution number : 10
+#IFTTT+VM2 is running#
+39
+vm2-time: 43.250ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"IosPhotos":{"createPhotoIosPhotos":{"Album":"My Facebook Photos","PhotoUrl":"https://facebook.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 40.json : execution number : 10
+#IFTTT+VM2 is running#
+40
+vm2-time: 42.766ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleCalendar":{"quickAddEvent":{"QuickAdd":"2025-02-17T12:00:00.000Z: I entered the office"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 41.json : execution number : 10
+#IFTTT+VM2 is running#
+41
+vm2-time: 47.351ms
+null
+{
+  statusCode: 200,
+  body: '{"DoButton":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Working hours","FormattedRow":"2025-02-17 ||| Button pressed at 2025-02-17T12:00:00.000Z"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 42.json : execution number : 10
+#IFTTT+VM2 is running#
+42
+vm2-time: 44.564ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"FacebookPages":{"createPhotoPage":{"PhotoUrl":"https://instagram.com/sample-photo.jpg"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 43.json : execution number : 10
+#IFTTT+VM2 is running#
+43
+vm2-time: 46.915ms
+null
+{
+  statusCode: 200,
+  body: '{"Location":{},"GoogleSheets":{"appendToGoogleSpreadsheet":{"Filename":"Time at location","FormattedRow":"entered ||| 2025-02-17T12:00:00.000Z ||| https://maps.google.com/location"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 44.json : execution number : 10
+#IFTTT+VM2 is running#
+44
+vm2-time: 42.946ms
+null
+{
+  statusCode: 200,
+  body: '{"Facebook":{},"Twitter":{"postNewTweetWithImage":{"Tweet":"Just posted a new status!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 45.json : execution number : 10
+#IFTTT+VM2 is running#
+45
+vm2-time: 44.398ms
+null
+{
+  statusCode: 200,
+  body: '{"Arlo":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 46.json : execution number : 10
+#IFTTT+VM2 is running#
+46
+vm2-time: 44.985ms
+null
+{
+  statusCode: 200,
+  body: '{"Blink":{},"PhoneCall":{"callMyPhone":{"Message":"Motion Detected by Blink Camera"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 47.json : execution number : 10
+#IFTTT+VM2 is running#
+47
+vm2-time: 46.925ms
+null
+{
+  statusCode: 200,
+  body: '{"AnywareServices":{},"Sms":{"sendMeTextMessage":{"Message":"Intrusion Alert: Motion detected!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 48.json : execution number : 10
+#IFTTT+VM2 is running#
+48
+vm2-time: 45.925ms
+null
+{
+  statusCode: 200,
+  body: '{"Instagram":{},"Wordpress":{"createPhotoPostWp":{"Title":"My Instagram Photo","SourceUrl":"https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 49.json : execution number : 10
+#IFTTT+VM2 is running#
+49
+vm2-time: 44.595ms
+null
+{
+  statusCode: 200,
+  body: '{"PhoneCall":{},"Email":{"sendMeEmail":{"Subject":"Link to Phone Call","Body":"https://www.example.com/sample-voicemail.mp3"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+Run the evaluation for 50.json : execution number : 10
+#IFTTT+VM2 is running#
+50
+vm2-time: 47.753ms
+null
+{
+  statusCode: 200,
+  body: '{"DoNote":{},"Email":{"sendMeEmail":{"Subject":"Quick Note","Body":"Remember to buy groceries!"}}}',
+  headers: { 'Content-Type': 'application/json' }
+}
+done
+All commands executed and logs stored in the 'logs' directory.
