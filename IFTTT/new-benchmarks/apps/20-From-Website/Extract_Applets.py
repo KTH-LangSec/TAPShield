@@ -81,7 +81,7 @@ def select_random_files(directory, num_files=20):
         print("No files found in the directory.")
         return
     
-    selected_files = random.sample(all_files, min(num_files, len(all_files)))  # Ensure we don't exceed available files
+    selected_files = random.sample(all_files, min(num_files, len(all_files)))  
     
     print("Selected Files:")
     for file in selected_files:
